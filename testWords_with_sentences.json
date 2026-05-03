@@ -1,0 +1,4337 @@
+[
+  {
+    "swedish": "hungrig",
+    "english": "Hungry",
+    "sentence": "Jag arbetar med hungrig."
+  },
+  {
+    "swedish": "Nu",
+    "english": "Now",
+    "sentence": "Det finns nu."
+  },
+  {
+    "swedish": "vacker",
+    "english": "Beautiful",
+    "sentence": "Det verkar vara vacker."
+  },
+  {
+    "swedish": "bra",
+    "english": "Good",
+    "sentence": "Det blir bra."
+  },
+  {
+    "swedish": "dålig",
+    "english": "Bad",
+    "sentence": "Det är dålig."
+  },
+  {
+    "swedish": "stor",
+    "english": "Big",
+    "sentence": "Hon är stor."
+  },
+  {
+    "swedish": "liten",
+    "english": "Small",
+    "sentence": "Det blir liten."
+  },
+  {
+    "swedish": "snabb",
+    "english": "Fast",
+    "sentence": "Det var snabb."
+  },
+  {
+    "swedish": "långsam",
+    "english": "Slow",
+    "sentence": "Hon är långsam."
+  },
+  {
+    "swedish": "varm",
+    "english": "Hot",
+    "sentence": "Han är varm."
+  },
+  {
+    "swedish": "kall",
+    "english": "Cold",
+    "sentence": "Det blir kall."
+  },
+  {
+    "swedish": "ny",
+    "english": "New",
+    "sentence": "Jag är ny."
+  },
+  {
+    "swedish": "gammal",
+    "english": "Old",
+    "sentence": "Det verkar vara gammal."
+  },
+  {
+    "swedish": "ung",
+    "english": "Young",
+    "sentence": "Det måste vara ung."
+  },
+  {
+    "swedish": "rik",
+    "english": "Rich",
+    "sentence": "Det blir rik."
+  },
+  {
+    "swedish": "fattig",
+    "english": "Poor",
+    "sentence": "Det var fattig."
+  },
+  {
+    "swedish": "glad",
+    "english": "Happy",
+    "sentence": "Det var glad."
+  },
+  {
+    "swedish": "ledsen",
+    "english": "Sad",
+    "sentence": "Hon är ledsen."
+  },
+  {
+    "swedish": "trött",
+    "english": "Tired",
+    "sentence": "Hon är trött."
+  },
+  {
+    "swedish": "vaken",
+    "english": "Awake",
+    "sentence": "Jag tänker på vaken."
+  },
+  {
+    "swedish": "sömnig",
+    "english": "Sleepy",
+    "sentence": "Jag vill ha sömnig."
+  },
+  {
+    "swedish": "frisk",
+    "english": "Healthy",
+    "sentence": "Jag äter frisk."
+  },
+  {
+    "swedish": "sjuk",
+    "english": "Sick",
+    "sentence": "Jag går till sjuk."
+  },
+  {
+    "swedish": "stark",
+    "english": "Strong",
+    "sentence": "Jag går till stark."
+  },
+  {
+    "swedish": "svag",
+    "english": "Weak",
+    "sentence": "Det finns svag."
+  },
+  {
+    "swedish": "hög",
+    "english": "High",
+    "sentence": "Jag är hög."
+  },
+  {
+    "swedish": "låg",
+    "english": "Low",
+    "sentence": "Det måste vara låg."
+  },
+  {
+    "swedish": "bred",
+    "english": "Wide",
+    "sentence": "Hon är bred."
+  },
+  {
+    "swedish": "smal",
+    "english": "Narrow",
+    "sentence": "Det var smal."
+  },
+  {
+    "swedish": "djup",
+    "english": "Deep",
+    "sentence": "Han är djup."
+  },
+  {
+    "swedish": "ytlig",
+    "english": "Shallow",
+    "sentence": "Det verkar vara ytlig."
+  },
+  {
+    "swedish": "tung",
+    "english": "Heavy",
+    "sentence": "Det är tung."
+  },
+  {
+    "swedish": "lätt",
+    "english": "Light",
+    "sentence": "Hon är lätt."
+  },
+  {
+    "swedish": "mörk",
+    "english": "Dark",
+    "sentence": "Det är mörk."
+  },
+  {
+    "swedish": "ljus",
+    "english": "Light",
+    "sentence": "Det kan vara ljus."
+  },
+  {
+    "swedish": "ren",
+    "english": "Clean",
+    "sentence": "Det blir ren."
+  },
+  {
+    "swedish": "smutsig",
+    "english": "Dirty",
+    "sentence": "Han är smutsig."
+  },
+  {
+    "swedish": "tom",
+    "english": "Empty",
+    "sentence": "Det är tom."
+  },
+  {
+    "swedish": "öppen",
+    "english": "Open",
+    "sentence": "Du är öppen."
+  },
+  {
+    "swedish": "stängd",
+    "english": "Closed",
+    "sentence": "Det blir stängd."
+  },
+  {
+    "swedish": "röd",
+    "english": "Red",
+    "sentence": "Jag är röd."
+  },
+  {
+    "swedish": "blå",
+    "english": "Blue",
+    "sentence": "Jag är blå."
+  },
+  {
+    "swedish": "grön",
+    "english": "Green",
+    "sentence": "Han är grön."
+  },
+  {
+    "swedish": "gul",
+    "english": "Yellow",
+    "sentence": "Hon är gul."
+  },
+  {
+    "swedish": "vit",
+    "english": "White",
+    "sentence": "Du är vit."
+  },
+  {
+    "swedish": "svart",
+    "english": "Black",
+    "sentence": "Det är svart."
+  },
+  {
+    "swedish": "grå",
+    "english": "Gray",
+    "sentence": "Det var grå."
+  },
+  {
+    "swedish": "rosa",
+    "english": "Pink",
+    "sentence": "Han är rosa."
+  },
+  {
+    "swedish": "lila",
+    "english": "Purple",
+    "sentence": "Det verkar vara lila."
+  },
+  {
+    "swedish": "enkel",
+    "english": "Simple",
+    "sentence": "Hon är enkel."
+  },
+  {
+    "swedish": "svår",
+    "english": "Difficult",
+    "sentence": "Det var svår."
+  },
+  {
+    "swedish": "viktig",
+    "english": "Important",
+    "sentence": "Det verkar vara viktig."
+  },
+  {
+    "swedish": "onödig",
+    "english": "Unnecessary",
+    "sentence": "Jag gillar onödig."
+  },
+  {
+    "swedish": "säker",
+    "english": "Safe",
+    "sentence": "Det blir säker."
+  },
+  {
+    "swedish": "farlig",
+    "english": "Dangerous",
+    "sentence": "Du är farlig."
+  },
+  {
+    "swedish": "fri",
+    "english": "Free",
+    "sentence": "Det var fri."
+  },
+  {
+    "swedish": "dyr",
+    "english": "Expensive",
+    "sentence": "Jag är dyr."
+  },
+  {
+    "swedish": "billig",
+    "english": "Cheap",
+    "sentence": "Jag är billig."
+  },
+  {
+    "swedish": "tyst",
+    "english": "Quiet",
+    "sentence": "Du är tyst."
+  },
+  {
+    "swedish": "högljudd",
+    "english": "Loud",
+    "sentence": "Det är högljudd."
+  },
+  {
+    "swedish": "mjuk",
+    "english": "Soft",
+    "sentence": "Det var mjuk."
+  },
+  {
+    "swedish": "hård",
+    "english": "Hard",
+    "sentence": "Det verkar vara hård."
+  },
+  {
+    "swedish": "våt",
+    "english": "Wet",
+    "sentence": "Det kan vara våt."
+  },
+  {
+    "swedish": "torr",
+    "english": "Dry",
+    "sentence": "Han är torr."
+  },
+  {
+    "swedish": "sval",
+    "english": "Cool",
+    "sentence": "Hon är sval."
+  },
+  {
+    "swedish": "söt",
+    "english": "Sweet",
+    "sentence": "Det måste vara söt."
+  },
+  {
+    "swedish": "sur",
+    "english": "Sour",
+    "sentence": "Jag är sur."
+  },
+  {
+    "swedish": "salt",
+    "english": "Salty",
+    "sentence": "Hon är salt."
+  },
+  {
+    "swedish": "god",
+    "english": "Tasty",
+    "sentence": "Det måste vara god."
+  },
+  {
+    "swedish": "äcklig",
+    "english": "Disgusting",
+    "sentence": "Jag äter äcklig."
+  },
+  {
+    "swedish": "klar",
+    "english": "Clear",
+    "sentence": "Det var klar."
+  },
+  {
+    "swedish": "suddig",
+    "english": "Blurry",
+    "sentence": "Jag reser till suddig."
+  },
+  {
+    "swedish": "tydlig",
+    "english": "Clear",
+    "sentence": "Jag är tydlig."
+  },
+  {
+    "swedish": "osäker",
+    "english": "Uncertain",
+    "sentence": "Jag kommer från osäker."
+  },
+  {
+    "swedish": "sann",
+    "english": "True",
+    "sentence": "Det verkar vara sann."
+  },
+  {
+    "swedish": "falsk",
+    "english": "False",
+    "sentence": "Det kan vara falsk."
+  },
+  {
+    "swedish": "rätt",
+    "english": "Right",
+    "sentence": "Hon är rätt."
+  },
+  {
+    "swedish": "fel",
+    "english": "Wrong",
+    "sentence": "Det är fel."
+  },
+  {
+    "swedish": "rättvis",
+    "english": "Fair",
+    "sentence": "Jag dricker rättvis."
+  },
+  {
+    "swedish": "orättvis",
+    "english": "Unfair",
+    "sentence": "Jag hjälper orättvis."
+  },
+  {
+    "swedish": "modig",
+    "english": "Brave",
+    "sentence": "Det var modig."
+  },
+  {
+    "swedish": "rädd",
+    "english": "Afraid",
+    "sentence": "Det kan vara rädd."
+  },
+  {
+    "swedish": "tapper",
+    "english": "Courageous",
+    "sentence": "Jag arbetar med tapper."
+  },
+  {
+    "swedish": "feg",
+    "english": "Cowardly",
+    "sentence": "Jag behöver feg."
+  },
+  {
+    "swedish": "vänlig",
+    "english": "Friendly",
+    "sentence": "Det blir vänlig."
+  },
+  {
+    "swedish": "ovänlig",
+    "english": "Unfriendly",
+    "sentence": "Jag hjälper ovänlig."
+  },
+  {
+    "swedish": "snäll",
+    "english": "Kind",
+    "sentence": "Han är snäll."
+  },
+  {
+    "swedish": "elak",
+    "english": "Mean",
+    "sentence": "Du är elak."
+  },
+  {
+    "swedish": "vis",
+    "english": "Wise",
+    "sentence": "Det var vis."
+  },
+  {
+    "swedish": "dum",
+    "english": "Stupid",
+    "sentence": "Det är dum."
+  },
+  {
+    "swedish": "klok",
+    "english": "Clever",
+    "sentence": "Det blir klok."
+  },
+  {
+    "swedish": "tålmodig",
+    "english": "Patient",
+    "sentence": "Det var tålmodig."
+  },
+  {
+    "swedish": "otålig",
+    "english": "Impatient",
+    "sentence": "Det var otålig."
+  },
+  {
+    "swedish": "jag",
+    "english": "I",
+    "sentence": "Jag hjälper jag."
+  },
+  {
+    "swedish": "du",
+    "english": "You",
+    "sentence": "Jag gillar du."
+  },
+  {
+    "swedish": "han",
+    "english": "He",
+    "sentence": "Jag lär mig han."
+  },
+  {
+    "swedish": "hon",
+    "english": "She",
+    "sentence": "Jag pratar om hon."
+  },
+  {
+    "swedish": "vi",
+    "english": "We",
+    "sentence": "Det finns vi."
+  },
+  {
+    "swedish": "de",
+    "english": "They",
+    "sentence": "Jag lär mig de."
+  },
+  {
+    "swedish": "det",
+    "english": "It",
+    "sentence": "Jag köper det."
+  },
+  {
+    "swedish": "och",
+    "english": "And",
+    "sentence": "Jag gillar och."
+  },
+  {
+    "swedish": "att",
+    "english": "To",
+    "sentence": "Jag går till att."
+  },
+  {
+    "swedish": "är",
+    "english": "Is",
+    "sentence": "Jag går till är."
+  },
+  {
+    "swedish": "har",
+    "english": "Have",
+    "sentence": "Jag har har."
+  },
+  {
+    "swedish": "göra",
+    "english": "To do",
+    "sentence": "Jag börjar göra."
+  },
+  {
+    "swedish": "säga",
+    "english": "To say",
+    "sentence": "Jag brukar säga."
+  },
+  {
+    "swedish": "gå",
+    "english": "To go",
+    "sentence": "Jag kan gå."
+  },
+  {
+    "swedish": "kan",
+    "english": "Can",
+    "sentence": "Jag köper kan."
+  },
+  {
+    "swedish": "måste",
+    "english": "Must",
+    "sentence": "Jag arbetar med måste."
+  },
+  {
+    "swedish": "vill",
+    "english": "Want",
+    "sentence": "Jag äter vill."
+  },
+  {
+    "swedish": "se",
+    "english": "To see",
+    "sentence": "Jag börjar se."
+  },
+  {
+    "swedish": "veta",
+    "english": "To know",
+    "sentence": "Jag börjar veta."
+  },
+  {
+    "swedish": "ta",
+    "english": "To take",
+    "sentence": "Jag ska ta."
+  },
+  {
+    "swedish": "ge",
+    "english": "To give",
+    "sentence": "Jag måste ge."
+  },
+  {
+    "swedish": "hitta",
+    "english": "To find",
+    "sentence": "Jag borde hitta."
+  },
+  {
+    "swedish": "komma",
+    "english": "To come",
+    "sentence": "Jag brukar komma."
+  },
+  {
+    "swedish": "bli",
+    "english": "To become",
+    "sentence": "Jag kan bli."
+  },
+  {
+    "swedish": "lämna",
+    "english": "To leave",
+    "sentence": "Jag borde lämna."
+  },
+  {
+    "swedish": "bo",
+    "english": "To live",
+    "sentence": "Jag fortsätter bo."
+  },
+  {
+    "swedish": "börja",
+    "english": "To begin",
+    "sentence": "Jag slutar börja."
+  },
+  {
+    "swedish": "sluta",
+    "english": "To stop",
+    "sentence": "Jag ska sluta."
+  },
+  {
+    "swedish": "prata",
+    "english": "To talk",
+    "sentence": "Jag slutar prata."
+  },
+  {
+    "swedish": "höra",
+    "english": "To hear",
+    "sentence": "Jag vill höra."
+  },
+  {
+    "swedish": "spela",
+    "english": "To play",
+    "sentence": "Jag kan spela."
+  },
+  {
+    "swedish": "arbeta",
+    "english": "To work",
+    "sentence": "Jag ska arbeta."
+  },
+  {
+    "swedish": "läsa",
+    "english": "To read",
+    "sentence": "Jag börjar läsa."
+  },
+  {
+    "swedish": "skriva",
+    "english": "To write",
+    "sentence": "Jag börjar skriva."
+  },
+  {
+    "swedish": "köpa",
+    "english": "To buy",
+    "sentence": "Jag borde köpa."
+  },
+  {
+    "swedish": "sälja",
+    "english": "To sell",
+    "sentence": "Jag kan sälja."
+  },
+  {
+    "swedish": "äta",
+    "english": "To eat",
+    "sentence": "Jag måste äta."
+  },
+  {
+    "swedish": "dricka",
+    "english": "To drink",
+    "sentence": "Jag borde dricka."
+  },
+  {
+    "swedish": "sova",
+    "english": "To sleep",
+    "sentence": "Jag försöker sova."
+  },
+  {
+    "swedish": "vakna",
+    "english": "To wake up",
+    "sentence": "Jag börjar vakna."
+  },
+  {
+    "swedish": "tvätta",
+    "english": "To wash",
+    "sentence": "Jag börjar tvätta."
+  },
+  {
+    "swedish": "öppna",
+    "english": "To open",
+    "sentence": "Jag ska öppna."
+  },
+  {
+    "swedish": "stänga",
+    "english": "To close",
+    "sentence": "Jag ska stänga."
+  },
+  {
+    "swedish": "ringa",
+    "english": "To call",
+    "sentence": "Jag måste ringa."
+  },
+  {
+    "swedish": "besöka",
+    "english": "To visit",
+    "sentence": "Jag försöker besöka."
+  },
+  {
+    "swedish": "resa",
+    "english": "To travel",
+    "sentence": "Jag kan resa."
+  },
+  {
+    "swedish": "flyga",
+    "english": "To fly",
+    "sentence": "Jag borde flyga."
+  },
+  {
+    "swedish": "köra",
+    "english": "To drive",
+    "sentence": "Jag fortsätter köra."
+  },
+  {
+    "swedish": "springa",
+    "english": "To run",
+    "sentence": "Jag fortsätter springa."
+  },
+  {
+    "swedish": "hoppa",
+    "english": "To jump",
+    "sentence": "Jag slutar hoppa."
+  },
+  {
+    "swedish": "simma",
+    "english": "To swim",
+    "sentence": "Jag börjar simma."
+  },
+  {
+    "swedish": "cykla",
+    "english": "To bike",
+    "sentence": "Jag vill cykla."
+  },
+  {
+    "swedish": "vänta",
+    "english": "To wait",
+    "sentence": "Jag vill vänta."
+  },
+  {
+    "swedish": "försöka",
+    "english": "To try",
+    "sentence": "Jag slutar försöka."
+  },
+  {
+    "swedish": "behöva",
+    "english": "To need",
+    "sentence": "Jag brukar behöva."
+  },
+  {
+    "swedish": "tycka",
+    "english": "To think",
+    "sentence": "Jag vill tycka."
+  },
+  {
+    "swedish": "tänka",
+    "english": "To think",
+    "sentence": "Jag ska tänka."
+  },
+  {
+    "swedish": "tro",
+    "english": "To believe",
+    "sentence": "Jag kan tro."
+  },
+  {
+    "swedish": "förstå",
+    "english": "To understand",
+    "sentence": "Jag ska förstå."
+  },
+  {
+    "swedish": "lära",
+    "english": "To learn",
+    "sentence": "Jag brukar lära."
+  },
+  {
+    "swedish": "hjälpa",
+    "english": "To help",
+    "sentence": "Jag kan hjälpa."
+  },
+  {
+    "swedish": "hus",
+    "english": "House",
+    "sentence": "Jag vill ha hus."
+  },
+  {
+    "swedish": "hem",
+    "english": "Home",
+    "sentence": "Jag behöver hem."
+  },
+  {
+    "swedish": "lägenhet",
+    "english": "Apartment",
+    "sentence": "Jag tänker på lägenhet."
+  },
+  {
+    "swedish": "rum",
+    "english": "Room",
+    "sentence": "Jag vill ha rum."
+  },
+  {
+    "swedish": "kök",
+    "english": "Kitchen",
+    "sentence": "Jag kommer från kök."
+  },
+  {
+    "swedish": "sovrum",
+    "english": "Bedroom",
+    "sentence": "Jag reser till sovrum."
+  },
+  {
+    "swedish": "badrum",
+    "english": "Bathroom",
+    "sentence": "Jag reser till badrum."
+  },
+  {
+    "swedish": "vardagsrum",
+    "english": "Living room",
+    "sentence": "Jag ser vardagsrum."
+  },
+  {
+    "swedish": "dörr",
+    "english": "Door",
+    "sentence": "Jag kommer från dörr."
+  },
+  {
+    "swedish": "fönster",
+    "english": "Window",
+    "sentence": "Jag reser till fönster."
+  },
+  {
+    "swedish": "vägg",
+    "english": "Wall",
+    "sentence": "Jag reser till vägg."
+  },
+  {
+    "swedish": "golv",
+    "english": "Floor",
+    "sentence": "Jag reser till golv."
+  },
+  {
+    "swedish": "tak",
+    "english": "Ceiling",
+    "sentence": "Jag läser om tak."
+  },
+  {
+    "swedish": "säng",
+    "english": "Bed",
+    "sentence": "Jag träffar säng."
+  },
+  {
+    "swedish": "bord",
+    "english": "Table",
+    "sentence": "Jag går till bord."
+  },
+  {
+    "swedish": "stol",
+    "english": "Chair",
+    "sentence": "Jag har stol."
+  },
+  {
+    "swedish": "soffa",
+    "english": "Sofa",
+    "sentence": "Jag har soffa."
+  },
+  {
+    "swedish": "lampa",
+    "english": "Lamp",
+    "sentence": "Jag pratar om lampa."
+  },
+  {
+    "swedish": "dator",
+    "english": "Computer",
+    "sentence": "Jag läser om dator."
+  },
+  {
+    "swedish": "telefon",
+    "english": "Phone",
+    "sentence": "Det finns telefon."
+  },
+  {
+    "swedish": "mobil",
+    "english": "Mobile",
+    "sentence": "Jag kommer från mobil."
+  },
+  {
+    "swedish": "papper",
+    "english": "Paper",
+    "sentence": "Jag tänker på papper."
+  },
+  {
+    "swedish": "penna",
+    "english": "Pen",
+    "sentence": "Jag gillar penna."
+  },
+  {
+    "swedish": "väska",
+    "english": "Bag",
+    "sentence": "Jag ser väska."
+  },
+  {
+    "swedish": "nyckel",
+    "english": "Key",
+    "sentence": "Jag äter nyckel."
+  },
+  {
+    "swedish": "kamera",
+    "english": "Camera",
+    "sentence": "Jag ser kamera."
+  },
+  {
+    "swedish": "klocka",
+    "english": "Clock",
+    "sentence": "Jag bor i klocka."
+  },
+  {
+    "swedish": "glasögon",
+    "english": "Glasses",
+    "sentence": "Jag behöver glasögon."
+  },
+  {
+    "swedish": "mat",
+    "english": "Food",
+    "sentence": "Jag reser till mat."
+  },
+  {
+    "swedish": "måltid",
+    "english": "Meal",
+    "sentence": "Jag behöver måltid."
+  },
+  {
+    "swedish": "frukost",
+    "english": "Breakfast",
+    "sentence": "Jag reser till frukost."
+  },
+  {
+    "swedish": "middag",
+    "english": "Dinner",
+    "sentence": "Jag har middag."
+  },
+  {
+    "swedish": "vatten",
+    "english": "Water",
+    "sentence": "Jag gillar vatten."
+  },
+  {
+    "swedish": "mjölk",
+    "english": "Milk",
+    "sentence": "Jag gillar mjölk."
+  },
+  {
+    "swedish": "kaffe",
+    "english": "Coffee",
+    "sentence": "Jag kommer från kaffe."
+  },
+  {
+    "swedish": "te",
+    "english": "Tea",
+    "sentence": "Jag träffar te."
+  },
+  {
+    "swedish": "bröd",
+    "english": "Bread",
+    "sentence": "Jag vill ha bröd."
+  },
+  {
+    "swedish": "smör",
+    "english": "Butter",
+    "sentence": "Jag behöver smör."
+  },
+  {
+    "swedish": "ost",
+    "english": "Cheese",
+    "sentence": "Jag ser ost."
+  },
+  {
+    "swedish": "ägg",
+    "english": "Egg",
+    "sentence": "Jag äter ägg."
+  },
+  {
+    "swedish": "kött",
+    "english": "Meat",
+    "sentence": "Jag kommer från kött."
+  },
+  {
+    "swedish": "kyckling",
+    "english": "Chicken",
+    "sentence": "Jag läser om kyckling."
+  },
+  {
+    "swedish": "fisk",
+    "english": "Fish",
+    "sentence": "Jag tänker på fisk."
+  },
+  {
+    "swedish": "grönsaker",
+    "english": "Vegetables",
+    "sentence": "Jag gillar grönsaker."
+  },
+  {
+    "swedish": "tomat",
+    "english": "Tomato",
+    "sentence": "Jag tänker på tomat."
+  },
+  {
+    "swedish": "morot",
+    "english": "Carrot",
+    "sentence": "Jag går till morot."
+  },
+  {
+    "swedish": "potatis",
+    "english": "Potato",
+    "sentence": "Jag köper potatis."
+  },
+  {
+    "swedish": "lök",
+    "english": "Onion",
+    "sentence": "Jag hjälper lök."
+  },
+  {
+    "swedish": "frukt",
+    "english": "Fruit",
+    "sentence": "Jag går till frukt."
+  },
+  {
+    "swedish": "äpple",
+    "english": "Apple",
+    "sentence": "Jag bor i äpple."
+  },
+  {
+    "swedish": "banan",
+    "english": "Banana",
+    "sentence": "Jag går till banan."
+  },
+  {
+    "swedish": "apelsin",
+    "english": "Orange",
+    "sentence": "Jag tänker på apelsin."
+  },
+  {
+    "swedish": "människa",
+    "english": "Person",
+    "sentence": "Jag lär mig människa."
+  },
+  {
+    "swedish": "kvinna",
+    "english": "Woman",
+    "sentence": "Jag arbetar med kvinna."
+  },
+  {
+    "swedish": "barn",
+    "english": "Child",
+    "sentence": "Jag träffar barn."
+  },
+  {
+    "swedish": "pojke",
+    "english": "Boy",
+    "sentence": "Jag köper pojke."
+  },
+  {
+    "swedish": "flicka",
+    "english": "Girl",
+    "sentence": "Jag går till flicka."
+  },
+  {
+    "swedish": "bebis",
+    "english": "Baby",
+    "sentence": "Jag köper bebis."
+  },
+  {
+    "swedish": "vuxen",
+    "english": "Adult",
+    "sentence": "Jag hjälper vuxen."
+  },
+  {
+    "swedish": "familj",
+    "english": "Family",
+    "sentence": "Jag träffar familj."
+  },
+  {
+    "swedish": "mamma",
+    "english": "Mom",
+    "sentence": "Jag träffar mamma."
+  },
+  {
+    "swedish": "pappa",
+    "english": "Dad",
+    "sentence": "Jag lär mig pappa."
+  },
+  {
+    "swedish": "bror",
+    "english": "Brother",
+    "sentence": "Jag tänker på bror."
+  },
+  {
+    "swedish": "syster",
+    "english": "Sister",
+    "sentence": "Det finns syster."
+  },
+  {
+    "swedish": "dotter",
+    "english": "Daughter",
+    "sentence": "Det finns dotter."
+  },
+  {
+    "swedish": "vän",
+    "english": "Friend",
+    "sentence": "Jag pratar om vän."
+  },
+  {
+    "swedish": "granne",
+    "english": "Neighbor",
+    "sentence": "Jag gillar granne."
+  },
+  {
+    "swedish": "lärare",
+    "english": "Teacher",
+    "sentence": "Jag läser om lärare."
+  },
+  {
+    "swedish": "elev",
+    "english": "Student",
+    "sentence": "Jag bor i elev."
+  },
+  {
+    "swedish": "läkare",
+    "english": "Doctor",
+    "sentence": "Jag köper läkare."
+  },
+  {
+    "swedish": "sjukhus",
+    "english": "Hospital",
+    "sentence": "Jag går till sjukhus."
+  },
+  {
+    "swedish": "skola",
+    "english": "School",
+    "sentence": "Jag arbetar med skola."
+  },
+  {
+    "swedish": "bibliotek",
+    "english": "Library",
+    "sentence": "Jag äter bibliotek."
+  },
+  {
+    "swedish": "butik",
+    "english": "Shop",
+    "sentence": "Jag arbetar med butik."
+  },
+  {
+    "swedish": "restaurang",
+    "english": "Restaurant",
+    "sentence": "Jag gillar restaurang."
+  },
+  {
+    "swedish": "hotell",
+    "english": "Hotel",
+    "sentence": "Det är hotell."
+  },
+  {
+    "swedish": "strand",
+    "english": "Beach",
+    "sentence": "Jag tänker på strand."
+  },
+  {
+    "swedish": "skog",
+    "english": "Forest",
+    "sentence": "Jag behöver skog."
+  },
+  {
+    "swedish": "berg",
+    "english": "Mountain",
+    "sentence": "Jag behöver berg."
+  },
+  {
+    "swedish": "sjö",
+    "english": "Lake",
+    "sentence": "Jag gillar sjö."
+  },
+  {
+    "swedish": "hav",
+    "english": "Sea",
+    "sentence": "Jag köper hav."
+  },
+  {
+    "swedish": "stad",
+    "english": "City",
+    "sentence": "Jag pratar om stad."
+  },
+  {
+    "swedish": "gata",
+    "english": "Street",
+    "sentence": "Jag reser till gata."
+  },
+  {
+    "swedish": "bil",
+    "english": "Car",
+    "sentence": "Jag går till bil."
+  },
+  {
+    "swedish": "buss",
+    "english": "Bus",
+    "sentence": "Jag köper buss."
+  },
+  {
+    "swedish": "tåg",
+    "english": "Train",
+    "sentence": "Jag träffar tåg."
+  },
+  {
+    "swedish": "flygplan",
+    "english": "Airplane",
+    "sentence": "Jag vill ha flygplan."
+  },
+  {
+    "swedish": "cykel",
+    "english": "Bicycle",
+    "sentence": "Jag gillar cykel."
+  },
+  {
+    "swedish": "djur",
+    "english": "Animal",
+    "sentence": "Jag gillar djur."
+  },
+  {
+    "swedish": "hund",
+    "english": "Dog",
+    "sentence": "Jag hjälper hund."
+  },
+  {
+    "swedish": "katt",
+    "english": "Cat",
+    "sentence": "Jag läser om katt."
+  },
+  {
+    "swedish": "häst",
+    "english": "Horse",
+    "sentence": "Jag lär mig häst."
+  },
+  {
+    "swedish": "fågel",
+    "english": "Bird",
+    "sentence": "Jag träffar fågel."
+  },
+  {
+    "swedish": "huvud",
+    "english": "Head",
+    "sentence": "Jag vill ha huvud."
+  },
+  {
+    "swedish": "hår",
+    "english": "Hair",
+    "sentence": "Jag gillar hår."
+  },
+  {
+    "swedish": "ansikte",
+    "english": "Face",
+    "sentence": "Jag lär mig ansikte."
+  },
+  {
+    "swedish": "öga",
+    "english": "Eye",
+    "sentence": "Jag köper öga."
+  },
+  {
+    "swedish": "näsa",
+    "english": "Nose",
+    "sentence": "Jag träffar näsa."
+  },
+  {
+    "swedish": "mun",
+    "english": "Mouth",
+    "sentence": "Jag reser till mun."
+  },
+  {
+    "swedish": "tand",
+    "english": "Tooth",
+    "sentence": "Jag hjälper tand."
+  },
+  {
+    "swedish": "öra",
+    "english": "Ear",
+    "sentence": "Jag hjälper öra."
+  },
+  {
+    "swedish": "ben",
+    "english": "Leg",
+    "sentence": "Jag går till ben."
+  },
+  {
+    "swedish": "fot",
+    "english": "Foot",
+    "sentence": "Jag har fot."
+  },
+  {
+    "swedish": "kropp",
+    "english": "Body",
+    "sentence": "Jag träffar kropp."
+  },
+  {
+    "swedish": "kläder",
+    "english": "Clothes",
+    "sentence": "Jag äter kläder."
+  },
+  {
+    "swedish": "skjorta",
+    "english": "Shirt",
+    "sentence": "Jag går till skjorta."
+  },
+  {
+    "swedish": "byxor",
+    "english": "Pants",
+    "sentence": "Jag bor i byxor."
+  },
+  {
+    "swedish": "kjol",
+    "english": "Skirt",
+    "sentence": "Jag har kjol."
+  },
+  {
+    "swedish": "klänning",
+    "english": "Dress",
+    "sentence": "Jag äter klänning."
+  },
+  {
+    "swedish": "skor",
+    "english": "Shoes",
+    "sentence": "Jag kommer från skor."
+  },
+  {
+    "swedish": "hatt",
+    "english": "Hat",
+    "sentence": "Det finns hatt."
+  },
+  {
+    "swedish": "sol",
+    "english": "Sun",
+    "sentence": "Jag läser om sol."
+  },
+  {
+    "swedish": "måne",
+    "english": "Moon",
+    "sentence": "Jag läser om måne."
+  },
+  {
+    "swedish": "stjärna",
+    "english": "Star",
+    "sentence": "Jag gillar stjärna."
+  },
+  {
+    "swedish": "moln",
+    "english": "Cloud",
+    "sentence": "Jag reser till moln."
+  },
+  {
+    "swedish": "regn",
+    "english": "Rain",
+    "sentence": "Jag äter regn."
+  },
+  {
+    "swedish": "snö",
+    "english": "Snow",
+    "sentence": "Jag köper snö."
+  },
+  {
+    "swedish": "vind",
+    "english": "Wind",
+    "sentence": "Jag hjälper vind."
+  },
+  {
+    "swedish": "väder",
+    "english": "Weather",
+    "sentence": "Jag äter väder."
+  },
+  {
+    "swedish": "vår",
+    "english": "Spring",
+    "sentence": "Jag dricker vår."
+  },
+  {
+    "swedish": "sommar",
+    "english": "Summer",
+    "sentence": "Jag reser till sommar."
+  },
+  {
+    "swedish": "höst",
+    "english": "Autumn",
+    "sentence": "Jag hjälper höst."
+  },
+  {
+    "swedish": "vinter",
+    "english": "Winter",
+    "sentence": "Jag köper vinter."
+  },
+  {
+    "swedish": "måndag",
+    "english": "Monday",
+    "sentence": "Jag läser om måndag."
+  },
+  {
+    "swedish": "tisdag",
+    "english": "Tuesday",
+    "sentence": "Det finns tisdag."
+  },
+  {
+    "swedish": "onsdag",
+    "english": "Wednesday",
+    "sentence": "Jag arbetar med onsdag."
+  },
+  {
+    "swedish": "torsdag",
+    "english": "Thursday",
+    "sentence": "Jag dricker torsdag."
+  },
+  {
+    "swedish": "fredag",
+    "english": "Friday",
+    "sentence": "Jag lär mig fredag."
+  },
+  {
+    "swedish": "lördag",
+    "english": "Saturday",
+    "sentence": "Jag dricker lördag."
+  },
+  {
+    "swedish": "söndag",
+    "english": "Sunday",
+    "sentence": "Jag har söndag."
+  },
+  {
+    "swedish": "vecka",
+    "english": "Week",
+    "sentence": "Jag gillar vecka."
+  },
+  {
+    "swedish": "månad",
+    "english": "Month",
+    "sentence": "Jag tänker på månad."
+  },
+  {
+    "swedish": "år",
+    "english": "Year",
+    "sentence": "Jag pratar om år."
+  },
+  {
+    "swedish": "januari",
+    "english": "January",
+    "sentence": "Jag hjälper januari."
+  },
+  {
+    "swedish": "februari",
+    "english": "February",
+    "sentence": "Jag köper februari."
+  },
+  {
+    "swedish": "mars",
+    "english": "March",
+    "sentence": "Jag träffar mars."
+  },
+  {
+    "swedish": "maj",
+    "english": "May",
+    "sentence": "Jag reser till maj."
+  },
+  {
+    "swedish": "juni",
+    "english": "June",
+    "sentence": "Jag går till juni."
+  },
+  {
+    "swedish": "juli",
+    "english": "July",
+    "sentence": "Jag kommer från juli."
+  },
+  {
+    "swedish": "augusti",
+    "english": "August",
+    "sentence": "Jag träffar augusti."
+  },
+  {
+    "swedish": "oktober",
+    "english": "October",
+    "sentence": "Det finns oktober."
+  },
+  {
+    "swedish": "idag",
+    "english": "Today",
+    "sentence": "Jag träffar idag."
+  },
+  {
+    "swedish": "igår",
+    "english": "Yesterday",
+    "sentence": "Jag hjälper igår."
+  },
+  {
+    "swedish": "imorgon",
+    "english": "Tomorrow",
+    "sentence": "Jag dricker imorgon."
+  },
+  {
+    "swedish": "morgon",
+    "english": "Morning",
+    "sentence": "Jag tänker på morgon."
+  },
+  {
+    "swedish": "eftermiddag",
+    "english": "Afternoon",
+    "sentence": "Jag hjälper eftermiddag."
+  },
+  {
+    "swedish": "kväll",
+    "english": "Evening",
+    "sentence": "Jag bor i kväll."
+  },
+  {
+    "swedish": "natt",
+    "english": "Night",
+    "sentence": "Jag köper natt."
+  },
+  {
+    "swedish": "dag",
+    "english": "Day",
+    "sentence": "Jag tänker på dag."
+  },
+  {
+    "swedish": "timme",
+    "english": "Hour",
+    "sentence": "Jag ser timme."
+  },
+  {
+    "swedish": "minut",
+    "english": "Minute",
+    "sentence": "Jag lär mig minut."
+  },
+  {
+    "swedish": "sekund",
+    "english": "Second",
+    "sentence": "Jag ser sekund."
+  },
+  {
+    "swedish": "tid",
+    "english": "Time",
+    "sentence": "Jag har tid."
+  },
+  {
+    "swedish": "när",
+    "english": "When",
+    "sentence": "Jag ser när."
+  },
+  {
+    "swedish": "var",
+    "english": "Where",
+    "sentence": "Jag behöver var."
+  },
+  {
+    "swedish": "vart",
+    "english": "Where to",
+    "sentence": "Jag reser till vart."
+  },
+  {
+    "swedish": "vad",
+    "english": "What",
+    "sentence": "Jag tänker på vad."
+  },
+  {
+    "swedish": "vilken",
+    "english": "Which",
+    "sentence": "Jag äter vilken."
+  },
+  {
+    "swedish": "vem",
+    "english": "Who",
+    "sentence": "Jag har vem."
+  },
+  {
+    "swedish": "varför",
+    "english": "Why",
+    "sentence": "Jag träffar varför."
+  },
+  {
+    "swedish": "hur",
+    "english": "How",
+    "sentence": "Jag träffar hur."
+  },
+  {
+    "swedish": "ja",
+    "english": "Yes",
+    "sentence": "Jag kommer från ja."
+  },
+  {
+    "swedish": "nej",
+    "english": "No",
+    "sentence": "Jag reser till nej."
+  },
+  {
+    "swedish": "kanske",
+    "english": "Maybe",
+    "sentence": "Jag pratar om kanske."
+  },
+  {
+    "swedish": "inte",
+    "english": "Not",
+    "sentence": "Jag behöver inte."
+  },
+  {
+    "swedish": "aldrig",
+    "english": "Never",
+    "sentence": "Jag träffar aldrig."
+  },
+  {
+    "swedish": "alltid",
+    "english": "Always",
+    "sentence": "Jag har alltid."
+  },
+  {
+    "swedish": "ibland",
+    "english": "Sometimes",
+    "sentence": "Jag vill ha ibland."
+  },
+  {
+    "swedish": "ofta",
+    "english": "Often",
+    "sentence": "Jag reser till ofta."
+  },
+  {
+    "swedish": "sällan",
+    "english": "Rarely",
+    "sentence": "Jag kommer från sällan."
+  },
+  {
+    "swedish": "vanligtvis",
+    "english": "Usually",
+    "sentence": "Jag gillar vanligtvis."
+  },
+  {
+    "swedish": "någon",
+    "english": "Someone",
+    "sentence": "Jag pratar om någon."
+  },
+  {
+    "swedish": "något",
+    "english": "Something",
+    "sentence": "Jag pratar om något."
+  },
+  {
+    "swedish": "några",
+    "english": "Some",
+    "sentence": "Jag reser till några."
+  },
+  {
+    "swedish": "alla",
+    "english": "All",
+    "sentence": "Jag hjälper alla."
+  },
+  {
+    "swedish": "många",
+    "english": "Many",
+    "sentence": "Jag vill ha många."
+  },
+  {
+    "swedish": "få",
+    "english": "Few",
+    "sentence": "Jag behöver få."
+  },
+  {
+    "swedish": "lite",
+    "english": "Little",
+    "sentence": "Jag äter lite."
+  },
+  {
+    "swedish": "mycket",
+    "english": "Much",
+    "sentence": "Jag äter mycket."
+  },
+  {
+    "swedish": "mer",
+    "english": "More",
+    "sentence": "Jag reser till mer."
+  },
+  {
+    "swedish": "mest",
+    "english": "Most",
+    "sentence": "Jag äter mest."
+  },
+  {
+    "swedish": "mindre",
+    "english": "Less",
+    "sentence": "Jag bor i mindre."
+  },
+  {
+    "swedish": "båda",
+    "english": "Both",
+    "sentence": "Jag hjälper båda."
+  },
+  {
+    "swedish": "andra",
+    "english": "Other",
+    "sentence": "Jag köper andra."
+  },
+  {
+    "swedish": "samma",
+    "english": "Same",
+    "sentence": "Jag bor i samma."
+  },
+  {
+    "swedish": "annorlunda",
+    "english": "Different",
+    "sentence": "Jag reser till annorlunda."
+  },
+  {
+    "swedish": "första",
+    "english": "First",
+    "sentence": "Jag har första."
+  },
+  {
+    "swedish": "tredje",
+    "english": "Third",
+    "sentence": "Jag behöver tredje."
+  },
+  {
+    "swedish": "sista",
+    "english": "Last",
+    "sentence": "Jag har sista."
+  },
+  {
+    "swedish": "nästa",
+    "english": "Next",
+    "sentence": "Jag pratar om nästa."
+  },
+  {
+    "swedish": "tidig",
+    "english": "Early",
+    "sentence": "Jag behöver tidig."
+  },
+  {
+    "swedish": "sen",
+    "english": "Late",
+    "sentence": "Jag har sen."
+  },
+  {
+    "swedish": "från",
+    "english": "From",
+    "sentence": "Jag gillar från."
+  },
+  {
+    "swedish": "till",
+    "english": "To",
+    "sentence": "Jag lär mig till."
+  },
+  {
+    "swedish": "med",
+    "english": "With",
+    "sentence": "Jag har med."
+  },
+  {
+    "swedish": "utan",
+    "english": "Without",
+    "sentence": "Jag köper utan."
+  },
+  {
+    "swedish": "mot",
+    "english": "Against",
+    "sentence": "Jag vill ha mot."
+  },
+  {
+    "swedish": "för",
+    "english": "For",
+    "sentence": "Jag kommer från för."
+  },
+  {
+    "swedish": "av",
+    "english": "Of",
+    "sentence": "Jag går till av."
+  },
+  {
+    "swedish": "om",
+    "english": "About",
+    "sentence": "Jag bor i om."
+  },
+  {
+    "swedish": "efter",
+    "english": "After",
+    "sentence": "Jag köper efter."
+  },
+  {
+    "swedish": "före",
+    "english": "Before",
+    "sentence": "Jag dricker före."
+  },
+  {
+    "swedish": "över",
+    "english": "Over",
+    "sentence": "Jag ser över."
+  },
+  {
+    "swedish": "genom",
+    "english": "Through",
+    "sentence": "Jag köper genom."
+  },
+  {
+    "swedish": "bakom",
+    "english": "Behind",
+    "sentence": "Jag läser om bakom."
+  },
+  {
+    "swedish": "framför",
+    "english": "In front of",
+    "sentence": "Jag kommer från framför."
+  },
+  {
+    "swedish": "bredvid",
+    "english": "Next to",
+    "sentence": "Det finns bredvid."
+  },
+  {
+    "swedish": "mellan",
+    "english": "Between",
+    "sentence": "Jag ser mellan."
+  },
+  {
+    "swedish": "nära",
+    "english": "Near",
+    "sentence": "Jag reser till nära."
+  },
+  {
+    "swedish": "långt",
+    "english": "Far",
+    "sentence": "Jag läser om långt."
+  },
+  {
+    "swedish": "här",
+    "english": "Here",
+    "sentence": "Jag äter här."
+  },
+  {
+    "swedish": "där",
+    "english": "There",
+    "sentence": "Jag går till där."
+  },
+  {
+    "swedish": "samhälle",
+    "english": "Society",
+    "sentence": "Jag träffar samhälle."
+  },
+  {
+    "swedish": "natur",
+    "english": "Nature",
+    "sentence": "Jag gillar natur."
+  },
+  {
+    "swedish": "miljö",
+    "english": "Environment",
+    "sentence": "Jag träffar miljö."
+  },
+  {
+    "swedish": "kultur",
+    "english": "Culture",
+    "sentence": "Jag äter kultur."
+  },
+  {
+    "swedish": "historia",
+    "english": "History",
+    "sentence": "Jag hjälper historia."
+  },
+  {
+    "swedish": "framtid",
+    "english": "Future",
+    "sentence": "Jag hjälper framtid."
+  },
+  {
+    "swedish": "nutid",
+    "english": "Present",
+    "sentence": "Jag dricker nutid."
+  },
+  {
+    "swedish": "dåtid",
+    "english": "Past",
+    "sentence": "Jag pratar om dåtid."
+  },
+  {
+    "swedish": "värld",
+    "english": "World",
+    "sentence": "Jag lär mig värld."
+  },
+  {
+    "swedish": "land",
+    "english": "Country",
+    "sentence": "Jag ser land."
+  },
+  {
+    "swedish": "språk",
+    "english": "Language",
+    "sentence": "Jag bor i språk."
+  },
+  {
+    "swedish": "musik",
+    "english": "Music",
+    "sentence": "Jag har musik."
+  },
+  {
+    "swedish": "film",
+    "english": "Movie",
+    "sentence": "Jag bor i film."
+  },
+  {
+    "swedish": "bok",
+    "english": "Book",
+    "sentence": "Jag träffar bok."
+  },
+  {
+    "swedish": "konst",
+    "english": "Art",
+    "sentence": "Jag dricker konst."
+  },
+  {
+    "swedish": "medan",
+    "english": "While",
+    "sentence": "Jag kommer från medan."
+  },
+  {
+    "swedish": "tog",
+    "english": "Took",
+    "sentence": "Jag äter tog."
+  },
+  {
+    "swedish": "gärna",
+    "english": "Gladly",
+    "sentence": "Jag dricker gärna."
+  },
+  {
+    "swedish": "att drömma",
+    "english": "To dream",
+    "sentence": "Jag vill att drömma."
+  },
+  {
+    "swedish": "tappade",
+    "english": "Dropped",
+    "sentence": "Jag träffar tappade."
+  },
+  {
+    "swedish": "begagned",
+    "english": "Used",
+    "sentence": "Jag kommer från begagned."
+  },
+  {
+    "swedish": "galen",
+    "english": "Crazy",
+    "sentence": "Jag lär mig galen."
+  },
+  {
+    "swedish": "spara",
+    "english": "Save",
+    "sentence": "Jag går till spara."
+  },
+  {
+    "swedish": "grejer",
+    "english": "Stuff",
+    "sentence": "Jag går till grejer."
+  },
+  {
+    "swedish": "husdjur",
+    "english": "Pet",
+    "sentence": "Jag lär mig husdjur."
+  },
+  {
+    "swedish": "trötthet",
+    "english": "Tiredness",
+    "sentence": "Det blir trötthet."
+  },
+  {
+    "swedish": "saker",
+    "english": "Things",
+    "sentence": "Jag bor i saker."
+  },
+  {
+    "swedish": "rökt",
+    "english": "Smoked",
+    "sentence": "Jag köper rökt."
+  },
+  {
+    "swedish": "smaklös",
+    "english": "Tasteless",
+    "sentence": "Jag köper smaklös."
+  },
+  {
+    "swedish": "hink",
+    "english": "Bucket",
+    "sentence": "Jag lär mig hink."
+  },
+  {
+    "swedish": "korg",
+    "english": "Basket",
+    "sentence": "Jag tänker på korg."
+  },
+  {
+    "swedish": "kam",
+    "english": "Comb",
+    "sentence": "Jag läser om kam."
+  },
+  {
+    "swedish": "borsta",
+    "english": "Brush",
+    "sentence": "Jag träffar borsta."
+  },
+  {
+    "swedish": "rep",
+    "english": "Rope",
+    "sentence": "Jag arbetar med rep."
+  },
+  {
+    "swedish": "mulet",
+    "english": "Cloudy",
+    "sentence": "Jag lär mig mulet."
+  },
+  {
+    "swedish": "blåser",
+    "english": "Blowing",
+    "sentence": "Jag bor i blåser."
+  },
+  {
+    "swedish": "blåsigt",
+    "english": "Windy",
+    "sentence": "Jag dricker blåsigt."
+  },
+  {
+    "swedish": "för mycket",
+    "english": "Too much",
+    "sentence": "Jag köper för mycket."
+  },
+  {
+    "swedish": "för stor",
+    "english": "Too big",
+    "sentence": "Jag äter för stor."
+  },
+  {
+    "swedish": "för liten",
+    "english": "Too little",
+    "sentence": "Jag kommer från för liten."
+  },
+  {
+    "swedish": "för långsam",
+    "english": "Too slow",
+    "sentence": "Jag reser till för långsam."
+  },
+  {
+    "swedish": "för dyr",
+    "english": "Too expensive",
+    "sentence": "Jag köper för dyr."
+  },
+  {
+    "swedish": "svårt",
+    "english": "Difficult",
+    "sentence": "Hon är svårt."
+  },
+  {
+    "swedish": "kort",
+    "english": "Short",
+    "sentence": "Jag dricker kort."
+  },
+  {
+    "swedish": "någonting",
+    "english": "Something",
+    "sentence": "Jag vill ha någonting."
+  },
+  {
+    "swedish": "på något sätt",
+    "english": "Somehow",
+    "sentence": "Jag vill ha på något sätt."
+  },
+  {
+    "swedish": "någonstans",
+    "english": "Somewhere",
+    "sentence": "Jag hjälper någonstans."
+  },
+  {
+    "swedish": "ner",
+    "english": "Down",
+    "sentence": "Jag träffar ner."
+  },
+  {
+    "swedish": "joggar",
+    "english": "Jogging",
+    "sentence": "Jag dricker joggar."
+  },
+  {
+    "swedish": "hoppar",
+    "english": "Jumping",
+    "sentence": "Jag hjälper hoppar."
+  },
+  {
+    "swedish": "gillar",
+    "english": "Likes",
+    "sentence": "Jag arbetar med gillar."
+  },
+  {
+    "swedish": "glas",
+    "english": "Glass",
+    "sentence": "Jag bor i glas."
+  },
+  {
+    "swedish": "glass",
+    "english": "Ice cream",
+    "sentence": "Jag behöver glass."
+  },
+  {
+    "swedish": "skojade",
+    "english": "Joked",
+    "sentence": "Jag gillar skojade."
+  },
+  {
+    "swedish": "affär",
+    "english": "Store",
+    "sentence": "Jag lär mig affär."
+  },
+  {
+    "swedish": "ögon",
+    "english": "Eyes",
+    "sentence": "Jag äter ögon."
+  },
+  {
+    "swedish": "öron",
+    "english": "Ears",
+    "sentence": "Det finns öron."
+  },
+  {
+    "swedish": "haka",
+    "english": "Chin",
+    "sentence": "Jag behöver haka."
+  },
+  {
+    "swedish": "kinder",
+    "english": "Cheeks",
+    "sentence": "Jag tänker på kinder."
+  },
+  {
+    "swedish": "hals",
+    "english": "Neck",
+    "sentence": "Jag kommer från hals."
+  },
+  {
+    "swedish": "bröst",
+    "english": "Chest",
+    "sentence": "Jag gillar bröst."
+  },
+  {
+    "swedish": "axel",
+    "english": "Shoulder",
+    "sentence": "Jag ser axel."
+  },
+  {
+    "swedish": "armbåge",
+    "english": "Elbow",
+    "sentence": "Jag gillar armbåge."
+  },
+  {
+    "swedish": "knä",
+    "english": "Knee",
+    "sentence": "Jag läser om knä."
+  },
+  {
+    "swedish": "tår",
+    "english": "Toe",
+    "sentence": "Jag går till tår."
+  },
+  {
+    "swedish": "räcker",
+    "english": "Enough",
+    "sentence": "Jag hjälper räcker."
+  },
+  {
+    "swedish": "allvarligt",
+    "english": "Seriously",
+    "sentence": "Jag behöver allvarligt."
+  },
+  {
+    "swedish": "bråttom",
+    "english": "In a hurry",
+    "sentence": "Jag lär mig bråttom."
+  },
+  {
+    "swedish": "kudde",
+    "english": "Pillow",
+    "sentence": "Jag lär mig kudde."
+  },
+  {
+    "swedish": "handduk",
+    "english": "Towel",
+    "sentence": "Jag hjälper handduk."
+  },
+  {
+    "swedish": "madrass",
+    "english": "Mattress",
+    "sentence": "Jag tänker på madrass."
+  },
+  {
+    "swedish": "dimma",
+    "english": "Fog",
+    "sentence": "Jag dricker dimma."
+  },
+  {
+    "swedish": "åska",
+    "english": "Thunder",
+    "sentence": "Jag pratar om åska."
+  },
+  {
+    "swedish": "blixt",
+    "english": "Lightning",
+    "sentence": "Han är blixt."
+  },
+  {
+    "swedish": "hagel",
+    "english": "Hail",
+    "sentence": "Jag dricker hagel."
+  },
+  {
+    "swedish": "kyla",
+    "english": "Cold",
+    "sentence": "Han är kyla."
+  },
+  {
+    "swedish": "värme",
+    "english": "Heat",
+    "sentence": "Jag äter värme."
+  },
+  {
+    "swedish": "värmebölja",
+    "english": "Heat wave",
+    "sentence": "Jag kommer från värmebölja."
+  },
+  {
+    "swedish": "nederbörd",
+    "english": "Precipitation",
+    "sentence": "Jag bor i nederbörd."
+  },
+  {
+    "swedish": "temperatur",
+    "english": "Temperature",
+    "sentence": "Jag gillar temperatur."
+  },
+  {
+    "swedish": "luftfuktighet",
+    "english": "Humidity",
+    "sentence": "Jag behöver luftfuktighet."
+  },
+  {
+    "swedish": "orkan",
+    "english": "Hurricane",
+    "sentence": "Jag arbetar med orkan."
+  },
+  {
+    "swedish": "duggregn",
+    "english": "Drizzle",
+    "sentence": "Jag träffar duggregn."
+  },
+  {
+    "swedish": "ösregn",
+    "english": "Downpour",
+    "sentence": "Det finns ösregn."
+  },
+  {
+    "swedish": "snöstorm",
+    "english": "Blizzard",
+    "sentence": "Jag träffar snöstorm."
+  },
+  {
+    "swedish": "snöfall",
+    "english": "Snowfall",
+    "sentence": "Jag lär mig snöfall."
+  },
+  {
+    "swedish": "is",
+    "english": "Ice",
+    "sentence": "Jag äter is."
+  },
+  {
+    "swedish": "halka",
+    "english": "Slippery",
+    "sentence": "Jag bor i halka."
+  },
+  {
+    "swedish": "solsken",
+    "english": "Sunshine",
+    "sentence": "Det finns solsken."
+  },
+  {
+    "swedish": "regnbåge",
+    "english": "Rainbow",
+    "sentence": "Jag lär mig regnbåge."
+  },
+  {
+    "swedish": "molnigt",
+    "english": "Cloudy",
+    "sentence": "Jag arbetar med molnigt."
+  },
+  {
+    "swedish": "klart",
+    "english": "Clear",
+    "sentence": "Det blir klart."
+  },
+  {
+    "swedish": "kyligt",
+    "english": "Chilly",
+    "sentence": "Jag vill ha kyligt."
+  },
+  {
+    "swedish": "varmt",
+    "english": "Warm",
+    "sentence": "Jag går till varmt."
+  },
+  {
+    "swedish": "kallt",
+    "english": "Cold",
+    "sentence": "Det var kallt."
+  },
+  {
+    "swedish": "hett",
+    "english": "Hot",
+    "sentence": "Hon är hett."
+  },
+  {
+    "swedish": "fuktigt",
+    "english": "Humid",
+    "sentence": "Det finns fuktigt."
+  },
+  {
+    "swedish": "torrt",
+    "english": "Dry",
+    "sentence": "Jag är torrt."
+  },
+  {
+    "swedish": "lågtryck",
+    "english": "Low pressure",
+    "sentence": "Det blir lågtryck."
+  },
+  {
+    "swedish": "högtryck",
+    "english": "High pressure",
+    "sentence": "Du är högtryck."
+  },
+  {
+    "swedish": "väderlek",
+    "english": "Weather",
+    "sentence": "Jag träffar väderlek."
+  },
+  {
+    "swedish": "klimat",
+    "english": "Climate",
+    "sentence": "Jag hjälper klimat."
+  },
+  {
+    "swedish": "dagsmeja",
+    "english": "Thaw",
+    "sentence": "Jag gillar dagsmeja."
+  },
+  {
+    "swedish": "rimfrost",
+    "english": "Hoar frost",
+    "sentence": "Jag arbetar med rimfrost."
+  },
+  {
+    "swedish": "tö",
+    "english": "Thaw",
+    "sentence": "Jag tänker på tö."
+  },
+  {
+    "swedish": "snålblåst",
+    "english": "Gust of wind",
+    "sentence": "Jag äter snålblåst."
+  },
+  {
+    "swedish": "skyfall",
+    "english": "Cloudburst",
+    "sentence": "Jag reser till skyfall."
+  },
+  {
+    "swedish": "tunnelbana",
+    "english": "Subway",
+    "sentence": "Jag arbetar med tunnelbana."
+  },
+  {
+    "swedish": "spårvagn",
+    "english": "Tram",
+    "sentence": "Jag kommer från spårvagn."
+  },
+  {
+    "swedish": "motorcykel",
+    "english": "Motorcycle",
+    "sentence": "Jag lär mig motorcykel."
+  },
+  {
+    "swedish": "lastbil",
+    "english": "Truck",
+    "sentence": "Jag bor i lastbil."
+  },
+  {
+    "swedish": "båt",
+    "english": "Boat",
+    "sentence": "Jag arbetar med båt."
+  },
+  {
+    "swedish": "färja",
+    "english": "Ferry",
+    "sentence": "Jag tänker på färja."
+  },
+  {
+    "swedish": "helikopter",
+    "english": "Helicopter",
+    "sentence": "Jag bor i helikopter."
+  },
+  {
+    "swedish": "tågstation",
+    "english": "Train station",
+    "sentence": "Jag träffar tågstation."
+  },
+  {
+    "swedish": "busshållplats",
+    "english": "Bus stop",
+    "sentence": "Jag gillar busshållplats."
+  },
+  {
+    "swedish": "flygplats",
+    "english": "Airport",
+    "sentence": "Jag hjälper flygplats."
+  },
+  {
+    "swedish": "hamn",
+    "english": "Harbor",
+    "sentence": "Jag köper hamn."
+  },
+  {
+    "swedish": "väg",
+    "english": "Road",
+    "sentence": "Jag pratar om väg."
+  },
+  {
+    "swedish": "motorväg",
+    "english": "Highway",
+    "sentence": "Hon är motorväg."
+  },
+  {
+    "swedish": "korsning",
+    "english": "Intersection",
+    "sentence": "Jag arbetar med korsning."
+  },
+  {
+    "swedish": "rondell",
+    "english": "Roundabout",
+    "sentence": "Jag behöver rondell."
+  },
+  {
+    "swedish": "bro",
+    "english": "Bridge",
+    "sentence": "Jag läser om bro."
+  },
+  {
+    "swedish": "parkering",
+    "english": "Parking",
+    "sentence": "Jag lär mig parkering."
+  },
+  {
+    "swedish": "bilresa",
+    "english": "Car trip",
+    "sentence": "Jag ser bilresa."
+  },
+  {
+    "swedish": "biljett",
+    "english": "Ticket",
+    "sentence": "Jag läser om biljett."
+  },
+  {
+    "swedish": "körkort",
+    "english": "Driver license",
+    "sentence": "Jag behöver körkort."
+  },
+  {
+    "swedish": "trafik",
+    "english": "Traffic",
+    "sentence": "Jag träffar trafik."
+  },
+  {
+    "swedish": "trafikljus",
+    "english": "Traffic light",
+    "sentence": "Jag reser till trafikljus."
+  },
+  {
+    "swedish": "övergångsställe",
+    "english": "Crosswalk",
+    "sentence": "Jag träffar övergångsställe."
+  },
+  {
+    "swedish": "bensinstation",
+    "english": "Gas station",
+    "sentence": "Jag hjälper bensinstation."
+  },
+  {
+    "swedish": "laddstation",
+    "english": "Charging station",
+    "sentence": "Jag vill ha laddstation."
+  },
+  {
+    "swedish": "bränsle",
+    "english": "Fuel",
+    "sentence": "Jag ser bränsle."
+  },
+  {
+    "swedish": "däck",
+    "english": "Tire",
+    "sentence": "Jag vill ha däck."
+  },
+  {
+    "swedish": "motor",
+    "english": "Engine",
+    "sentence": "Jag lär mig motor."
+  },
+  {
+    "swedish": "växel",
+    "english": "Gear",
+    "sentence": "Jag arbetar med växel."
+  },
+  {
+    "swedish": "broms",
+    "english": "Brake",
+    "sentence": "Jag köper broms."
+  },
+  {
+    "swedish": "ratt",
+    "english": "Steering wheel",
+    "sentence": "Jag köper ratt."
+  },
+  {
+    "swedish": "säkerhetsbälte",
+    "english": "Seat belt",
+    "sentence": "Jag kommer från säkerhetsbälte."
+  },
+  {
+    "swedish": "barnstol",
+    "english": "Child seat",
+    "sentence": "Jag tänker på barnstol."
+  },
+  {
+    "swedish": "kollektivtrafik",
+    "english": "Public transport",
+    "sentence": "Jag träffar kollektivtrafik."
+  },
+  {
+    "swedish": "pendeltåg",
+    "english": "Commuter train",
+    "sentence": "Jag har pendeltåg."
+  },
+  {
+    "swedish": "expressbuss",
+    "english": "Express bus",
+    "sentence": "Jag bor i expressbuss."
+  },
+  {
+    "swedish": "hyrbil",
+    "english": "Rental car",
+    "sentence": "Jag har hyrbil."
+  },
+  {
+    "swedish": "samåkning",
+    "english": "Carpooling",
+    "sentence": "Jag lär mig samåkning."
+  },
+  {
+    "swedish": "cykelbana",
+    "english": "Bike lane",
+    "sentence": "Jag arbetar med cykelbana."
+  },
+  {
+    "swedish": "köpcentrum",
+    "english": "Shopping center",
+    "sentence": "Jag lär mig köpcentrum."
+  },
+  {
+    "swedish": "marknad",
+    "english": "Market",
+    "sentence": "Jag har marknad."
+  },
+  {
+    "swedish": "kund",
+    "english": "Customer",
+    "sentence": "Jag dricker kund."
+  },
+  {
+    "swedish": "vara",
+    "english": "Product",
+    "sentence": "Jag vill ha vara."
+  },
+  {
+    "swedish": "pris",
+    "english": "Price",
+    "sentence": "Jag bor i pris."
+  },
+  {
+    "swedish": "rabatt",
+    "english": "Discount",
+    "sentence": "Jag köper rabatt."
+  },
+  {
+    "swedish": "rea",
+    "english": "Sale",
+    "sentence": "Jag behöver rea."
+  },
+  {
+    "swedish": "erbjudande",
+    "english": "Offer",
+    "sentence": "Jag har erbjudande."
+  },
+  {
+    "swedish": "kassa",
+    "english": "Cash register",
+    "sentence": "Jag äter kassa."
+  },
+  {
+    "swedish": "kvitto",
+    "english": "Receipt",
+    "sentence": "Jag går till kvitto."
+  },
+  {
+    "swedish": "betalning",
+    "english": "Payment",
+    "sentence": "Jag hjälper betalning."
+  },
+  {
+    "swedish": "kontant",
+    "english": "Cash",
+    "sentence": "Jag träffar kontant."
+  },
+  {
+    "swedish": "kreditkort",
+    "english": "Credit card",
+    "sentence": "Jag arbetar med kreditkort."
+  },
+  {
+    "swedish": "present",
+    "english": "Gift",
+    "sentence": "Jag bor i present."
+  },
+  {
+    "swedish": "presentkort",
+    "english": "Gift card",
+    "sentence": "Jag hjälper presentkort."
+  },
+  {
+    "swedish": "påse",
+    "english": "Bag",
+    "sentence": "Jag bor i påse."
+  },
+  {
+    "swedish": "vagn",
+    "english": "Cart",
+    "sentence": "Det finns vagn."
+  },
+  {
+    "swedish": "hylla",
+    "english": "Shelf",
+    "sentence": "Jag har hylla."
+  },
+  {
+    "swedish": "lager",
+    "english": "Stock",
+    "sentence": "Jag bor i lager."
+  },
+  {
+    "swedish": "beställa",
+    "english": "Order",
+    "sentence": "Jag hjälper beställa."
+  },
+  {
+    "swedish": "leverans",
+    "english": "Delivery",
+    "sentence": "Jag dricker leverans."
+  },
+  {
+    "swedish": "retur",
+    "english": "Return",
+    "sentence": "Jag bor i retur."
+  },
+  {
+    "swedish": "byta",
+    "english": "Exchange",
+    "sentence": "Jag vill ha byta."
+  },
+  {
+    "swedish": "öppettider",
+    "english": "Opening hours",
+    "sentence": "Det var öppettider."
+  },
+  {
+    "swedish": "provrum",
+    "english": "Fitting room",
+    "sentence": "Jag reser till provrum."
+  },
+  {
+    "swedish": "storlek",
+    "english": "Size",
+    "sentence": "Jag äter storlek."
+  },
+  {
+    "swedish": "färg",
+    "english": "Color",
+    "sentence": "Jag kommer från färg."
+  },
+  {
+    "swedish": "kvalitet",
+    "english": "Quality",
+    "sentence": "Det finns kvalitet."
+  },
+  {
+    "swedish": "märke",
+    "english": "Brand",
+    "sentence": "Jag läser om märke."
+  },
+  {
+    "swedish": "garanti",
+    "english": "Warranty",
+    "sentence": "Jag går till garanti."
+  },
+  {
+    "swedish": "reklamation",
+    "english": "Complaint",
+    "sentence": "Jag ser reklamation."
+  },
+  {
+    "swedish": "medlemskap",
+    "english": "Membership",
+    "sentence": "Jag behöver medlemskap."
+  },
+  {
+    "swedish": "poäng",
+    "english": "Points",
+    "sentence": "Jag behöver poäng."
+  },
+  {
+    "swedish": "saldo",
+    "english": "Balance",
+    "sentence": "Jag går till saldo."
+  },
+  {
+    "swedish": "faktura",
+    "english": "Invoice",
+    "sentence": "Jag hjälper faktura."
+  },
+  {
+    "swedish": "abonnemang",
+    "english": "Subscription",
+    "sentence": "Jag ser abonnemang."
+  },
+  {
+    "swedish": "köp",
+    "english": "Purchase",
+    "sentence": "Jag tänker på köp."
+  },
+  {
+    "swedish": "försäljning",
+    "english": "Sale",
+    "sentence": "Jag arbetar med försäljning."
+  },
+  {
+    "swedish": "handla",
+    "english": "Shop",
+    "sentence": "Jag behöver handla."
+  },
+  {
+    "swedish": "jämföra",
+    "english": "Compare",
+    "sentence": "Jag behöver jämföra."
+  },
+  {
+    "swedish": "semester",
+    "english": "Vacation",
+    "sentence": "Jag vill ha semester."
+  },
+  {
+    "swedish": "flyg",
+    "english": "Flight",
+    "sentence": "Jag pratar om flyg."
+  },
+  {
+    "swedish": "vandrarhem",
+    "english": "Hostel",
+    "sentence": "Jag arbetar med vandrarhem."
+  },
+  {
+    "swedish": "bokning",
+    "english": "Booking",
+    "sentence": "Jag äter bokning."
+  },
+  {
+    "swedish": "bagage",
+    "english": "Luggage",
+    "sentence": "Jag dricker bagage."
+  },
+  {
+    "swedish": "resväska",
+    "english": "Suitcase",
+    "sentence": "Det finns resväska."
+  },
+  {
+    "swedish": "pass",
+    "english": "Passport",
+    "sentence": "Jag reser till pass."
+  },
+  {
+    "swedish": "visum",
+    "english": "Visa",
+    "sentence": "Jag träffar visum."
+  },
+  {
+    "swedish": "avgång",
+    "english": "Departure",
+    "sentence": "Jag dricker avgång."
+  },
+  {
+    "swedish": "ankomst",
+    "english": "Arrival",
+    "sentence": "Jag kommer från ankomst."
+  },
+  {
+    "swedish": "karta",
+    "english": "Map",
+    "sentence": "Jag behöver karta."
+  },
+  {
+    "swedish": "utflykt",
+    "english": "Excursion",
+    "sentence": "Jag ser utflykt."
+  },
+  {
+    "swedish": "kryssning",
+    "english": "Cruise",
+    "sentence": "Jag pratar om kryssning."
+  },
+  {
+    "swedish": "plats",
+    "english": "Seat",
+    "sentence": "Jag läser om plats."
+  },
+  {
+    "swedish": "säte",
+    "english": "Seat",
+    "sentence": "Jag köper säte."
+  },
+  {
+    "swedish": "incheckning",
+    "english": "Check-in",
+    "sentence": "Jag reser till incheckning."
+  },
+  {
+    "swedish": "utcheckning",
+    "english": "Check-out",
+    "sentence": "Jag pratar om utcheckning."
+  },
+  {
+    "swedish": "säkerhetskontroll",
+    "english": "Security check",
+    "sentence": "Jag reser till säkerhetskontroll."
+  },
+  {
+    "swedish": "försening",
+    "english": "Delay",
+    "sentence": "Jag vill ha försening."
+  },
+  {
+    "swedish": "tidtabell",
+    "english": "Schedule",
+    "sentence": "Jag kommer från tidtabell."
+  },
+  {
+    "swedish": "valuta",
+    "english": "Currency",
+    "sentence": "Jag går till valuta."
+  },
+  {
+    "swedish": "växelkurs",
+    "english": "Exchange rate",
+    "sentence": "Jag arbetar med växelkurs."
+  },
+  {
+    "swedish": "försäkring",
+    "english": "Insurance",
+    "sentence": "Jag hjälper försäkring."
+  },
+  {
+    "swedish": "resebyrå",
+    "english": "Travel agency",
+    "sentence": "Det finns resebyrå."
+  },
+  {
+    "swedish": "ryggsäck",
+    "english": "Backpack",
+    "sentence": "Jag går till ryggsäck."
+  },
+  {
+    "swedish": "äventyr",
+    "english": "Adventure",
+    "sentence": "Jag bor i äventyr."
+  },
+  {
+    "swedish": "planering",
+    "english": "Planning",
+    "sentence": "Jag köper planering."
+  },
+  {
+    "swedish": "klass",
+    "english": "Class",
+    "sentence": "Jag går till klass."
+  },
+  {
+    "swedish": "klassrum",
+    "english": "Classroom",
+    "sentence": "Jag hjälper klassrum."
+  },
+  {
+    "swedish": "lektion",
+    "english": "Lesson",
+    "sentence": "Jag lär mig lektion."
+  },
+  {
+    "swedish": "schema",
+    "english": "Schedule",
+    "sentence": "Jag vill ha schema."
+  },
+  {
+    "swedish": "läxa",
+    "english": "Homework",
+    "sentence": "Jag hjälper läxa."
+  },
+  {
+    "swedish": "prov",
+    "english": "Test",
+    "sentence": "Jag hjälper prov."
+  },
+  {
+    "swedish": "examen",
+    "english": "Exam",
+    "sentence": "Jag reser till examen."
+  },
+  {
+    "swedish": "betyg",
+    "english": "Grade",
+    "sentence": "Jag bor i betyg."
+  },
+  {
+    "swedish": "ämne",
+    "english": "Subject",
+    "sentence": "Jag tänker på ämne."
+  },
+  {
+    "swedish": "matte",
+    "english": "Math",
+    "sentence": "Jag behöver matte."
+  },
+  {
+    "swedish": "svenska",
+    "english": "Swedish",
+    "sentence": "Jag pratar om svenska."
+  },
+  {
+    "swedish": "engelska",
+    "english": "English",
+    "sentence": "Jag har engelska."
+  },
+  {
+    "swedish": "geografi",
+    "english": "Geography",
+    "sentence": "Jag behöver geografi."
+  },
+  {
+    "swedish": "biologi",
+    "english": "Biology",
+    "sentence": "Jag bor i biologi."
+  },
+  {
+    "swedish": "kemi",
+    "english": "Chemistry",
+    "sentence": "Jag läser om kemi."
+  },
+  {
+    "swedish": "fysik",
+    "english": "Physics",
+    "sentence": "Jag arbetar med fysik."
+  },
+  {
+    "swedish": "idrott",
+    "english": "Physical education",
+    "sentence": "Jag hjälper idrott."
+  },
+  {
+    "swedish": "bild",
+    "english": "Art",
+    "sentence": "Jag reser till bild."
+  },
+  {
+    "swedish": "slöjd",
+    "english": "Crafts",
+    "sentence": "Jag reser till slöjd."
+  },
+  {
+    "swedish": "suddgummi",
+    "english": "Eraser",
+    "sentence": "Jag äter suddgummi."
+  },
+  {
+    "swedish": "skrivbord",
+    "english": "Desk",
+    "sentence": "Jag kommer från skrivbord."
+  },
+  {
+    "swedish": "tavla",
+    "english": "Blackboard",
+    "sentence": "Det blir tavla."
+  },
+  {
+    "swedish": "grupparbete",
+    "english": "Group work",
+    "sentence": "Jag bor i grupparbete."
+  },
+  {
+    "swedish": "anteckningar",
+    "english": "Notes",
+    "sentence": "Jag behöver anteckningar."
+  },
+  {
+    "swedish": "uppgift",
+    "english": "Assignment",
+    "sentence": "Jag gillar uppgift."
+  },
+  {
+    "swedish": "kurs",
+    "english": "Course",
+    "sentence": "Jag behöver kurs."
+  },
+  {
+    "swedish": "rektor",
+    "english": "Principal",
+    "sentence": "Jag bor i rektor."
+  },
+  {
+    "swedish": "skolstart",
+    "english": "School start",
+    "sentence": "Det finns skolstart."
+  },
+  {
+    "swedish": "skolavslutning",
+    "english": "School end",
+    "sentence": "Jag går till skolavslutning."
+  },
+  {
+    "swedish": "frånvaro",
+    "english": "Absence",
+    "sentence": "Jag reser till frånvaro."
+  },
+  {
+    "swedish": "närvaro",
+    "english": "Attendance",
+    "sentence": "Jag bor i närvaro."
+  },
+  {
+    "swedish": "studieplan",
+    "english": "Study plan",
+    "sentence": "Jag arbetar med studieplan."
+  },
+  {
+    "swedish": "universitet",
+    "english": "University",
+    "sentence": "Jag vill ha universitet."
+  },
+  {
+    "swedish": "högskola",
+    "english": "College",
+    "sentence": "Jag dricker högskola."
+  },
+  {
+    "swedish": "utbildning",
+    "english": "Education",
+    "sentence": "Jag hjälper utbildning."
+  },
+  {
+    "swedish": "förälder",
+    "english": "Parent",
+    "sentence": "Det finns förälder."
+  },
+  {
+    "swedish": "syskon",
+    "english": "Sibling",
+    "sentence": "Jag hjälper syskon."
+  },
+  {
+    "swedish": "släkt",
+    "english": "Relatives",
+    "sentence": "Jag köper släkt."
+  },
+  {
+    "swedish": "morfar",
+    "english": "Maternal grandfather",
+    "sentence": "Jag bor i morfar."
+  },
+  {
+    "swedish": "mormor",
+    "english": "Maternal grandmother",
+    "sentence": "Jag köper mormor."
+  },
+  {
+    "swedish": "farfar",
+    "english": "Paternal grandfather",
+    "sentence": "Jag bor i farfar."
+  },
+  {
+    "swedish": "farmor",
+    "english": "Paternal grandmother",
+    "sentence": "Jag bor i farmor."
+  },
+  {
+    "swedish": "morförälder",
+    "english": "Maternal grandparent",
+    "sentence": "Jag äter morförälder."
+  },
+  {
+    "swedish": "farförälder",
+    "english": "Paternal grandparent",
+    "sentence": "Jag går till farförälder."
+  },
+  {
+    "swedish": "kusin",
+    "english": "Cousin",
+    "sentence": "Jag ser kusin."
+  },
+  {
+    "swedish": "faster",
+    "english": "Paternal aunt",
+    "sentence": "Jag vill ha faster."
+  },
+  {
+    "swedish": "moster",
+    "english": "Maternal aunt",
+    "sentence": "Jag gillar moster."
+  },
+  {
+    "swedish": "farbror",
+    "english": "Paternal uncle",
+    "sentence": "Jag kommer från farbror."
+  },
+  {
+    "swedish": "morbror",
+    "english": "Maternal uncle",
+    "sentence": "Jag bor i morbror."
+  },
+  {
+    "swedish": "svärmor",
+    "english": "Mother-in-law",
+    "sentence": "Det finns svärmor."
+  },
+  {
+    "swedish": "svärfar",
+    "english": "Father-in-law",
+    "sentence": "Jag pratar om svärfar."
+  },
+  {
+    "swedish": "svåger",
+    "english": "Brother-in-law",
+    "sentence": "Jag tänker på svåger."
+  },
+  {
+    "swedish": "svägerska",
+    "english": "Sister-in-law",
+    "sentence": "Jag kommer från svägerska."
+  },
+  {
+    "swedish": "make",
+    "english": "Husband",
+    "sentence": "Jag tänker på make."
+  },
+  {
+    "swedish": "maka",
+    "english": "Wife",
+    "sentence": "Jag äter maka."
+  },
+  {
+    "swedish": "man",
+    "english": "Husband",
+    "sentence": "Jag lär mig man."
+  },
+  {
+    "swedish": "fru",
+    "english": "Wife",
+    "sentence": "Jag går till fru."
+  },
+  {
+    "swedish": "sambo",
+    "english": "Cohabitant",
+    "sentence": "Jag tänker på sambo."
+  },
+  {
+    "swedish": "äkta hälft",
+    "english": "Spouse",
+    "sentence": "Jag äter äkta hälft."
+  },
+  {
+    "swedish": "styvförälder",
+    "english": "Stepparent",
+    "sentence": "Jag hjälper styvförälder."
+  },
+  {
+    "swedish": "styvborn",
+    "english": "Stepchild",
+    "sentence": "Jag har styvborn."
+  },
+  {
+    "swedish": "bonusbarn",
+    "english": "Bonus child",
+    "sentence": "Jag ser bonusbarn."
+  },
+  {
+    "swedish": "bonusförälder",
+    "english": "Bonus parent",
+    "sentence": "Jag bor i bonusförälder."
+  },
+  {
+    "swedish": "halvbror",
+    "english": "Half-brother",
+    "sentence": "Jag går till halvbror."
+  },
+  {
+    "swedish": "halvsyster",
+    "english": "Half-sister",
+    "sentence": "Jag dricker halvsyster."
+  },
+  {
+    "swedish": "barnbarn",
+    "english": "Grandchild",
+    "sentence": "Jag läser om barnbarn."
+  },
+  {
+    "swedish": "barnbarnsbarn",
+    "english": "Great-grandchild",
+    "sentence": "Det finns barnbarnsbarn."
+  },
+  {
+    "swedish": "fasterbarn",
+    "english": "Cousin",
+    "sentence": "Jag går till fasterbarn."
+  },
+  {
+    "swedish": "syskonbarn",
+    "english": "Niece or nephew",
+    "sentence": "Jag arbetar med syskonbarn."
+  },
+  {
+    "swedish": "förlovad",
+    "english": "Engaged",
+    "sentence": "Jag reser till förlovad."
+  },
+  {
+    "swedish": "fästmö",
+    "english": "Fiancée",
+    "sentence": "Det finns fästmö."
+  },
+  {
+    "swedish": "fästman",
+    "english": "Fiancé",
+    "sentence": "Jag går till fästman."
+  },
+  {
+    "swedish": "änka",
+    "english": "Widow",
+    "sentence": "Jag träffar änka."
+  },
+  {
+    "swedish": "änkling",
+    "english": "Widower",
+    "sentence": "Jag ser änkling."
+  },
+  {
+    "swedish": "hälsa",
+    "english": "Health",
+    "sentence": "Jag äter hälsa."
+  },
+  {
+    "swedish": "sjukdom",
+    "english": "Disease",
+    "sentence": "Jag har sjukdom."
+  },
+  {
+    "swedish": "vård",
+    "english": "Care",
+    "sentence": "Jag arbetar med vård."
+  },
+  {
+    "swedish": "medicin",
+    "english": "Medicine",
+    "sentence": "Jag tänker på medicin."
+  },
+  {
+    "swedish": "symtom",
+    "english": "Symptom",
+    "sentence": "Jag tänker på symtom."
+  },
+  {
+    "swedish": "behandling",
+    "english": "Treatment",
+    "sentence": "Jag reser till behandling."
+  },
+  {
+    "swedish": "klinik",
+    "english": "Clinic",
+    "sentence": "Jag lär mig klinik."
+  },
+  {
+    "swedish": "diagnos",
+    "english": "Diagnosis",
+    "sentence": "Jag reser till diagnos."
+  },
+  {
+    "swedish": "terapi",
+    "english": "Therapy",
+    "sentence": "Jag gillar terapi."
+  },
+  {
+    "swedish": "rehabilitering",
+    "english": "Rehabilitation",
+    "sentence": "Jag bor i rehabilitering."
+  },
+  {
+    "swedish": "smärta",
+    "english": "Pain",
+    "sentence": "Jag dricker smärta."
+  },
+  {
+    "swedish": "feber",
+    "english": "Fever",
+    "sentence": "Jag bor i feber."
+  },
+  {
+    "swedish": "infektion",
+    "english": "Infection",
+    "sentence": "Jag vill ha infektion."
+  },
+  {
+    "swedish": "bakterie",
+    "english": "Bacteria",
+    "sentence": "Jag arbetar med bakterie."
+  },
+  {
+    "swedish": "immunförsvar",
+    "english": "Immune system",
+    "sentence": "Jag äter immunförsvar."
+  },
+  {
+    "swedish": "blodtryck",
+    "english": "Blood pressure",
+    "sentence": "Det finns blodtryck."
+  },
+  {
+    "swedish": "hjärta",
+    "english": "Heart",
+    "sentence": "Jag pratar om hjärta."
+  },
+  {
+    "swedish": "lungor",
+    "english": "Lungs",
+    "sentence": "Jag arbetar med lungor."
+  },
+  {
+    "swedish": "andning",
+    "english": "Breathing",
+    "sentence": "Jag arbetar med andning."
+  },
+  {
+    "swedish": "sömn",
+    "english": "Sleep",
+    "sentence": "Det finns sömn."
+  },
+  {
+    "swedish": "ångest",
+    "english": "Anxiety",
+    "sentence": "Jag gillar ångest."
+  },
+  {
+    "swedish": "välmående",
+    "english": "Well-being",
+    "sentence": "Jag tänker på välmående."
+  },
+  {
+    "swedish": "motion",
+    "english": "Exercise",
+    "sentence": "Det finns motion."
+  },
+  {
+    "swedish": "träning",
+    "english": "Training",
+    "sentence": "Jag kommer från träning."
+  },
+  {
+    "swedish": "kost",
+    "english": "Diet",
+    "sentence": "Jag träffar kost."
+  },
+  {
+    "swedish": "näring",
+    "english": "Nutrition",
+    "sentence": "Jag köper näring."
+  },
+  {
+    "swedish": "vitaminer",
+    "english": "Vitamins",
+    "sentence": "Jag läser om vitaminer."
+  },
+  {
+    "swedish": "mineraler",
+    "english": "Minerals",
+    "sentence": "Jag läser om mineraler."
+  },
+  {
+    "swedish": "energi",
+    "english": "Energy",
+    "sentence": "Det finns energi."
+  },
+  {
+    "swedish": "återhämtning",
+    "english": "Recovery",
+    "sentence": "Jag hjälper återhämtning."
+  },
+  {
+    "swedish": "balans",
+    "english": "Balance",
+    "sentence": "Jag reser till balans."
+  },
+  {
+    "swedish": "psykisk hälsa",
+    "english": "Mental health",
+    "sentence": "Jag går till psykisk hälsa."
+  },
+  {
+    "swedish": "fysisk hälsa",
+    "english": "Physical health",
+    "sentence": "Jag vill ha fysisk hälsa."
+  },
+  {
+    "swedish": "smittsam",
+    "english": "Contagious",
+    "sentence": "Det finns smittsam."
+  },
+  {
+    "swedish": "kronisk",
+    "english": "Chronic",
+    "sentence": "Jag kommer från kronisk."
+  },
+  {
+    "swedish": "akut",
+    "english": "Acute",
+    "sentence": "Jag går till akut."
+  },
+  {
+    "swedish": "förebyggande",
+    "english": "Preventive",
+    "sentence": "Jag dricker förebyggande."
+  },
+  {
+    "swedish": "livsstil",
+    "english": "Lifestyle",
+    "sentence": "Jag arbetar med livsstil."
+  },
+  {
+    "swedish": "hygien",
+    "english": "Hygiene",
+    "sentence": "Jag läser om hygien."
+  },
+  {
+    "swedish": "smärtlindring",
+    "english": "Pain relief",
+    "sentence": "Jag reser till smärtlindring."
+  },
+  {
+    "swedish": "norr",
+    "english": "North",
+    "sentence": "Jag bor i norr."
+  },
+  {
+    "swedish": "söder",
+    "english": "South",
+    "sentence": "Det finns söder."
+  },
+  {
+    "swedish": "öster",
+    "english": "East",
+    "sentence": "Jag behöver öster."
+  },
+  {
+    "swedish": "väster",
+    "english": "West",
+    "sentence": "Jag tänker på väster."
+  },
+  {
+    "swedish": "nord",
+    "english": "North",
+    "sentence": "Jag kommer från nord."
+  },
+  {
+    "swedish": "syd",
+    "english": "South",
+    "sentence": "Jag behöver syd."
+  },
+  {
+    "swedish": "öst",
+    "english": "East",
+    "sentence": "Jag köper öst."
+  },
+  {
+    "swedish": "väst",
+    "english": "West",
+    "sentence": "Jag lär mig väst."
+  },
+  {
+    "swedish": "nordlig",
+    "english": "Northern",
+    "sentence": "Jag behöver nordlig."
+  },
+  {
+    "swedish": "sydlig",
+    "english": "Southern",
+    "sentence": "Jag reser till sydlig."
+  },
+  {
+    "swedish": "östlig",
+    "english": "Eastern",
+    "sentence": "Jag går till östlig."
+  },
+  {
+    "swedish": "västlig",
+    "english": "Western",
+    "sentence": "Jag ser västlig."
+  },
+  {
+    "swedish": "nordost",
+    "english": "Northeast",
+    "sentence": "Jag kommer från nordost."
+  },
+  {
+    "swedish": "nordväst",
+    "english": "Northwest",
+    "sentence": "Jag ser nordväst."
+  },
+  {
+    "swedish": "sydost",
+    "english": "Southeast",
+    "sentence": "Jag dricker sydost."
+  },
+  {
+    "swedish": "sydväst",
+    "english": "Southwest",
+    "sentence": "Jag reser till sydväst."
+  },
+  {
+    "swedish": "upp",
+    "english": "Up",
+    "sentence": "Jag hjälper upp."
+  },
+  {
+    "swedish": "fram",
+    "english": "Forward",
+    "sentence": "Jag äter fram."
+  },
+  {
+    "swedish": "bak",
+    "english": "Back",
+    "sentence": "Jag äter bak."
+  },
+  {
+    "swedish": "vänster",
+    "english": "Left",
+    "sentence": "Jag hjälper vänster."
+  },
+  {
+    "swedish": "höger",
+    "english": "Right",
+    "sentence": "Jag är höger."
+  },
+  {
+    "swedish": "rakt",
+    "english": "Straight",
+    "sentence": "Jag ser rakt."
+  },
+  {
+    "swedish": "runt",
+    "english": "Around",
+    "sentence": "Jag har runt."
+  },
+  {
+    "swedish": "omkring",
+    "english": "Around",
+    "sentence": "Jag köper omkring."
+  },
+  {
+    "swedish": "bort",
+    "english": "Away",
+    "sentence": "Jag arbetar med bort."
+  },
+  {
+    "swedish": "hit",
+    "english": "Here",
+    "sentence": "Jag lär mig hit."
+  },
+  {
+    "swedish": "dit",
+    "english": "There",
+    "sentence": "Jag reser till dit."
+  },
+  {
+    "swedish": "ovanför",
+    "english": "Above",
+    "sentence": "Jag köper ovanför."
+  },
+  {
+    "swedish": "intill",
+    "english": "Beside",
+    "sentence": "Jag pratar om intill."
+  },
+  {
+    "swedish": "längs",
+    "english": "Along",
+    "sentence": "Jag reser till längs."
+  },
+  {
+    "swedish": "förbi",
+    "english": "Past",
+    "sentence": "Jag behöver förbi."
+  },
+  {
+    "swedish": "tillbaka",
+    "english": "Back",
+    "sentence": "Jag dricker tillbaka."
+  },
+  {
+    "swedish": "ut",
+    "english": "Out",
+    "sentence": "Jag träffar ut."
+  },
+  {
+    "swedish": "arbete",
+    "english": "Work",
+    "sentence": "Jag lär mig arbete."
+  },
+  {
+    "swedish": "jobb",
+    "english": "Job",
+    "sentence": "Jag äter jobb."
+  },
+  {
+    "swedish": "yrke",
+    "english": "Profession",
+    "sentence": "Jag har yrke."
+  },
+  {
+    "swedish": "anställning",
+    "english": "Employment",
+    "sentence": "Jag reser till anställning."
+  },
+  {
+    "swedish": "arbetsplats",
+    "english": "Workplace",
+    "sentence": "Jag vill ha arbetsplats."
+  },
+  {
+    "swedish": "kollega",
+    "english": "Colleague",
+    "sentence": "Jag kommer från kollega."
+  },
+  {
+    "swedish": "chef",
+    "english": "Boss",
+    "sentence": "Jag lär mig chef."
+  },
+  {
+    "swedish": "möte",
+    "english": "Meeting",
+    "sentence": "Jag vill ha möte."
+  },
+  {
+    "swedish": "projekt",
+    "english": "Project",
+    "sentence": "Jag vill ha projekt."
+  },
+  {
+    "swedish": "lön",
+    "english": "Salary",
+    "sentence": "Jag ser lön."
+  },
+  {
+    "swedish": "kontrakt",
+    "english": "Contract",
+    "sentence": "Jag vill ha kontrakt."
+  },
+  {
+    "swedish": "erfarenhet",
+    "english": "Experience",
+    "sentence": "Jag hjälper erfarenhet."
+  },
+  {
+    "swedish": "kompetens",
+    "english": "Competence",
+    "sentence": "Jag arbetar med kompetens."
+  },
+  {
+    "swedish": "ansvar",
+    "english": "Responsibility",
+    "sentence": "Jag arbetar med ansvar."
+  },
+  {
+    "swedish": "heltid",
+    "english": "Full-time",
+    "sentence": "Jag kommer från heltid."
+  },
+  {
+    "swedish": "deltid",
+    "english": "Part-time",
+    "sentence": "Jag vill ha deltid."
+  },
+  {
+    "swedish": "övertid",
+    "english": "Overtime",
+    "sentence": "Jag köper övertid."
+  },
+  {
+    "swedish": "paus",
+    "english": "Break",
+    "sentence": "Jag tänker på paus."
+  },
+  {
+    "swedish": "arbetsmiljö",
+    "english": "Work environment",
+    "sentence": "Jag kommer från arbetsmiljö."
+  },
+  {
+    "swedish": "arbetsdag",
+    "english": "Workday",
+    "sentence": "Jag lär mig arbetsdag."
+  },
+  {
+    "swedish": "prestation",
+    "english": "Performance",
+    "sentence": "Jag äter prestation."
+  },
+  {
+    "swedish": "utveckling",
+    "english": "Development",
+    "sentence": "Jag kommer från utveckling."
+  },
+  {
+    "swedish": "mål",
+    "english": "Goal",
+    "sentence": "Jag dricker mål."
+  },
+  {
+    "swedish": "ledarskap",
+    "english": "Leadership",
+    "sentence": "Jag läser om ledarskap."
+  },
+  {
+    "swedish": "samarbete",
+    "english": "Cooperation",
+    "sentence": "Jag tänker på samarbete."
+  },
+  {
+    "swedish": "kommunikation",
+    "english": "Communication",
+    "sentence": "Jag reser till kommunikation."
+  },
+  {
+    "swedish": "rapport",
+    "english": "Report",
+    "sentence": "Jag köper rapport."
+  },
+  {
+    "swedish": "resurser",
+    "english": "Resources",
+    "sentence": "Jag lär mig resurser."
+  },
+  {
+    "swedish": "strategi",
+    "english": "Strategy",
+    "sentence": "Det finns strategi."
+  },
+  {
+    "swedish": "effektivitet",
+    "english": "Efficiency",
+    "sentence": "Jag kommer från effektivitet."
+  },
+  {
+    "swedish": "tjänst",
+    "english": "Service",
+    "sentence": "Jag lär mig tjänst."
+  },
+  {
+    "swedish": "produkt",
+    "english": "Product",
+    "sentence": "Jag arbetar med produkt."
+  },
+  {
+    "swedish": "rekrytering",
+    "english": "Recruitment",
+    "sentence": "Jag pratar om rekrytering."
+  },
+  {
+    "swedish": "intervju",
+    "english": "Interview",
+    "sentence": "Det finns intervju."
+  },
+  {
+    "swedish": "karriär",
+    "english": "Career",
+    "sentence": "Jag arbetar med karriär."
+  },
+  {
+    "swedish": "befordran",
+    "english": "Promotion",
+    "sentence": "Jag har befordran."
+  },
+  {
+    "swedish": "uppsägning",
+    "english": "Termination",
+    "sentence": "Jag pratar om uppsägning."
+  },
+  {
+    "swedish": "hittar",
+    "english": "To find",
+    "sentence": "Jag börjar hittar."
+  },
+  {
+    "swedish": "lekplatsen",
+    "english": "Playground",
+    "sentence": "Jag bor i lekplatsen."
+  },
+  {
+    "swedish": "nerför",
+    "english": "Down",
+    "sentence": "Jag träffar nerför."
+  },
+  {
+    "swedish": "trappan",
+    "english": "Stairs",
+    "sentence": "Jag har trappan."
+  },
+  {
+    "swedish": "svänger",
+    "english": "Turn",
+    "sentence": "Jag har svänger."
+  },
+  {
+    "swedish": "vid",
+    "english": "At the",
+    "sentence": "Jag reser till vid."
+  },
+  {
+    "swedish": "trafikljuset",
+    "english": "Traffic light",
+    "sentence": "Jag tänker på trafikljuset."
+  },
+  {
+    "swedish": "uppför",
+    "english": "Upward",
+    "sentence": "Jag kommer från uppför."
+  },
+  {
+    "swedish": "rakt fram",
+    "english": "Straight ahead",
+    "sentence": "Jag ser rakt fram."
+  },
+  {
+    "swedish": "vägen",
+    "english": "Road",
+    "sentence": "Jag läser om vägen."
+  },
+  {
+    "swedish": "stranden",
+    "english": "Beach",
+    "sentence": "Jag har stranden."
+  },
+  {
+    "swedish": "hörnet",
+    "english": "Corner",
+    "sentence": "Jag lär mig hörnet."
+  },
+  {
+    "swedish": "busshållplatsen",
+    "english": "Bus station",
+    "sentence": "Jag köper busshållplatsen."
+  },
+  {
+    "swedish": "bageriet",
+    "english": "Bakery",
+    "sentence": "Jag lär mig bageriet."
+  },
+  {
+    "swedish": "påsen",
+    "english": "Bag",
+    "sentence": "Jag läser om påsen."
+  },
+  {
+    "swedish": "gift",
+    "english": "Gift",
+    "sentence": "Jag arbetar med gift."
+  },
+  {
+    "swedish": "gick",
+    "english": "Went",
+    "sentence": "Jag äter gick."
+  },
+  {
+    "swedish": "brukar",
+    "english": "Usually",
+    "sentence": "Det finns brukar."
+  },
+  {
+    "swedish": "brukat",
+    "english": "Used",
+    "sentence": "Jag går till brukat."
+  },
+  {
+    "swedish": "möter folk",
+    "english": "Meet people",
+    "sentence": "Jag gillar möter folk."
+  },
+  {
+    "swedish": "nätet",
+    "english": "The web",
+    "sentence": "Jag tänker på nätet."
+  },
+  {
+    "swedish": "en gång",
+    "english": "Once",
+    "sentence": "Det finns en gång."
+  },
+  {
+    "swedish": "billigare",
+    "english": "Cheaper",
+    "sentence": "Det är billigare."
+  },
+  {
+    "swedish": "spendera",
+    "english": "Spend money",
+    "sentence": "Jag behöver spendera."
+  },
+  {
+    "swedish": "tillbringa",
+    "english": "Spend time",
+    "sentence": "Jag går till tillbringa."
+  },
+  {
+    "swedish": "skicka tillbaka",
+    "english": "Send back",
+    "sentence": "Jag bor i skicka tillbaka."
+  },
+  {
+    "swedish": "inte än",
+    "english": "Not yet",
+    "sentence": "Jag har inte än."
+  },
+  {
+    "swedish": "jag känner",
+    "english": "I feel",
+    "sentence": "Jag pratar om jag känner."
+  },
+  {
+    "swedish": "eftersom",
+    "english": "Because",
+    "sentence": "Jag köper eftersom."
+  },
+  {
+    "swedish": "kvar",
+    "english": "Left",
+    "sentence": "Jag går till kvar."
+  },
+  {
+    "swedish": "lakan",
+    "english": "Sheet",
+    "sentence": "Jag gillar lakan."
+  },
+  {
+    "swedish": "duntäcke",
+    "english": "Duvet",
+    "sentence": "Jag köper duntäcke."
+  },
+  {
+    "swedish": "sänglampa",
+    "english": "Bedside lamp",
+    "sentence": "Jag köper sänglampa."
+  },
+  {
+    "swedish": "kastrull",
+    "english": "Pot",
+    "sentence": "Det finns kastrull."
+  },
+  {
+    "swedish": "gryta",
+    "english": "Pot",
+    "sentence": "Jag reser till gryta."
+  },
+  {
+    "swedish": "sked",
+    "english": "Spoon",
+    "sentence": "Jag tänker på sked."
+  },
+  {
+    "swedish": "gaffel",
+    "english": "Fork",
+    "sentence": "Jag arbetar med gaffel."
+  },
+  {
+    "swedish": "kniv",
+    "english": "Knife",
+    "sentence": "Jag kommer från kniv."
+  },
+  {
+    "swedish": "skrattade",
+    "english": "Laughed",
+    "sentence": "Det finns skrattade."
+  },
+  {
+    "swedish": "sålde",
+    "english": "Sold",
+    "sentence": "Jag arbetar med sålde."
+  },
+  {
+    "swedish": "log",
+    "english": "Smiled",
+    "sentence": "Jag vill ha log."
+  },
+  {
+    "swedish": "försöker",
+    "english": "Trying",
+    "sentence": "Det finns försöker."
+  },
+  {
+    "swedish": "fåglar",
+    "english": "Birds",
+    "sentence": "Jag går till fåglar."
+  },
+  {
+    "swedish": "sjunger",
+    "english": "Singing",
+    "sentence": "Jag gillar sjunger."
+  },
+  {
+    "swedish": "översätter",
+    "english": "Translating",
+    "sentence": "Det finns översätter."
+  },
+  {
+    "swedish": "jorden",
+    "english": "Earth",
+    "sentence": "Jag äter jorden."
+  },
+  {
+    "swedish": "Börjar",
+    "english": "Start",
+    "sentence": "Jag reser till börjar."
+  },
+  {
+    "swedish": "Lektionen",
+    "english": "Lesson",
+    "sentence": "Jag träffar lektionen."
+  },
+  {
+    "swedish": "istället",
+    "english": "Instead",
+    "sentence": "Jag bor i istället."
+  },
+  {
+    "swedish": "Nöja",
+    "english": "Pleasure",
+    "sentence": "Jag arbetar med nöja."
+  },
+  {
+    "swedish": "hade",
+    "english": "Had",
+    "sentence": "Jag läser om hade."
+  },
+  {
+    "swedish": "jättekul",
+    "english": "Lots of fun",
+    "sentence": "Jag äter jättekul."
+  },
+  {
+    "swedish": "Ful",
+    "english": "Ugly",
+    "sentence": "Det kan vara ful."
+  },
+  {
+    "swedish": "dessa",
+    "english": "These",
+    "sentence": "Jag träffar dessa."
+  },
+  {
+    "swedish": "tråkig",
+    "english": "Boring",
+    "sentence": "Jag träffar tråkig."
+  },
+  {
+    "swedish": "Vi ska",
+    "english": "We will",
+    "sentence": "Jag lär mig vi ska."
+  },
+  {
+    "swedish": "humör",
+    "english": "Mood",
+    "sentence": "Jag vill ha humör."
+  },
+  {
+    "swedish": "olik",
+    "english": "Different",
+    "sentence": "Jag äter olik."
+  },
+  {
+    "swedish": "varuhus",
+    "english": "Department store",
+    "sentence": "Jag arbetar med varuhus."
+  },
+  {
+    "swedish": "billiga",
+    "english": "Cheap",
+    "sentence": "Jag är billiga."
+  },
+  {
+    "swedish": "Dyrta",
+    "english": "Expensive",
+    "sentence": "Det blir dyrta."
+  },
+  {
+    "swedish": "mjuka",
+    "english": "Soft",
+    "sentence": "Det är mjuka."
+  },
+  {
+    "swedish": "trä",
+    "english": "Wood",
+    "sentence": "Jag hjälper trä."
+  },
+  {
+    "swedish": "bekväma",
+    "english": "Comfortable",
+    "sentence": "Jag går till bekväma."
+  },
+  {
+    "swedish": "Stål",
+    "english": "Steel",
+    "sentence": "Jag träffar stål."
+  },
+  {
+    "swedish": "vad är",
+    "english": "What is",
+    "sentence": "Jag köper vad är."
+  },
+  {
+    "swedish": "möbel",
+    "english": "Furniture",
+    "sentence": "Jag träffar möbel."
+  },
+  {
+    "swedish": "låter",
+    "english": "Sounds",
+    "sentence": "Jag reser till låter."
+  },
+  {
+    "swedish": "Det blir",
+    "english": "It will be",
+    "sentence": "Jag lär mig det blir."
+  },
+  {
+    "swedish": "funder",
+    "english": "Think",
+    "sentence": "Jag dricker funder."
+  },
+  {
+    "swedish": "självklart",
+    "english": "Of course",
+    "sentence": "Jag dricker självklart."
+  },
+  {
+    "swedish": "kolla",
+    "english": "Check",
+    "sentence": "Jag har kolla."
+  },
+  {
+    "swedish": "knapp",
+    "english": "Button",
+    "sentence": "Jag hjälper knapp."
+  },
+  {
+    "swedish": "färgglada",
+    "english": "Colorful",
+    "sentence": "Jag lär mig färgglada."
+  },
+  {
+    "swedish": "dragkedja",
+    "english": "Zipper",
+    "sentence": "Jag tänker på dragkedja."
+  },
+  {
+    "swedish": "tar hand",
+    "english": "Take care of",
+    "sentence": "Jag kommer från tar hand."
+  },
+  {
+    "swedish": "Par",
+    "english": "Pair",
+    "sentence": "Jag träffar par."
+  },
+  {
+    "swedish": "hälsosam",
+    "english": "Healthy",
+    "sentence": "Jag går till hälsosam."
+  },
+  {
+    "swedish": "mörkblå",
+    "english": "Dark blue",
+    "sentence": "Det är mörkblå."
+  },
+  {
+    "swedish": "Ijusblå",
+    "english": "Light blue",
+    "sentence": "Det verkar vara ijusblå."
+  },
+  {
+    "swedish": "mössa",
+    "english": "Cap",
+    "sentence": "Jag äter mössa."
+  },
+  {
+    "swedish": "jacka",
+    "english": "Jacket",
+    "sentence": "Jag vill ha jacka."
+  },
+  {
+    "swedish": "trosor",
+    "english": "Panties",
+    "sentence": "Jag tänker på trosor."
+  },
+  {
+    "swedish": "kalsonger",
+    "english": "Underpants",
+    "sentence": "Jag reser till kalsonger."
+  },
+  {
+    "swedish": "slips",
+    "english": "Tie",
+    "sentence": "Jag behöver slips."
+  },
+  {
+    "swedish": "bh",
+    "english": "Bra",
+    "sentence": "Jag går till bh."
+  },
+  {
+    "swedish": "kavaj",
+    "english": "Blazer",
+    "sentence": "Jag träffar kavaj."
+  },
+  {
+    "swedish": "tröja",
+    "english": "Sweater",
+    "sentence": "Jag vill ha tröja."
+  },
+  {
+    "swedish": "strumpor",
+    "english": "Socks",
+    "sentence": "Jag går till strumpor."
+  },
+  {
+    "swedish": "linne",
+    "english": "Tank top",
+    "sentence": "Jag träffar linne."
+  },
+  {
+    "swedish": "kappa",
+    "english": "Coat",
+    "sentence": "Jag hjälper kappa."
+  },
+  {
+    "swedish": "kofta",
+    "english": "Cardigan",
+    "sentence": "Jag ser kofta."
+  },
+  {
+    "swedish": "luvtröja",
+    "english": "Hoodie",
+    "sentence": "Jag behöver luvtröja."
+  },
+  {
+    "swedish": "upptäck",
+    "english": "Discover",
+    "sentence": "Jag går till upptäck."
+  },
+  {
+    "swedish": "Boka",
+    "english": "Book (meeting)",
+    "sentence": "Jag dricker boka."
+  },
+  {
+    "swedish": "Svarar",
+    "english": "Answer",
+    "sentence": "Det finns svarar."
+  },
+  {
+    "swedish": "Bara",
+    "english": "Just/Only",
+    "sentence": "Jag behöver bara."
+  },
+  {
+    "swedish": "Bada",
+    "english": "Bath",
+    "sentence": "Jag har bada."
+  },
+  {
+    "swedish": "repetera",
+    "english": "Repeat",
+    "sentence": "Jag dricker repetera."
+  },
+  {
+    "swedish": "min åsikt",
+    "english": "My opinion",
+    "sentence": "Jag äter min åsikt."
+  },
+  {
+    "swedish": "verkligen",
+    "english": "Really",
+    "sentence": "Jag hjälper verkligen."
+  },
+  {
+    "swedish": "önskar",
+    "english": "Wish",
+    "sentence": "Jag behöver önskar."
+  },
+  {
+    "swedish": "varsågod",
+    "english": "You're welcome",
+    "sentence": "Jag äter varsågod."
+  },
+  {
+    "swedish": "bildskärmar",
+    "english": "Monitor",
+    "sentence": "Jag behöver bildskärmar."
+  }
+]

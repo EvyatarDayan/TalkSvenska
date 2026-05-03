@@ -1,0 +1,788 @@
+{
+  "sentences": [
+    {
+      "swedish": "Jag går till skolan.",
+      "english": "I go to school."
+    },
+    {
+      "swedish": "Läraren skriver på tavlan.",
+      "english": "The teacher writes on the board."
+    },
+    {
+      "swedish": "Boken ligger på bordet.",
+      "english": "The book is on the table."
+    },
+    {
+      "swedish": "Pennan är blå.",
+      "english": "The pen is blue."
+    },
+    {
+      "swedish": "Vi läser en bok.",
+      "english": "We read a book."
+    },
+    {
+      "swedish": "Klassrummet är stort.",
+      "english": "The classroom is big."
+    },
+    {
+      "swedish": "Hon räknar siffror.",
+      "english": "She counts numbers."
+    },
+    {
+      "swedish": "Barnen ritar bilder.",
+      "english": "The children draw pictures."
+    },
+    {
+      "swedish": "Jag öppnar dörren.",
+      "english": "I open the door."
+    },
+    {
+      "swedish": "Vi har rast nu.",
+      "english": "We have recess now."
+    },
+    {
+      "swedish": "Klockan ringer.",
+      "english": "The clock rings."
+    },
+    {
+      "swedish": "Han suddar ordet.",
+      "english": "He erases the word."
+    },
+    {
+      "swedish": "Blyertspennan är lång.",
+      "english": "The pencil is long."
+    },
+    {
+      "swedish": "Vi sjunger en sång.",
+      "english": "We sing a song."
+    },
+    {
+      "swedish": "Hon läser högt.",
+      "english": "She reads aloud."
+    },
+    {
+      "swedish": "Papperet är vitt.",
+      "english": "The paper is white."
+    },
+    {
+      "swedish": "Vi skriver prov.",
+      "english": "We take a test."
+    },
+    {
+      "swedish": "Läraren ställer en fråga.",
+      "english": "The teacher asks a question."
+    },
+    {
+      "swedish": "Han svarar snabbt.",
+      "english": "He answers quickly."
+    },
+    {
+      "swedish": "Böckerna är nya.",
+      "english": "The books are new."
+    },
+    {
+      "swedish": "Vi räknar matte.",
+      "english": "We do math."
+    },
+    {
+      "swedish": "Hon pekar på kartan.",
+      "english": "She points at the map."
+    },
+    {
+      "swedish": "Fönstret är öppet.",
+      "english": "The window is open."
+    },
+    {
+      "swedish": "Vi sitter i en cirkel.",
+      "english": "We sit in a circle."
+    },
+    {
+      "swedish": "Skolväskan är tung.",
+      "english": "The schoolbag is heavy."
+    },
+    {
+      "swedish": "Han lyssnar på läraren.",
+      "english": "He listens to the teacher."
+    },
+    {
+      "swedish": "Vi pratar svenska.",
+      "english": "We speak Swedish."
+    },
+    {
+      "swedish": "Hon ritar en katt.",
+      "english": "She draws a cat."
+    },
+    {
+      "swedish": "Boken är tjock.",
+      "english": "The book is thick."
+    },
+    {
+      "swedish": "Vi stänger dörren.",
+      "english": "We close the door."
+    },
+    {
+      "swedish": "Han springer till lektionen.",
+      "english": "He runs to class."
+    },
+    {
+      "swedish": "Vi använder saxen.",
+      "english": "We use the scissors."
+    },
+    {
+      "swedish": "Tavlan är grön.",
+      "english": "The board is green."
+    },
+    {
+      "swedish": "Jag lägger pennan i lådan.",
+      "english": "I put the pen in the drawer."
+    },
+    {
+      "swedish": "Vi har idrott nu.",
+      "english": "We have physical education now."
+    },
+    {
+      "swedish": "Hon tar fram linjalen.",
+      "english": "She takes out the ruler."
+    },
+    {
+      "swedish": "Suddgummit är litet.",
+      "english": "The eraser is small."
+    },
+    {
+      "swedish": "Han öppnar boken.",
+      "english": "He opens the book."
+    },
+    {
+      "swedish": "Vi skriver med bläckpenna.",
+      "english": "We write with an ink pen."
+    },
+    {
+      "swedish": "Kartan hänger på väggen.",
+      "english": "The map hangs on the wall."
+    },
+    {
+      "swedish": "Vi räknar till tio.",
+      "english": "We count to ten."
+    },
+    {
+      "swedish": "Hon bläddrar i boken.",
+      "english": "She flips through the book."
+    },
+    {
+      "swedish": "Skolan börjar klockan åtta.",
+      "english": "School starts at eight o'clock."
+    },
+    {
+      "swedish": "Vi lär oss nya ord.",
+      "english": "We learn new words."
+    },
+    {
+      "swedish": "Han lägger böcker i väskan.",
+      "english": "He puts books in the bag."
+    },
+    {
+      "swedish": "Vi skriver på datorn.",
+      "english": "We write on the computer."
+    },
+    {
+      "swedish": "Hon läser på biblioteket.",
+      "english": "She reads in the library."
+    },
+    {
+      "swedish": "Vi pratar med rektorn.",
+      "english": "We talk to the principal."
+    },
+    {
+      "swedish": "Han städar bänken.",
+      "english": "He cleans the desk."
+    },
+    {
+      "swedish": "Vi målar med färger.",
+      "english": "We paint with colors."
+    },
+    {
+      "swedish": "Jag vässar pennan.",
+      "english": "I sharpen the pencil."
+    },
+    {
+      "swedish": "Hon häller vatten i glaset.",
+      "english": "She pours water into the glass."
+    },
+    {
+      "swedish": "Vi torkar av tavlan.",
+      "english": "We wipe the board."
+    },
+    {
+      "swedish": "Han skriver sitt namn.",
+      "english": "He writes his name."
+    },
+    {
+      "swedish": "Vi läser i grupp.",
+      "english": "We read in a group."
+    },
+    {
+      "swedish": "Hon räcker upp handen.",
+      "english": "She raises her hand."
+    },
+    {
+      "swedish": "Vi övar på alfabetet.",
+      "english": "We practice the alphabet."
+    },
+    {
+      "swedish": "Han hämtar papper.",
+      "english": "He gets paper."
+    },
+    {
+      "swedish": "Vi ritar med kritor.",
+      "english": "We draw with crayons."
+    },
+    {
+      "swedish": "Hon stänger fönstret.",
+      "english": "She closes the window."
+    },
+    {
+      "swedish": "Vi väntar på läraren.",
+      "english": "We wait for the teacher."
+    },
+    {
+      "swedish": "Han slår upp ordet.",
+      "english": "He looks up the word."
+    },
+    {
+      "swedish": "Vi räknar mynt.",
+      "english": "We count coins."
+    },
+    {
+      "swedish": "Hon spelar piano.",
+      "english": "She plays the piano."
+    },
+    {
+      "swedish": "Vi sjunger i kören.",
+      "english": "We sing in the choir."
+    },
+    {
+      "swedish": "Han skriver på tavlan.",
+      "english": "He writes on the board."
+    },
+    {
+      "swedish": "Vi ställer stolarna i rad.",
+      "english": "We arrange the chairs in a row."
+    },
+    {
+      "swedish": "Hon vänder bladet.",
+      "english": "She turns the page."
+    },
+    {
+      "swedish": "Vi klipper papper.",
+      "english": "We cut paper."
+    },
+    {
+      "swedish": "Han lyfter lådan.",
+      "english": "He lifts the box."
+    },
+    {
+      "swedish": "Vi mäter med linjal.",
+      "english": "We measure with a ruler."
+    },
+    {
+      "swedish": "Hon skriver en mening.",
+      "english": "She writes a sentence."
+    },
+    {
+      "swedish": "Vi färglägger teckningen.",
+      "english": "We color the drawing."
+    },
+    {
+      "swedish": "Han räknar baklänges.",
+      "english": "He counts backwards."
+    },
+    {
+      "swedish": "Vi läser i tystnad.",
+      "english": "We read in silence."
+    },
+    {
+      "swedish": "Hon skriver ett brev.",
+      "english": "She writes a letter."
+    },
+    {
+      "swedish": "Vi delar ut böcker.",
+      "english": "We hand out books."
+    },
+    {
+      "swedish": "Han suddar tavlan.",
+      "english": "He erases the board."
+    },
+    {
+      "swedish": "Vi pratar om vädret.",
+      "english": "We talk about the weather."
+    },
+    {
+      "swedish": "Hon samlar in prov.",
+      "english": "She collects the tests."
+    },
+    {
+      "swedish": "Vi byter platser.",
+      "english": "We change seats."
+    },
+    {
+      "swedish": "Han springer i korridoren.",
+      "english": "He runs in the hallway."
+    },
+    {
+      "swedish": "Vi öppnar fönstret.",
+      "english": "We open the window."
+    },
+    {
+      "swedish": "Hon hänger upp jackan.",
+      "english": "She hangs up the jacket."
+    },
+    {
+      "swedish": "Vi skriver på whiteboarden.",
+      "english": "We write on the whiteboard."
+    },
+    {
+      "swedish": "Han läser för klassen.",
+      "english": "He reads to the class."
+    },
+    {
+      "swedish": "Vi packar skolväskan.",
+      "english": "We pack the school bag."
+    },
+    {
+      "swedish": "Hon antecknar på lektionen.",
+      "english": "She takes notes in class."
+    },
+    {
+      "swedish": "Vi räknar med kulram.",
+      "english": "We count with an abacus."
+    },
+    {
+      "swedish": "Han bläddrar i tidningen.",
+      "english": "He flips through the newspaper."
+    },
+    {
+      "swedish": "Vi pratar om historien.",
+      "english": "We talk about history."
+    },
+    {
+      "swedish": "Hon spelar gitarr.",
+      "english": "She plays the guitar."
+    },
+    {
+      "swedish": "Vi lär oss engelska.",
+      "english": "We learn English."
+    },
+    {
+      "swedish": "Han tecknar en sol.",
+      "english": "He draws a sun."
+    },
+    {
+      "swedish": "Vi övar sången.",
+      "english": "We practice the song."
+    },
+    {
+      "swedish": "Hon räknar sidorna.",
+      "english": "She counts the pages."
+    },
+    {
+      "swedish": "Vi diskuterar frågan.",
+      "english": "We discuss the question."
+    },
+    {
+      "swedish": "Han skriver på datorn.",
+      "english": "He types on the computer."
+    },
+    {
+      "swedish": "Vi ser på film.",
+      "english": "We watch a movie."
+    },
+    {
+      "swedish": "Bussen är full.",
+      "english": "The bus is full."
+    },
+    {
+      "swedish": "Jag väntar på tåget.",
+      "english": "I am waiting for the train."
+    },
+    {
+      "swedish": "Bilen är röd.",
+      "english": "The car is red."
+    },
+    {
+      "swedish": "Vi åker spårvagn.",
+      "english": "We take the tram."
+    },
+    {
+      "swedish": "Cykeln är ny.",
+      "english": "The bicycle is new."
+    },
+    {
+      "swedish": "Han kör lastbil.",
+      "english": "He drives a truck."
+    },
+    {
+      "swedish": "Vi går till stationen.",
+      "english": "We walk to the station."
+    },
+    {
+      "swedish": "Tåget är sent.",
+      "english": "The train is late."
+    },
+    {
+      "swedish": "Hon tar tunnelbanan.",
+      "english": "She takes the subway."
+    },
+    {
+      "swedish": "Vi åker båt.",
+      "english": "We travel by boat."
+    },
+    {
+      "swedish": "Bussen stannar här.",
+      "english": "The bus stops here."
+    },
+    {
+      "swedish": "Han parkerar bilen.",
+      "english": "He parks the car."
+    },
+    {
+      "swedish": "Vi byter buss.",
+      "english": "We change buses."
+    },
+    {
+      "swedish": "Hon kör snabbt.",
+      "english": "She drives fast."
+    },
+    {
+      "swedish": "Tåget går klockan nio.",
+      "english": "The train leaves at nine."
+    },
+    {
+      "swedish": "Vi har biljetter.",
+      "english": "We have tickets."
+    },
+    {
+      "swedish": "Han visar biljetten.",
+      "english": "He shows the ticket."
+    },
+    {
+      "swedish": "Bilen behöver bensin.",
+      "english": "The car needs gasoline."
+    },
+    {
+      "swedish": "Vi tar taxi.",
+      "english": "We take a taxi."
+    },
+    {
+      "swedish": "Hon väntar vid hållplatsen.",
+      "english": "She waits at the bus stop."
+    },
+    {
+      "swedish": "Vi går ombord.",
+      "english": "We board."
+    },
+    {
+      "swedish": "Båten avgår snart.",
+      "english": "The boat departs soon."
+    },
+    {
+      "swedish": "Han cyklar till jobbet.",
+      "english": "He bikes to work."
+    },
+    {
+      "swedish": "Vi tar flyget.",
+      "english": "We take the flight."
+    },
+    {
+      "swedish": "Planet lyfter nu.",
+      "english": "The plane is taking off now."
+    },
+    {
+      "swedish": "Vi landar i Stockholm.",
+      "english": "We land in Stockholm."
+    },
+    {
+      "swedish": "Hon drar resväskan.",
+      "english": "She pulls the suitcase."
+    },
+    {
+      "swedish": "Vi åker hiss.",
+      "english": "We take the elevator."
+    },
+    {
+      "swedish": "Han tar rulltrappan.",
+      "english": "He takes the escalator."
+    },
+    {
+      "swedish": "Bussen svänger vänster.",
+      "english": "The bus turns left."
+    },
+    {
+      "swedish": "Vi kör rakt fram.",
+      "english": "We drive straight ahead."
+    },
+    {
+      "swedish": "Han tar av mot centrum.",
+      "english": "He turns off toward the center."
+    },
+    {
+      "swedish": "Vi hittar en parkeringsplats.",
+      "english": "We find a parking spot."
+    },
+    {
+      "swedish": "Hon köper en biljett.",
+      "english": "She buys a ticket."
+    },
+    {
+      "swedish": "Vi bokar en resa.",
+      "english": "We book a trip."
+    },
+    {
+      "swedish": "Han packar väskan.",
+      "english": "He packs the bag."
+    },
+    {
+      "swedish": "Vi anländer i tid.",
+      "english": "We arrive on time."
+    },
+    {
+      "swedish": "Hon missar bussen.",
+      "english": "She misses the bus."
+    },
+    {
+      "swedish": "Vi tar nästa tåg.",
+      "english": "We take the next train."
+    },
+    {
+      "swedish": "Han visar passet.",
+      "english": "He shows the passport."
+    },
+    {
+      "swedish": "Vi går genom säkerhetskontrollen.",
+      "english": "We go through security."
+    },
+    {
+      "swedish": "Hon sitter vid fönstret.",
+      "english": "She sits by the window."
+    },
+    {
+      "swedish": "Vi sitter vid gången.",
+      "english": "We sit by the aisle."
+    },
+    {
+      "swedish": "Bussen är tom.",
+      "english": "The bus is empty."
+    },
+    {
+      "swedish": "Han hoppar på tåget.",
+      "english": "He gets on the train."
+    },
+    {
+      "swedish": "Vi kliver av här.",
+      "english": "We get off here."
+    },
+    {
+      "swedish": "Hon bär ryggsäcken.",
+      "english": "She carries the backpack."
+    },
+    {
+      "swedish": "Vi frågar om vägen.",
+      "english": "We ask for directions."
+    },
+    {
+      "swedish": "Han följer kartan.",
+      "english": "He follows the map."
+    },
+    {
+      "swedish": "Vi väntar på perrongen.",
+      "english": "We wait on the platform."
+    },
+    {
+      "swedish": "Hon tittar på tidtabellen.",
+      "english": "She looks at the timetable."
+    },
+    {
+      "swedish": "Vi reser tillsammans.",
+      "english": "We travel together."
+    },
+    {
+      "swedish": "Han går till flygbussen.",
+      "english": "He walks to the airport bus."
+    },
+    {
+      "swedish": "Vi hyr en bil.",
+      "english": "We rent a car."
+    },
+    {
+      "swedish": "Hon tankar bilen.",
+      "english": "She fills up the car."
+    },
+    {
+      "swedish": "Vi kör över bron.",
+      "english": "We drive over the bridge."
+    },
+    {
+      "swedish": "Han går under tunneln.",
+      "english": "He walks under the tunnel."
+    },
+    {
+      "swedish": "Vi passerar en bro.",
+      "english": "We pass a bridge."
+    },
+    {
+      "swedish": "Hon cyklar snabbt.",
+      "english": "She cycles fast."
+    },
+    {
+      "swedish": "Vi kör långsamt.",
+      "english": "We drive slowly."
+    },
+    {
+      "swedish": "Han svänger höger.",
+      "english": "He turns right."
+    },
+    {
+      "swedish": "Vi följer skyltarna.",
+      "english": "We follow the signs."
+    },
+    {
+      "swedish": "Hon går av vid nästa stopp.",
+      "english": "She gets off at the next stop."
+    },
+    {
+      "swedish": "Vi stiger på bussen.",
+      "english": "We get on the bus."
+    },
+    {
+      "swedish": "Han håller i handtaget.",
+      "english": "He holds the handle."
+    },
+    {
+      "swedish": "Vi betalar med kort.",
+      "english": "We pay by card."
+    },
+    {
+      "swedish": "Hon betalar kontant.",
+      "english": "She pays in cash."
+    },
+    {
+      "swedish": "Vi använder SL-kortet.",
+      "english": "We use the SL card."
+    },
+    {
+      "swedish": "Han scannar biljetten.",
+      "english": "He scans the ticket."
+    },
+    {
+      "swedish": "Vi hittar platsen.",
+      "english": "We find the seat."
+    },
+    {
+      "swedish": "Hon flyttar sig.",
+      "english": "She moves."
+    },
+    {
+      "swedish": "Vi väntar på nästa buss.",
+      "english": "We wait for the next bus."
+    },
+    {
+      "swedish": "Han springer till hållplatsen.",
+      "english": "He runs to the bus stop."
+    },
+    {
+      "swedish": "Vi går till gaten.",
+      "english": "We go to the gate."
+    },
+    {
+      "swedish": "Hon hittar sin plats.",
+      "english": "She finds her seat."
+    },
+    {
+      "swedish": "Vi lyfter klockan sju.",
+      "english": "We take off at seven."
+    },
+    {
+      "swedish": "Han landar i Paris.",
+      "english": "He lands in Paris."
+    },
+    {
+      "swedish": "Vi tar färjan.",
+      "english": "We take the ferry."
+    },
+    {
+      "swedish": "Hon väntar i vänthallen.",
+      "english": "She waits in the waiting hall."
+    },
+    {
+      "swedish": "Vi går av färjan.",
+      "english": "We get off the ferry."
+    },
+    {
+      "swedish": "Han reser med busskort.",
+      "english": "He travels with a bus card."
+    },
+    {
+      "swedish": "Vi byter tåg.",
+      "english": "We change trains."
+    },
+    {
+      "swedish": "Hon kör till flygplatsen.",
+      "english": "She drives to the airport."
+    },
+    {
+      "swedish": "Vi tar en lång promenad.",
+      "english": "We take a long walk."
+    },
+    {
+      "swedish": "Han beställer taxi.",
+      "english": "He orders a taxi."
+    },
+    {
+      "swedish": "Vi åker till centrum.",
+      "english": "We go to the city center."
+    },
+    {
+      "swedish": "Hon tar bussen hem.",
+      "english": "She takes the bus home."
+    },
+    {
+      "swedish": "Vi stannar vid trafikljuset.",
+      "english": "We stop at the traffic light."
+    },
+    {
+      "swedish": "Han korsar gatan.",
+      "english": "He crosses the street."
+    },
+    {
+      "swedish": "Vi väntar på grönt ljus.",
+      "english": "We wait for the green light."
+    },
+    {
+      "swedish": "Hon går över övergångsstället.",
+      "english": "She walks across the crosswalk."
+    },
+    {
+      "swedish": "Vi ser ut genom fönstret.",
+      "english": "We look out the window."
+    },
+    {
+      "swedish": "Han lyssnar på chauffören.",
+      "english": "He listens to the driver."
+    },
+    {
+      "swedish": "Vi reser tidigt.",
+      "english": "We travel early."
+    },
+    {
+      "swedish": "Hon reser sent.",
+      "english": "She travels late."
+    },
+    {
+      "swedish": "Vi tar första tåget.",
+      "english": "We take the first train."
+    },
+    {
+      "swedish": "Han tar sista bussen.",
+      "english": "He takes the last bus."
+    }
+  ]
+}

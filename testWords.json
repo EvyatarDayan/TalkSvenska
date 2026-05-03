@@ -1,0 +1,9222 @@
+[
+  {
+    "id": 1,
+    "swedish": "abonnemang",
+    "english": "subscription",
+    "sentence": "Jag har ett abonnemang",
+    "example": {
+      "sv": "Jag har ett abonnemang",
+      "en": "I have a subscription"
+    }
+  },
+  {
+    "id": 2,
+    "swedish": "affär",
+    "english": "store",
+    "sentence": "Gå till en affär",
+    "example": {
+      "sv": "Gå till en affär",
+      "en": "Go to a store"
+    }
+  },
+  {
+    "id": 3,
+    "swedish": "akut",
+    "english": "urgent",
+    "sentence": "Det är ett akut fall",
+    "example": {
+      "sv": "Det är ett akut fall",
+      "en": "It is an urgent case"
+    }
+  },
+  {
+    "id": 4,
+    "swedish": "aldrig",
+    "english": "never",
+    "sentence": "Jag säger aldrig nej",
+    "example": {
+      "sv": "Jag säger aldrig nej",
+      "en": "I never say no"
+    }
+  },
+  {
+    "id": 5,
+    "swedish": "alla",
+    "english": "all",
+    "sentence": "Välkomna alla vänner",
+    "example": {
+      "sv": "Välkomna alla vänner",
+      "en": "Welcome all friends"
+    }
+  },
+  {
+    "id": 6,
+    "swedish": "alltid",
+    "english": "always",
+    "sentence": "Du är alltid snäll",
+    "example": {
+      "sv": "Du är alltid snäll",
+      "en": "You are always kind"
+    }
+  },
+  {
+    "id": 7,
+    "swedish": "allvarligt",
+    "english": "serious",
+    "sentence": "Det är inget allvarligt",
+    "example": {
+      "sv": "Det är inget allvarligt",
+      "en": "It is nothing serious"
+    }
+  },
+  {
+    "id": 8,
+    "swedish": "andning",
+    "english": "breathing",
+    "sentence": "Håll din andning lugn",
+    "example": {
+      "sv": "Håll din andning lugn",
+      "en": "Keep your breathing calm"
+    }
+  },
+  {
+    "id": 9,
+    "swedish": "andra",
+    "english": "others",
+    "sentence": "Tänk på andra personer",
+    "example": {
+      "sv": "Tänk på andra personer",
+      "en": "Think of other people"
+    }
+  },
+  {
+    "id": 10,
+    "swedish": "andrahands",
+    "english": "secondhand",
+    "sentence": "Jag köper andrahands",
+    "example": {
+      "sv": "Jag köper andrahands",
+      "en": "I buy secondhand"
+    }
+  },
+  {
+    "id": 11,
+    "swedish": "ankomst",
+    "english": "arrival",
+    "sentence": "Vänta på ankomst",
+    "example": {
+      "sv": "Vänta på ankomst",
+      "en": "Wait for arrival"
+    }
+  },
+  {
+    "id": 12,
+    "swedish": "annan",
+    "english": "another",
+    "sentence": "Ge mig en annan bok",
+    "example": {
+      "sv": "Ge mig en annan bok",
+      "en": "Give me another book"
+    }
+  },
+  {
+    "id": 13,
+    "swedish": "annat",
+    "english": "different",
+    "sentence": "Det är något annat",
+    "example": {
+      "sv": "Det är något annat",
+      "en": "It is something else"
+    }
+  },
+  {
+    "id": 14,
+    "swedish": "annorlunda",
+    "english": "different",
+    "sentence": "Du ser annorlunda ut",
+    "example": {
+      "sv": "Du ser annorlunda ut",
+      "en": "You look different"
+    }
+  },
+  {
+    "id": 15,
+    "swedish": "ansikte",
+    "english": "face",
+    "sentence": "Tvätta ditt ansikte",
+    "example": {
+      "sv": "Tvätta ditt ansikte",
+      "en": "Wash your face"
+    }
+  },
+  {
+    "id": 16,
+    "swedish": "anställning",
+    "english": "employment",
+    "sentence": "Söka en anställning",
+    "example": {
+      "sv": "Söka en anställning",
+      "en": "Applying for a job"
+    }
+  },
+  {
+    "id": 17,
+    "swedish": "ansvar",
+    "english": "responsibility",
+    "sentence": "Ta ditt ansvar nu",
+    "example": {
+      "sv": "Ta ditt ansvar nu",
+      "en": "Take your responsibility now"
+    }
+  },
+  {
+    "id": 18,
+    "swedish": "anteckningar",
+    "english": "notes",
+    "sentence": "Ta korta anteckningar",
+    "example": {
+      "sv": "Ta korta anteckningar",
+      "en": "Take short notes"
+    }
+  },
+  {
+    "id": 19,
+    "swedish": "apelsin",
+    "english": "orange",
+    "sentence": "Skala en apelsin",
+    "example": {
+      "sv": "Skala en apelsin",
+      "en": "Peel an orange"
+    }
+  },
+  {
+    "id": 20,
+    "swedish": "arbeta",
+    "english": "work",
+    "sentence": "Jag gillar att arbeta",
+    "example": {
+      "sv": "Jag gillar att arbeta",
+      "en": "I like to work"
+    }
+  },
+  {
+    "id": 21,
+    "swedish": "arbete",
+    "english": "work",
+    "sentence": "Ditt arbete är viktigt",
+    "example": {
+      "sv": "Ditt arbete är viktigt",
+      "en": "Your work is important"
+    }
+  },
+  {
+    "id": 22,
+    "swedish": "arbetsdag",
+    "english": "workday",
+    "sentence": "En lång arbetsdag",
+    "example": {
+      "sv": "En lång arbetsdag",
+      "en": "A long workday"
+    }
+  },
+  {
+    "id": 23,
+    "swedish": "arbetsmiljö",
+    "english": "environment",
+    "sentence": "Bra arbetsmiljö här",
+    "example": {
+      "sv": "Bra arbetsmiljö här",
+      "en": "Good work environment here"
+    }
+  },
+  {
+    "id": 24,
+    "swedish": "arbetsplats",
+    "english": "workplace",
+    "sentence": "Visa din arbetsplats",
+    "example": {
+      "sv": "Visa din arbetsplats",
+      "en": "Show your workplace"
+    }
+  },
+  {
+    "id": 25,
+    "swedish": "armbåge",
+    "english": "elbow",
+    "sentence": "Slå i sin armbåge",
+    "example": {
+      "sv": "Slå i sin armbåge",
+      "en": "Hit one's elbow"
+    }
+  },
+  {
+    "id": 26,
+    "swedish": "att",
+    "english": "to",
+    "sentence": "Jag gillar att läsa",
+    "example": {
+      "sv": "Jag gillar att läsa",
+      "en": "I like to read"
+    }
+  },
+  {
+    "id": 27,
+    "swedish": "att drömma",
+    "english": "dream",
+    "sentence": "Sluta inte att drömma",
+    "example": {
+      "sv": "Sluta inte att drömma",
+      "en": "Don't stop dreaming"
+    }
+  },
+  {
+    "id": 28,
+    "swedish": "augusti",
+    "english": "August",
+    "sentence": "Vi ses i augusti",
+    "example": {
+      "sv": "Vi ses i augusti",
+      "en": "See you in August"
+    }
+  },
+  {
+    "id": 29,
+    "swedish": "av",
+    "english": "of",
+    "sentence": "En del av gruppen",
+    "example": {
+      "sv": "En del av gruppen",
+      "en": "A part of the group"
+    }
+  },
+  {
+    "id": 30,
+    "swedish": "avgång",
+    "english": "departure",
+    "sentence": "Tid för nästa avgång",
+    "example": {
+      "sv": "Tid för nästa avgång",
+      "en": "Time for next departure"
+    }
+  },
+  {
+    "id": 31,
+    "swedish": "axel",
+    "english": "shoulder",
+    "sentence": "Min axel gör ont",
+    "example": {
+      "sv": "Min axel gör ont",
+      "en": "My shoulder hurts"
+    }
+  },
+  {
+    "id": 32,
+    "swedish": "bada",
+    "english": "bathe",
+    "sentence": "Ska vi gå och bada",
+    "example": {
+      "sv": "Ska vi gå och bada",
+      "en": "Shall we go and bathe"
+    }
+  },
+  {
+    "id": 33,
+    "swedish": "badrum",
+    "english": "bathroom",
+    "sentence": "Gå in i ett badrum",
+    "example": {
+      "sv": "Gå in i ett badrum",
+      "en": "Go into a bathroom"
+    }
+  },
+  {
+    "id": 34,
+    "swedish": "bagage",
+    "english": "luggage",
+    "sentence": "Hämta ditt bagage",
+    "example": {
+      "sv": "Hämta ditt bagage",
+      "en": "Collect your luggage"
+    }
+  },
+  {
+    "id": 35,
+    "swedish": "bageriet",
+    "english": "bakery",
+    "sentence": "Bröd från bageriet",
+    "example": {
+      "sv": "Bröd från bageriet",
+      "en": "Bread from the bakery"
+    }
+  },
+  {
+    "id": 36,
+    "swedish": "bak",
+    "english": "back",
+    "sentence": "Titta där bak",
+    "example": {
+      "sv": "Titta där bak",
+      "en": "Look in the back"
+    }
+  },
+  {
+    "id": 37,
+    "swedish": "bakom",
+    "english": "behind",
+    "sentence": "Stå bakom huset",
+    "example": {
+      "sv": "Stå bakom huset",
+      "en": "Stand behind the house"
+    }
+  },
+  {
+    "id": 38,
+    "swedish": "bakterie",
+    "english": "bacteria",
+    "sentence": "En farlig bakterie",
+    "example": {
+      "sv": "En farlig bakterie",
+      "en": "A dangerous bacteria"
+    }
+  },
+  {
+    "id": 39,
+    "swedish": "balans",
+    "english": "balance",
+    "sentence": "Håll din balans",
+    "example": {
+      "sv": "Håll din balans",
+      "en": "Keep your balance"
+    }
+  },
+  {
+    "id": 40,
+    "swedish": "banan",
+    "english": "banana",
+    "sentence": "Ät en gul banan",
+    "example": {
+      "sv": "Ät en gul banan",
+      "en": "Eat a yellow banana"
+    }
+  },
+  {
+    "id": 41,
+    "swedish": "bara",
+    "english": "only",
+    "sentence": "Det var bara jag",
+    "example": {
+      "sv": "Det var bara jag",
+      "en": "It was only me"
+    }
+  },
+  {
+    "id": 42,
+    "swedish": "barn",
+    "english": "child",
+    "sentence": "Ett litet barn",
+    "example": {
+      "sv": "Ett litet barn",
+      "en": "A small child"
+    }
+  },
+  {
+    "id": 43,
+    "swedish": "barnbarn",
+    "english": "grandchild",
+    "sentence": "Leka med sitt barnbarn",
+    "example": {
+      "sv": "Leka med sitt barnbarn",
+      "en": "Play with one's grandchild"
+    }
+  },
+  {
+    "id": 44,
+    "swedish": "barnbarnsbarn",
+    "english": "great-grandchild",
+    "sentence": "Träffa sitt barnbarnsbarn",
+    "example": {
+      "sv": "Träffa sitt barnbarnsbarn",
+      "en": "Meet one's great-grandchild"
+    }
+  },
+  {
+    "id": 45,
+    "swedish": "barnstol",
+    "english": "child seat",
+    "sentence": "Sitta i en barnstol",
+    "example": {
+      "sv": "Sitta i en barnstol",
+      "en": "Sit in a child seat"
+    }
+  },
+  {
+    "id": 46,
+    "swedish": "bebis",
+    "english": "baby",
+    "sentence": "En söt liten bebis",
+    "example": {
+      "sv": "En söt liten bebis",
+      "en": "A cute little baby"
+    }
+  },
+  {
+    "id": 47,
+    "swedish": "befordran",
+    "english": "promotion",
+    "sentence": "Få en befordran",
+    "example": {
+      "sv": "Få en befordran",
+      "en": "Get a promotion"
+    }
+  },
+  {
+    "id": 48,
+    "swedish": "begagnad",
+    "english": "used",
+    "sentence": "Köpa begagnade kläder",
+    "example": {
+      "sv": "Köpa begagnade kläder",
+      "en": "Buy used clothes"
+    }
+  },
+  {
+    "id": 49,
+    "swedish": "behandling",
+    "english": "treatment",
+    "sentence": "Starta en behandling",
+    "example": {
+      "sv": "Starta en behandling",
+      "en": "Start a treatment"
+    }
+  },
+  {
+    "id": 50,
+    "swedish": "behöva",
+    "english": "need",
+    "sentence": "Vad kan du behöva",
+    "example": {
+      "sv": "Vad kan du behöva",
+      "en": "What might you need"
+    }
+  },
+  {
+    "id": 51,
+    "swedish": "bekväm",
+    "english": "comfortable",
+    "sentence": "En bekväm soffa",
+    "example": {
+      "sv": "En bekväm soffa",
+      "en": "A comfortable sofa"
+    }
+  },
+  {
+    "id": 52,
+    "swedish": "ben",
+    "english": "leg",
+    "sentence": "Sträck på dina ben",
+    "example": {
+      "sv": "Sträck på dina ben",
+      "en": "Stretch your legs"
+    }
+  },
+  {
+    "id": 53,
+    "swedish": "bensinstation",
+    "english": "gas station",
+    "sentence": "Stanna vid en bensinstation",
+    "example": {
+      "sv": "Stanna vid en bensinstation",
+      "en": "Stop at a gas station"
+    }
+  },
+  {
+    "id": 54,
+    "swedish": "berg",
+    "english": "mountain",
+    "sentence": "Klättra upp på ett berg",
+    "example": {
+      "sv": "Klättra upp på ett berg",
+      "en": "Climb up a mountain"
+    }
+  },
+  {
+    "id": 55,
+    "swedish": "beställa",
+    "english": "order",
+    "sentence": "Jag vill beställa mat",
+    "example": {
+      "sv": "Jag vill beställa mat",
+      "en": "I want to order food"
+    }
+  },
+  {
+    "id": 56,
+    "swedish": "besöka",
+    "english": "visit",
+    "sentence": "Besöka en gammal vän",
+    "example": {
+      "sv": "Besöka en gammal vän",
+      "en": "Visit an old friend"
+    }
+  },
+  {
+    "id": 57,
+    "swedish": "betalning",
+    "english": "payment",
+    "sentence": "Vänta på betalning",
+    "example": {
+      "sv": "Vänta på betalning",
+      "en": "Wait for payment"
+    }
+  },
+  {
+    "id": 58,
+    "swedish": "betyg",
+    "english": "grade",
+    "sentence": "Få ett bra betyg",
+    "example": {
+      "sv": "Få ett bra betyg",
+      "en": "Get a good grade"
+    }
+  },
+  {
+    "id": 59,
+    "swedish": "bh",
+    "english": "bra",
+    "sentence": "Köpa en ny bh",
+    "example": {
+      "sv": "Köpa en ny bh",
+      "en": "Buy a new bra"
+    }
+  },
+  {
+    "id": 60,
+    "swedish": "bibliotek",
+    "english": "library",
+    "sentence": "Låna böcker på bibliotek",
+    "example": {
+      "sv": "Låna böcker på bibliotek",
+      "en": "Borrow books at library"
+    }
+  },
+  {
+    "id": 61,
+    "swedish": "bil",
+    "english": "car",
+    "sentence": "Kör din bil försiktigt",
+    "example": {
+      "sv": "Kör din bil försiktigt",
+      "en": "Drive your car carefully"
+    }
+  },
+  {
+    "id": 62,
+    "swedish": "bild",
+    "english": "picture",
+    "sentence": "Titta på en bild",
+    "example": {
+      "sv": "Titta på en bild",
+      "en": "Look at a picture"
+    }
+  },
+  {
+    "id": 63,
+    "swedish": "bildskärm",
+    "english": "monitor",
+    "sentence": "En stor bildskärm",
+    "example": {
+      "sv": "En stor bildskärm",
+      "en": "A large monitor"
+    }
+  },
+  {
+    "id": 64,
+    "swedish": "biljett",
+    "english": "ticket",
+    "sentence": "Visa din biljett",
+    "example": {
+      "sv": "Visa din biljett",
+      "en": "Show your ticket"
+    }
+  },
+  {
+    "id": 65,
+    "swedish": "billig",
+    "english": "cheap",
+    "sentence": "En billig vara",
+    "example": {
+      "sv": "En billig vara",
+      "en": "A cheap item"
+    }
+  },
+  {
+    "id": 66,
+    "swedish": "billigare",
+    "english": "cheaper",
+    "sentence": "Det blir billigare nu",
+    "example": {
+      "sv": "Det blir billigare nu",
+      "en": "It gets cheaper now"
+    }
+  },
+  {
+    "id": 67,
+    "swedish": "bilresa",
+    "english": "car trip",
+    "sentence": "En lång bilresa",
+    "example": {
+      "sv": "En lång bilresa",
+      "en": "A long car trip"
+    }
+  },
+  {
+    "id": 68,
+    "swedish": "biologi",
+    "english": "biology",
+    "sentence": "Läsa biologi i skolan",
+    "example": {
+      "sv": "Läsa biologi i skolan",
+      "en": "Study biology in school"
+    }
+  },
+  {
+    "id": 69,
+    "swedish": "bli",
+    "english": "become",
+    "sentence": "Vad vill du bli",
+    "example": {
+      "sv": "Vad vill du bli",
+      "en": "What do you want to be"
+    }
+  },
+  {
+    "id": 70,
+    "swedish": "blixt",
+    "english": "lightning",
+    "sentence": "En stark blixt",
+    "example": {
+      "sv": "En stark blixt",
+      "en": "A strong lightning bolt"
+    }
+  },
+  {
+    "id": 71,
+    "swedish": "blodtryck",
+    "english": "blood pressure",
+    "sentence": "Mäta sitt blodtryck",
+    "example": {
+      "sv": "Mäta sitt blodtryck",
+      "en": "Measure one's blood pressure"
+    }
+  },
+  {
+    "id": 72,
+    "swedish": "blå",
+    "english": "blue",
+    "sentence": "Himmelen är blå",
+    "example": {
+      "sv": "Himmelen är blå",
+      "en": "The sky is blue"
+    }
+  },
+  {
+    "id": 73,
+    "swedish": "blåsa",
+    "english": "blow",
+    "sentence": "Det börjar blåsa",
+    "example": {
+      "sv": "Det börjar blåsa",
+      "en": "It's starting to blow"
+    }
+  },
+  {
+    "id": 74,
+    "swedish": "blåsigt",
+    "english": "windy",
+    "sentence": "Det är blåsigt ute",
+    "example": {
+      "sv": "Det är blåsigt ute",
+      "en": "It is windy outside"
+    }
+  },
+  {
+    "id": 75,
+    "swedish": "bo",
+    "english": "live",
+    "sentence": "Var vill du bo",
+    "example": {
+      "sv": "Var vill du bo",
+      "en": "Where do you want to live"
+    }
+  },
+  {
+    "id": 76,
+    "swedish": "bok",
+    "english": "book",
+    "sentence": "Läs en bra bok",
+    "example": {
+      "sv": "Läs en bra bok",
+      "en": "Read a good book"
+    }
+  },
+  {
+    "id": 77,
+    "swedish": "boka",
+    "english": "book",
+    "sentence": "Boka ett möte",
+    "example": {
+      "sv": "Boka ett möte",
+      "en": "Book a meeting"
+    }
+  },
+  {
+    "id": 78,
+    "swedish": "bokning",
+    "english": "booking",
+    "sentence": "Göra en bokning",
+    "example": {
+      "sv": "Göra en bokning",
+      "en": "Make a booking"
+    }
+  },
+  {
+    "id": 79,
+    "swedish": "bonusbarn",
+    "english": "stepchild",
+    "sentence": "Älska sitt bonusbarn",
+    "example": {
+      "sv": "Älska sitt bonusbarn",
+      "en": "Love one's stepchild"
+    }
+  },
+  {
+    "id": 80,
+    "swedish": "bonusförälder",
+    "english": "stepparent",
+    "sentence": "Vara en bonusförälder",
+    "example": {
+      "sv": "Vara en bonusförälder",
+      "en": "Be a stepparent"
+    }
+  },
+  {
+    "id": 81,
+    "swedish": "bord",
+    "english": "table",
+    "sentence": "Sitt vid ett bord",
+    "example": {
+      "sv": "Sitt vid ett bord",
+      "en": "Sit at a table"
+    }
+  },
+  {
+    "id": 82,
+    "swedish": "borsta",
+    "english": "brush",
+    "sentence": "Borsta dina tänder",
+    "example": {
+      "sv": "Borsta dina tänder",
+      "en": "Brush your teeth"
+    }
+  },
+  {
+    "id": 83,
+    "swedish": "bort",
+    "english": "away",
+    "sentence": "Gå härifrån bort",
+    "example": {
+      "sv": "Gå härifrån bort",
+      "en": "Go away from here"
+    }
+  },
+  {
+    "id": 84,
+    "swedish": "bra",
+    "english": "good",
+    "sentence": "Det går jättebra",
+    "example": {
+      "sv": "Det går jättebra",
+      "en": "It is going very well"
+    }
+  },
+  {
+    "id": 85,
+    "swedish": "bred",
+    "english": "wide",
+    "sentence": "En mycket bred väg",
+    "example": {
+      "sv": "En mycket bred väg",
+      "en": "A very wide road"
+    }
+  },
+  {
+    "id": 86,
+    "swedish": "bredvid",
+    "english": "beside",
+    "sentence": "Sitt bredvid mig",
+    "example": {
+      "sv": "Sitt bredvid mig",
+      "en": "Sit beside me"
+    }
+  },
+  {
+    "id": 87,
+    "swedish": "bro",
+    "english": "bridge",
+    "sentence": "Åka över en bro",
+    "example": {
+      "sv": "Åka över en bro",
+      "en": "Go over a bridge"
+    }
+  },
+  {
+    "id": 88,
+    "swedish": "broms",
+    "english": "brake",
+    "sentence": "Tryck på en broms",
+    "example": {
+      "sv": "Tryck på en broms",
+      "en": "Press a brake"
+    }
+  },
+  {
+    "id": 89,
+    "swedish": "bror",
+    "english": "brother",
+    "sentence": "Min bror är äldre",
+    "example": {
+      "sv": "Min bror är äldre",
+      "en": "My brother is older"
+    }
+  },
+  {
+    "id": 90,
+    "swedish": "brukar",
+    "english": "usually",
+    "sentence": "Jag brukar träna",
+    "example": {
+      "sv": "Jag brukar träna",
+      "en": "I usually exercise"
+    }
+  },
+  {
+    "id": 91,
+    "swedish": "brukat",
+    "english": "used",
+    "sentence": "Har du brukat det",
+    "example": {
+      "sv": "Har du brukat det",
+      "en": "Have you used it"
+    }
+  },
+  {
+    "id": 92,
+    "swedish": "bränsle",
+    "english": "fuel",
+    "sentence": "Fylla på bränsle",
+    "example": {
+      "sv": "Fylla på bränsle",
+      "en": "Refill fuel"
+    }
+  },
+  {
+    "id": 93,
+    "swedish": "bråttom",
+    "english": "hurry",
+    "sentence": "Jag har lite bråttom",
+    "example": {
+      "sv": "Jag har lite bråttom",
+      "en": "I am in a bit of a hurry"
+    }
+  },
+  {
+    "id": 94,
+    "swedish": "bröd",
+    "english": "bread",
+    "sentence": "Färskt bröd är gott",
+    "example": {
+      "sv": "Färskt bröd är gott",
+      "en": "Fresh bread is tasty"
+    }
+  },
+  {
+    "id": 95,
+    "swedish": "bröst",
+    "english": "chest",
+    "sentence": "Smärta i sitt bröst",
+    "example": {
+      "sv": "Smärta i sitt bröst",
+      "en": "Pain in one's chest"
+    }
+  },
+  {
+    "id": 96,
+    "swedish": "buss",
+    "english": "bus",
+    "sentence": "Ta en buss hem",
+    "example": {
+      "sv": "Ta en buss hem",
+      "en": "Take a bus home"
+    }
+  },
+  {
+    "id": 97,
+    "swedish": "busshållplats",
+    "english": "bus stop",
+    "sentence": "Stå vid en busshållplats",
+    "example": {
+      "sv": "Stå vid en busshållplats",
+      "en": "Stand at a bus stop"
+    }
+  },
+  {
+    "id": 98,
+    "swedish": "butik",
+    "english": "shop",
+    "sentence": "Gå in i en butik",
+    "example": {
+      "sv": "Gå in i en butik",
+      "en": "Go into a shop"
+    }
+  },
+  {
+    "id": 99,
+    "swedish": "byta",
+    "english": "change",
+    "sentence": "Ska vi byta plats",
+    "example": {
+      "sv": "Ska vi byta plats",
+      "en": "Shall we change places"
+    }
+  },
+  {
+    "id": 100,
+    "swedish": "byxor",
+    "english": "pants",
+    "sentence": "Ett par nya byxor",
+    "example": {
+      "sv": "Ett par nya byxor",
+      "en": "A pair of new pants"
+    }
+  },
+  {
+    "id": 101,
+    "swedish": "båda",
+    "english": "both",
+    "sentence": "Båda är bra",
+    "example": {
+      "sv": "Båda är bra",
+      "en": "Both are good"
+    }
+  },
+  {
+    "id": 102,
+    "swedish": "båt",
+    "english": "boat",
+    "sentence": "Jag gillar båt",
+    "example": {
+      "sv": "Jag gillar båt",
+      "en": "I like boats"
+    }
+  },
+  {
+    "id": 103,
+    "swedish": "börja",
+    "english": "begin",
+    "sentence": "Jag måste börja",
+    "example": {
+      "sv": "Jag måste börja",
+      "en": "I must begin"
+    }
+  },
+  {
+    "id": 104,
+    "swedish": "börjar",
+    "english": "start",
+    "sentence": "Jag börjar nu",
+    "example": {
+      "sv": "Jag börjar nu",
+      "en": "I am starting now"
+    }
+  },
+  {
+    "id": 105,
+    "swedish": "chef",
+    "english": "boss",
+    "sentence": "Jag ser min chef",
+    "example": {
+      "sv": "Jag ser min chef",
+      "en": "I see my boss"
+    }
+  },
+  {
+    "id": 106,
+    "swedish": "cykel",
+    "english": "bicycle",
+    "sentence": "Det finns en cykel",
+    "example": {
+      "sv": "Det finns en cykel",
+      "en": "There is a bicycle"
+    }
+  },
+  {
+    "id": 107,
+    "swedish": "cykelbana",
+    "english": "bike lane",
+    "sentence": "Här är en cykelbana",
+    "example": {
+      "sv": "Här är en cykelbana",
+      "en": "Here is a bike lane"
+    }
+  },
+  {
+    "id": 108,
+    "swedish": "cykla",
+    "english": "cycle",
+    "sentence": "Jag vill cykla",
+    "example": {
+      "sv": "Jag vill cykla",
+      "en": "I want to cycle"
+    }
+  },
+  {
+    "id": 109,
+    "swedish": "dag",
+    "english": "day",
+    "sentence": "En vacker dag",
+    "example": {
+      "sv": "En vacker dag",
+      "en": "A beautiful day"
+    }
+  },
+  {
+    "id": 110,
+    "swedish": "dagsmeja",
+    "english": "thaw",
+    "sentence": "Det är dagsmeja ute",
+    "example": {
+      "sv": "Det är dagsmeja ute",
+      "en": "There is a midday thaw outside"
+    }
+  },
+  {
+    "id": 111,
+    "swedish": "dator",
+    "english": "computer",
+    "sentence": "Jag ser på min dator",
+    "example": {
+      "sv": "Jag ser på min dator",
+      "en": "I look at my computer"
+    }
+  },
+  {
+    "id": 112,
+    "swedish": "de",
+    "english": "they",
+    "sentence": "De kommer snart",
+    "example": {
+      "sv": "De kommer snart",
+      "en": "They are coming soon"
+    }
+  },
+  {
+    "id": 113,
+    "swedish": "deltid",
+    "english": "part-time",
+    "sentence": "Jag jobbar deltid",
+    "example": {
+      "sv": "Jag jobbar deltid",
+      "en": "I work part-time"
+    }
+  },
+  {
+    "id": 114,
+    "swedish": "dessa",
+    "english": "these",
+    "sentence": "Dessa är bra",
+    "example": {
+      "sv": "Dessa är bra",
+      "en": "These are good"
+    }
+  },
+  {
+    "id": 115,
+    "swedish": "det",
+    "english": "it",
+    "sentence": "Jag ser det",
+    "example": {
+      "sv": "Jag ser det",
+      "en": "I see it"
+    }
+  },
+  {
+    "id": 116,
+    "swedish": "det blir",
+    "english": "it becomes",
+    "sentence": "Det blir bra",
+    "example": {
+      "sv": "Det blir bra",
+      "en": "It will be good"
+    }
+  },
+  {
+    "id": 117,
+    "swedish": "diagnos",
+    "english": "diagnosis",
+    "sentence": "Få en diagnos",
+    "example": {
+      "sv": "Få en diagnos",
+      "en": "Get a diagnosis"
+    }
+  },
+  {
+    "id": 118,
+    "swedish": "dimma",
+    "english": "fog",
+    "sentence": "Det är tjock dimma",
+    "example": {
+      "sv": "Det är tjock dimma",
+      "en": "It is thick fog"
+    }
+  },
+  {
+    "id": 119,
+    "swedish": "dit",
+    "english": "there",
+    "sentence": "Jag vill gå dit",
+    "example": {
+      "sv": "Jag vill gå dit",
+      "en": "I want to go there"
+    }
+  },
+  {
+    "id": 120,
+    "swedish": "djup",
+    "english": "deep",
+    "sentence": "Sjön är djup",
+    "example": {
+      "sv": "Sjön är djup",
+      "en": "The lake is deep"
+    }
+  },
+  {
+    "id": 121,
+    "swedish": "djur",
+    "english": "animal",
+    "sentence": "Jag ser ett djur",
+    "example": {
+      "sv": "Jag ser ett djur",
+      "en": "I see an animal"
+    }
+  },
+  {
+    "id": 122,
+    "swedish": "dotter",
+    "english": "daughter",
+    "sentence": "Min dotter sover",
+    "example": {
+      "sv": "Min dotter sover",
+      "en": "My daughter is sleeping"
+    }
+  },
+  {
+    "id": 123,
+    "swedish": "dragkedja",
+    "english": "zipper",
+    "sentence": "Jag drar upp min dragkedja",
+    "example": {
+      "sv": "Jag drar upp min dragkedja",
+      "en": "I pull up my zipper"
+    }
+  },
+  {
+    "id": 124,
+    "swedish": "dricka",
+    "english": "drink",
+    "sentence": "Jag vill dricka vatten",
+    "example": {
+      "sv": "Jag vill dricka vatten",
+      "en": "I want to drink water"
+    }
+  },
+  {
+    "id": 125,
+    "swedish": "du",
+    "english": "you",
+    "sentence": "Jag gillar dig",
+    "example": {
+      "sv": "Jag gillar dig",
+      "en": "I like you"
+    }
+  },
+  {
+    "id": 126,
+    "swedish": "duggregn",
+    "english": "drizzle",
+    "sentence": "Det är bara lite duggregn",
+    "example": {
+      "sv": "Det är bara lite duggregn",
+      "en": "It is just a little drizzle"
+    }
+  },
+  {
+    "id": 127,
+    "swedish": "dum",
+    "english": "stupid",
+    "sentence": "Det var dumt",
+    "example": {
+      "sv": "Det var dumt",
+      "en": "That was stupid"
+    }
+  },
+  {
+    "id": 128,
+    "swedish": "duntäcke",
+    "english": "duvet",
+    "sentence": "Ett mjukt duntäcke",
+    "example": {
+      "sv": "Ett mjukt duntäcke",
+      "en": "A soft duvet"
+    }
+  },
+  {
+    "id": 129,
+    "swedish": "dyr",
+    "english": "expensive",
+    "sentence": "Den är för dyr",
+    "example": {
+      "sv": "Den är för dyr",
+      "en": "It is too expensive"
+    }
+  },
+  {
+    "id": 130,
+    "swedish": "däck",
+    "english": "tire",
+    "sentence": "Byta ett däck",
+    "example": {
+      "sv": "Byta ett däck",
+      "en": "Change a tire"
+    }
+  },
+  {
+    "id": 131,
+    "swedish": "där",
+    "english": "there",
+    "sentence": "Jag är där",
+    "example": {
+      "sv": "Jag är där",
+      "en": "I am there"
+    }
+  },
+  {
+    "id": 132,
+    "swedish": "därför",
+    "english": "therefore",
+    "sentence": "Därför går jag hem",
+    "example": {
+      "sv": "Därför går jag hem",
+      "en": "Therefore I am going home"
+    }
+  },
+  {
+    "id": 133,
+    "swedish": "dålig",
+    "english": "bad",
+    "sentence": "Det är en dålig idé",
+    "example": {
+      "sv": "Det är en dålig idé",
+      "en": "It is a bad idea"
+    }
+  },
+  {
+    "id": 134,
+    "swedish": "dåtid",
+    "english": "past",
+    "sentence": "Prata om dåtid",
+    "example": {
+      "sv": "Prata om dåtid",
+      "en": "Talk about the past"
+    }
+  },
+  {
+    "id": 135,
+    "swedish": "dörr",
+    "english": "door",
+    "sentence": "Öppna en dörr",
+    "example": {
+      "sv": "Öppna en dörr",
+      "en": "Open a door"
+    }
+  },
+  {
+    "id": 136,
+    "swedish": "effektivitet",
+    "english": "efficiency",
+    "sentence": "Jobba med effektivitet",
+    "example": {
+      "sv": "Jobba med effektivitet",
+      "en": "Work with efficiency"
+    }
+  },
+  {
+    "id": 137,
+    "swedish": "efter",
+    "english": "after",
+    "sentence": "Vi ses efter lunch",
+    "example": {
+      "sv": "Vi ses efter lunch",
+      "en": "See you after lunch"
+    }
+  },
+  {
+    "id": 138,
+    "swedish": "eftermiddag",
+    "english": "afternoon",
+    "sentence": "Ha en trevlig eftermiddag",
+    "example": {
+      "sv": "Ha en trevlig eftermiddag",
+      "en": "Have a nice afternoon"
+    }
+  },
+  {
+    "id": 139,
+    "swedish": "eftersom",
+    "english": "because",
+    "sentence": "Eftersom det regnar",
+    "example": {
+      "sv": "Eftersom det regnar",
+      "en": "Because it's raining"
+    }
+  },
+  {
+    "id": 140,
+    "swedish": "elak",
+    "english": "mean",
+    "sentence": "Var inte elak",
+    "example": {
+      "sv": "Var inte elak",
+      "en": "Don't be mean"
+    }
+  },
+  {
+    "id": 141,
+    "swedish": "elev",
+    "english": "student",
+    "sentence": "Jag är en elev",
+    "example": {
+      "sv": "Jag är en elev",
+      "en": "I am a student"
+    }
+  },
+  {
+    "id": 142,
+    "swedish": "en gång",
+    "english": "once",
+    "sentence": "Bara en gång till",
+    "example": {
+      "sv": "Bara en gång till",
+      "en": "Just once more"
+    }
+  },
+  {
+    "id": 143,
+    "swedish": "energi",
+    "english": "energy",
+    "sentence": "Jag har mycket energi",
+    "example": {
+      "sv": "Jag har mycket energi",
+      "en": "I have a lot of energy"
+    }
+  },
+  {
+    "id": 144,
+    "swedish": "engelska",
+    "english": "English",
+    "sentence": "Jag talar engelska",
+    "example": {
+      "sv": "Jag talar engelska",
+      "en": "I speak English"
+    }
+  },
+  {
+    "id": 145,
+    "swedish": "enkel",
+    "english": "simple",
+    "sentence": "Det var en enkel fråga",
+    "example": {
+      "sv": "Det var en enkel fråga",
+      "en": "It was a simple question"
+    }
+  },
+  {
+    "id": 146,
+    "swedish": "erbjudande",
+    "english": "offer",
+    "sentence": "Det är ett bra erbjudande",
+    "example": {
+      "sv": "Det är ett bra erbjudande",
+      "en": "It is a good offer"
+    }
+  },
+  {
+    "id": 147,
+    "swedish": "erfarenhet",
+    "english": "experience",
+    "sentence": "Jag har lång erfarenhet",
+    "example": {
+      "sv": "Jag har lång erfarenhet",
+      "en": "I have long experience"
+    }
+  },
+  {
+    "id": 148,
+    "swedish": "examen",
+    "english": "exam",
+    "sentence": "Jag klarade min examen",
+    "example": {
+      "sv": "Jag klarade min examen",
+      "en": "I passed my exam"
+    }
+  },
+  {
+    "id": 149,
+    "swedish": "expressbuss",
+    "english": "express bus",
+    "sentence": "Ta en expressbuss",
+    "example": {
+      "sv": "Ta en expressbuss",
+      "en": "Take an express bus"
+    }
+  },
+  {
+    "id": 150,
+    "swedish": "faktura",
+    "english": "invoice",
+    "sentence": "Betala en faktura",
+    "example": {
+      "sv": "Betala en faktura",
+      "en": "Pay an invoice"
+    }
+  },
+  {
+    "id": 151,
+    "swedish": "falsk",
+    "english": "false",
+    "sentence": "Ett falskt rykte",
+    "example": {
+      "sv": "Ett falskt rykte",
+      "en": "A false rumor"
+    }
+  },
+  {
+    "id": 152,
+    "swedish": "familj",
+    "english": "family",
+    "sentence": "Min familj är stor",
+    "example": {
+      "sv": "Min familj är stor",
+      "en": "My family is large"
+    }
+  },
+  {
+    "id": 153,
+    "swedish": "farlig",
+    "english": "dangerous",
+    "sentence": "Vägen är farlig",
+    "example": {
+      "sv": "Vägen är farlig",
+      "en": "The road is dangerous"
+    }
+  },
+  {
+    "id": 154,
+    "swedish": "farmor",
+    "english": "grandmother",
+    "sentence": "Hälsa till farmor",
+    "example": {
+      "sv": "Hälsa till farmor",
+      "en": "Say hi to grandmother"
+    }
+  },
+  {
+    "id": 155,
+    "swedish": "fart",
+    "english": "speed",
+    "sentence": "Håll hög fart",
+    "example": {
+      "sv": "Håll hög fart",
+      "en": "Keep a high speed"
+    }
+  },
+  {
+    "id": 156,
+    "swedish": "fartgräns",
+    "english": "speed limit",
+    "sentence": "Följ en fartgräns",
+    "example": {
+      "sv": "Följ en fartgräns",
+      "en": "Follow a speed limit"
+    }
+  },
+  {
+    "id": 157,
+    "swedish": "fast",
+    "english": "stuck",
+    "sentence": "Jag sitter fast",
+    "example": {
+      "sv": "Jag sitter fast",
+      "en": "I am stuck"
+    }
+  },
+  {
+    "id": 158,
+    "swedish": "fastna",
+    "english": "get stuck",
+    "sentence": "Inte fastna här",
+    "example": {
+      "sv": "Inte fastna här",
+      "en": "Don't get stuck here"
+    }
+  },
+  {
+    "id": 159,
+    "swedish": "fastställd",
+    "english": "established",
+    "sentence": "En fastställd tid",
+    "example": {
+      "sv": "En fastställd tid",
+      "en": "An established time"
+    }
+  },
+  {
+    "id": 160,
+    "swedish": "fat",
+    "english": "dish",
+    "sentence": "Lägg mat på ett fat",
+    "example": {
+      "sv": "Lägg mat på ett fat",
+      "en": "Put food on a dish"
+    }
+  },
+  {
+    "id": 161,
+    "swedish": "feber",
+    "english": "fever",
+    "sentence": "Jag har hög feber",
+    "example": {
+      "sv": "Jag har hög feber",
+      "en": "I have a high fever"
+    }
+  },
+  {
+    "id": 162,
+    "swedish": "februari",
+    "english": "February",
+    "sentence": "Kallt i februari",
+    "example": {
+      "sv": "Kallt i februari",
+      "en": "Cold in February"
+    }
+  },
+  {
+    "id": 163,
+    "swedish": "fel",
+    "english": "wrong",
+    "sentence": "Det blev fel",
+    "example": {
+      "sv": "Det blev fel",
+      "en": "It went wrong"
+    }
+  },
+  {
+    "id": 164,
+    "swedish": "femma",
+    "english": "five",
+    "sentence": "En femma i betyg",
+    "example": {
+      "sv": "En femma i betyg",
+      "en": "A five in grade"
+    }
+  },
+  {
+    "id": 165,
+    "swedish": "fest",
+    "english": "party",
+    "sentence": "Kom på min fest",
+    "example": {
+      "sv": "Kom på min fest",
+      "en": "Come to my party"
+    }
+  },
+  {
+    "id": 166,
+    "swedish": "ficka",
+    "english": "pocket",
+    "sentence": "Ha nyckeln i en ficka",
+    "example": {
+      "sv": "Ha nyckeln i en ficka",
+      "en": "Have the key in a pocket"
+    }
+  },
+  {
+    "id": 167,
+    "swedish": "fin",
+    "english": "nice",
+    "sentence": "Du är jättefin",
+    "example": {
+      "sv": "Du är jättefin",
+      "en": "You are very nice"
+    }
+  },
+  {
+    "id": 168,
+    "swedish": "fingrar",
+    "english": "fingers",
+    "sentence": "Tio kalla fingrar",
+    "example": {
+      "sv": "Tio kalla fingrar",
+      "en": "Ten cold fingers"
+    }
+  },
+  {
+    "id": 169,
+    "swedish": "finnas",
+    "english": "exist",
+    "sentence": "Det måste finnas",
+    "example": {
+      "sv": "Det måste finnas",
+      "en": "It must exist"
+    }
+  },
+  {
+    "id": 170,
+    "swedish": "fira",
+    "english": "celebrate",
+    "sentence": "Dags att fira",
+    "example": {
+      "sv": "Dags att fira",
+      "en": "Time to celebrate"
+    }
+  },
+  {
+    "id": 171,
+    "swedish": "fisk",
+    "english": "fish",
+    "sentence": "Äta färsk fisk",
+    "example": {
+      "sv": "Äta färsk fisk",
+      "en": "Eat fresh fish"
+    }
+  },
+  {
+    "id": 172,
+    "swedish": "fiske",
+    "english": "fishing",
+    "sentence": "Gå ut på fiske",
+    "example": {
+      "sv": "Gå ut på fiske",
+      "en": "Go out fishing"
+    }
+  },
+  {
+    "id": 173,
+    "swedish": "fixa",
+    "english": "fix",
+    "sentence": "Kan du fixa det",
+    "example": {
+      "sv": "Kan du fixa det",
+      "en": "Can you fix it"
+    }
+  },
+  {
+    "id": 174,
+    "swedish": "fjärde",
+    "english": "fourth",
+    "sentence": "I fjärde klass",
+    "example": {
+      "sv": "I fjärde klass",
+      "en": "In fourth grade"
+    }
+  },
+  {
+    "id": 175,
+    "swedish": "flaska",
+    "english": "bottle",
+    "sentence": "En flaska vatten",
+    "example": {
+      "sv": "En flaska vatten",
+      "en": "A bottle of water"
+    }
+  },
+  {
+    "id": 176,
+    "swedish": "flicka",
+    "english": "girl",
+    "sentence": "En glad flicka",
+    "example": {
+      "sv": "En glad flicka",
+      "en": "A happy girl"
+    }
+  },
+  {
+    "id": 177,
+    "swedish": "flyg",
+    "english": "flight",
+    "sentence": "Boka ett flyg",
+    "example": {
+      "sv": "Boka ett flyg",
+      "en": "Book a flight"
+    }
+  },
+  {
+    "id": 178,
+    "swedish": "flygplats",
+    "english": "airport",
+    "sentence": "Åka till en flygplats",
+    "example": {
+      "sv": "Åka till en flygplats",
+      "en": "Go to an airport"
+    }
+  },
+  {
+    "id": 179,
+    "swedish": "flytta",
+    "english": "move",
+    "sentence": "Ska ni flytta",
+    "example": {
+      "sv": "Ska ni flytta",
+      "en": "Are you going to move"
+    }
+  },
+  {
+    "id": 180,
+    "swedish": "fläsk",
+    "english": "pork",
+    "sentence": "Stekt fläsk är gott",
+    "example": {
+      "sv": "Stekt fläsk är gott",
+      "en": "Fried pork is tasty"
+    }
+  },
+  {
+    "id": 181,
+    "swedish": "fort",
+    "english": "fast",
+    "sentence": "Kör inte för fort",
+    "example": {
+      "sv": "Kör inte för fort",
+      "en": "Don't drive too fast"
+    }
+  },
+  {
+    "id": 182,
+    "swedish": "fortfarande",
+    "english": "still",
+    "sentence": "Är du fortfarande arg",
+    "example": {
+      "sv": "Är du fortfarande arg",
+      "en": "Are you still angry"
+    }
+  },
+  {
+    "id": 183,
+    "swedish": "fot",
+    "english": "foot",
+    "sentence": "Min fot gör ont",
+    "example": {
+      "sv": "Min fot gör ont",
+      "en": "My foot hurts"
+    }
+  },
+  {
+    "id": 184,
+    "swedish": "foto",
+    "english": "photo",
+    "sentence": "Ta ett fint foto",
+    "example": {
+      "sv": "Ta ett fint foto",
+      "en": "Take a nice photo"
+    }
+  },
+  {
+    "id": 185,
+    "swedish": "fotografi",
+    "english": "photography",
+    "sentence": "Ett gammalt fotografi",
+    "example": {
+      "sv": "Ett gammalt fotografi",
+      "en": "An old photograph"
+    }
+  },
+  {
+    "id": 186,
+    "swedish": "fotografera",
+    "english": "photograph",
+    "sentence": "Gilla att fotografera",
+    "example": {
+      "sv": "Gilla att fotografera",
+      "en": "Like to photograph"
+    }
+  },
+  {
+    "id": 187,
+    "swedish": "frakt",
+    "english": "shipping",
+    "sentence": "Betala för frakt",
+    "example": {
+      "sv": "Betala för frakt",
+      "en": "Pay for shipping"
+    }
+  },
+  {
+    "id": 188,
+    "swedish": "fram",
+    "english": "forward",
+    "sentence": "Gå rakt fram",
+    "example": {
+      "sv": "Gå rakt fram",
+      "en": "Go straight forward"
+    }
+  },
+  {
+    "id": 189,
+    "swedish": "framför",
+    "english": "in front of",
+    "sentence": "Stå framför spegeln",
+    "example": {
+      "sv": "Stå framför spegeln",
+      "en": "Stand in front of the mirror"
+    }
+  },
+  {
+    "id": 190,
+    "swedish": "framtid",
+    "english": "future",
+    "sentence": "Tänk på din framtid",
+    "example": {
+      "sv": "Tänk på din framtid",
+      "en": "Think of your future"
+    }
+  },
+  {
+    "id": 191,
+    "swedish": "frankrike",
+    "english": "France",
+    "sentence": "Resa till Frankrike",
+    "example": {
+      "sv": "Resa till Frankrike",
+      "en": "Travel to France"
+    }
+  },
+  {
+    "id": 192,
+    "swedish": "fredag",
+    "english": "Friday",
+    "sentence": "Äntligen fredag",
+    "example": {
+      "sv": "Äntligen fredag",
+      "en": "Finally Friday"
+    }
+  },
+  {
+    "id": 193,
+    "swedish": "fritid",
+    "english": "leisure",
+    "sentence": "Vad gör du på fritid",
+    "example": {
+      "sv": "Vad gör du på fritid",
+      "en": "What do you do in your leisure time"
+    }
+  },
+  {
+    "id": 194,
+    "swedish": "frukost",
+    "english": "breakfast",
+    "sentence": "Äta en god frukost",
+    "example": {
+      "sv": "Äta en god frukost",
+      "en": "Eat a good breakfast"
+    }
+  },
+  {
+    "id": 195,
+    "swedish": "frukt",
+    "english": "fruit",
+    "sentence": "Ät mer frukt",
+    "example": {
+      "sv": "Ät mer frukt",
+      "en": "Eat more fruit"
+    }
+  },
+  {
+    "id": 196,
+    "swedish": "frysa",
+    "english": "freeze",
+    "sentence": "Jag börjar frysa",
+    "example": {
+      "sv": "Jag börjar frysa",
+      "en": "I am starting to freeze"
+    }
+  },
+  {
+    "id": 197,
+    "swedish": "från",
+    "english": "from",
+    "sentence": "Var kommer du ifrån",
+    "example": {
+      "sv": "Var kommer du ifrån",
+      "en": "Where are you from"
+    }
+  },
+  {
+    "id": 198,
+    "swedish": "fråga",
+    "english": "question",
+    "sentence": "Får jag fråga",
+    "example": {
+      "sv": "Får jag fråga",
+      "en": "May I ask"
+    }
+  },
+  {
+    "id": 199,
+    "swedish": "frågor",
+    "english": "questions",
+    "sentence": "Många svåra frågor",
+    "example": {
+      "sv": "Många svåra frågor",
+      "en": "Many difficult questions"
+    }
+  },
+  {
+    "id": 200,
+    "swedish": "frånvarande",
+    "english": "absent",
+    "sentence": "Vara frånvarande idag",
+    "example": {
+      "sv": "Vara frånvarande idag",
+      "en": "Be absent today"
+    }
+  },
+  {
+    "id": 201,
+    "swedish": "fullmåne",
+    "english": "full moon",
+    "sentence": "Det är fullmåne ikväll",
+    "example": {
+      "sv": "Det är fullmåne ikväll",
+      "en": "It is a full moon tonight"
+    }
+  },
+  {
+    "id": 202,
+    "swedish": "fusk",
+    "english": "cheating",
+    "sentence": "Inget fusk på provet",
+    "example": {
+      "sv": "Inget fusk på provet",
+      "en": "No cheating on the exam"
+    }
+  },
+  {
+    "id": 203,
+    "swedish": "fyra",
+    "english": "four",
+    "sentence": "Jag har fyra äpplen",
+    "example": {
+      "sv": "Jag har fyra äpplen",
+      "en": "I have four apples"
+    }
+  },
+  {
+    "id": 204,
+    "swedish": "fyrverkeri",
+    "english": "fireworks",
+    "sentence": "Ett vackert fyrverkeri",
+    "example": {
+      "sv": "Ett vackert fyrverkeri",
+      "en": "A beautiful fireworks display"
+    }
+  },
+  {
+    "id": 205,
+    "swedish": "fysik",
+    "english": "physics",
+    "sentence": "Jag studerar fysik",
+    "example": {
+      "sv": "Jag studerar fysik",
+      "en": "I am studying physics"
+    }
+  },
+  {
+    "id": 206,
+    "swedish": "fysisk",
+    "english": "physical",
+    "sentence": "Fysisk träning är bra",
+    "example": {
+      "sv": "Fysisk träning är bra",
+      "en": "Physical exercise is good"
+    }
+  },
+  {
+    "id": 207,
+    "swedish": "få",
+    "english": "get",
+    "sentence": "Får jag en kram",
+    "example": {
+      "sv": "Får jag en kram",
+      "en": "May I get a hug"
+    }
+  },
+  {
+    "id": 208,
+    "swedish": "fånga",
+    "english": "catch",
+    "sentence": "Fånga bollen",
+    "example": {
+      "sv": "Fånga bollen",
+      "en": "Catch the ball"
+    }
+  },
+  {
+    "id": 209,
+    "swedish": "färdig",
+    "english": "finished",
+    "sentence": "Är du färdig nu",
+    "example": {
+      "sv": "Är du färdig nu",
+      "en": "Are you finished now"
+    }
+  },
+  {
+    "id": 210,
+    "swedish": "färg",
+    "english": "color",
+    "sentence": "Vilken färg gillar du",
+    "example": {
+      "sv": "Vilken färg gillar du",
+      "en": "What color do you like"
+    }
+  },
+  {
+    "id": 211,
+    "swedish": "färja",
+    "english": "ferry",
+    "sentence": "Ta en färja över sjön",
+    "example": {
+      "sv": "Ta en färja över sjön",
+      "en": "Take a ferry across the lake"
+    }
+  },
+  {
+    "id": 212,
+    "swedish": "fästman",
+    "english": "fiancé",
+    "sentence": "Min fästman är här",
+    "example": {
+      "sv": "Min fästman är här",
+      "en": "My fiancé is here"
+    }
+  },
+  {
+    "id": 213,
+    "swedish": "fästmö",
+    "english": "fiancée",
+    "sentence": "Min fästmö sover",
+    "example": {
+      "sv": "Min fästmö sover",
+      "en": "My fiancée is sleeping"
+    }
+  },
+  {
+    "id": 214,
+    "swedish": "fågel",
+    "english": "bird",
+    "sentence": "En liten fågel sjunger",
+    "example": {
+      "sv": "En liten fågel sjunger",
+      "en": "A little bird is singing"
+    }
+  },
+  {
+    "id": 215,
+    "swedish": "fönster",
+    "english": "window",
+    "sentence": "Titta ut genom ett fönster",
+    "example": {
+      "sv": "Titta ut genom ett fönster",
+      "en": "Look out through a window"
+    }
+  },
+  {
+    "id": 216,
+    "swedish": "för",
+    "english": "for/too",
+    "sentence": "Det är för varmt",
+    "example": {
+      "sv": "Det är för varmt",
+      "en": "It is too warm"
+    }
+  },
+  {
+    "id": 217,
+    "swedish": "föräldrar",
+    "english": "parents",
+    "sentence": "Mina föräldrar är gamla",
+    "example": {
+      "sv": "Mina föräldrar är gamla",
+      "en": "My parents are old"
+    }
+  },
+  {
+    "id": 218,
+    "swedish": "förbi",
+    "english": "past",
+    "sentence": "Gå förbi skolan",
+    "example": {
+      "sv": "Gå förbi skolan",
+      "en": "Walk past the school"
+    }
+  },
+  {
+    "id": 219,
+    "swedish": "förbud",
+    "english": "prohibition",
+    "sentence": "Det finns ett förbud",
+    "example": {
+      "sv": "Det finns ett förbud",
+      "en": "There is a prohibition"
+    }
+  },
+  {
+    "id": 220,
+    "swedish": "förbättra",
+    "english": "improve",
+    "sentence": "Jag vill förbättra min svenska",
+    "example": {
+      "sv": "Jag vill förbättra min svenska",
+      "en": "I want to improve my Swedish"
+    }
+  },
+  {
+    "id": 221,
+    "swedish": "företag",
+    "english": "company",
+    "sentence": "Jobba på ett stort företag",
+    "example": {
+      "sv": "Jobba på ett stort företag",
+      "en": "Work at a large company"
+    }
+  },
+  {
+    "id": 222,
+    "swedish": "förkyld",
+    "english": "have a cold",
+    "sentence": "Jag är jätteförkyld",
+    "example": {
+      "sv": "Jag är jätteförkyld",
+      "en": "I have a terrible cold"
+    }
+  },
+  {
+    "id": 223,
+    "swedish": "förlåt",
+    "english": "sorry",
+    "sentence": "Förlåt, jag glömde",
+    "example": {
+      "sv": "Förlåt, jag glömde",
+      "en": "Sorry, I forgot"
+    }
+  },
+  {
+    "id": 224,
+    "swedish": "förlora",
+    "english": "lose",
+    "sentence": "Inte förlora hoppet",
+    "example": {
+      "sv": "Inte förlora hoppet",
+      "en": "Don't lose hope"
+    }
+  },
+  {
+    "id": 225,
+    "swedish": "förmiddag",
+    "english": "morning",
+    "sentence": "En lugn förmiddag",
+    "example": {
+      "sv": "En lugn förmiddag",
+      "en": "A quiet morning"
+    }
+  },
+  {
+    "id": 226,
+    "swedish": "förnamn",
+    "english": "first name",
+    "sentence": "Vad är ditt förnamn",
+    "example": {
+      "sv": "Vad är ditt förnamn",
+      "en": "What is your first name"
+    }
+  },
+  {
+    "id": 227,
+    "swedish": "förr",
+    "english": "before",
+    "sentence": "Det var bättre förr",
+    "example": {
+      "sv": "Det var bättre förr",
+      "en": "It was better before"
+    }
+  },
+  {
+    "id": 228,
+    "swedish": "förresten",
+    "english": "by the way",
+    "sentence": "Förresten, var är boken",
+    "example": {
+      "sv": "Förresten, var är boken",
+      "en": "By the way, where is the book"
+    }
+  },
+  {
+    "id": 229,
+    "swedish": "första",
+    "english": "first",
+    "sentence": "Första gången vi ses",
+    "example": {
+      "sv": "Första gången vi ses",
+      "en": "The first time we meet"
+    }
+  },
+  {
+    "id": 230,
+    "swedish": "förstora",
+    "english": "enlarge",
+    "sentence": "Kan du förstora bilden",
+    "example": {
+      "sv": "Kan du förstora bilden",
+      "en": "Can you enlarge the picture"
+    }
+  },
+  {
+    "id": 231,
+    "swedish": "förstå",
+    "english": "understand",
+    "sentence": "Jag vill förstå dig",
+    "example": {
+      "sv": "Jag vill förstå dig",
+      "en": "I want to understand you"
+    }
+  },
+  {
+    "id": 232,
+    "swedish": "försvinna",
+    "english": "disappear",
+    "sentence": "Dimman börjar försvinna",
+    "example": {
+      "sv": "Dimman börjar försvinna",
+      "en": "The fog is starting to disappear"
+    }
+  },
+  {
+    "id": 233,
+    "swedish": "försäkring",
+    "english": "insurance",
+    "sentence": "Betala för en försäkring",
+    "example": {
+      "sv": "Betala för en försäkring",
+      "en": "Pay for insurance"
+    }
+  },
+  {
+    "id": 234,
+    "swedish": "försök",
+    "english": "attempt",
+    "sentence": "Gör ett nytt försök",
+    "example": {
+      "sv": "Gör ett nytt försök",
+      "en": "Make a new attempt"
+    }
+  },
+  {
+    "id": 235,
+    "swedish": "försöka",
+    "english": "try",
+    "sentence": "Jag ska försöka",
+    "example": {
+      "sv": "Jag ska försöka",
+      "en": "I will try"
+    }
+  },
+  {
+    "id": 236,
+    "swedish": "förtjust",
+    "english": "fond",
+    "sentence": "Vara förtjust i choklad",
+    "example": {
+      "sv": "Vara förtjust i choklad",
+      "en": "Be fond of chocolate"
+    }
+  },
+  {
+    "id": 237,
+    "swedish": "förtur",
+    "english": "priority",
+    "sentence": "Ha förtur i kön",
+    "example": {
+      "sv": "Ha förtur i kön",
+      "en": "Have priority in the queue"
+    }
+  },
+  {
+    "id": 238,
+    "swedish": "förut",
+    "english": "previously",
+    "sentence": "Jag har sett det förut",
+    "example": {
+      "sv": "Jag har sett det förut",
+      "en": "I have seen it previously"
+    }
+  },
+  {
+    "id": 239,
+    "swedish": "förvånad",
+    "english": "surprised",
+    "sentence": "Bli väldigt förvånad",
+    "example": {
+      "sv": "Bli väldigt förvånad",
+      "en": "Be very surprised"
+    }
+  },
+  {
+    "id": 240,
+    "swedish": "förväntan",
+    "english": "expectation",
+    "sentence": "En hög förväntan",
+    "example": {
+      "sv": "En hög förväntan",
+      "en": "A high expectation"
+    }
+  },
+  {
+    "id": 241,
+    "swedish": "förändring",
+    "english": "change",
+    "sentence": "Dags för en förändring",
+    "example": {
+      "sv": "Dags för en förändring",
+      "en": "Time for a change"
+    }
+  },
+  {
+    "id": 242,
+    "swedish": "galge",
+    "english": "hanger",
+    "sentence": "Häng upp jackan på en galge",
+    "example": {
+      "sv": "Häng upp jackan på en galge",
+      "en": "Hang the jacket on a hanger"
+    }
+  },
+  {
+    "id": 243,
+    "swedish": "gammal",
+    "english": "old",
+    "sentence": "En gammal man",
+    "example": {
+      "sv": "En gammal man",
+      "en": "An old man"
+    }
+  },
+  {
+    "id": 244,
+    "swedish": "ganska",
+    "english": "quite",
+    "sentence": "Det är ganska kallt",
+    "example": {
+      "sv": "Det är ganska kallt",
+      "en": "It is quite cold"
+    }
+  },
+  {
+    "id": 245,
+    "swedish": "garderob",
+    "english": "wardrobe",
+    "sentence": "En full garderob",
+    "example": {
+      "sv": "En full garderob",
+      "en": "A full wardrobe"
+    }
+  },
+  {
+    "id": 246,
+    "swedish": "gardin",
+    "english": "curtain",
+    "sentence": "Dra för en gardin",
+    "example": {
+      "sv": "Dra för en gardin",
+      "en": "Close a curtain"
+    }
+  },
+  {
+    "id": 247,
+    "swedish": "gata",
+    "english": "street",
+    "sentence": "Gå längs en gata",
+    "example": {
+      "sv": "Gå längs en gata",
+      "en": "Walk along a street"
+    }
+  },
+  {
+    "id": 248,
+    "swedish": "ge",
+    "english": "give",
+    "sentence": "Ge mig boken",
+    "example": {
+      "sv": "Ge mig boken",
+      "en": "Give me the book"
+    }
+  },
+  {
+    "id": 249,
+    "swedish": "gemenskap",
+    "english": "community",
+    "sentence": "Känna stark gemenskap",
+    "example": {
+      "sv": "Känna stark gemenskap",
+      "en": "Feel a strong sense of community"
+    }
+  },
+  {
+    "id": 250,
+    "swedish": "genom",
+    "english": "through",
+    "sentence": "Gå genom parken",
+    "example": {
+      "sv": "Gå genom parken",
+      "en": "Walk through the park"
+    }
+  },
+  {
+    "id": 251,
+    "swedish": "geografi",
+    "english": "geography",
+    "sentence": "Läsa geografi",
+    "example": {
+      "sv": "Läsa geografi",
+      "en": "Study geography"
+    }
+  },
+  {
+    "id": 252,
+    "swedish": "gift",
+    "english": "married",
+    "sentence": "De är lyckligt gifta",
+    "example": {
+      "sv": "De är lyckligt gifta",
+      "en": "They are happily married"
+    }
+  },
+  {
+    "id": 253,
+    "swedish": "gilla",
+    "english": "like",
+    "sentence": "Jag gillar dig",
+    "example": {
+      "sv": "Jag gillar dig",
+      "en": "I like you"
+    }
+  },
+  {
+    "id": 255,
+    "swedish": "gisssa",
+    "english": "guess",
+    "sentence": "Kan du gissa vad",
+    "example": {
+      "sv": "Kan du gissa vad",
+      "en": "Can you guess what"
+    }
+  },
+  {
+    "id": 256,
+    "swedish": "glad",
+    "english": "happy",
+    "sentence": "Jag är så glad",
+    "example": {
+      "sv": "Jag är så glad",
+      "en": "I am so happy"
+    }
+  },
+  {
+    "id": 257,
+    "swedish": "glas",
+    "english": "glass",
+    "sentence": "Ett glas vatten",
+    "example": {
+      "sv": "Ett glas vatten",
+      "en": "A glass of water"
+    }
+  },
+  {
+    "id": 258,
+    "swedish": "glasögon",
+    "english": "glasses",
+    "sentence": "Mina nya glasögon",
+    "example": {
+      "sv": "Mina nya glasögon",
+      "en": "My new glasses"
+    }
+  },
+  {
+    "id": 259,
+    "swedish": "glömma",
+    "english": "forget",
+    "sentence": "Inte glömma nyckeln",
+    "example": {
+      "sv": "Inte glömma nyckeln",
+      "en": "Don't forget the key"
+    }
+  },
+  {
+    "id": 260,
+    "swedish": "god",
+    "english": "good",
+    "sentence": "Maten är god",
+    "example": {
+      "sv": "Maten är god",
+      "en": "The food is good"
+    }
+  },
+  {
+    "id": 261,
+    "swedish": "godis",
+    "english": "candy",
+    "sentence": "Äta för mycket godis",
+    "example": {
+      "sv": "Äta för mycket godis",
+      "en": "Eat too much candy"
+    }
+  },
+  {
+    "id": 262,
+    "swedish": "golv",
+    "english": "floor",
+    "sentence": "Stå på ett golv",
+    "example": {
+      "sv": "Stå på ett golv",
+      "en": "Stand on a floor"
+    }
+  },
+  {
+    "id": 263,
+    "swedish": "grad",
+    "english": "degree",
+    "sentence": "Tio grader varmt",
+    "example": {
+      "sv": "Tio grader varmt",
+      "en": "Ten degrees warm"
+    }
+  },
+  {
+    "id": 264,
+    "swedish": "granne",
+    "english": "neighbor",
+    "sentence": "Min granne är snäll",
+    "example": {
+      "sv": "Min granne är snäll",
+      "en": "My neighbor is kind"
+    }
+  },
+  {
+    "id": 265,
+    "swedish": "grattis",
+    "english": "congratulations",
+    "sentence": "Grattis på födelsedagen",
+    "example": {
+      "sv": "Grattis på födelsedagen",
+      "en": "Happy birthday"
+    }
+  },
+  {
+    "id": 266,
+    "swedish": "gravid",
+    "english": "pregnant",
+    "sentence": "Hon är gravid",
+    "example": {
+      "sv": "Hon är gravid",
+      "en": "She is pregnant"
+    }
+  },
+  {
+    "id": 267,
+    "swedish": "grepp",
+    "english": "grip",
+    "sentence": "Hålla ett hårt grepp",
+    "example": {
+      "sv": "Hålla ett hårt grepp",
+      "en": "Hold a tight grip"
+    }
+  },
+  {
+    "id": 268,
+    "swedish": "gripa",
+    "english": "grab",
+    "sentence": "Gripa tillfället",
+    "example": {
+      "sv": "Gripa tillfället",
+      "en": "Grab the opportunity"
+    }
+  },
+  {
+    "id": 269,
+    "swedish": "grundskola",
+    "english": "elementary school",
+    "sentence": "Gå i grundskola",
+    "example": {
+      "sv": "Gå i grundskola",
+      "en": "Go to elementary school"
+    }
+  },
+  {
+    "id": 270,
+    "swedish": "grupp",
+    "english": "group",
+    "sentence": "Arbeta i en grupp",
+    "example": {
+      "sv": "Arbeta i en grupp",
+      "en": "Work in a group"
+    }
+  },
+  {
+    "id": 271,
+    "swedish": "gryning",
+    "english": "dawn",
+    "sentence": "Vakna i gryningen",
+    "example": {
+      "sv": "Vakna i gryningen",
+      "en": "Wake up at dawn"
+    }
+  },
+  {
+    "id": 272,
+    "swedish": "gryta",
+    "english": "stew",
+    "sentence": "En god gryta",
+    "example": {
+      "sv": "En god gryta",
+      "en": "A tasty stew"
+    }
+  },
+  {
+    "id": 273,
+    "swedish": "grå",
+    "english": "gray",
+    "sentence": "Himmelen är grå",
+    "example": {
+      "sv": "Himmelen är grå",
+      "en": "The sky is gray"
+    }
+  },
+  {
+    "id": 274,
+    "swedish": "grön",
+    "english": "green",
+    "sentence": "Gräset är grönt",
+    "example": {
+      "sv": "Gräset är grönt",
+      "en": "The grass is green"
+    }
+  },
+  {
+    "id": 275,
+    "swedish": "grönsaker",
+    "english": "vegetables",
+    "sentence": "Äta mer grönsaker",
+    "example": {
+      "sv": "Äta mer grönsaker",
+      "en": "Eat more vegetables"
+    }
+  },
+  {
+    "id": 276,
+    "swedish": "gul",
+    "english": "yellow",
+    "sentence": "Solen är gul",
+    "example": {
+      "sv": "Solen är gul",
+      "en": "The sun is yellow"
+    }
+  },
+  {
+    "id": 277,
+    "swedish": "gärna",
+    "english": "gladly",
+    "sentence": "Jag hjälper gärna till",
+    "example": {
+      "sv": "Jag hjälper gärna till",
+      "en": "I'll gladly help out"
+    }
+  },
+  {
+    "id": 278,
+    "swedish": "gå",
+    "english": "go",
+    "sentence": "Ska vi gå nu",
+    "example": {
+      "sv": "Ska vi gå nu",
+      "en": "Shall we go now"
+    }
+  },
+  {
+    "id": 279,
+    "swedish": "gång",
+    "english": "time",
+    "sentence": "En gång till",
+    "example": {
+      "sv": "En gång till",
+      "en": "One more time"
+    }
+  },
+  {
+    "id": 280,
+    "swedish": "gård",
+    "english": "yard",
+    "sentence": "En stor gård",
+    "example": {
+      "sv": "En stor gård",
+      "en": "A large yard"
+    }
+  },
+  {
+    "id": 281,
+    "swedish": "gåva",
+    "english": "gift",
+    "sentence": "Få en fin gåva",
+    "example": {
+      "sv": "Få en fin gåva",
+      "en": "Get a nice gift"
+    }
+  },
+  {
+    "id": 282,
+    "swedish": "göra",
+    "english": "do",
+    "sentence": "Vad ska vi göra",
+    "example": {
+      "sv": "Vad ska vi göra",
+      "en": "What are we going to do"
+    }
+  },
+  {
+    "id": 283,
+    "swedish": "ha",
+    "english": "have",
+    "sentence": "Jag vill ha kaffe",
+    "example": {
+      "sv": "Jag vill ha kaffe",
+      "en": "I want coffee"
+    }
+  },
+  {
+    "id": 284,
+    "swedish": "haka",
+    "english": "chin",
+    "sentence": "En spetsig haka",
+    "example": {
+      "sv": "En spetsig haka",
+      "en": "A pointed chin"
+    }
+  },
+  {
+    "id": 285,
+    "swedish": "hals",
+    "english": "throat",
+    "sentence": "Jag har ont i halsen",
+    "example": {
+      "sv": "Jag har ont i halsen",
+      "en": "I have a sore throat"
+    }
+  },
+  {
+    "id": 286,
+    "swedish": "halsband",
+    "english": "necklace",
+    "sentence": "Ett vackert halsband",
+    "example": {
+      "sv": "Ett vackert halsband",
+      "en": "A beautiful necklace"
+    }
+  },
+  {
+    "id": 287,
+    "swedish": "halv",
+    "english": "half",
+    "sentence": "Klockan är halv två",
+    "example": {
+      "sv": "Klockan är halv två",
+      "en": "It is half past one"
+    }
+  },
+  {
+    "id": 288,
+    "swedish": "halvtid",
+    "english": "half-time",
+    "sentence": "Jobba halvtid",
+    "example": {
+      "sv": "Jobba halvtid",
+      "en": "Work half-time"
+    }
+  },
+  {
+    "id": 289,
+    "swedish": "han",
+    "english": "he",
+    "sentence": "Han kommer snart",
+    "example": {
+      "sv": "Han kommer snart",
+      "en": "He is coming soon"
+    }
+  },
+  {
+    "id": 290,
+    "swedish": "hand",
+    "english": "hand",
+    "sentence": "Håll min hand",
+    "example": {
+      "sv": "Håll min hand",
+      "en": "Hold my hand"
+    }
+  },
+  {
+    "id": 291,
+    "swedish": "handla",
+    "english": "shop",
+    "sentence": "Gå och handla mat",
+    "example": {
+      "sv": "Gå och handla mat",
+      "en": "Go and shop for food"
+    }
+  },
+  {
+    "id": 292,
+    "swedish": "handläggare",
+    "english": "administrator",
+    "sentence": "Prata med en handläggare",
+    "example": {
+      "sv": "Prata med en handläggare",
+      "en": "Talk to an administrator"
+    }
+  },
+  {
+    "id": 293,
+    "swedish": "handskar",
+    "english": "gloves",
+    "sentence": "Ett par varma handskar",
+    "example": {
+      "sv": "Ett par varma handskar",
+      "en": "A pair of warm gloves"
+    }
+  },
+  {
+    "id": 294,
+    "swedish": "handväska",
+    "english": "handbag",
+    "sentence": "En liten handväska",
+    "example": {
+      "sv": "En liten handväska",
+      "en": "A small handbag"
+    }
+  },
+  {
+    "id": 295,
+    "swedish": "hastighet",
+    "english": "speed",
+    "sentence": "Håll rätt hastighet",
+    "example": {
+      "sv": "Håll rätt hastighet",
+      "en": "Keep the correct speed"
+    }
+  },
+  {
+    "id": 296,
+    "swedish": "hatt",
+    "english": "hat",
+    "sentence": "En fin hatt",
+    "example": {
+      "sv": "En fin hatt",
+      "en": "A nice hat"
+    }
+  },
+  {
+    "id": 297,
+    "swedish": "hav",
+    "english": "sea",
+    "sentence": "Havet är blått",
+    "example": {
+      "sv": "Havet är blått",
+      "en": "The sea is blue"
+    }
+  },
+  {
+    "id": 298,
+    "swedish": "hel",
+    "english": "whole",
+    "sentence": "En hel dag",
+    "example": {
+      "sv": "En hel dag",
+      "en": "A whole day"
+    }
+  },
+  {
+    "id": 299,
+    "swedish": "helg",
+    "english": "weekend",
+    "sentence": "Trevlig helg",
+    "example": {
+      "sv": "Trevlig helg",
+      "en": "Have a nice weekend"
+    }
+  },
+  {
+    "id": 300,
+    "swedish": "hellre",
+    "english": "rather",
+    "sentence": "Jag vill hellre fika",
+    "example": {
+      "sv": "Jag vill hellre fika",
+      "en": "I would rather have a coffee break"
+    }
+  },
+  {
+    "id": 301,
+    "swedish": "helt",
+    "english": "completely",
+    "sentence": "Helt fantastiskt",
+    "example": {
+      "sv": "Helt fantastiskt",
+      "en": "Completely fantastic"
+    }
+  },
+  {
+    "id": 302,
+    "swedish": "hem",
+    "english": "home",
+    "sentence": "Gå hem nu",
+    "example": {
+      "sv": "Gå hem nu",
+      "en": "Go home now"
+    }
+  },
+  {
+    "id": 303,
+    "swedish": "hemarbete",
+    "english": "working from home",
+    "sentence": "Gilla hemarbete",
+    "example": {
+      "sv": "Gilla hemarbete",
+      "en": "Like working from home"
+    }
+  },
+  {
+    "id": 304,
+    "swedish": "hemsida",
+    "english": "website",
+    "sentence": "Titta på en hemsida",
+    "example": {
+      "sv": "Titta på en hemsida",
+      "en": "Look at a website"
+    }
+  },
+  {
+    "id": 305,
+    "swedish": "henne",
+    "english": "her",
+    "sentence": "Jag ser henne",
+    "example": {
+      "sv": "Jag ser henne",
+      "en": "I see her"
+    }
+  },
+  {
+    "id": 306,
+    "swedish": "hennes",
+    "english": "her/hers",
+    "sentence": "Det är hennes bok",
+    "example": {
+      "sv": "Det är hennes bok",
+      "en": "It is her book"
+    }
+  },
+  {
+    "id": 307,
+    "swedish": "heter",
+    "english": "be named",
+    "sentence": "Vad heter du",
+    "example": {
+      "sv": "Vad heter du",
+      "en": "What is your name"
+    }
+  },
+  {
+    "id": 308,
+    "swedish": "himmel",
+    "english": "sky",
+    "sentence": "Blå himmel",
+    "example": {
+      "sv": "Blå himmel",
+      "en": "Blue sky"
+    }
+  },
+  {
+    "id": 309,
+    "swedish": "hitta",
+    "english": "find",
+    "sentence": "Jag måste hitta den",
+    "example": {
+      "sv": "Jag måste hitta den",
+      "en": "I must find it"
+    }
+  },
+  {
+    "id": 310,
+    "swedish": "hjälpa",
+    "english": "help",
+    "sentence": "Kan du hjälpa mig",
+    "example": {
+      "sv": "Kan du hjälpa mig",
+      "en": "Can you help me"
+    }
+  },
+  {
+    "id": 311,
+    "swedish": "hjärta",
+    "english": "heart",
+    "sentence": "Ett varmt hjärta",
+    "example": {
+      "sv": "Ett varmt hjärta",
+      "en": "A warm heart"
+    }
+  },
+  {
+    "id": 312,
+    "swedish": "hon",
+    "english": "she",
+    "sentence": "Hon är snäll",
+    "example": {
+      "sv": "Hon är snäll",
+      "en": "She is kind"
+    }
+  },
+  {
+    "id": 313,
+    "swedish": "hoppa",
+    "english": "jump",
+    "sentence": "Hoppa högt",
+    "example": {
+      "sv": "Hoppa högt",
+      "en": "Jump high"
+    }
+  },
+  {
+    "id": 314,
+    "swedish": "hoppas",
+    "english": "hope",
+    "sentence": "Jag hoppas det",
+    "example": {
+      "sv": "Jag hoppas det",
+      "en": "I hope so"
+    }
+  },
+  {
+    "id": 315,
+    "swedish": "hotell",
+    "english": "hotel",
+    "sentence": "Bo på hotell",
+    "example": {
+      "sv": "Bo på hotell",
+      "en": "Stay at a hotel"
+    }
+  },
+  {
+    "id": 316,
+    "swedish": "humör",
+    "english": "mood",
+    "sentence": "Vara på bra humör",
+    "example": {
+      "sv": "Vara på bra humör",
+      "en": "Be in a good mood"
+    }
+  },
+  {
+    "id": 317,
+    "swedish": "hund",
+    "english": "dog",
+    "sentence": "En glad hund",
+    "example": {
+      "sv": "En glad hund",
+      "en": "A happy dog"
+    }
+  },
+  {
+    "id": 318,
+    "swedish": "hungrig",
+    "english": "hungry",
+    "sentence": "Jag är jättehungrig",
+    "example": {
+      "sv": "Jag är jättehungrig",
+      "en": "I am very hungry"
+    }
+  },
+  {
+    "id": 319,
+    "swedish": "hur",
+    "english": "how",
+    "sentence": "Hur mår du",
+    "example": {
+      "sv": "Hur mår du",
+      "en": "How are you"
+    }
+  },
+  {
+    "id": 320,
+    "swedish": "hus",
+    "english": "house",
+    "sentence": "Ett rött hus",
+    "example": {
+      "sv": "Ett rött hus",
+      "en": "A red house"
+    }
+  },
+  {
+    "id": 321,
+    "swedish": "husdjur",
+    "english": "pet",
+    "sentence": "Har du husdjur",
+    "example": {
+      "sv": "Har du husdjur",
+      "en": "Do you have pets"
+    }
+  },
+  {
+    "id": 322,
+    "swedish": "huvud",
+    "english": "head",
+    "sentence": "Jag har ont i huvud",
+    "example": {
+      "sv": "Jag har ont i huvud",
+      "en": "My head hurts"
+    }
+  },
+  {
+    "id": 323,
+    "swedish": "hygien",
+    "english": "hygiene",
+    "sentence": "God hygien är viktigt",
+    "example": {
+      "sv": "God hygien är viktigt",
+      "en": "Good hygiene is important"
+    }
+  },
+  {
+    "id": 324,
+    "swedish": "hylla",
+    "english": "shelf",
+    "sentence": "Sätt den på en hylla",
+    "example": {
+      "sv": "Sätt den på en hylla",
+      "en": "Put it on a shelf"
+    }
+  },
+  {
+    "id": 325,
+    "swedish": "hyra",
+    "english": "rent",
+    "sentence": "Betala hyra varje månad",
+    "example": {
+      "sv": "Betala hyra varje månad",
+      "en": "Pay rent every month"
+    }
+  },
+  {
+    "id": 326,
+    "swedish": "hår",
+    "english": "hair",
+    "sentence": "Långt mörkt hår",
+    "example": {
+      "sv": "Långt mörkt hår",
+      "en": "Long dark hair"
+    }
+  },
+  {
+    "id": 327,
+    "swedish": "hård",
+    "english": "hard",
+    "sentence": "Sängen är för hård",
+    "example": {
+      "sv": "Sängen är för hård",
+      "en": "The bed is too hard"
+    }
+  },
+  {
+    "id": 328,
+    "swedish": "häkta",
+    "english": "detain",
+    "sentence": "Bli häktad",
+    "example": {
+      "sv": "Bli häktad",
+      "en": "Be detained"
+    }
+  },
+  {
+    "id": 329,
+    "swedish": "hälsa",
+    "english": "health",
+    "sentence": "Tänk på din hälsa",
+    "example": {
+      "sv": "Tänk på din hälsa",
+      "en": "Think of your health"
+    }
+  },
+  {
+    "id": 330,
+    "swedish": "hämta",
+    "english": "pick up",
+    "sentence": "Hämta barnen",
+    "example": {
+      "sv": "Hämta barnen",
+      "en": "Pick up the children"
+    }
+  },
+  {
+    "id": 331,
+    "swedish": "hända",
+    "english": "happen",
+    "sentence": "Vad ska hända nu",
+    "example": {
+      "sv": "Vad ska hända nu",
+      "en": "What will happen now"
+    }
+  },
+  {
+    "id": 332,
+    "swedish": "här",
+    "english": "here",
+    "sentence": "Jag är här",
+    "example": {
+      "sv": "Jag är här",
+      "en": "I am here"
+    }
+  },
+  {
+    "id": 333,
+    "swedish": "häst",
+    "english": "horse",
+    "sentence": "Rida på en häst",
+    "example": {
+      "sv": "Rida på en häst",
+      "en": "Ride a horse"
+    }
+  },
+  {
+    "id": 334,
+    "swedish": "hög",
+    "english": "high",
+    "sentence": "Ett högt berg",
+    "example": {
+      "sv": "Ett högt berg",
+      "en": "A high mountain"
+    }
+  },
+  {
+    "id": 335,
+    "swedish": "höger",
+    "english": "right",
+    "sentence": "Sväng till höger",
+    "example": {
+      "sv": "Sväng till höger",
+      "en": "Turn right"
+    }
+  },
+  {
+    "id": 336,
+    "swedish": "högstadiet",
+    "english": "senior high school",
+    "sentence": "Gå i högstadiet",
+    "example": {
+      "sv": "Gå i högstadiet",
+      "en": "Go to senior high school"
+    }
+  },
+  {
+    "id": 337,
+    "swedish": "höja",
+    "english": "raise",
+    "sentence": "Höja rösten",
+    "example": {
+      "sv": "Höja rösten",
+      "en": "Raise one's voice"
+    }
+  },
+  {
+    "id": 338,
+    "swedish": "hör",
+    "english": "hear",
+    "sentence": "Hör du mig",
+    "example": {
+      "sv": "Hör du mig",
+      "en": "Do you hear me"
+    }
+  },
+  {
+    "id": 339,
+    "swedish": "höra",
+    "english": "hear",
+    "sentence": "Jag vill höra mer",
+    "example": {
+      "sv": "Jag vill höra mer",
+      "en": "I want to hear more"
+    }
+  },
+  {
+    "id": 340,
+    "swedish": "hörsel",
+    "english": "hearing",
+    "sentence": "Ha dålig hörsel",
+    "example": {
+      "sv": "Ha dålig hörsel",
+      "en": "Have poor hearing"
+    }
+  },
+  {
+    "id": 341,
+    "swedish": "höst",
+    "english": "autumn",
+    "sentence": "Vackra färger på höst",
+    "example": {
+      "sv": "Vackra färger på höst",
+      "en": "Beautiful colors in autumn"
+    }
+  },
+  {
+    "id": 342,
+    "swedish": "idag",
+    "english": "today",
+    "sentence": "Vad gör du idag",
+    "example": {
+      "sv": "Vad gör du idag",
+      "en": "What are you doing today"
+    }
+  },
+  {
+    "id": 343,
+    "swedish": "ide",
+    "english": "idea",
+    "sentence": "En bra ide",
+    "example": {
+      "sv": "En bra ide",
+      "en": "A good idea"
+    }
+  },
+  {
+    "id": 344,
+    "swedish": "idrott",
+    "english": "sport",
+    "sentence": "Gilla idrott",
+    "example": {
+      "sv": "Gilla idrott",
+      "en": "Like sports"
+    }
+  },
+  {
+    "id": 345,
+    "swedish": "ifall",
+    "english": "in case",
+    "sentence": "Ifall det regnar",
+    "example": {
+      "sv": "Ifall det regnar",
+      "en": "In case it rains"
+    }
+  },
+  {
+    "id": 346,
+    "swedish": "igen",
+    "english": "again",
+    "sentence": "Ses snart igen",
+    "example": {
+      "sv": "Ses snart igen",
+      "en": "See you again soon"
+    }
+  },
+  {
+    "id": 347,
+    "swedish": "igår",
+    "english": "yesterday",
+    "sentence": "Det var igår",
+    "example": {
+      "sv": "Det var igår",
+      "en": "That was yesterday"
+    }
+  },
+  {
+    "id": 348,
+    "swedish": "imorgon",
+    "english": "tomorrow",
+    "sentence": "Vi ses imorgon",
+    "example": {
+      "sv": "Vi ses imorgon",
+      "en": "See you tomorrow"
+    }
+  },
+  {
+    "id": 349,
+    "swedish": "individer",
+    "english": "individuals",
+    "sentence": "Olika individer",
+    "example": {
+      "sv": "Olika individer",
+      "en": "Different individuals"
+    }
+  },
+  {
+    "id": 350,
+    "swedish": "infart",
+    "english": "entrance",
+    "sentence": "En trång infart",
+    "example": {
+      "sv": "En trång infart",
+      "en": "A narrow entrance"
+    }
+  },
+  {
+    "id": 351,
+    "swedish": "influensa",
+    "english": "flu",
+    "sentence": "Få en influensa",
+    "example": {
+      "sv": "Få en influensa",
+      "en": "Get the flu"
+    }
+  },
+  {
+    "id": 352,
+    "swedish": "ingen",
+    "english": "no one",
+    "sentence": "Ingen är här",
+    "example": {
+      "sv": "Ingen är här",
+      "en": "No one is here"
+    }
+  },
+  {
+    "id": 353,
+    "swedish": "inget",
+    "english": "nothing",
+    "sentence": "Det finns inget",
+    "example": {
+      "sv": "Det finns inget",
+      "en": "There is nothing"
+    }
+  },
+  {
+    "id": 354,
+    "swedish": "ingå",
+    "english": "include",
+    "sentence": "Vad ska ingå",
+    "example": {
+      "sv": "Vad ska ingå",
+      "en": "What shall be included"
+    }
+  },
+  {
+    "id": 355,
+    "swedish": "innan",
+    "english": "before",
+    "sentence": "Innan vi äter",
+    "example": {
+      "sv": "Innan vi äter",
+      "en": "Before we eat"
+    }
+  },
+  {
+    "id": 356,
+    "swedish": "inne",
+    "english": "inside",
+    "sentence": "Vara inne",
+    "example": {
+      "sv": "Vara inne",
+      "en": "Be inside"
+    }
+  },
+  {
+    "id": 357,
+    "swedish": "innehåll",
+    "english": "content",
+    "sentence": "Ett intressant innehåll",
+    "example": {
+      "sv": "Ett intressant innehåll",
+      "en": "Interesting content"
+    }
+  },
+  {
+    "id": 358,
+    "swedish": "inom",
+    "english": "within",
+    "sentence": "Inom räckhåll",
+    "example": {
+      "sv": "Inom räckhåll",
+      "en": "Within reach"
+    }
+  },
+  {
+    "id": 359,
+    "swedish": "instruktion",
+    "english": "instruction",
+    "sentence": "Följ en instruktion",
+    "example": {
+      "sv": "Följ en instruktion",
+      "en": "Follow an instruction"
+    }
+  },
+  {
+    "id": 360,
+    "swedish": "inte",
+    "english": "not",
+    "sentence": "Jag vet inte",
+    "example": {
+      "sv": "Jag vet inte",
+      "en": "I don't know"
+    }
+  },
+  {
+    "id": 361,
+    "swedish": "intressant",
+    "english": "interesting",
+    "sentence": "Det är intressant",
+    "example": {
+      "sv": "Det är intressant",
+      "en": "It is interesting"
+    }
+  },
+  {
+    "id": 362,
+    "swedish": "is",
+    "english": "ice",
+    "sentence": "Halt på is",
+    "example": {
+      "sv": "Halt på is",
+      "en": "Slippery on ice"
+    }
+  },
+  {
+    "id": 363,
+    "swedish": "it",
+    "english": "IT (Information Technology)",
+    "sentence": "Jobba med it",
+    "example": {
+      "sv": "Jobba med it",
+      "en": "Work with IT"
+    }
+  },
+  {
+    "id": 364,
+    "swedish": "ja",
+    "english": "yes",
+    "sentence": "Säg ja tack",
+    "example": {
+      "sv": "Säg ja tack",
+      "en": "Say yes please"
+    }
+  },
+  {
+    "id": 365,
+    "swedish": "jacka",
+    "english": "jacket",
+    "sentence": "En varm jacka",
+    "example": {
+      "sv": "En varm jacka",
+      "en": "A warm jacket"
+    }
+  },
+  {
+    "id": 366,
+    "swedish": "jag",
+    "english": "I",
+    "sentence": "Jag är här",
+    "example": {
+      "sv": "Jag är här",
+      "en": "I am here"
+    }
+  },
+  {
+    "id": 367,
+    "swedish": "januari",
+    "english": "January",
+    "sentence": "Snö i januari",
+    "example": {
+      "sv": "Snö i januari",
+      "en": "Snow in January"
+    }
+  },
+  {
+    "id": 368,
+    "swedish": "jobb",
+    "english": "job",
+    "sentence": "Söka ett jobb",
+    "example": {
+      "sv": "Söka ett jobb",
+      "en": "Apply for a job"
+    }
+  },
+  {
+    "id": 369,
+    "swedish": "jobba",
+    "english": "work",
+    "sentence": "Dags att jobba",
+    "example": {
+      "sv": "Dags att jobba",
+      "en": "Time to work"
+    }
+  },
+  {
+    "id": 370,
+    "swedish": "jobbig",
+    "english": "tiresome",
+    "sentence": "En jobbig dag",
+    "example": {
+      "sv": "En jobbig dag",
+      "en": "A tiresome day"
+    }
+  },
+  {
+    "id": 371,
+    "swedish": "ju",
+    "english": "indeed",
+    "sentence": "Det är ju bra",
+    "example": {
+      "sv": "Det är ju bra",
+      "en": "That is indeed good"
+    }
+  },
+  {
+    "id": 372,
+    "swedish": "jul",
+    "english": "Christmas",
+    "sentence": "Fira jul",
+    "example": {
+      "sv": "Fira jul",
+      "en": "Celebrate Christmas"
+    }
+  },
+  {
+    "id": 373,
+    "swedish": "juli",
+    "english": "July",
+    "sentence": "Varmt i juli",
+    "example": {
+      "sv": "Varmt i juli",
+      "en": "Warm in July"
+    }
+  },
+  {
+    "id": 374,
+    "swedish": "juni",
+    "english": "June",
+    "sentence": "Sommar i juni",
+    "example": {
+      "sv": "Sommar i juni",
+      "en": "Summer in June"
+    }
+  },
+  {
+    "id": 375,
+    "swedish": "just",
+    "english": "just",
+    "sentence": "Det är just",
+    "example": {
+      "sv": "Det är just",
+      "en": "That is just"
+    }
+  },
+  {
+    "id": 376,
+    "swedish": "just nu",
+    "english": "right now",
+    "sentence": "Inte just nu",
+    "example": {
+      "sv": "Inte just nu",
+      "en": "Not right now"
+    }
+  },
+  {
+    "id": 377,
+    "swedish": "jämföra",
+    "english": "compare",
+    "sentence": "Jämföra två saker",
+    "example": {
+      "sv": "Jämföra två saker",
+      "en": "Compare two things"
+    }
+  },
+  {
+    "id": 378,
+    "swedish": "jätte",
+    "english": "very",
+    "sentence": "Jättebra",
+    "example": {
+      "sv": "Jättebra",
+      "en": "Very good"
+    }
+  },
+  {
+    "id": 379,
+    "swedish": "kabel",
+    "english": "cable",
+    "sentence": "Ansluta en kabel",
+    "example": {
+      "sv": "Ansluta en kabel",
+      "en": "Connect a cable"
+    }
+  },
+  {
+    "id": 380,
+    "swedish": "kaffe",
+    "english": "coffee",
+    "sentence": "Vill du ha kaffe",
+    "example": {
+      "sv": "Vill du ha kaffe",
+      "en": "Do you want coffee"
+    }
+  },
+  {
+    "id": 381,
+    "swedish": "kaka",
+    "english": "cake",
+    "sentence": "En god kaka",
+    "example": {
+      "sv": "En god kaka",
+      "en": "A tasty cookie"
+    }
+  },
+  {
+    "id": 382,
+    "swedish": "kalender",
+    "english": "calendar",
+    "sentence": "Titta i en kalender",
+    "example": {
+      "sv": "Titta i en kalender",
+      "en": "Look in a calendar"
+    }
+  },
+  {
+    "id": 383,
+    "swedish": "kall",
+    "english": "cold",
+    "sentence": "Det är kallt ute",
+    "example": {
+      "sv": "Det är kallt ute",
+      "en": "It is cold outside"
+    }
+  },
+  {
+    "id": 384,
+    "swedish": "kamma",
+    "english": "comb",
+    "sentence": "Kamma håret",
+    "example": {
+      "sv": "Kamma håret",
+      "en": "Comb one's hair"
+    }
+  },
+  {
+    "id": 385,
+    "swedish": "kamrat",
+    "english": "friend",
+    "sentence": "En god kamrat",
+    "example": {
+      "sv": "En god kamrat",
+      "en": "A good friend"
+    }
+  },
+  {
+    "id": 386,
+    "swedish": "kan",
+    "english": "can",
+    "sentence": "Jag kan simma",
+    "example": {
+      "sv": "Jag kan simma",
+      "en": "I can swim"
+    }
+  },
+  {
+    "id": 387,
+    "swedish": "kanske",
+    "english": "maybe",
+    "sentence": "Kanske imorgon",
+    "example": {
+      "sv": "Kanske imorgon",
+      "en": "Maybe tomorrow"
+    }
+  },
+  {
+    "id": 388,
+    "swedish": "kant",
+    "english": "edge",
+    "sentence": "Stå på kanten",
+    "example": {
+      "sv": "Stå på kanten",
+      "en": "Stand on the edge"
+    }
+  },
+  {
+    "id": 389,
+    "swedish": "karta",
+    "english": "map",
+    "sentence": "Titta på en karta",
+    "example": {
+      "sv": "Titta på en karta",
+      "en": "Look at a map"
+    }
+  },
+  {
+    "id": 390,
+    "swedish": "kassa",
+    "english": "cashier",
+    "sentence": "Gå till kassan",
+    "example": {
+      "sv": "Gå till kassan",
+      "en": "Go to the checkout"
+    }
+  },
+  {
+    "id": 391,
+    "swedish": "kassett",
+    "english": "cassette",
+    "sentence": "En gammal kassett",
+    "example": {
+      "sv": "En gammal kassett",
+      "en": "An old cassette"
+    }
+  },
+  {
+    "id": 392,
+    "swedish": "kasta",
+    "english": "throw",
+    "sentence": "Kasta skräp",
+    "example": {
+      "sv": "Kasta skräp",
+      "en": "Throw trash"
+    }
+  },
+  {
+    "id": 393,
+    "swedish": "kategori",
+    "english": "category",
+    "sentence": "En ny kategori",
+    "example": {
+      "sv": "En ny kategori",
+      "en": "A new category"
+    }
+  },
+  {
+    "id": 394,
+    "swedish": "katt",
+    "english": "cat",
+    "sentence": "En söt katt",
+    "example": {
+      "sv": "En söt katt",
+      "en": "A cute cat"
+    }
+  },
+  {
+    "id": 395,
+    "swedish": "kemi",
+    "english": "chemistry",
+    "sentence": "Läsa kemi",
+    "example": {
+      "sv": "Läsa kemi",
+      "en": "Study chemistry"
+    }
+  },
+  {
+    "id": 396,
+    "swedish": "kind",
+    "english": "cheek",
+    "sentence": "En mjuk kind",
+    "example": {
+      "sv": "En mjuk kind",
+      "en": "A soft cheek"
+    }
+  },
+  {
+    "id": 397,
+    "swedish": "kindtänder",
+    "english": "molars",
+    "sentence": "Borsta dina kindtänder",
+    "example": {
+      "sv": "Borsta dina kindtänder",
+      "en": "Brush your molars"
+    }
+  },
+  {
+    "id": 398,
+    "swedish": "kjol",
+    "english": "skirt",
+    "sentence": "En lång kjol",
+    "example": {
+      "sv": "En lång kjol",
+      "en": "A long skirt"
+    }
+  },
+  {
+    "id": 399,
+    "swedish": "kladda",
+    "english": "mess",
+    "sentence": "Inte kladda",
+    "example": {
+      "sv": "Inte kladda",
+      "en": "Don't mess"
+    }
+  },
+  {
+    "id": 400,
+    "swedish": "klaga",
+    "english": "complain",
+    "sentence": "Sluta klaga",
+    "example": {
+      "sv": "Sluta klaga",
+      "en": "Stop complaining"
+    }
+  },
+  {
+    "id": 401,
+    "swedish": "kläder",
+    "english": "Clothes",
+    "sentence": "Jag har kläder",
+    "example": {
+      "sv": "Ex: Jag har kläder",
+      "en": "Ex: I have clothes"
+    }
+  },
+  {
+    "id": 402,
+    "swedish": "knä",
+    "english": "Knee",
+    "sentence": "Jag har knä",
+    "example": {
+      "sv": "Ex: Jag har knä",
+      "en": "Ex: I have Knee"
+    }
+  },
+  {
+    "id": 403,
+    "swedish": "kollega",
+    "english": "Colleague",
+    "sentence": "Jag ser kollega",
+    "example": {
+      "sv": "Ex: Jag ser kollega",
+      "en": "Ex: I see Colleague"
+    }
+  },
+  {
+    "id": 404,
+    "swedish": "komma",
+    "english": "To come",
+    "sentence": "Jag ska komma",
+    "example": {
+      "sv": "Ex: Jag ska komma",
+      "en": "Ex: I will come"
+    }
+  },
+  {
+    "id": 405,
+    "swedish": "kompetens",
+    "english": "Competence",
+    "sentence": "Jag har kompetens",
+    "example": {
+      "sv": "Ex: Jag har kompetens",
+      "en": "Ex: I have Competence"
+    }
+  },
+  {
+    "id": 406,
+    "swedish": "koncentration",
+    "english": "Concentration",
+    "sentence": "Jag har koncentration",
+    "example": {
+      "sv": "Ex: Jag har koncentration",
+      "en": "Ex: I have Concentration"
+    }
+  },
+  {
+    "id": 407,
+    "swedish": "konstig",
+    "english": "Strange",
+    "sentence": "Det är konstigt",
+    "example": {
+      "sv": "Ex: Det är konstigt",
+      "en": "Ex: It is strange"
+    }
+  },
+  {
+    "id": 408,
+    "swedish": "kontanter",
+    "english": "Cash",
+    "sentence": "Jag har kontanter",
+    "example": {
+      "sv": "Ex: Jag har kontanter",
+      "en": "Ex: I have cash"
+    }
+  },
+  {
+    "id": 409,
+    "swedish": "kontor",
+    "english": "Office",
+    "sentence": "Jag går till kontor",
+    "example": {
+      "sv": "Ex: Jag går till kontor",
+      "en": "Ex: I go to Office"
+    }
+  },
+  {
+    "id": 410,
+    "swedish": "kontrakt",
+    "english": "Contract",
+    "sentence": "Jag har kontrakt",
+    "example": {
+      "sv": "Ex: Jag har kontrakt",
+      "en": "Ex: I have Contract"
+    }
+  },
+  {
+    "id": 411,
+    "swedish": "korg",
+    "english": "Basket",
+    "sentence": "Jag ser korg",
+    "example": {
+      "sv": "Ex: Jag ser korg",
+      "en": "Ex: I see Basket"
+    }
+  },
+  {
+    "id": 412,
+    "swedish": "kort",
+    "english": "Short",
+    "sentence": "Det är kort",
+    "example": {
+      "sv": "Ex: Det är kort",
+      "en": "Ex: It is short"
+    }
+  },
+  {
+    "id": 413,
+    "swedish": "kosta",
+    "english": "To cost",
+    "sentence": "Vad kostar det?",
+    "example": {
+      "sv": "Ex: Vad kostar det?",
+      "en": "Ex: How much does it cost?"
+    }
+  },
+  {
+    "id": 414,
+    "swedish": "kostar",
+    "english": "Cost",
+    "sentence": "Det kostar mycket",
+    "example": {
+      "sv": "Ex: Det kostar mycket",
+      "en": "Ex: It costs a lot"
+    }
+  },
+  {
+    "id": 415,
+    "swedish": "kostym",
+    "english": "Suit",
+    "sentence": "Jag har en kostym",
+    "example": {
+      "sv": "Ex: Jag har en kostym",
+      "en": "Ex: I have a suit"
+    }
+  },
+  {
+    "id": 416,
+    "swedish": "kreditkort",
+    "english": "Credit card",
+    "sentence": "Jag gillar kreditkort",
+    "example": {
+      "sv": "Ex: Jag gillar kreditkort",
+      "en": "Ex: I like Credit card"
+    }
+  },
+  {
+    "id": 417,
+    "swedish": "kropp",
+    "english": "Body",
+    "sentence": "Jag gillar kropp",
+    "example": {
+      "sv": "Ex: Jag gillar kropp",
+      "en": "Ex: I like Body"
+    }
+  },
+  {
+    "id": 418,
+    "swedish": "kula",
+    "english": "Bullet",
+    "sentence": "Jag vill ha kula",
+    "example": {
+      "sv": "Ex: Jag vill ha kula",
+      "en": "Ex: I want Bullet"
+    }
+  },
+  {
+    "id": 419,
+    "swedish": "kund",
+    "english": "Customer",
+    "sentence": "Jag ser kund",
+    "example": {
+      "sv": "Ex: Jag ser kund",
+      "en": "Ex: I see Customer"
+    }
+  },
+  {
+    "id": 420,
+    "swedish": "kunna",
+    "english": "To be able to",
+    "sentence": "Jag vill kunna",
+    "example": {
+      "sv": "Ex: Jag vill kunna",
+      "en": "Ex: I want to be able to"
+    }
+  },
+  {
+    "id": 421,
+    "swedish": "kursa",
+    "english": "Course",
+    "sentence": "Jag vill ha kursa",
+    "example": {
+      "sv": "Ex: Jag vill ha kursa",
+      "en": "Ex: I want Course"
+    }
+  },
+  {
+    "id": 422,
+    "swedish": "kusin",
+    "english": "Cousin",
+    "sentence": "Det finns kusin",
+    "example": {
+      "sv": "Ex: Det finns kusin",
+      "en": "Ex: There is Cousin"
+    }
+  },
+  {
+    "id": 423,
+    "swedish": "kvitto",
+    "english": "Receipt",
+    "sentence": "Jag har kvitto",
+    "example": {
+      "sv": "Ex: Jag har kvitto",
+      "en": "Ex: I have Receipt"
+    }
+  },
+  {
+    "id": 424,
+    "swedish": "kväll",
+    "english": "Evening",
+    "sentence": "Jag vill ha kväll",
+    "example": {
+      "sv": "Ex: Jag vill ha kväll",
+      "en": "Ex: I want Evening"
+    }
+  },
+  {
+    "id": 425,
+    "swedish": "kylig",
+    "english": "Chilly",
+    "sentence": "Det blir kyligt",
+    "example": {
+      "sv": "Ex: Det blir kyligt",
+      "en": "Ex: It becomes Chilly"
+    }
+  },
+  {
+    "id": 426,
+    "swedish": "kyrka",
+    "english": "Church",
+    "sentence": "Jag ser kyrka",
+    "example": {
+      "sv": "Ex: Jag ser kyrka",
+      "en": "Ex: I see Church"
+    }
+  },
+  {
+    "id": 427,
+    "swedish": "känna",
+    "english": "To feel",
+    "sentence": "Jag kan känna",
+    "example": {
+      "sv": "Ex: Jag kan känna",
+      "en": "Ex: I can feel"
+    }
+  },
+  {
+    "id": 428,
+    "swedish": "känslor",
+    "english": "Feelings",
+    "sentence": "Jag har känslor",
+    "example": {
+      "sv": "Ex: Jag har känslor",
+      "en": "Ex: I have Feelings"
+    }
+  },
+  {
+    "id": 429,
+    "swedish": "köpa",
+    "english": "To buy",
+    "sentence": "Jag ska köpa",
+    "example": {
+      "sv": "Ex: Jag ska köpa",
+      "en": "Ex: I will buy"
+    }
+  },
+  {
+    "id": 430,
+    "swedish": "kök",
+    "english": "Kitchen",
+    "sentence": "Jag gillar kök",
+    "example": {
+      "sv": "Ex: Jag gillar kök",
+      "en": "Ex: I like Kitchen"
+    }
+  },
+  {
+    "id": 431,
+    "swedish": "körkort",
+    "english": "Driver license",
+    "sentence": "Jag har körkort",
+    "example": {
+      "sv": "Ex: Jag har körkort",
+      "en": "Ex: I have Driver license"
+    }
+  },
+  {
+    "id": 432,
+    "swedish": "kött",
+    "english": "Meat",
+    "sentence": "Jag köper kött",
+    "example": {
+      "sv": "Ex: Jag köper kött",
+      "en": "Ex: I buy Meat"
+    }
+  },
+  {
+    "id": 433,
+    "swedish": "ladda",
+    "english": "Charge",
+    "sentence": "Jag vill ha ladda",
+    "example": {
+      "sv": "Ex: Jag vill ha ladda",
+      "en": "Ex: I want Charge"
+    }
+  },
+  {
+    "id": 434,
+    "swedish": "lagom",
+    "english": "Just right",
+    "sentence": "Det är lagom",
+    "example": {
+      "sv": "Ex: Det är lagom",
+      "en": "Ex: It is just right"
+    }
+  },
+  {
+    "id": 435,
+    "swedish": "land",
+    "english": "Country",
+    "sentence": "Jag ser land",
+    "example": {
+      "sv": "Ex: Jag ser land",
+      "en": "Ex: I see Country"
+    }
+  },
+  {
+    "id": 436,
+    "swedish": "lång",
+    "english": "Long",
+    "sentence": "Det är långt",
+    "example": {
+      "sv": "Ex: Det är långt",
+      "en": "Ex: It is long"
+    }
+  },
+  {
+    "id": 437,
+    "swedish": "le",
+    "english": "To smile",
+    "sentence": "Jag kan le",
+    "example": {
+      "sv": "Ex: Jag kan le",
+      "en": "Ex: I can smile"
+    }
+  },
+  {
+    "id": 438,
+    "swedish": "ledsen",
+    "english": "Sad",
+    "sentence": "Jag är ledsen",
+    "example": {
+      "sv": "Ex: Jag är ledsen",
+      "en": "Ex: I am sad"
+    }
+  },
+  {
+    "id": 439,
+    "swedish": "legitimation",
+    "english": "ID",
+    "sentence": "Jag har legitimation",
+    "example": {
+      "sv": "Ex: Jag har legitimation",
+      "en": "Ex: I have ID"
+    }
+  },
+  {
+    "id": 440,
+    "swedish": "leta",
+    "english": "To search",
+    "sentence": "Jag kan leta",
+    "example": {
+      "sv": "Ex: Jag kan leta",
+      "en": "Ex: I can search"
+    }
+  },
+  {
+    "id": 441,
+    "swedish": "likadan",
+    "english": "Similar",
+    "sentence": "Det är likadant",
+    "example": {
+      "sv": "Ex: Det är likadant",
+      "en": "Ex: It is similar"
+    }
+  },
+  {
+    "id": 442,
+    "swedish": "lila",
+    "english": "Purple",
+    "sentence": "Det är lila",
+    "example": {
+      "sv": "Ex: Det är lila",
+      "en": "Ex: It is Purple"
+    }
+  },
+  {
+    "id": 443,
+    "swedish": "lite",
+    "english": "Little",
+    "sentence": "Jag vill ha lite",
+    "example": {
+      "sv": "Ex: Jag vill ha lite",
+      "en": "Ex: I want Little"
+    }
+  },
+  {
+    "id": 444,
+    "swedish": "lite grann",
+    "english": "A little bit",
+    "sentence": "Jag gillar lite grann",
+    "example": {
+      "sv": "Ex: Jag gillar lite grann",
+      "en": "Ex: I like A little bit"
+    }
+  },
+  {
+    "id": 445,
+    "swedish": "ljud",
+    "english": "Sound",
+    "sentence": "Jag hör ljud",
+    "example": {
+      "sv": "Ex: Jag hör ljud",
+      "en": "Ex: I hear Sound"
+    }
+  },
+  {
+    "id": 446,
+    "swedish": "ljus",
+    "english": "Light",
+    "sentence": "Det är ljust",
+    "example": {
+      "sv": "Ex: Det är ljust",
+      "en": "Ex: It is light"
+    }
+  },
+  {
+    "id": 447,
+    "swedish": "ljusa",
+    "english": "Light",
+    "sentence": "Det är ljust",
+    "example": {
+      "sv": "Ex: Det är ljust",
+      "en": "Ex: It is light"
+    }
+  },
+  {
+    "id": 448,
+    "swedish": "lov",
+    "english": "Break",
+    "sentence": "Jag ser lov",
+    "example": {
+      "sv": "Ex: Jag ser lov",
+      "en": "Ex: I see Break"
+    }
+  },
+  {
+    "id": 449,
+    "swedish": "lugn",
+    "english": "Calm",
+    "sentence": "Jag är lugn",
+    "example": {
+      "sv": "Ex: Jag är lugn",
+      "en": "Ex: I am calm"
+    }
+  },
+  {
+    "id": 450,
+    "swedish": "lukta",
+    "english": "To smell",
+    "sentence": "Jag kan lukta",
+    "example": {
+      "sv": "Ex: Jag kan lukta",
+      "en": "Ex: I can smell"
+    }
+  },
+  {
+    "id": 451,
+    "swedish": "lunch",
+    "english": "Lunch",
+    "sentence": "Jag äter lunch",
+    "example": {
+      "sv": "Ex: Jag äter lunch",
+      "en": "Ex: I eat Lunch"
+    }
+  },
+  {
+    "id": 452,
+    "swedish": "lycklig",
+    "english": "Happy",
+    "sentence": "Jag är lycklig",
+    "example": {
+      "sv": "Ex: Jag är lycklig",
+      "en": "Ex: I am happy"
+    }
+  },
+  {
+    "id": 453,
+    "swedish": "lyssna",
+    "english": "To listen",
+    "sentence": "Jag kan lyssna",
+    "example": {
+      "sv": "Ex: Jag kan lyssna",
+      "en": "Ex: I can listen"
+    }
+  },
+  {
+    "id": 454,
+    "swedish": "låga",
+    "english": "Flame",
+    "sentence": "Jag gillar låga",
+    "example": {
+      "sv": "Ex: Jag gillar låga",
+      "en": "Ex: I like Flame"
+    }
+  },
+  {
+    "id": 455,
+    "swedish": "långsam",
+    "english": "Slow",
+    "sentence": "Det går långsamt",
+    "example": {
+      "sv": "Ex: Det går långsamt",
+      "en": "Ex: It goes slowly"
+    }
+  },
+  {
+    "id": 456,
+    "swedish": "låntagare",
+    "english": "Borrower",
+    "sentence": "Jag har låntagare",
+    "example": {
+      "sv": "Ex: Jag har låntagare",
+      "en": "Ex: I have Borrower"
+    }
+  },
+  {
+    "id": 457,
+    "swedish": "lårbenshals",
+    "english": "Femoral neck",
+    "sentence": "Jag vill ha lårbenshals",
+    "example": {
+      "sv": "Ex: Jag vill ha lårbenshals",
+      "en": "Ex: I want Femoral neck"
+    }
+  },
+  {
+    "id": 458,
+    "swedish": "lägenhet",
+    "english": "Apartment",
+    "sentence": "Jag bor i lägenhet",
+    "example": {
+      "sv": "Ex: Jag bor i lägenhet",
+      "en": "Ex: I live in Apartment"
+    }
+  },
+  {
+    "id": 459,
+    "swedish": "läkare",
+    "english": "Doctor",
+    "sentence": "Jag ser läkare",
+    "example": {
+      "sv": "Ex: Jag ser läkare",
+      "en": "Ex: I see Doctor"
+    }
+  },
+  {
+    "id": 460,
+    "swedish": "lämna tillbaka",
+    "english": "Return",
+    "sentence": "Det finns lämna tillbaka",
+    "example": {
+      "sv": "Ex: Det finns lämna tillbaka",
+      "en": "Ex: There is Return"
+    }
+  },
+  {
+    "id": 461,
+    "swedish": "län",
+    "english": "County",
+    "sentence": "Jag ser län",
+    "example": {
+      "sv": "Ex: Jag ser län",
+      "en": "Ex: I see County"
+    }
+  },
+  {
+    "id": 462,
+    "swedish": "lära",
+    "english": "To learn",
+    "sentence": "Jag kan lära",
+    "example": {
+      "sv": "Ex: Jag kan lära",
+      "en": "Ex: I can learn"
+    }
+  },
+  {
+    "id": 463,
+    "swedish": "lärare",
+    "english": "Teacher",
+    "sentence": "Jag ser lärare",
+    "example": {
+      "sv": "Ex: Jag ser lärare",
+      "en": "Ex: I see Teacher"
+    }
+  },
+  {
+    "id": 464,
+    "swedish": "läsa",
+    "english": "To read",
+    "sentence": "Jag ska läsa",
+    "example": {
+      "sv": "Ex: Jag ska läsa",
+      "en": "Ex: I will read"
+    }
+  },
+  {
+    "id": 465,
+    "swedish": "läsk",
+    "english": "Soda",
+    "sentence": "Jag dricker läsk",
+    "example": {
+      "sv": "Ex: Jag dricker läsk",
+      "en": "Ex: I drink Soda"
+    }
+  },
+  {
+    "id": 466,
+    "swedish": "lätt",
+    "english": "Easy",
+    "sentence": "Det är lätt",
+    "example": {
+      "sv": "Ex: Det är lätt",
+      "en": "Ex: It is easy"
+    }
+  },
+  {
+    "id": 467,
+    "swedish": "löfte",
+    "english": "Promise",
+    "sentence": "Jag har löfte",
+    "example": {
+      "sv": "Ex: Jag har löfte",
+      "en": "Ex: I have Promise"
+    }
+  },
+  {
+    "id": 468,
+    "swedish": "lön",
+    "english": "Salary",
+    "sentence": "Jag gillar lön",
+    "example": {
+      "sv": "Ex: Jag gillar lön",
+      "en": "Ex: I like Salary"
+    }
+  },
+  {
+    "id": 469,
+    "swedish": "lördag",
+    "english": "Saturday",
+    "sentence": "Jag vill ha lördag",
+    "example": {
+      "sv": "Ex: Jag vill ha lördag",
+      "en": "Ex: I want Saturday"
+    }
+  },
+  {
+    "id": 470,
+    "swedish": "mamma",
+    "english": "Mom",
+    "sentence": "Jag ser mamma",
+    "example": {
+      "sv": "Ex: Jag ser mamma",
+      "en": "Ex: I see Mom"
+    }
+  },
+  {
+    "id": 471,
+    "swedish": "man",
+    "english": "Man",
+    "sentence": "Jag ser man",
+    "example": {
+      "sv": "Ex: Jag ser man",
+      "en": "Ex: I see Man"
+    }
+  },
+  {
+    "id": 472,
+    "swedish": "mars",
+    "english": "March",
+    "sentence": "Jag ser mars",
+    "example": {
+      "sv": "Ex: Jag ser mars",
+      "en": "Ex: I see March"
+    }
+  },
+  {
+    "id": 473,
+    "swedish": "mat",
+    "english": "Food",
+    "sentence": "Jag äter mat",
+    "example": {
+      "sv": "Ex: Jag äter mat",
+      "en": "Ex: I eat Food"
+    }
+  },
+  {
+    "id": 474,
+    "swedish": "mataffär",
+    "english": "Grocery store",
+    "sentence": "Jag går till mataffär",
+    "example": {
+      "sv": "Ex: Jag går till mataffär",
+      "en": "Ex: I go to Grocery store"
+    }
+  },
+  {
+    "id": 475,
+    "swedish": "matematik",
+    "english": "Math",
+    "sentence": "Jag gillar matematik",
+    "example": {
+      "sv": "Ex: Jag gillar matematik",
+      "en": "Ex: I like Math"
+    }
+  },
+  {
+    "id": 476,
+    "swedish": "matlagning",
+    "english": "Cooking",
+    "sentence": "Jag gillar matlagning",
+    "example": {
+      "sv": "Ex: Jag gillar matlagning",
+      "en": "Ex: I like Cooking"
+    }
+  },
+  {
+    "id": 477,
+    "swedish": "matsal",
+    "english": "Dining hall",
+    "sentence": "Jag går till matsal",
+    "example": {
+      "sv": "Ex: Jag går till matsal",
+      "en": "Ex: I go to Dining hall"
+    }
+  },
+  {
+    "id": 478,
+    "swedish": "maj",
+    "english": "May",
+    "sentence": "Jag ser maj",
+    "example": {
+      "sv": "Ex: Jag ser maj",
+      "en": "Ex: I see May"
+    }
+  },
+  {
+    "id": 479,
+    "swedish": "med",
+    "english": "With",
+    "sentence": "Jag kommer med",
+    "example": {
+      "sv": "Ex: Jag kommer med",
+      "en": "Ex: I come with"
+    }
+  },
+  {
+    "id": 480,
+    "swedish": "meddelande",
+    "english": "Message",
+    "sentence": "Jag har meddelande",
+    "example": {
+      "sv": "Ex: Jag har meddelande",
+      "en": "Ex: I have Message"
+    }
+  },
+  {
+    "id": 481,
+    "swedish": "medicin",
+    "english": "Medicine",
+    "sentence": "Jag tar medicin",
+    "example": {
+      "sv": "Ex: Jag tar medicin",
+      "en": "Ex: I take medicine"
+    }
+  },
+  {
+    "id": 482,
+    "swedish": "mejl",
+    "english": "Email",
+    "sentence": "Jag har mejl",
+    "example": {
+      "sv": "Ex: Jag har mejl",
+      "en": "Ex: I have Email"
+    }
+  },
+  {
+    "id": 483,
+    "swedish": "mellan",
+    "english": "Between",
+    "sentence": "Det finns mellan",
+    "example": {
+      "sv": "Ex: Det finns mellan",
+      "en": "Ex: There is Between"
+    }
+  },
+  {
+    "id": 484,
+    "swedish": "men",
+    "english": "But",
+    "sentence": "Jag vill, men jag kan inte",
+    "example": {
+      "sv": "Ex: Jag vill, men jag kan inte",
+      "en": "Ex: I want to, but I can't"
+    }
+  },
+  {
+    "id": 485,
+    "swedish": "mer",
+    "english": "More",
+    "sentence": "Jag vill ha mer",
+    "example": {
+      "sv": "Ex: Jag vill ha mer",
+      "en": "Ex: I want more"
+    }
+  },
+  {
+    "id": 486,
+    "swedish": "middag",
+    "english": "I eat dinner",
+    "sentence": "Jag äter middag",
+    "example": {
+      "sv": "Ex: Jag äter middag",
+      "en": "Ex: I eat dinner"
+    }
+  },
+  {
+    "id": 487,
+    "swedish": "midsommar",
+    "english": "Midsummer",
+    "sentence": "Jag gillar midsommar",
+    "example": {
+      "sv": "Ex: Jag gillar midsommar",
+      "en": "Ex: I like Midsummer"
+    }
+  },
+  {
+    "id": 488,
+    "swedish": "mig",
+    "english": "Me",
+    "sentence": "Ser du mig?",
+    "example": {
+      "sv": "Ex: Ser du mig?",
+      "en": "Ex: Do you see me?"
+    }
+  },
+  {
+    "id": 489,
+    "swedish": "miljö",
+    "english": "Environment",
+    "sentence": "Jag gillar miljö",
+    "example": {
+      "sv": "Ex: Jag gillar miljö",
+      "en": "Ex: I like Environment"
+    }
+  },
+  {
+    "id": 490,
+    "swedish": "min",
+    "english": "My (common)",
+    "sentence": "Det är min bok",
+    "example": {
+      "sv": "Ex: Det är min bok",
+      "en": "Ex: It is my book"
+    }
+  },
+  {
+    "id": 491,
+    "swedish": "mitt",
+    "english": "My (neuter)",
+    "sentence": "Det är mitt hus",
+    "example": {
+      "sv": "Ex: Det är mitt hus",
+      "en": "Ex: It is my house"
+    }
+  },
+  {
+    "id": 492,
+    "swedish": "mina",
+    "english": "My (plural)",
+    "sentence": "Det är mina barn",
+    "example": {
+      "sv": "Ex: Det är mina barn",
+      "en": "Ex: They are my children"
+    }
+  },
+  {
+    "id": 493,
+    "swedish": "mindre",
+    "english": "Less",
+    "sentence": "Jag gillar mindre",
+    "example": {
+      "sv": "Ex: Jag gillar mindre",
+      "en": "Ex: I like Less"
+    }
+  },
+  {
+    "id": 494,
+    "swedish": "mineraler",
+    "english": "Minerals",
+    "sentence": "Det finns mineraler",
+    "example": {
+      "sv": "Ex: Det finns mineraler",
+      "en": "Ex: There is Minerals"
+    }
+  },
+  {
+    "id": 495,
+    "swedish": "minut",
+    "english": "Minute",
+    "sentence": "Jag vill ha minut",
+    "example": {
+      "sv": "Ex: Jag vill ha minut",
+      "en": "Ex: I want Minute"
+    }
+  },
+  {
+    "id": 496,
+    "swedish": "mjuk",
+    "english": "Soft",
+    "sentence": "Det är mjukt",
+    "example": {
+      "sv": "Ex: Det är mjukt",
+      "en": "Ex: It is soft"
+    }
+  },
+  {
+    "id": 497,
+    "swedish": "mjuka",
+    "english": "Soft",
+    "sentence": "Det är mjukt",
+    "example": {
+      "sv": "Ex: Det är mjukt",
+      "en": "Ex: It is soft"
+    }
+  },
+  {
+    "id": 498,
+    "swedish": "mjölk",
+    "english": "Milk",
+    "sentence": "Jag dricker mjölk",
+    "example": {
+      "sv": "Ex: Jag dricker mjölk",
+      "en": "Ex: I drink Milk"
+    }
+  },
+  {
+    "id": 499,
+    "swedish": "mobil",
+    "english": "Mobile",
+    "sentence": "Jag ser mobil",
+    "example": {
+      "sv": "Ex: Jag ser mobil",
+      "en": "Ex: I see Mobile"
+    }
+  },
+  {
+    "id": 500,
+    "swedish": "modig",
+    "english": "Brave",
+    "sentence": "Han är modig",
+    "example": {
+      "sv": "Ex: Han är modig",
+      "en": "Ex: He is Brave"
+    }
+  },
+  {
+    "id": 501,
+    "swedish": "moln",
+    "english": "Cloud",
+    "sentence": "Det är moln",
+    "example": {
+      "sv": "Ex: Det är moln",
+      "en": "Ex: It is Cloud"
+    }
+  },
+  {
+    "id": 502,
+    "swedish": "molnigt",
+    "english": "Cloudy",
+    "sentence": "Det är molnigt",
+    "example": {
+      "sv": "Ex: Det är molnigt",
+      "en": "Ex: It is Cloudy"
+    }
+  },
+  {
+    "id": 503,
+    "swedish": "morbror",
+    "english": "Maternal uncle",
+    "sentence": "Det finns morbror",
+    "example": {
+      "sv": "Ex: Det finns morbror",
+      "en": "Ex: There is Maternal uncle"
+    }
+  },
+  {
+    "id": 504,
+    "swedish": "morfar",
+    "english": "Maternal grandfather",
+    "sentence": "Jag ser morfar",
+    "example": {
+      "sv": "Ex: Jag ser morfar",
+      "en": "Ex: I see Maternal grandfather"
+    }
+  },
+  {
+    "id": 505,
+    "swedish": "morgon",
+    "english": "Morning",
+    "sentence": "God morgon",
+    "example": {
+      "sv": "Ex: God morgon",
+      "en": "Ex: Good morning"
+    }
+  },
+  {
+    "id": 506,
+    "swedish": "mormor",
+    "english": "Maternal grandmother",
+    "sentence": "Jag träffar mormor",
+    "example": {
+      "sv": "Ex: Jag träffar mormor",
+      "en": "Ex: I meet Maternal grandmother"
+    }
+  },
+  {
+    "id": 507,
+    "swedish": "mot",
+    "english": "Against",
+    "sentence": "Jag spelar mot dig",
+    "example": {
+      "sv": "Ex: Jag spelar mot dig",
+      "en": "Ex: I am playing against you"
+    }
+  },
+  {
+    "id": 508,
+    "swedish": "motion",
+    "english": "Exercise",
+    "sentence": "Jag gillar motion",
+    "example": {
+      "sv": "Ex: Jag gillar motion",
+      "en": "Ex: I like Exercise"
+    }
+  },
+  {
+    "id": 509,
+    "swedish": "motor",
+    "english": "Engine",
+    "sentence": "Jag har en motor",
+    "example": {
+      "sv": "Ex: Jag har en motor",
+      "en": "Ex: I have an engine"
+    }
+  },
+  {
+    "id": 510,
+    "swedish": "munsår",
+    "english": "Cold sore",
+    "sentence": "Jag har munsår",
+    "example": {
+      "sv": "Ex: Jag har munsår",
+      "en": "Ex: I have a cold sore"
+    }
+  },
+  {
+    "id": 511,
+    "swedish": "muskler",
+    "english": "Muscles",
+    "sentence": "Jag har muskler",
+    "example": {
+      "sv": "Ex: Jag har muskler",
+      "en": "Ex: I have muscles"
+    }
+  },
+  {
+    "id": 512,
+    "swedish": "museum",
+    "english": "Museum",
+    "sentence": "Jag går på museum",
+    "example": {
+      "sv": "Ex: Jag går på museum",
+      "en": "Ex: I go to a museum"
+    }
+  },
+  {
+    "id": 513,
+    "swedish": "mycket",
+    "english": "Much",
+    "sentence": "Jag gillar det mycket",
+    "example": {
+      "sv": "Ex: Jag gillar det mycket",
+      "en": "Ex: I like it a lot"
+    }
+  },
+  {
+    "id": 514,
+    "swedish": "myra",
+    "english": "Ant",
+    "sentence": "Jag ser en myra",
+    "example": {
+      "sv": "Ex: Jag ser en myra",
+      "en": "Ex: I see an ant"
+    }
+  },
+  {
+    "id": 515,
+    "swedish": "mål",
+    "english": "Goal",
+    "sentence": "Jag har ett mål",
+    "example": {
+      "sv": "Ex: Jag har ett mål",
+      "en": "Ex: I have a goal"
+    }
+  },
+  {
+    "id": 516,
+    "swedish": "måndag",
+    "english": "Monday",
+    "sentence": "Det är måndag",
+    "example": {
+      "sv": "Ex: Det är måndag",
+      "en": "Ex: It is Monday"
+    }
+  },
+  {
+    "id": 517,
+    "swedish": "måne",
+    "english": "Moon",
+    "sentence": "Jag ser månen",
+    "example": {
+      "sv": "Ex: Jag ser månen",
+      "en": "Ex: I see the moon"
+    }
+  },
+  {
+    "id": 518,
+    "swedish": "månad",
+    "english": "Month",
+    "sentence": "Jag ser månad",
+    "example": {
+      "sv": "Ex: Jag ser månad",
+      "en": "Ex: I see Month"
+    }
+  },
+  {
+    "id": 519,
+    "swedish": "mår bra",
+    "english": "Feel good",
+    "sentence": "Jag mår bra",
+    "example": {
+      "sv": "Ex: Jag mår bra",
+      "en": "Ex: I feel good"
+    }
+  },
+  {
+    "id": 520,
+    "swedish": "måste",
+    "english": "Must",
+    "sentence": "Jag måste gå",
+    "example": {
+      "sv": "Ex: Jag måste gå",
+      "en": "Ex: I must go"
+    }
+  },
+  {
+    "id": 521,
+    "swedish": "människa",
+    "english": "Human",
+    "sentence": "Jag ser människa",
+    "example": {
+      "sv": "Ex: Jag ser människa",
+      "en": "Ex: I see Human"
+    }
+  },
+  {
+    "id": 522,
+    "swedish": "möbel",
+    "english": "Furniture",
+    "sentence": "Jag har möbel",
+    "example": {
+      "sv": "Ex: Jag har möbel",
+      "en": "Ex: I have Furniture"
+    }
+  },
+  {
+    "id": 523,
+    "swedish": "mössa",
+    "english": "Hat",
+    "sentence": "Jag har en mössa",
+    "example": {
+      "sv": "Ex: Jag har en mössa",
+      "en": "Ex: I have a hat"
+    }
+  },
+  {
+    "id": 524,
+    "swedish": "möte",
+    "english": "Meeting",
+    "sentence": "Jag har ett möte",
+    "example": {
+      "sv": "Ex: Jag har ett möte",
+      "en": "Ex: I have a meeting"
+    }
+  },
+  {
+    "id": 525,
+    "swedish": "natt",
+    "english": "Night",
+    "sentence": "God natt",
+    "example": {
+      "sv": "Ex: God natt",
+      "en": "Ex: Good night"
+    }
+  },
+  {
+    "id": 526,
+    "swedish": "natur",
+    "english": "Nature",
+    "sentence": "Jag gillar natur",
+    "example": {
+      "sv": "Ex: Jag gillar natur",
+      "en": "Ex: I like Nature"
+    }
+  },
+  {
+    "id": 527,
+    "swedish": "nej",
+    "english": "No",
+    "sentence": "Nej, tack",
+    "example": {
+      "sv": "Ex: Nej, tack",
+      "en": "Ex: No, thanks"
+    }
+  },
+  {
+    "id": 528,
+    "swedish": "ner",
+    "english": "Down",
+    "sentence": "Jag går ner",
+    "example": {
+      "sv": "Ex: Jag går ner",
+      "en": "Ex: I go down"
+    }
+  },
+  {
+    "id": 529,
+    "swedish": "nervös",
+    "english": "Nervous",
+    "sentence": "Jag är nervös",
+    "example": {
+      "sv": "Ex: Jag är nervös",
+      "en": "Ex: I am nervous"
+    }
+  },
+  {
+    "id": 530,
+    "swedish": "nitton",
+    "english": "Nineteen",
+    "sentence": "Jag har nitton",
+    "example": {
+      "sv": "Ex: Jag har nitton",
+      "en": "Ex: I have Nineteen"
+    }
+  },
+  {
+    "id": 531,
+    "swedish": "nivå",
+    "english": "Level",
+    "sentence": "Jag har nivå",
+    "example": {
+      "sv": "Ex: Jag har nivå",
+      "en": "Ex: I have Level"
+    }
+  },
+  {
+    "id": 532,
+    "swedish": "ni",
+    "english": "You (plural)",
+    "sentence": "Kommer ni?",
+    "example": {
+      "sv": "Ex: Kommer ni?",
+      "en": "Ex: Are you coming?"
+    }
+  },
+  {
+    "id": 533,
+    "swedish": "noll",
+    "english": "Zero",
+    "sentence": "Det är noll",
+    "example": {
+      "sv": "Ex: Det är noll",
+      "en": "Ex: It is zero"
+    }
+  },
+  {
+    "id": 534,
+    "swedish": "november",
+    "english": "November",
+    "sentence": "Jag ser november",
+    "example": {
+      "sv": "Ex: Jag ser november",
+      "en": "Ex: I see November"
+    }
+  },
+  {
+    "id": 535,
+    "swedish": "nu",
+    "english": "Now",
+    "sentence": "Jag gör det nu",
+    "example": {
+      "sv": "Ex: Jag gör det nu",
+      "en": "Ex: I do it now"
+    }
+  },
+  {
+    "id": 536,
+    "swedish": "nummer",
+    "english": "Number",
+    "sentence": "Vad är ditt nummer?",
+    "example": {
+      "sv": "Ex: Vad är ditt nummer?",
+      "en": "Ex: What is your number?"
+    }
+  },
+  {
+    "id": 537,
+    "swedish": "ny",
+    "english": "New (common)",
+    "sentence": "Jag har en ny bok",
+    "example": {
+      "sv": "Ex: Jag har en ny bok",
+      "en": "Ex: I have a new book"
+    }
+  },
+  {
+    "id": 538,
+    "swedish": "nytt",
+    "english": "New (neuter)",
+    "sentence": "Jag har ett nytt hus",
+    "example": {
+      "sv": "Ex: Jag har ett nytt hus",
+      "en": "Ex: I have a new house"
+    }
+  },
+  {
+    "id": 539,
+    "swedish": "nya",
+    "english": "New (plural)",
+    "sentence": "De är nya",
+    "example": {
+      "sv": "Ex: De är nya",
+      "en": "Ex: They are new"
+    }
+  },
+  {
+    "id": 540,
+    "swedish": "nyår",
+    "english": "New Year",
+    "sentence": "Gott nytt år!",
+    "example": {
+      "sv": "Ex: Gott nytt år!",
+      "en": "Ex: Happy New Year!"
+    }
+  },
+  {
+    "id": 541,
+    "swedish": "nyfiken",
+    "english": "Curious",
+    "sentence": "Jag är nyfiken",
+    "example": {
+      "sv": "Ex: Jag är nyfiken",
+      "en": "Ex: I am curious"
+    }
+  },
+  {
+    "id": 542,
+    "swedish": "nyttig",
+    "english": "Healthy",
+    "sentence": "Det är nyttigt",
+    "example": {
+      "sv": "Ex: Det är nyttigt",
+      "en": "Ex: It is healthy"
+    }
+  },
+  {
+    "id": 543,
+    "swedish": "näring",
+    "english": "Nutrition",
+    "sentence": "Jag ser näring",
+    "example": {
+      "sv": "Ex: Jag ser näring",
+      "en": "Ex: I see Nutrition"
+    }
+  },
+  {
+    "id": 544,
+    "swedish": "närvaro",
+    "english": "Attendance",
+    "sentence": "Jag vill ha närvaro",
+    "example": {
+      "sv": "Ex: Jag vill ha närvaro",
+      "en": "Ex: I want Attendance"
+    }
+  },
+  {
+    "id": 545,
+    "swedish": "näsa",
+    "english": "Nose",
+    "sentence": "Jag har näsa",
+    "example": {
+      "sv": "Ex: Jag har näsa",
+      "en": "Ex: I have Nose"
+    }
+  },
+  {
+    "id": 546,
+    "swedish": "nästa",
+    "english": "Next",
+    "sentence": "Det finns nästa",
+    "example": {
+      "sv": "Ex: Det finns nästa",
+      "en": "Ex: There is Next"
+    }
+  },
+  {
+    "id": 547,
+    "swedish": "nätet",
+    "english": "The web",
+    "sentence": "Jag har nätet",
+    "example": {
+      "sv": "Ex: Jag har nätet",
+      "en": "Ex: I have The web"
+    }
+  },
+  {
+    "id": 548,
+    "swedish": "någon",
+    "english": "Someone",
+    "sentence": "Det finns någon",
+    "example": {
+      "sv": "Ex: Det finns någon",
+      "en": "Ex: There is Someone"
+    }
+  },
+  {
+    "id": 549,
+    "swedish": "någonstans",
+    "english": "Somewhere",
+    "sentence": "Jag har någonstans",
+    "example": {
+      "sv": "Ex: Jag har någonstans",
+      "en": "Ex: I have Somewhere"
+    }
+  },
+  {
+    "id": 550,
+    "swedish": "någonting",
+    "english": "Something",
+    "sentence": "Det finns någonting",
+    "example": {
+      "sv": "Ex: Det finns någonting",
+      "en": "Ex: There is Something"
+    }
+  },
+  {
+    "id": 551,
+    "swedish": "något",
+    "english": "Something",
+    "sentence": "Jag ser något",
+    "example": {
+      "sv": "Ex: Jag ser något",
+      "en": "Ex: I see Something"
+    }
+  },
+  {
+    "id": 552,
+    "swedish": "några",
+    "english": "Some",
+    "sentence": "Det finns några",
+    "example": {
+      "sv": "Ex: Det finns några",
+      "en": "Ex: There is Some"
+    }
+  },
+  {
+    "id": 553,
+    "swedish": "Nöja",
+    "english": "Pleasure",
+    "sentence": "Det är en nöje",
+    "example": {
+      "sv": "Ex: Det är en nöje",
+      "en": "Ex: It is a pleasure"
+    }
+  },
+  {
+    "id": 554,
+    "swedish": "och",
+    "english": "And",
+    "sentence": "Jag ser och",
+    "example": {
+      "sv": "Ex: Jag ser och",
+      "en": "Ex: I see And"
+    }
+  },
+  {
+    "id": 555,
+    "swedish": "ofta",
+    "english": "Often",
+    "sentence": "Jag ser ofta",
+    "example": {
+      "sv": "Ex: Jag ser ofta",
+      "en": "Ex: I see Often"
+    }
+  },
+  {
+    "id": 556,
+    "swedish": "oktober",
+    "english": "October",
+    "sentence": "Jag ser oktober",
+    "example": {
+      "sv": "Ex: Jag ser oktober",
+      "en": "Ex: I see October"
+    }
+  },
+  {
+    "id": 557,
+    "swedish": "olik",
+    "english": "Different",
+    "sentence": "Det är olika",
+    "example": {
+      "sv": "Ex: Det är olika",
+      "en": "Ex: It is different"
+    }
+  },
+  {
+    "id": 558,
+    "swedish": "om",
+    "english": "About/If",
+    "sentence": "Det finns om",
+    "example": {
+      "sv": "Ex: Det finns om",
+      "en": "Ex: There is About"
+    }
+  },
+  {
+    "id": 559,
+    "swedish": "omkring",
+    "english": "Around",
+    "sentence": "Det finns omkring",
+    "example": {
+      "sv": "Ex: Det finns omkring",
+      "en": "Ex: There is Around"
+    }
+  },
+  {
+    "id": 560,
+    "swedish": "onsdag",
+    "english": "Wednesday",
+    "sentence": "Jag ser onsdag",
+    "example": {
+      "sv": "Ex: Jag ser onsdag",
+      "en": "Ex: I see Wednesday"
+    }
+  },
+  {
+    "id": 561,
+    "swedish": "onödig",
+    "english": "Unnecessary",
+    "sentence": "Jag har onödig",
+    "example": {
+      "sv": "Ex: Jag har onödig",
+      "en": "Ex: I have Unnecessary"
+    }
+  },
+  {
+    "id": 562,
+    "swedish": "orimlig",
+    "english": "unreasonable",
+    "sentence": "Det är orimligt",
+    "example": {
+      "sv": "Ex: Det är orimligt",
+      "en": "Ex: It is unreasonable"
+    }
+  },
+  {
+    "id": 563,
+    "swedish": "orkan",
+    "english": "Hurricane",
+    "sentence": "Jag har orkan",
+    "example": {
+      "sv": "Ex: Jag har orkan",
+      "en": "Ex: I have Hurricane"
+    }
+  },
+  {
+    "id": 564,
+    "swedish": "orättvis",
+    "english": "Unfair",
+    "sentence": "Jag gillar orättvis",
+    "example": {
+      "sv": "Ex: Jag gillar orättvis",
+      "en": "Ex: I like Unfair"
+    }
+  },
+  {
+    "id": 565,
+    "swedish": "ost",
+    "english": "Cheese",
+    "sentence": "Jag köper ost",
+    "example": {
+      "sv": "Ex: Jag köper ost",
+      "en": "Ex: I buy Cheese"
+    }
+  },
+  {
+    "id": 566,
+    "swedish": "osäker",
+    "english": "Uncertain",
+    "sentence": "Jag ser osäker",
+    "example": {
+      "sv": "Ex: Jag ser osäker",
+      "en": "Ex: I see uncertain"
+    }
+  },
+  {
+    "id": 567,
+    "swedish": "otålig",
+    "english": "Impatient",
+    "sentence": "Det är otåligt",
+    "example": {
+      "sv": "Ex: Det är otåligt",
+      "en": "Ex: It is Impatient"
+    }
+  },
+  {
+    "id": 568,
+    "swedish": "ovanför",
+    "english": "Above",
+    "sentence": "Jag vill ha ovanför",
+    "example": {
+      "sv": "Ex: Jag vill ha ovanför",
+      "en": "Ex: I want Above"
+    }
+  },
+  {
+    "id": 569,
+    "swedish": "ovänlig",
+    "english": "Unfriendly",
+    "sentence": "Det blir ovänligt",
+    "example": {
+      "sv": "Ex: Det blir ovänligt",
+      "en": "Ex: It becomes Unfriendly"
+    }
+  },
+  {
+    "id": 570,
+    "swedish": "pappa",
+    "english": "Dad",
+    "sentence": "Jag ser pappa",
+    "example": {
+      "sv": "Ex: Jag ser pappa",
+      "en": "Ex: I see Dad"
+    }
+  },
+  {
+    "id": 571,
+    "swedish": "papper",
+    "english": "Paper",
+    "sentence": "Jag vill ha papper",
+    "example": {
+      "sv": "Ex: Jag vill ha papper",
+      "en": "Ex: I want Paper"
+    }
+  },
+  {
+    "id": 572,
+    "swedish": "Par",
+    "english": "Pair",
+    "sentence": "Jag har ett par skor",
+    "example": {
+      "sv": "Ex: Jag har ett par skor",
+      "en": "Ex: I have a pair of shoes"
+    }
+  },
+  {
+    "id": 573,
+    "swedish": "parkering",
+    "english": "Parking",
+    "sentence": "Jag ser parkering",
+    "example": {
+      "sv": "Ex: Jag ser parkering",
+      "en": "Ex: I see Parking"
+    }
+  },
+  {
+    "id": 574,
+    "swedish": "pass",
+    "english": "Passport",
+    "sentence": "Jag ser pass",
+    "example": {
+      "sv": "Ex: Jag ser pass",
+      "en": "Ex: I see Passport"
+    }
+  },
+  {
+    "id": 575,
+    "swedish": "passa",
+    "english": "Fit",
+    "sentence": "Den passar mig",
+    "example": {
+      "sv": "Ex: Den passar mig",
+      "en": "Ex: It fits me"
+    }
+  },
+  {
+    "id": 576,
+    "swedish": "pengar",
+    "english": "Money",
+    "sentence": "Jag har pengar",
+    "example": {
+      "sv": "Ex: Jag har pengar",
+      "en": "Ex: I have money"
+    }
+  },
+  {
+    "id": 577,
+    "swedish": "pension",
+    "english": "Pension",
+    "sentence": "Jag har pension",
+    "example": {
+      "sv": "Ex: Jag har pension",
+      "en": "Ex: I have Pension"
+    }
+  },
+  {
+    "id": 578,
+    "swedish": "pensionär",
+    "english": "Pensioner",
+    "sentence": "Jag är pensionär",
+    "example": {
+      "sv": "Ex: Jag är pensionär",
+      "en": "Ex: I am a pensioner"
+    }
+  },
+  {
+    "id": 579,
+    "swedish": "peppar",
+    "english": "Pepper",
+    "sentence": "Jag vill ha peppar",
+    "example": {
+      "sv": "Ex: Jag vill ha peppar",
+      "en": "Ex: I want pepper"
+    }
+  },
+  {
+    "id": 580,
+    "swedish": "person",
+    "english": "Person",
+    "sentence": "Jag ser en person",
+    "example": {
+      "sv": "Ex: Jag ser en person",
+      "en": "Ex: I see a person"
+    }
+  },
+  {
+    "id": 581,
+    "swedish": "personal",
+    "english": "Staff",
+    "sentence": "Jag pratar med personal",
+    "example": {
+      "sv": "Ex: Jag pratar med personal",
+      "en": "Ex: I am talking to the staff"
+    }
+  },
+  {
+    "id": 582,
+    "swedish": "pigg",
+    "english": "Energetic",
+    "sentence": "Jag känner mig pigg",
+    "example": {
+      "sv": "Ex: Jag känner mig pigg",
+      "en": "Ex: I feel Energetic"
+    }
+  },
+  {
+    "id": 583,
+    "swedish": "plan",
+    "english": "Plan",
+    "sentence": "Jag har en plan",
+    "example": {
+      "sv": "Ex: Jag har en plan",
+      "en": "Ex: I have a plan"
+    }
+  },
+  {
+    "id": 584,
+    "swedish": "plats",
+    "english": "Place",
+    "sentence": "Det är en bra plats",
+    "example": {
+      "sv": "Ex: Det är en bra plats",
+      "en": "Ex: It is a good place"
+    }
+  },
+  {
+    "id": 585,
+    "swedish": "plånbok",
+    "english": "Wallet",
+    "sentence": "Jag har min plånbok",
+    "example": {
+      "sv": "Ex: Jag har min plånbok",
+      "en": "Ex: I have my wallet"
+    }
+  },
+  {
+    "id": 586,
+    "swedish": "pojke",
+    "english": "Boy",
+    "sentence": "Det är en pojke",
+    "example": {
+      "sv": "Ex: Det är en pojke",
+      "en": "Ex: It is a boy"
+    }
+  },
+  {
+    "id": 587,
+    "swedish": "polis",
+    "english": "Police",
+    "sentence": "Jag ser en polis",
+    "example": {
+      "sv": "Ex: Jag ser en polis",
+      "en": "Ex: I see a police officer"
+    }
+  },
+  {
+    "id": 588,
+    "swedish": "populär",
+    "english": "Popular",
+    "sentence": "Han är populär",
+    "example": {
+      "sv": "Ex: Han är populär",
+      "en": "Ex: He is popular"
+    }
+  },
+  {
+    "id": 589,
+    "swedish": "portion",
+    "english": "Portion",
+    "sentence": "En portion mat",
+    "example": {
+      "sv": "Ex: En portion mat",
+      "en": "Ex: A portion of food"
+    }
+  },
+  {
+    "id": 590,
+    "swedish": "post",
+    "english": "Mail",
+    "sentence": "Jag har post",
+    "example": {
+      "sv": "Ex: Jag har post",
+      "en": "Ex: I have mail"
+    }
+  },
+  {
+    "id": 591,
+    "swedish": "posten",
+    "english": "The post office",
+    "sentence": "Jag går till posten",
+    "example": {
+      "sv": "Ex: Jag går till posten",
+      "en": "Ex: I go to the post office"
+    }
+  },
+  {
+    "id": 592,
+    "swedish": "potatis",
+    "english": "Potato",
+    "sentence": "Jag äter potatis",
+    "example": {
+      "sv": "Ex: Jag äter potatis",
+      "en": "Ex: I eat potato"
+    }
+  },
+  {
+    "id": 593,
+    "swedish": "praktik",
+    "english": "Practice",
+    "sentence": "Jag har praktik",
+    "example": {
+      "sv": "Ex: Jag har praktik",
+      "en": "Ex: I have an internship"
+    }
+  },
+  {
+    "id": 594,
+    "swedish": "prata",
+    "english": "To talk",
+    "sentence": "Jag vill prata",
+    "example": {
+      "sv": "Ex: Jag vill prata",
+      "en": "Ex: I want to talk"
+    }
+  },
+  {
+    "id": 595,
+    "swedish": "precis",
+    "english": "Precisely",
+    "sentence": "Precis så!",
+    "example": {
+      "sv": "Ex: Precis så!",
+      "en": "Ex: Just like that!"
+    }
+  },
+  {
+    "id": 596,
+    "swedish": "pris",
+    "english": "Price",
+    "sentence": "Vilket pris?",
+    "example": {
+      "sv": "Ex: Vilket pris?",
+      "en": "Ex: What price?"
+    }
+  },
+  {
+    "id": 597,
+    "swedish": "privat",
+    "english": "Private",
+    "sentence": "Det är privat",
+    "example": {
+      "sv": "Ex: Det är privat",
+      "en": "Ex: It is private"
+    }
+  },
+  {
+    "id": 598,
+    "swedish": "problem",
+    "english": "Problem",
+    "sentence": "Inga problem",
+    "example": {
+      "sv": "Ex: Inga problem",
+      "en": "Ex: No problem"
+    }
+  },
+  {
+    "id": 599,
+    "swedish": "proffs",
+    "english": "Professional",
+    "sentence": "Han är ett proffs",
+    "example": {
+      "sv": "Ex: Han är ett proffs",
+      "en": "Ex: He is a pro"
+    }
+  },
+  {
+    "id": 600,
+    "swedish": "promenad",
+    "english": "Walk",
+    "sentence": "Jag tar en promenad",
+    "example": {
+      "sv": "Ex: Jag tar en promenad",
+      "en": "Ex: I take a walk"
+    }
+  },
+  {
+    "id": 602,
+    "swedish": "present",
+    "english": "Gift",
+    "sentence": "Jag ser present",
+    "example": {
+      "sv": "Ex: Jag ser present",
+      "en": "Ex: I see Gift"
+    }
+  },
+  {
+    "id": 603,
+    "swedish": "presentkort",
+    "english": "Gift card",
+    "sentence": "Det finns presentkort",
+    "example": {
+      "sv": "Ex: Det finns presentkort",
+      "en": "Ex: There is Gift card"
+    }
+  },
+  {
+    "id": 604,
+    "swedish": "prestation",
+    "english": "Performance",
+    "sentence": "Jag pratar med prestation",
+    "example": {
+      "sv": "Ex: Jag pratar med prestation",
+      "en": "Ex: I talk with Performance"
+    }
+  },
+  {
+    "id": 605,
+    "swedish": "prick",
+    "english": "dot",
+    "sentence": "Jag ser en prick",
+    "example": {
+      "sv": "Ex: Jag ser en prick",
+      "en": "Ex: I see a dot"
+    }
+  },
+  {
+    "id": 607,
+    "swedish": "produkt",
+    "english": "Product",
+    "sentence": "Jag vill ha produkt",
+    "example": {
+      "sv": "Ex: Jag vill ha produkt",
+      "en": "Ex: I want Product"
+    }
+  },
+  {
+    "id": 608,
+    "swedish": "projekt",
+    "english": "Project",
+    "sentence": "Jag vill ha projekt",
+    "example": {
+      "sv": "Ex: Jag vill ha projekt",
+      "en": "Ex: I want Project"
+    }
+  },
+  {
+    "id": 609,
+    "swedish": "procent",
+    "english": "Percent",
+    "sentence": "Jag behöver procent",
+    "example": {
+      "sv": "Ex: Jag behöver procent",
+      "en": "Ex: I need Percent"
+    }
+  },
+  {
+    "id": 610,
+    "swedish": "prov",
+    "english": "Test",
+    "sentence": "Jag vill ha prov",
+    "example": {
+      "sv": "Ex: Jag vill ha prov",
+      "en": "Ex: I want Test"
+    }
+  },
+  {
+    "id": 611,
+    "swedish": "provruta",
+    "english": "Sample",
+    "sentence": "Jag ser provruta",
+    "example": {
+      "sv": "Ex: Jag ser provruta",
+      "en": "Ex: I see Sample"
+    }
+  },
+  {
+    "id": 612,
+    "swedish": "puss",
+    "english": "Kiss",
+    "sentence": "Jag gillar puss",
+    "example": {
+      "sv": "Ex: Jag gillar puss",
+      "en": "Ex: I like Kiss"
+    }
+  },
+  {
+    "id": 613,
+    "swedish": "på",
+    "english": "On",
+    "sentence": "Jag tänker på",
+    "example": {
+      "sv": "Ex: Jag tänker på",
+      "en": "Ex: I think On"
+    }
+  },
+  {
+    "id": 614,
+    "swedish": "påfyllning",
+    "english": "Refill",
+    "sentence": "Jag vill ha påfyllning",
+    "example": {
+      "sv": "Ex: Jag vill ha påfyllning",
+      "en": "Ex: I want Refill"
+    }
+  },
+  {
+    "id": 615,
+    "swedish": "påsk",
+    "english": "Easter",
+    "sentence": "Jag gillar påsk",
+    "example": {
+      "sv": "Ex: Jag gillar påsk",
+      "en": "Ex: I like Easter"
+    }
+  },
+  {
+    "id": 616,
+    "swedish": "rabatt",
+    "english": "Discount",
+    "sentence": "Jag ser rabatt",
+    "example": {
+      "sv": "Ex: Jag ser rabatt",
+      "en": "Ex: I see Discount"
+    }
+  },
+  {
+    "id": 617,
+    "swedish": "rad",
+    "english": "Row",
+    "sentence": "Jag ser rad",
+    "example": {
+      "sv": "Ex: Jag ser rad",
+      "en": "Ex: I see Row"
+    }
+  },
+  {
+    "id": 618,
+    "swedish": "rak",
+    "english": "Straight",
+    "sentence": "Det blir rak",
+    "example": {
+      "sv": "Ex: Det blir rak",
+      "en": "Ex: It becomes Straight"
+    }
+  },
+  {
+    "id": 619,
+    "swedish": "reaktion",
+    "english": "Reaction",
+    "sentence": "Jag pratar om reaktion",
+    "example": {
+      "sv": "Ex: Jag pratar om reaktion",
+      "en": "Ex: I talk about Reaction"
+    }
+  },
+  {
+    "id": 620,
+    "swedish": "recept",
+    "english": "Prescription",
+    "sentence": "Jag behöver recept",
+    "example": {
+      "sv": "Ex: Jag behöver recept",
+      "en": "Ex: I need Prescription"
+    }
+  },
+  {
+    "id": 621,
+    "swedish": "redan",
+    "english": "Already",
+    "sentence": "Jag har redan gjort det",
+    "example": {
+      "sv": "Ex: Jag har redan gjort det",
+      "en": "Ex: I have already done it"
+    }
+  },
+  {
+    "id": 622,
+    "swedish": "regler",
+    "english": "Rules",
+    "sentence": "Det finns regler",
+    "example": {
+      "sv": "Ex: Det finns regler",
+      "en": "Ex: There are rules"
+    }
+  },
+  {
+    "id": 623,
+    "swedish": "regn",
+    "english": "Rain",
+    "sentence": "Jag ser regn",
+    "example": {
+      "sv": "Ex: Jag ser regn",
+      "en": "Ex: I see rain"
+    }
+  },
+  {
+    "id": 624,
+    "swedish": "regna",
+    "english": "To rain",
+    "sentence": "Det börjar regna",
+    "example": {
+      "sv": "Ex: Det börjar regna",
+      "en": "Ex: It is starting to rain"
+    }
+  },
+  {
+    "id": 625,
+    "swedish": "regnbåge",
+    "english": "Rainbow",
+    "sentence": "Jag ser en regnbåge",
+    "example": {
+      "sv": "Ex: Jag ser en regnbåge",
+      "en": "Ex: I see a rainbow"
+    }
+  },
+  {
+    "id": 626,
+    "swedish": "regnigt",
+    "english": "Rainy",
+    "sentence": "Det är regnigt ute",
+    "example": {
+      "sv": "Ex: Det är regnigt ute",
+      "en": "Ex: It is rainy outside"
+    }
+  },
+  {
+    "id": 627,
+    "swedish": "rekommendation",
+    "english": "Recommendation",
+    "sentence": "Jag har en rekommendation",
+    "example": {
+      "sv": "Ex: Jag har en rekommendation",
+      "en": "Ex: I have a recommendation"
+    }
+  },
+  {
+    "id": 628,
+    "swedish": "remiss",
+    "english": "Referral",
+    "sentence": "Jag behöver en remiss",
+    "example": {
+      "sv": "Ex: Jag behöver en remiss",
+      "en": "Ex: I need a referral"
+    }
+  },
+  {
+    "id": 629,
+    "swedish": "ren",
+    "english": "Clean",
+    "sentence": "Det är rent",
+    "example": {
+      "sv": "Ex: Det är rent",
+      "en": "Ex: It is clean"
+    }
+  },
+  {
+    "id": 630,
+    "swedish": "reparera",
+    "english": "Repair",
+    "sentence": "Jag kan reparera det",
+    "example": {
+      "sv": "Ex: Jag kan reparera det",
+      "en": "Ex: I can repair it"
+    }
+  },
+  {
+    "id": 631,
+    "swedish": "resa",
+    "english": "Travel",
+    "sentence": "Jag gillar att resa",
+    "example": {
+      "sv": "Ex: Jag gillar att resa",
+      "en": "Ex: I like to travel"
+    }
+  },
+  {
+    "id": 632,
+    "swedish": "resenär",
+    "english": "Traveler",
+    "sentence": "Jag är en resenär",
+    "example": {
+      "sv": "Ex: Jag är en resenär",
+      "en": "Ex: I am a traveler"
+    }
+  },
+  {
+    "id": 633,
+    "swedish": "respektera",
+    "english": "Respect",
+    "sentence": "Man måste respektera andra",
+    "example": {
+      "sv": "Ex: Man måste respektera andra",
+      "en": "Ex: You must respect others"
+    }
+  },
+  {
+    "id": 634,
+    "swedish": "restaurang",
+    "english": "Restaurant",
+    "sentence": "Jag går till en restaurang",
+    "example": {
+      "sv": "Ex: Jag går till en restaurang",
+      "en": "Ex: I go to a restaurant"
+    }
+  },
+  {
+    "id": 635,
+    "swedish": "resultat",
+    "english": "Result",
+    "sentence": "Jag ser resultatet",
+    "example": {
+      "sv": "Ex: Jag ser resultatet",
+      "en": "Ex: I see the result"
+    }
+  },
+  {
+    "id": 636,
+    "swedish": "returbiljett",
+    "english": "Return ticket",
+    "sentence": "Jag köper en returbiljett",
+    "example": {
+      "sv": "Ex: Jag köper en returbiljett",
+      "en": "Ex: I buy a return ticket"
+    }
+  },
+  {
+    "id": 637,
+    "swedish": "ringa",
+    "english": "To call",
+    "sentence": "Jag ska ringa dig",
+    "example": {
+      "sv": "Ex: Jag ska ringa dig",
+      "en": "Ex: I will call you"
+    }
+  },
+  {
+    "id": 638,
+    "swedish": "ris",
+    "english": "Rice",
+    "sentence": "Jag äter ris",
+    "example": {
+      "sv": "Ex: Jag äter ris",
+      "en": "Ex: I eat rice"
+    }
+  },
+  {
+    "id": 639,
+    "swedish": "rita",
+    "english": "To draw",
+    "sentence": "Jag gillar att rita",
+    "example": {
+      "sv": "Ex: Jag gillar att rita",
+      "en": "Ex: I like to draw"
+    }
+  },
+  {
+    "id": 640,
+    "swedish": "rolig",
+    "english": "Funny",
+    "sentence": "Det är roligt",
+    "example": {
+      "sv": "Ex: Det är roligt",
+      "en": "Ex: It is fun"
+    }
+  },
+  {
+    "id": 641,
+    "swedish": "rosa",
+    "english": "Pink",
+    "sentence": "Tröjan är rosa",
+    "example": {
+      "sv": "Ex: Tröjan är rosa",
+      "en": "Ex: The sweater is pink"
+    }
+  },
+  {
+    "id": 642,
+    "swedish": "rulla",
+    "english": "To roll",
+    "sentence": "Bollen rullar",
+    "example": {
+      "sv": "Ex: Bollen rullar",
+      "en": "Ex: The ball is rolling"
+    }
+  },
+  {
+    "id": 643,
+    "swedish": "rum",
+    "english": "Room",
+    "sentence": "Jag har ett rum",
+    "example": {
+      "sv": "Ex: Jag har ett rum",
+      "en": "Ex: I have a room"
+    }
+  },
+  {
+    "id": 644,
+    "swedish": "runt",
+    "english": "Around",
+    "sentence": "Jag går runt",
+    "example": {
+      "sv": "Ex: Jag går runt",
+      "en": "Ex: I walk around"
+    }
+  },
+  {
+    "id": 645,
+    "swedish": "rutiner",
+    "english": "Routines",
+    "sentence": "Jag har bra rutiner",
+    "example": {
+      "sv": "Ex: Jag har bra rutiner",
+      "en": "Ex: I have good routines"
+    }
+  },
+  {
+    "id": 646,
+    "swedish": "rygg",
+    "english": "Back (body)",
+    "sentence": "Jag har ont i ryggen",
+    "example": {
+      "sv": "Ex: Jag har ont i ryggen",
+      "en": "Ex: My back hurts"
+    }
+  },
+  {
+    "id": 647,
+    "swedish": "ryggsäck",
+    "english": "Backpack",
+    "sentence": "Jag har en ryggsäck",
+    "example": {
+      "sv": "Ex: Jag har en ryggsäck",
+      "en": "Ex: I have a backpack"
+    }
+  },
+  {
+    "id": 648,
+    "swedish": "rädd",
+    "english": "Afraid",
+    "sentence": "Jag är inte rädd",
+    "example": {
+      "sv": "Ex: Jag är inte rädd",
+      "en": "Ex: I am not afraid"
+    }
+  },
+  {
+    "id": 649,
+    "swedish": "rättighet",
+    "english": "Right (entitlement)",
+    "sentence": "Det är min rättighet",
+    "example": {
+      "sv": "Ex: Det är min rättighet",
+      "en": "Ex: It is my right"
+    }
+  },
+  {
+    "id": 650,
+    "swedish": "röd",
+    "english": "Red",
+    "sentence": "Bilen är röd",
+    "example": {
+      "sv": "Ex: Bilen är röd",
+      "en": "Ex: The car is red"
+    }
+  },
+  {
+    "id": 651,
+    "swedish": "rörelse",
+    "english": "Movement",
+    "sentence": "Jag ser rörelse",
+    "example": {
+      "sv": "Ex: Jag ser rörelse",
+      "en": "Ex: I see movement"
+    }
+  },
+  {
+    "id": 652,
+    "swedish": "röst",
+    "english": "Voice",
+    "sentence": "Hon har en fin röst",
+    "example": {
+      "sv": "Ex: Hon har en fin röst",
+      "en": "Ex: She has a nice voice"
+    }
+  },
+  {
+    "id": 653,
+    "swedish": "saft",
+    "english": "Juice",
+    "sentence": "Jag dricker saft",
+    "example": {
+      "sv": "Ex: Jag dricker saft",
+      "en": "Ex: I drink juice"
+    }
+  },
+  {
+    "id": 654,
+    "swedish": "sagt",
+    "english": "Said",
+    "sentence": "Jag har sagt det",
+    "example": {
+      "sv": "Ex: Jag har sagt det",
+      "en": "Ex: I have said it"
+    }
+  },
+  {
+    "id": 655,
+    "swedish": "sak",
+    "english": "Thing",
+    "sentence": "Det är en sak",
+    "example": {
+      "sv": "Ex: Det är en sak",
+      "en": "Ex: It is a thing"
+    }
+  },
+  {
+    "id": 656,
+    "swedish": "saknar",
+    "english": "To miss",
+    "sentence": "Jag saknar dig",
+    "example": {
+      "sv": "Ex: Jag saknar dig",
+      "en": "Ex: I miss you"
+    }
+  },
+  {
+    "id": 657,
+    "swedish": "salt",
+    "english": "Salt",
+    "sentence": "Det var salt",
+    "example": {
+      "sv": "Ex: Det var salt",
+      "en": "Ex: It was salty"
+    }
+  },
+  {
+    "id": 658,
+    "swedish": "samarbete",
+    "english": "Cooperation",
+    "sentence": "Det finns samarbete",
+    "example": {
+      "sv": "Ex: Det finns samarbete",
+      "en": "Ex: There is cooperation"
+    }
+  },
+  {
+    "id": 659,
+    "swedish": "sambo",
+    "english": "Cohabitant",
+    "sentence": "Det finns sambo",
+    "example": {
+      "sv": "Ex: Det finns sambo",
+      "en": "Ex: There is a cohabitant"
+    }
+  },
+  {
+    "id": 660,
+    "swedish": "samhälle",
+    "english": "Society",
+    "sentence": "Jag har samhälle",
+    "example": {
+      "sv": "Ex: Jag har samhälle",
+      "en": "Ex: I have society"
+    }
+  },
+  {
+    "id": 661,
+    "swedish": "samma",
+    "english": "Same",
+    "sentence": "Jag vill ha samma",
+    "example": {
+      "sv": "Ex: Jag vill ha samma",
+      "en": "Ex: I want the same"
+    }
+  },
+  {
+    "id": 662,
+    "swedish": "samåkning",
+    "english": "Carpooling",
+    "sentence": "Det finns samåkning",
+    "example": {
+      "sv": "Ex: Det finns samåkning",
+      "en": "Ex: There is carpooling"
+    }
+  },
+  {
+    "id": 663,
+    "swedish": "sann",
+    "english": "True",
+    "sentence": "Det är sant",
+    "example": {
+      "sv": "Ex: Det är sant",
+      "en": "Ex: It is true"
+    }
+  },
+  {
+    "id": 664,
+    "swedish": "schema",
+    "english": "Schedule",
+    "sentence": "Det finns schema",
+    "example": {
+      "sv": "Ex: Det finns schema",
+      "en": "Ex: There is a schedule"
+    }
+  },
+  {
+    "id": 665,
+    "swedish": "se",
+    "english": "To see",
+    "sentence": "Jag kan se",
+    "example": {
+      "sv": "Ex: Jag kan se",
+      "en": "Ex: I can see"
+    }
+  },
+  {
+    "id": 666,
+    "swedish": "sekund",
+    "english": "Second",
+    "sentence": "Jag gillar sekund",
+    "example": {
+      "sv": "Ex: Jag gillar sekund",
+      "en": "Ex: I like seconds"
+    }
+  },
+  {
+    "id": 667,
+    "swedish": "semester",
+    "english": "Vacation",
+    "sentence": "Jag vill ha semester",
+    "example": {
+      "sv": "Ex: Jag vill ha semester",
+      "en": "Ex: I want a vacation"
+    }
+  },
+  {
+    "id": 668,
+    "swedish": "sen",
+    "english": "Late",
+    "sentence": "Det finns sen",
+    "example": {
+      "sv": "Ex: Det finns sen",
+      "en": "Ex: There is late"
+    }
+  },
+  {
+    "id": 669,
+    "swedish": "simma",
+    "english": "To swim",
+    "sentence": "Jag kan simma",
+    "example": {
+      "sv": "Ex: Jag kan simma",
+      "en": "Ex: I can swim"
+    }
+  },
+  {
+    "id": 670,
+    "swedish": "sista",
+    "english": "Last",
+    "sentence": "Det finns sista",
+    "example": {
+      "sv": "Ex: Det finns sista",
+      "en": "Ex: There is the last one"
+    }
+  },
+  {
+    "id": 671,
+    "swedish": "sjuk",
+    "english": "Sick",
+    "sentence": "Jag är sjuk",
+    "example": {
+      "sv": "Ex: Jag är sjuk",
+      "en": "Ex: I am sick"
+    }
+  },
+  {
+    "id": 672,
+    "swedish": "sjukdom",
+    "english": "Disease",
+    "sentence": "Jag reser till sjukdom",
+    "example": {
+      "sv": "Ex: Jag reser till sjukdom",
+      "en": "Ex: I travel to disease"
+    }
+  },
+  {
+    "id": 673,
+    "swedish": "sjukhus",
+    "english": "Hospital",
+    "sentence": "Jag går till sjukhus",
+    "example": {
+      "sv": "Ex: Jag går till sjukhus",
+      "en": "Ex: I go to the hospital"
+    }
+  },
+  {
+    "id": 674,
+    "swedish": "sjukskriven",
+    "english": "On sick leave",
+    "sentence": "Jag är sjukskriven",
+    "example": {
+      "sv": "Ex: Jag är sjukskriven",
+      "en": "Ex: I am on sick leave"
+    }
+  },
+  {
+    "id": 675,
+    "swedish": "sjuksköterska",
+    "english": "Nurse",
+    "sentence": "Jag pratar med sjuksköterska",
+    "example": {
+      "sv": "Ex: Jag pratar med sjuksköterska",
+      "en": "Ex: I talk with the nurse"
+    }
+  },
+  {
+    "id": 676,
+    "swedish": "sjunger",
+    "english": "Sings",
+    "sentence": "Han sjunger bra",
+    "example": {
+      "sv": "Ex: Han sjunger bra",
+      "en": "Ex: He sings well"
+    }
+  },
+  {
+    "id": 677,
+    "swedish": "själv",
+    "english": "Self",
+    "sentence": "Jag gör det själv",
+    "example": {
+      "sv": "Ex: Jag gör det själv",
+      "en": "Ex: I do it myself"
+    }
+  },
+  {
+    "id": 678,
+    "swedish": "sjätte",
+    "english": "Sixth",
+    "sentence": "Det är sjätte gången",
+    "example": {
+      "sv": "Ex: Det är sjätte gången",
+      "en": "Ex: It is the sixth time"
+    }
+  },
+  {
+    "id": 679,
+    "swedish": "sjö",
+    "english": "Lake",
+    "sentence": "Jag ser sjön",
+    "example": {
+      "sv": "Ex: Jag ser sjön",
+      "en": "Ex: I see the lake"
+    }
+  },
+  {
+    "id": 680,
+    "swedish": "ska",
+    "english": "Will",
+    "sentence": "Jag ska gå nu",
+    "example": {
+      "sv": "Ex: Jag ska gå nu",
+      "en": "Ex: I will go now"
+    }
+  },
+  {
+    "id": 681,
+    "swedish": "skada",
+    "english": "Injury",
+    "sentence": "Det är en skada",
+    "example": {
+      "sv": "Ex: Det är en skada",
+      "en": "Ex: It is an injury"
+    }
+  },
+  {
+    "id": 682,
+    "swedish": "skall",
+    "english": "Shall",
+    "sentence": "Vi skall arbeta",
+    "example": {
+      "sv": "Ex: Vi skall arbeta",
+      "en": "Ex: We shall work"
+    }
+  },
+  {
+    "id": 683,
+    "swedish": "skapa",
+    "english": "To create",
+    "sentence": "Jag vill skapa något",
+    "example": {
+      "sv": "Ex: Jag vill skapa något",
+      "en": "Ex: I want to create something"
+    }
+  },
+  {
+    "id": 684,
+    "swedish": "skatt",
+    "english": "Tax",
+    "sentence": "Jag betalar skatt",
+    "example": {
+      "sv": "Ex: Jag betalar skatt",
+      "en": "Ex: I pay tax"
+    }
+  },
+  {
+    "id": 685,
+    "swedish": "sked",
+    "english": "Spoon",
+    "sentence": "Jag behöver en sked",
+    "example": {
+      "sv": "Ex: Jag behöver en sked",
+      "en": "Ex: I need a spoon"
+    }
+  },
+  {
+    "id": 686,
+    "swedish": "skev",
+    "english": "Crooked",
+    "sentence": "Den är skev",
+    "example": {
+      "sv": "Ex: Den är skev",
+      "en": "Ex: It is crooked"
+    }
+  },
+  {
+    "id": 687,
+    "swedish": "skicka",
+    "english": "To send",
+    "sentence": "Kan du skicka det?",
+    "example": {
+      "sv": "Ex: Kan du skicka det?",
+      "en": "Ex: Can you send it?"
+    }
+  },
+  {
+    "id": 688,
+    "swedish": "skilja",
+    "english": "Distinguish",
+    "sentence": "De ska skilja sig",
+    "example": {
+      "sv": "Ex: De ska skilja sig",
+      "en": "Ex: They are going to  "
+    }
+  },
+  {
+    "id": 689,
+    "swedish": "skillnad",
+    "english": "Difference",
+    "sentence": "Det är en skillnad",
+    "example": {
+      "sv": "Ex: Det är en skillnad",
+      "en": "Ex: There is a difference"
+    }
+  },
+  {
+    "id": 690,
+    "swedish": "skina",
+    "english": "To shine",
+    "sentence": "Solen börjar skina",
+    "example": {
+      "sv": "Ex: Solen börjar skina",
+      "en": "Ex: The sun is starting to shine"
+    }
+  },
+  {
+    "id": 691,
+    "swedish": "skiva",
+    "english": "Slice",
+    "sentence": "Jag vill ha en skiva bröd",
+    "example": {
+      "sv": "Ex: Jag vill ha en skiva bröd",
+      "en": "Ex: I want a slice of bread"
+    }
+  },
+  {
+    "id": 692,
+    "swedish": "skjorta",
+    "english": "Shirt",
+    "sentence": "Jag har en vit skjorta",
+    "example": {
+      "sv": "Ex: Jag har en vit skjorta",
+      "en": "Ex: I have a white shirt"
+    }
+  },
+  {
+    "id": 693,
+    "swedish": "sko",
+    "english": "Shoe",
+    "sentence": "Jag behöver en sko",
+    "example": {
+      "sv": "Ex: Jag behöver en sko",
+      "en": "Ex: I need a shoe"
+    }
+  },
+  {
+    "id": 694,
+    "swedish": "skola",
+    "english": "School",
+    "sentence": "Jag går i skolan",
+    "example": {
+      "sv": "Ex: Jag går i skolan",
+      "en": "Ex: I go to school"
+    }
+  },
+  {
+    "id": 695,
+    "swedish": "skor",
+    "english": "Shoes",
+    "sentence": "Mina skor är nya",
+    "example": {
+      "sv": "Ex: Mina skor är nya",
+      "en": "Ex: My shoes are new"
+    }
+  },
+  {
+    "id": 696,
+    "swedish": "skratta",
+    "english": "To laugh",
+    "sentence": "Vi gillar att skratta",
+    "example": {
+      "sv": "Ex: Vi gillar att skratta",
+      "en": "Ex: We like to laugh"
+    }
+  },
+  {
+    "id": 697,
+    "swedish": "skriva",
+    "english": "To write",
+    "sentence": "Jag ska skriva ett brev",
+    "example": {
+      "sv": "Ex: Jag ska skriva ett brev",
+      "en": "Ex: I will write a letter"
+    }
+  },
+  {
+    "id": 698,
+    "swedish": "skulle",
+    "english": "Would/Should",
+    "sentence": "Jag skulle vilja ha kaffe",
+    "example": {
+      "sv": "Ex: Jag skulle vilja ha kaffe",
+      "en": "Ex: I would like coffee"
+    }
+  },
+  {
+    "id": 699,
+    "swedish": "skydda",
+    "english": "To protect",
+    "sentence": "Man måste skydda sig",
+    "example": {
+      "sv": "Ex: Man måste skydda sig",
+      "en": "Ex: You must protect yourself"
+    }
+  },
+  {
+    "id": 700,
+    "swedish": "skylt",
+    "english": "Sign",
+    "sentence": "Jag ser en skylt",
+    "example": {
+      "sv": "Ex: Jag ser en skylt",
+      "en": "Ex: I see a sign"
+    }
+  },
+  {
+    "id": 701,
+    "swedish": "skåp",
+    "english": "Cabinet",
+    "sentence": "Boken står i skåpet",
+    "example": {
+      "sv": "Ex: Boken står i skåpet",
+      "en": "Ex: The book is in the cabinet"
+    }
+  },
+  {
+    "id": 702,
+    "swedish": "slappna av",
+    "english": "To relax",
+    "sentence": "Jag behöver slappna av",
+    "example": {
+      "sv": "Ex: Jag behöver slappna av",
+      "en": "Ex: I need to relax"
+    }
+  },
+  {
+    "id": 703,
+    "swedish": "slips",
+    "english": "Tie",
+    "sentence": "Han bär slips",
+    "example": {
+      "sv": "Ex: Han bär slips",
+      "en": "Ex: He is wearing a tie"
+    }
+  },
+  {
+    "id": 704,
+    "swedish": "sluta",
+    "english": "Stop",
+    "sentence": "Jag ska sluta nu",
+    "example": {
+      "sv": "Ex: Jag ska sluta nu",
+      "en": "Ex: I will stop now"
+    }
+  },
+  {
+    "id": 705,
+    "swedish": "släkting",
+    "english": "Relative",
+    "sentence": "Han är min släkting",
+    "example": {
+      "sv": "Ex: Han är min släkting",
+      "en": "Ex: He is my relative"
+    }
+  },
+  {
+    "id": 706,
+    "swedish": "släktingar",
+    "english": "Relatives",
+    "sentence": "Jag träffar släktingar",
+    "example": {
+      "sv": "Ex: Jag träffar släktingar",
+      "en": "Ex: I meet relatives"
+    }
+  },
+  {
+    "id": 707,
+    "swedish": "smal",
+    "english": "Narrow",
+    "sentence": "Vägen är smal",
+    "example": {
+      "sv": "Ex: Vägen är smal",
+      "en": "Ex: The road is narrow"
+    }
+  },
+  {
+    "id": 708,
+    "swedish": "smaka",
+    "english": "To taste",
+    "sentence": "Vill du smaka?",
+    "example": {
+      "sv": "Ex: Vill du smaka?",
+      "en": "Ex: Do you want to taste?"
+    }
+  },
+  {
+    "id": 709,
+    "swedish": "smidig",
+    "english": "Smooth",
+    "sentence": "Det var smidigt",
+    "example": {
+      "sv": "Ex: Det var smidigt",
+      "en": "Ex: That was smooth"
+    }
+  },
+  {
+    "id": 710,
+    "swedish": "smärta",
+    "english": "Pain",
+    "sentence": "Jag har smärta",
+    "example": {
+      "sv": "Ex: Jag har smärta",
+      "en": "Ex: I have pain"
+    }
+  },
+  {
+    "id": 711,
+    "swedish": "snabb",
+    "english": "Fast",
+    "sentence": "Bilen är snabb",
+    "example": {
+      "sv": "Ex: Bilen är snabb",
+      "en": "Ex: The car is fast"
+    }
+  },
+  {
+    "id": 712,
+    "swedish": "snart",
+    "english": "Soon",
+    "sentence": "Jag kommer snart",
+    "example": {
+      "sv": "Ex: Jag kommer snart",
+      "en": "Ex: I am coming soon"
+    }
+  },
+  {
+    "id": 713,
+    "swedish": "snäll",
+    "english": "Nice",
+    "sentence": "Du är snäll",
+    "example": {
+      "sv": "Ex: Du är snäll",
+      "en": "Ex: You are kind"
+    }
+  },
+  {
+    "id": 714,
+    "swedish": "snö",
+    "english": "Snow",
+    "sentence": "Det finns mycket snö",
+    "example": {
+      "sv": "Ex: Det finns mycket snö",
+      "en": "Ex: There is a lot of snow"
+    }
+  },
+  {
+    "id": 715,
+    "swedish": "snöa",
+    "english": "To snow",
+    "sentence": "Det börjar snöa",
+    "example": {
+      "sv": "Ex: Det börjar snöa",
+      "en": "Ex: It is starting to snow"
+    }
+  },
+  {
+    "id": 716,
+    "swedish": "snöblandat regn",
+    "english": "Sleet",
+    "sentence": "Det är snöblandat regn ute",
+    "example": {
+      "sv": "Ex: Det är snöblandat regn ute",
+      "en": "Ex: It is sleeting outside"
+    }
+  },
+  {
+    "id": 717,
+    "swedish": "snöit",
+    "english": "Snowy",
+    "sentence": "Det är snöigt",
+    "example": {
+      "sv": "Ex: Det är snöigt",
+      "en": "Ex: It is snowy"
+    }
+  },
+  {
+    "id": 718,
+    "swedish": "snörvla",
+    "english": "Snuffle",
+    "sentence": "Han snörvlar",
+    "example": {
+      "sv": "Ex: Han snörvlar",
+      "en": "Ex: He is snuffling"
+    }
+  },
+  {
+    "id": 719,
+    "swedish": "social",
+    "english": "Social",
+    "sentence": "Han är mycket social",
+    "example": {
+      "sv": "Ex: Han är mycket social",
+      "en": "Ex: He is very social"
+    }
+  },
+  {
+    "id": 720,
+    "swedish": "socker",
+    "english": "Sugar",
+    "sentence": "Jag vill inte ha socker",
+    "example": {
+      "sv": "Ex: Jag vill inte ha socker",
+      "en": "Ex: I do not want sugar"
+    }
+  },
+  {
+    "id": 721,
+    "swedish": "sol",
+    "english": "Sun",
+    "sentence": "Solen lyser",
+    "example": {
+      "sv": "Ex: Solen lyser",
+      "en": "Ex: The sun is shining"
+    }
+  },
+  {
+    "id": 722,
+    "swedish": "solglasögon",
+    "english": "Sunglasses",
+    "sentence": "Jag har solglasögon",
+    "example": {
+      "sv": "Ex: Jag har solglasögon",
+      "en": "Ex: I have sunglasses"
+    }
+  },
+  {
+    "id": 723,
+    "swedish": "soligt",
+    "english": "Sunny",
+    "sentence": "Det är soligt ute",
+    "example": {
+      "sv": "Ex: Det är soligt ute",
+      "en": "Ex: It is sunny outside"
+    }
+  },
+  {
+    "id": 724,
+    "swedish": "sommar",
+    "english": "Summer",
+    "sentence": "Jag älskar sommar",
+    "example": {
+      "sv": "Ex: Jag älskar sommar",
+      "en": "Ex: I love summer"
+    }
+  },
+  {
+    "id": 725,
+    "swedish": "somna",
+    "english": "Fall asleep",
+    "sentence": "Jag ska somna nu",
+    "example": {
+      "sv": "Ex: Jag ska somna nu",
+      "en": "Ex: I will fall asleep now"
+    }
+  },
+  {
+    "id": 726,
+    "swedish": "son",
+    "english": "Son",
+    "sentence": "Jag har en son",
+    "example": {
+      "sv": "Ex: Jag har en son",
+      "en": "Ex: I have a son"
+    }
+  },
+  {
+    "id": 727,
+    "swedish": "soppa",
+    "english": "Soup",
+    "sentence": "Jag äter soppa",
+    "example": {
+      "sv": "Ex: Jag äter soppa",
+      "en": "Ex: I am eating soup"
+    }
+  },
+  {
+    "id": 728,
+    "swedish": "sova",
+    "english": "To sleep",
+    "sentence": "Jag vill sova",
+    "example": {
+      "sv": "Ex: Jag vill sova",
+      "en": "Ex: I want to sleep"
+    }
+  },
+  {
+    "id": 729,
+    "swedish": "sovrum",
+    "english": "Bedroom",
+    "sentence": "Jag gillar mitt sovrum",
+    "example": {
+      "sv": "Ex: Jag gillar mitt sovrum",
+      "en": "Ex: I like my bedroom"
+    }
+  },
+  {
+    "id": 730,
+    "swedish": "spara",
+    "english": "To save",
+    "sentence": "Jag vill spara pengar",
+    "example": {
+      "sv": "Ex: Jag vill spara pengar",
+      "en": "Ex: I want to save money"
+    }
+  },
+  {
+    "id": 731,
+    "swedish": "spegel",
+    "english": "Mirror",
+    "sentence": "Jag ser mig i spegeln",
+    "example": {
+      "sv": "Ex: Jag ser mig i spegeln",
+      "en": "Ex: I see myself in the mirror"
+    }
+  },
+  {
+    "id": 732,
+    "swedish": "spela",
+    "english": "To play",
+    "sentence": "Jag vill spela",
+    "example": {
+      "sv": "Ex: Jag vill spela",
+      "en": "Ex: I want to play"
+    }
+  },
+  {
+    "id": 733,
+    "swedish": "spendera",
+    "english": "Spend money",
+    "sentence": "Jag gillar spendera",
+    "example": {
+      "sv": "Ex: Jag gillar spendera",
+      "en": "Ex: I like spending money"
+    }
+  },
+  {
+    "id": 734,
+    "swedish": "springa",
+    "english": "To run",
+    "sentence": "Jag måste springa",
+    "example": {
+      "sv": "Ex: Jag måste springa",
+      "en": "Ex: I must run"
+    }
+  },
+  {
+    "id": 735,
+    "swedish": "språk",
+    "english": "Language",
+    "sentence": "Jag har språk",
+    "example": {
+      "sv": "Ex: Jag har språk",
+      "en": "Ex: I have language"
+    }
+  },
+  {
+    "id": 736,
+    "swedish": "spårvagn",
+    "english": "Tram",
+    "sentence": "Jag har spårvagn",
+    "example": {
+      "sv": "Ex: Jag har spårvagn",
+      "en": "Ex: I have a tram"
+    }
+  },
+  {
+    "id": 737,
+    "swedish": "stad",
+    "english": "City",
+    "sentence": "Jag bor i stad",
+    "example": {
+      "sv": "Ex: Jag bor i stad",
+      "en": "Ex: I live in a city"
+    }
+  },
+  {
+    "id": 738,
+    "swedish": "stark",
+    "english": "Strong",
+    "sentence": "Jag är stark",
+    "example": {
+      "sv": "Ex: Jag är stark",
+      "en": "Ex: I am strong"
+    }
+  },
+  {
+    "id": 739,
+    "swedish": "stjärna",
+    "english": "Star",
+    "sentence": "Jag gillar stjärna",
+    "example": {
+      "sv": "Ex: Jag gillar stjärna",
+      "en": "Ex: I like stars"
+    }
+  },
+  {
+    "id": 740,
+    "swedish": "stol",
+    "english": "Chair",
+    "sentence": "Jag vill ha stol",
+    "example": {
+      "sv": "Ex: Jag vill ha stol",
+      "en": "Ex: I want a chair"
+    }
+  },
+  {
+    "id": 741,
+    "swedish": "stor",
+    "english": "Big",
+    "sentence": "Det är stort",
+    "example": {
+      "sv": "Ex: Det är stort",
+      "en": "Ex: It is big"
+    }
+  },
+  {
+    "id": 742,
+    "swedish": "storlek",
+    "english": "Size",
+    "sentence": "Jag vill ha storlek",
+    "example": {
+      "sv": "Ex: Jag vill ha storlek",
+      "en": "Ex: I want the size"
+    }
+  },
+  {
+    "id": 743,
+    "swedish": "strand",
+    "english": "Beach",
+    "sentence": "Jag reser till strand",
+    "example": {
+      "sv": "Ex: Jag reser till strand",
+      "en": "Ex: I travel to the beach"
+    }
+  },
+  {
+    "id": 744,
+    "swedish": "stranden",
+    "english": "Beach",
+    "sentence": "Jag bor i stranden",
+    "example": {
+      "sv": "Ex: Jag bor i stranden",
+      "en": "Ex: I live at the beach"
+    }
+  },
+  {
+    "id": 745,
+    "swedish": "strategi",
+    "english": "Strategy",
+    "sentence": "Jag ser strategi",
+    "example": {
+      "sv": "Ex: Jag ser strategi",
+      "en": "Ex: I see strategy"
+    }
+  },
+  {
+    "id": 746,
+    "swedish": "streck",
+    "english": "line",
+    "sentence": "Jag ritar ett streck",
+    "example": {
+      "sv": "Ex: Jag ritar ett streck",
+      "en": "Ex: I draw a line"
+    }
+  },
+  {
+    "id": 747,
+    "swedish": "strumpor",
+    "english": "Socks",
+    "sentence": "Jag har strumpor",
+    "example": {
+      "sv": "Ex: Jag har strumpor",
+      "en": "Ex: I have socks"
+    }
+  },
+  {
+    "id": 748,
+    "swedish": "student",
+    "english": "Student",
+    "sentence": "Jag är en student",
+    "example": {
+      "sv": "Ex: Jag är en student",
+      "en": "Ex: I am a student"
+    }
+  },
+  {
+    "id": 749,
+    "swedish": "studera",
+    "english": "To study",
+    "sentence": "Jag vill studera",
+    "example": {
+      "sv": "Ex: Jag vill studera",
+      "en": "Ex: I want to study"
+    }
+  },
+  {
+    "id": 750,
+    "swedish": "styvbarn",
+    "english": "Stepchild",
+    "sentence": "Det finns styvbarn",
+    "example": {
+      "sv": "Ex: Det finns styvbarn",
+      "en": "Ex: There is a stepchild"
+    }
+  },
+  {
+    "id": 751,
+    "swedish": "styvförälder",
+    "english": "Stepparent",
+    "sentence": "Jag har en styvförälder",
+    "example": {
+      "sv": "Ex: Jag har en styvförälder",
+      "en": "Ex: I have a stepparent"
+    }
+  },
+  {
+    "id": 752,
+    "swedish": "stå",
+    "english": "To stand",
+    "sentence": "Jag ska stå här",
+    "example": {
+      "sv": "Ex: Jag ska stå här",
+      "en": "Ex: I will stand here"
+    }
+  },
+  {
+    "id": 753,
+    "swedish": "städa",
+    "english": "To clean",
+    "sentence": "Jag måste städa",
+    "example": {
+      "sv": "Ex: Jag måste städa",
+      "en": "Ex: I must clean"
+    }
+  },
+  {
+    "id": 754,
+    "swedish": "stöd",
+    "english": "Support",
+    "sentence": "Jag behöver stöd",
+    "example": {
+      "sv": "Ex: Jag behöver stöd",
+      "en": "Ex: I need support"
+    }
+  },
+  {
+    "id": 755,
+    "swedish": "stövlar",
+    "english": "Boots",
+    "sentence": "Jag bär stövlar",
+    "example": {
+      "sv": "Ex: Jag bär stövlar",
+      "en": "Ex: I am wearing boots"
+    }
+  },
+  {
+    "id": 756,
+    "swedish": "suddgummi",
+    "english": "Eraser",
+    "sentence": "Jag har ett suddgummi",
+    "example": {
+      "sv": "Ex: Jag har ett suddgummi",
+      "en": "Ex: I have an eraser"
+    }
+  },
+  {
+    "id": 757,
+    "swedish": "sur",
+    "english": "Sour",
+    "sentence": "Citronen är sur",
+    "example": {
+      "sv": "Ex: Citronen är sur",
+      "en": "Ex: The lemon is sour"
+    }
+  },
+  {
+    "id": 758,
+    "swedish": "svaret",
+    "english": "The answer",
+    "sentence": "Jag vet svaret",
+    "example": {
+      "sv": "Ex: Jag vet svaret",
+      "en": "Ex: I know the answer"
+    }
+  },
+  {
+    "id": 759,
+    "swedish": "svart",
+    "english": "Black",
+    "sentence": "Katten är svart",
+    "example": {
+      "sv": "Ex: Katten är svart",
+      "en": "Ex: The cat is black"
+    }
+  },
+  {
+    "id": 760,
+    "swedish": "svensk",
+    "english": "Swedish",
+    "sentence": "Jag är svensk",
+    "example": {
+      "sv": "Ex: Jag är svensk",
+      "en": "Ex: I am Swedish"
+    }
+  },
+  {
+    "id": 761,
+    "swedish": "svenska",
+    "english": "Swedish (language)",
+    "sentence": "Jag pratar svenska",
+    "example": {
+      "sv": "Ex: Jag pratar svenska",
+      "en": "Ex: I speak Swedish"
+    }
+  },
+  {
+    "id": 762,
+    "swedish": "svettas",
+    "english": "To sweat",
+    "sentence": "Jag svettas mycket",
+    "example": {
+      "sv": "Ex: Jag svettas mycket",
+      "en": "Ex: I sweat a lot"
+    }
+  },
+  {
+    "id": 763,
+    "swedish": "svår",
+    "english": "Difficult",
+    "sentence": "Det är svårt",
+    "example": {
+      "sv": "Ex: Det är svårt",
+      "en": "Ex: It is difficult"
+    }
+  },
+  {
+    "id": 764,
+    "swedish": "svägerska",
+    "english": "Sister-in-law",
+    "sentence": "Hon är min svägerska",
+    "example": {
+      "sv": "Ex: Hon är min svägerska",
+      "en": "Ex: She is my sister-in-law"
+    }
+  },
+  {
+    "id": 765,
+    "swedish": "svärdotter",
+    "english": "Daughter-in-law",
+    "sentence": "Hon är min svärdotter",
+    "example": {
+      "sv": "Ex: Hon är min svärdotter",
+      "en": "Ex: She is my daughter-in-law"
+    }
+  },
+  {
+    "id": 766,
+    "swedish": "svärfar",
+    "english": "Father-in-law",
+    "sentence": "Min svärfar är här",
+    "example": {
+      "sv": "Ex: Min svärfar är här",
+      "en": "Ex: My father-in-law is here"
+    }
+  },
+  {
+    "id": 767,
+    "swedish": "svärföräldrar",
+    "english": "In-laws",
+    "sentence": "Jag träffar svärföräldrar",
+    "example": {
+      "sv": "Ex: Jag träffar svärföräldrar",
+      "en": "Ex: I meet the in-laws"
+    }
+  },
+  {
+    "id": 768,
+    "swedish": "svärmor",
+    "english": "Mother-in-law",
+    "sentence": "Min svärmor är snäll",
+    "example": {
+      "sv": "Ex: Min svärmor är snäll",
+      "en": "Ex: My mother-in-law is kind"
+    }
+  },
+  {
+    "id": 769,
+    "swedish": "svärson",
+    "english": "Son-in-law",
+    "sentence": "Han är min svärson",
+    "example": {
+      "sv": "Ex: Han är min svärson",
+      "en": "Ex: He is my son-in-law"
+    }
+  },
+  {
+    "id": 770,
+    "swedish": "svärålder",
+    "english": "Brother-in-law",
+    "sentence": "Han är min svärålder",
+    "example": {
+      "sv": "Ex: Han är min svärålder",
+      "en": "Ex: He is my brother-in-law"
+    }
+  },
+  {
+    "id": 771,
+    "swedish": "sy",
+    "english": "To sew",
+    "sentence": "Jag ska sy en klänning",
+    "example": {
+      "sv": "Ex: Jag ska sy en klänning",
+      "en": "Ex: I will sew a dress"
+    }
+  },
+  {
+    "id": 772,
+    "swedish": "symmetri",
+    "english": "Symmetry",
+    "sentence": "Det finns symmetri",
+    "example": {
+      "sv": "Ex: Det finns symmetri",
+      "en": "Ex: There is symmetry"
+    }
+  },
+  {
+    "id": 773,
+    "swedish": "syn",
+    "english": "Sight",
+    "sentence": "Jag har bra syn",
+    "example": {
+      "sv": "Ex: Jag har bra syn",
+      "en": "Ex: I have good vision"
+    }
+  },
+  {
+    "id": 774,
+    "swedish": "syskon",
+    "english": "Siblings",
+    "sentence": "Jag har tre syskon",
+    "example": {
+      "sv": "Ex: Jag har tre syskon",
+      "en": "Ex: I have three siblings"
+    }
+  },
+  {
+    "id": 775,
+    "swedish": "syssling",
+    "english": "Second cousin",
+    "sentence": "Han är min syssling",
+    "example": {
+      "sv": "Ex: Han är min syssling",
+      "en": "Ex: He is my second cousin"
+    }
+  },
+  {
+    "id": 776,
+    "swedish": "syster",
+    "english": "Sister",
+    "sentence": "Jag har en syster",
+    "example": {
+      "sv": "Ex: Jag har en syster",
+      "en": "Ex: I have a sister"
+    }
+  },
+  {
+    "id": 777,
+    "swedish": "så",
+    "english": "So",
+    "sentence": "Det är så bra",
+    "example": {
+      "sv": "Ex: Det är så bra",
+      "en": "Ex: It is so good"
+    }
+  },
+  {
+    "id": 778,
+    "swedish": "sådan",
+    "english": "Such",
+    "sentence": "En sådan bok vill jag ha",
+    "example": {
+      "sv": "Ex: En sådan bok vill jag ha",
+      "en": "Ex: I want such a book"
+    }
+  },
+  {
+    "id": 779,
+    "swedish": "säng",
+    "english": "Bed",
+    "sentence": "Jag går till min säng",
+    "example": {
+      "sv": "Ex: Jag går till min säng",
+      "en": "Ex: I go to my bed"
+    }
+  },
+  {
+    "id": 780,
+    "swedish": "särbo",
+    "english": "Partner (living apart)",
+    "sentence": "Vi är särbor",
+    "example": {
+      "sv": "Ex: Vi är särbor",
+      "en": "Ex: We are partners living apart"
+    }
+  },
+  {
+    "id": 781,
+    "swedish": "söka",
+    "english": "To search",
+    "sentence": "Jag ska söka jobb",
+    "example": {
+      "sv": "Ex: Jag ska söka jobb",
+      "en": "Ex: I will apply for a job"
+    }
+  },
+  {
+    "id": 782,
+    "swedish": "söndag",
+    "english": "Sunday",
+    "sentence": "Idag är det söndag",
+    "example": {
+      "sv": "Ex: Idag är det söndag",
+      "en": "Ex: Today is Sunday"
+    }
+  },
+  {
+    "id": 783,
+    "swedish": "söt",
+    "english": "Sweet",
+    "sentence": "Barnet är sött",
+    "example": {
+      "sv": "Ex: Barnet är sött",
+      "en": "Ex: The child is cute"
+    }
+  },
+  {
+    "id": 784,
+    "swedish": "ta",
+    "english": "To take",
+    "sentence": "Jag ska ta tåget",
+    "example": {
+      "sv": "Ex: Jag ska ta tåget",
+      "en": "Ex: I will take the train"
+    }
+  },
+  {
+    "id": 785,
+    "swedish": "tabell",
+    "english": "Table",
+    "sentence": "Se tabellen",
+    "example": {
+      "sv": "Ex: Se tabellen",
+      "en": "Ex: Look at the table"
+    }
+  },
+  {
+    "id": 786,
+    "swedish": "tack",
+    "english": "Thanks",
+    "sentence": "Tack så mycket",
+    "example": {
+      "sv": "Ex: Tack så mycket",
+      "en": "Ex: Thank you very much"
+    }
+  },
+  {
+    "id": 787,
+    "swedish": "takt",
+    "english": "Pace",
+    "sentence": "Håll takten",
+    "example": {
+      "sv": "Ex: Håll takten",
+      "en": "Ex: Keep the pace"
+    }
+  },
+  {
+    "id": 788,
+    "swedish": "tal",
+    "english": "Speech",
+    "sentence": "Han höll ett tal",
+    "example": {
+      "sv": "Ex: Han höll ett tal",
+      "en": "Ex: He gave a speech"
+    }
+  },
+  {
+    "id": 789,
+    "swedish": "tala",
+    "english": "To speak",
+    "sentence": "Jag vill tala med dig",
+    "example": {
+      "sv": "Ex: Jag vill tala med dig",
+      "en": "Ex: I want to speak with you"
+    }
+  },
+  {
+    "id": 790,
+    "swedish": "tand",
+    "english": "Tooth",
+    "sentence": "Jag har ont i en tand",
+    "example": {
+      "sv": "Ex: Jag har ont i en tand",
+      "en": "Ex: My tooth hurts"
+    }
+  },
+  {
+    "id": 791,
+    "swedish": "tandborste",
+    "english": "Toothbrush",
+    "sentence": "Jag behöver en ny tandborste",
+    "example": {
+      "sv": "Ex: Jag behöver en ny tandborste",
+      "en": "Ex: I need a new toothbrush"
+    }
+  },
+  {
+    "id": 792,
+    "swedish": "tandläkare",
+    "english": "Dentist",
+    "sentence": "Jag ska till tandläkaren",
+    "example": {
+      "sv": "Ex: Jag ska till tandläkaren",
+      "en": "Ex: I am going to the dentist"
+    }
+  },
+  {
+    "id": 793,
+    "swedish": "tanke",
+    "english": "Thought",
+    "sentence": "Det är en bra tanke",
+    "example": {
+      "sv": "Ex: Det är en bra tanke",
+      "en": "Ex: That is a good thought"
+    }
+  },
+  {
+    "id": 794,
+    "swedish": "tant",
+    "english": "Lady",
+    "sentence": "En snäll tant",
+    "example": {
+      "sv": "Ex: En snäll tant",
+      "en": "Ex: A kind lady"
+    }
+  },
+  {
+    "id": 795,
+    "swedish": "tappa",
+    "english": "To drop",
+    "sentence": "Jag tappade min nyckel",
+    "example": {
+      "sv": "Ex: Jag tappade min nyckel",
+      "en": "Ex: I dropped my key"
+    }
+  },
+  {
+    "id": 796,
+    "swedish": "tax",
+    "english": "Dachshund",
+    "sentence": "Jag ser en tax",
+    "example": {
+      "sv": "Ex: Jag ser en tax",
+      "en": "Ex: I see a dachshund"
+    }
+  },
+  {
+    "id": 797,
+    "swedish": "taxi",
+    "english": "Taxi",
+    "sentence": "Vi tar en taxi",
+    "example": {
+      "sv": "Ex: Vi tar en taxi",
+      "en": "Ex: We are taking a taxi"
+    }
+  },
+  {
+    "id": 798,
+    "swedish": "te",
+    "english": "Tea",
+    "sentence": "Jag vill ha te",
+    "example": {
+      "sv": "Ex: Jag vill ha te",
+      "en": "Ex: I want tea"
+    }
+  },
+  {
+    "id": 799,
+    "swedish": "tecken",
+    "english": "Sign",
+    "sentence": "Det är ett tecken",
+    "example": {
+      "sv": "Ex: Det är ett tecken",
+      "en": "Ex: It is a sign"
+    }
+  },
+  {
+    "id": 800,
+    "swedish": "teknik",
+    "english": "Technology",
+    "sentence": "Jag gillar teknik",
+    "example": {
+      "sv": "Ex: Jag gillar teknik",
+      "en": "Ex: I like technology"
+    }
+  },
+  {
+    "id": 803,
+    "swedish": "rehabilitering",
+    "english": "Rehabilitation",
+    "sentence": "Jag ser rehabilitering",
+    "example": {
+      "sv": "Ex: Jag ser rehabilitering",
+      "en": "Ex: I see Rehabilitation"
+    }
+  },
+  {
+    "id": 804,
+    "swedish": "reklamation",
+    "english": "Complaint",
+    "sentence": "Jag ser reklamation",
+    "example": {
+      "sv": "Ex: Jag ser reklamation",
+      "en": "Ex: I see Complaint"
+    }
+  },
+  {
+    "id": 805,
+    "swedish": "rekrytering",
+    "english": "Recruitment",
+    "sentence": "Jag gillar rekrytering",
+    "example": {
+      "sv": "Ex: Jag gillar rekrytering",
+      "en": "Ex: I like Recruitment"
+    }
+  },
+  {
+    "id": 806,
+    "swedish": "rektor",
+    "english": "Principal",
+    "sentence": "Det finns rektor",
+    "example": {
+      "sv": "Ex: Det finns rektor",
+      "en": "Ex: There is Principal"
+    }
+  },
+  {
+    "id": 808,
+    "swedish": "rep",
+    "english": "Rope",
+    "sentence": "Jag gillar rep",
+    "example": {
+      "sv": "Ex: Jag gillar rep",
+      "en": "Ex: I like Rope"
+    }
+  },
+  {
+    "id": 809,
+    "swedish": "repetera",
+    "english": "Repeat",
+    "sentence": "Jag gillar repetera",
+    "example": {
+      "sv": "Ex: Jag gillar repetera",
+      "en": "Ex: I like Repeat"
+    }
+  },
+  {
+    "id": 811,
+    "swedish": "resebyrå",
+    "english": "Travel agency",
+    "sentence": "Jag har resebyrå",
+    "example": {
+      "sv": "Ex: Jag har resebyrå",
+      "en": "Ex: I have Travel agency"
+    }
+  },
+  {
+    "id": 813,
+    "swedish": "resurser",
+    "english": "Resources",
+    "sentence": "Det var resurser",
+    "example": {
+      "sv": "Ex: Det var resurser",
+      "en": "Ex: It was Resources"
+    }
+  },
+  {
+    "id": 814,
+    "swedish": "resväska",
+    "english": "Suitcase",
+    "sentence": "Det finns resväska",
+    "example": {
+      "sv": "Ex: Det finns resväska",
+      "en": "Ex: There is Suitcase"
+    }
+  },
+  {
+    "id": 815,
+    "swedish": "retur",
+    "english": "Return",
+    "sentence": "Det finns retur",
+    "example": {
+      "sv": "Ex: Det finns retur",
+      "en": "Ex: There is Return"
+    }
+  },
+  {
+    "id": 816,
+    "swedish": "rik",
+    "english": "Rich",
+    "sentence": "Han är rik",
+    "example": {
+      "sv": "Ex: Han är rik",
+      "en": "Ex: He is rich"
+    }
+  },
+  {
+    "id": 817,
+    "swedish": "rimfrost",
+    "english": "Hoar frost",
+    "sentence": "Det finns rimfrost",
+    "example": {
+      "sv": "Ex: Det finns rimfrost",
+      "en": "Ex: There is Hoar frost"
+    }
+  },
+  {
+    "id": 819,
+    "swedish": "rondell",
+    "english": "Roundabout",
+    "sentence": "Jag har rondell",
+    "example": {
+      "sv": "Ex: Jag har rondell",
+      "en": "Ex: I have Roundabout"
+    }
+  },
+  {
+    "id": 824,
+    "swedish": "räcker",
+    "english": "Enough",
+    "sentence": "Jag gillar räcker",
+    "example": {
+      "sv": "Ex: Jag gillar räcker",
+      "en": "Ex: I like Enough"
+    }
+  },
+  {
+    "id": 826,
+    "swedish": "rätt",
+    "english": "Right",
+    "sentence": "Det blir rätt",
+    "example": {
+      "sv": "Ex: Det blir rätt",
+      "en": "Ex: It becomes Right"
+    }
+  },
+  {
+    "id": 827,
+    "swedish": "rättvis",
+    "english": "Fair",
+    "sentence": "Det är rättvist",
+    "example": {
+      "sv": "Ex: Det är rättvist",
+      "en": "Ex: It is fair"
+    }
+  },
+  {
+    "id": 830,
+    "swedish": "rörlig",
+    "english": "Mobile",
+    "sentence": "Det finns rörlig",
+    "example": {
+      "sv": "Ex: Det finns rörlig",
+      "en": "Ex: There is Mobile"
+    }
+  },
+  {
+    "id": 835,
+    "swedish": "samband",
+    "english": "Connection",
+    "sentence": "Jag har samband",
+    "example": {
+      "sv": "Ex: Jag har samband",
+      "en": "Ex: I have Connection"
+    }
+  },
+  {
+    "id": 838,
+    "swedish": "sammanhang",
+    "english": "Context",
+    "sentence": "Jag har sammanhang",
+    "example": {
+      "sv": "Ex: Jag har sammanhang",
+      "en": "Ex: I have Context"
+    }
+  },
+  {
+    "id": 840,
+    "swedish": "samtal",
+    "english": "Conversation",
+    "sentence": "Jag har samtal",
+    "example": {
+      "sv": "Ex: Jag har samtal",
+      "en": "Ex: I have Conversation"
+    }
+  },
+  {
+    "id": 841,
+    "swedish": "sand",
+    "english": "Sand",
+    "sentence": "Det finns sand",
+    "example": {
+      "sv": "Ex: Det finns sand",
+      "en": "Ex: There is Sand"
+    }
+  },
+  {
+    "id": 842,
+    "swedish": "sanitet",
+    "english": "Sanitation",
+    "sentence": "Jag gillar sanitet",
+    "example": {
+      "sv": "Ex: Jag gillar sanitet",
+      "en": "Ex: I like Sanitation"
+    }
+  },
+  {
+    "id": 843,
+    "swedish": "sax",
+    "english": "Scissors",
+    "sentence": "Jag klipper med en sax",
+    "example": {
+      "sv": "Ex: Jag klipper med en sax",
+      "en": "Ex: I cut with scissors"
+    }
+  },
+  {
+    "id": 846,
+    "swedish": "sedan",
+    "english": "Then",
+    "sentence": "Jag gör det sedan",
+    "example": {
+      "sv": "Ex: Jag gör det sedan",
+      "en": "Ex: I do it then"
+    }
+  },
+  {
+    "id": 847,
+    "swedish": "september",
+    "english": "September",
+    "sentence": "Jag ser september",
+    "example": {
+      "sv": "Ex: Jag ser september",
+      "en": "Ex: I see September"
+    }
+  },
+  {
+    "id": 848,
+    "swedish": "service",
+    "english": "Service",
+    "sentence": "Jag gillar service",
+    "example": {
+      "sv": "Ex: Jag gillar service",
+      "en": "Ex: I like Service"
+    }
+  },
+  {
+    "id": 849,
+    "swedish": "servitör",
+    "english": "waiter",
+    "sentence": "Servitören är trevlig",
+    "example": {
+      "sv": "Ex: Servitören är trevlig",
+      "en": "Ex: The waiter is nice"
+    }
+  },
+  {
+    "id": 850,
+    "swedish": "sida",
+    "english": "Side",
+    "sentence": "Jag har sida",
+    "example": {
+      "sv": "Ex: Jag har sida",
+      "en": "Ex: I have Side"
+    }
+  },
+  {
+    "id": 853,
+    "swedish": "sitta",
+    "english": "To sit",
+    "sentence": "Jag ska sitta",
+    "example": {
+      "sv": "Ex: Jag ska sitta",
+      "en": "Ex: I will sit"
+    }
+  },
+  {
+    "id": 856,
+    "swedish": "sjukvård",
+    "english": "Healthcare",
+    "sentence": "Jag har sjukvård",
+    "example": {
+      "sv": "Ex: Jag har sjukvård",
+      "en": "Ex: I have Healthcare"
+    }
+  },
+  {
+    "id": 858,
+    "swedish": "självförtroende",
+    "english": "Self-confidence",
+    "sentence": "Jag gillar självförtroende",
+    "example": {
+      "sv": "Ex: Jag gillar självförtroende",
+      "en": "Ex: I like Self-confidence"
+    }
+  },
+  {
+    "id": 859,
+    "swedish": "självständig",
+    "english": "Independent",
+    "sentence": "Det blir självständig",
+    "example": {
+      "sv": "Ex: Det blir självständig",
+      "en": "Ex: It becomes Independent"
+    }
+  },
+  {
+    "id": 867,
+    "swedish": "skidor",
+    "english": "Ski",
+    "sentence": "Jag har skidor",
+    "example": {
+      "sv": "Ex: Jag har skidor",
+      "en": "Ex: I have Skis"
+    }
+  },
+  {
+    "id": 868,
+    "swedish": "skiljaktig",
+    "english": "Different",
+    "sentence": "Det finns skiljaktig",
+    "example": {
+      "sv": "Ex: Det finns skiljaktig",
+      "en": "Ex: There is Different"
+    }
+  },
+  {
+    "id": 871,
+    "swedish": "skit",
+    "english": "Shit",
+    "sentence": "Jag har skit",
+    "example": {
+      "sv": "Ex: Jag har skit",
+      "en": "Ex: I have Shit"
+    }
+  },
+  {
+    "id": 879,
+    "swedish": "skrot",
+    "english": "Scrap",
+    "sentence": "Det finns skrot",
+    "example": {
+      "sv": "Ex: Det finns skrot",
+      "en": "Ex: There is Scrap"
+    }
+  },
+  {
+    "id": 880,
+    "swedish": "sky",
+    "english": "Sky",
+    "sentence": "Jag ser sky",
+    "example": {
+      "sv": "Ex: Jag ser sky",
+      "en": "Ex: I see Sky"
+    }
+  },
+  {
+    "id": 883,
+    "swedish": "skärm",
+    "english": "Screen",
+    "sentence": "Jag ser skärm",
+    "example": {
+      "sv": "Ex: Jag ser skärm",
+      "en": "Ex: I see Screen"
+    }
+  },
+  {
+    "id": 889,
+    "swedish": "smak",
+    "english": "Taste",
+    "sentence": "Jag har smak",
+    "example": {
+      "sv": "Ex: Jag har smak",
+      "en": "Ex: I have Taste"
+    }
+  },
+  {
+    "id": 891,
+    "swedish": "smart",
+    "english": "Smart",
+    "sentence": "Hon är smart",
+    "example": {
+      "sv": "Ex: Hon är smart",
+      "en": "Ex: She is smart"
+    }
+  },
+  {
+    "id": 892,
+    "swedish": "smutsig",
+    "english": "Dirty",
+    "sentence": "Det är smutsigt",
+    "example": {
+      "sv": "Ex: Det är smutsigt",
+      "en": "Ex: It is dirty"
+    }
+  },
+  {
+    "id": 896,
+    "swedish": "sned",
+    "english": "Crooked",
+    "sentence": "Det är snett",
+    "example": {
+      "sv": "Ex: Det är snett",
+      "en": "Ex: It is crooked"
+    }
+  },
+  {
+    "id": 897,
+    "swedish": "snitt",
+    "english": "Cut",
+    "sentence": "Jag har snitt",
+    "example": {
+      "sv": "Ex: Jag har snitt",
+      "en": "Ex: I have Cut"
+    }
+  },
+  {
+    "id": 899,
+    "swedish": "snöby",
+    "english": "Snow shower",
+    "sentence": "Det var snöby",
+    "example": {
+      "sv": "Ex: Det var snöby",
+      "en": "Ex: It was Snow shower"
+    }
+  },
+  {
+    "id": 900,
+    "swedish": "snöfall",
+    "english": "Snowfall",
+    "sentence": "Jag ser snöfall",
+    "example": {
+      "sv": "Ex: Jag ser snöfall",
+      "en": "Ex: I see Snowfall"
+    }
+  },
+  {
+    "id": 901,
+    "swedish": "snöslask",
+    "english": "Slush",
+    "sentence": "Jag ser snöslask",
+    "example": {
+      "sv": "Ex: Jag ser snöslask",
+      "en": "Ex: I see Slush"
+    }
+  },
+  {
+    "id": 902,
+    "swedish": "snöstorm",
+    "english": "Snowstorm",
+    "sentence": "Det var snöstorm",
+    "example": {
+      "sv": "Ex: Det var snöstorm",
+      "en": "Ex: It was Snowstorm"
+    }
+  },
+  {
+    "id": 904,
+    "swedish": "sociala medier",
+    "english": "Social media",
+    "sentence": "Jag har sociala medier",
+    "example": {
+      "sv": "Ex: Jag har sociala medier",
+      "en": "Ex: I have Social media"
+    }
+  },
+  {
+    "id": 905,
+    "swedish": "sockerrör",
+    "english": "Sugar cane",
+    "sentence": "Jag har sockerrör",
+    "example": {
+      "sv": "Ex: Jag har sockerrör",
+      "en": "Ex: I have Sugar cane"
+    }
+  },
+  {
+    "id": 907,
+    "swedish": "solen",
+    "english": "The sun",
+    "sentence": "Solen skiner",
+    "example": {
+      "sv": "Ex: Solen skiner",
+      "en": "Ex: The sun is shining"
+    }
+  },
+  {
+    "id": 909,
+    "swedish": "solig",
+    "english": "Sunny",
+    "sentence": "Det är soligt",
+    "example": {
+      "sv": "Ex: Det är soligt",
+      "en": "Ex: It is sunny"
+    }
+  },
+  {
+    "id": 915,
+    "swedish": "sparka",
+    "english": "To kick",
+    "sentence": "Jag kan sparka",
+    "example": {
+      "sv": "Ex: Jag kan sparka",
+      "en": "Ex: I can kick"
+    }
+  },
+  {
+    "id": 916,
+    "swedish": "specialist",
+    "english": "Specialist",
+    "sentence": "Jag gillar specialist",
+    "example": {
+      "sv": "Ex: Jag gillar specialist",
+      "en": "Ex: I like Specialist"
+    }
+  },
+  {
+    "id": 935,
+    "swedish": "studier",
+    "english": "Studies",
+    "sentence": "Jag ser studier",
+    "example": {
+      "sv": "Ex: Jag ser studier",
+      "en": "Ex: I see Studies"
+    }
+  },
+  {
+    "id": 936,
+    "swedish": "styrelse",
+    "english": "Board",
+    "sentence": "Jag har styrelse",
+    "example": {
+      "sv": "Ex: Jag har styrelse",
+      "en": "Ex: I have Board"
+    }
+  },
+  {
+    "id": 938,
+    "swedish": "ställning",
+    "english": "Position",
+    "sentence": "Jag har ställning",
+    "example": {
+      "sv": "Ex: Jag har ställning",
+      "en": "Ex: I have Position"
+    }
+  },
+  {
+    "id": 939,
+    "swedish": "stänga",
+    "english": "Close",
+    "sentence": "Jag stänger dörren",
+    "example": {
+      "sv": "Ex: Jag stänger dörren",
+      "en": "Ex: I close the door"
+    }
+  },
+  {
+    "id": 941,
+    "swedish": "sudda",
+    "english": "Erase",
+    "sentence": "Jag suddar tavlan",
+    "example": {
+      "sv": "Ex: Jag suddar tavlan",
+      "en": "Ex: I erase the board"
+    }
+  },
+  {
+    "id": 942,
+    "swedish": "summa",
+    "english": "Sum",
+    "sentence": "Jag ser summa",
+    "example": {
+      "sv": "Ex: Jag ser summa",
+      "en": "Ex: I see Sum"
+    }
+  },
+  {
+    "id": 945,
+    "swedish": "svett",
+    "english": "Sweat",
+    "sentence": "Jag har svett",
+    "example": {
+      "sv": "Ex: Jag har svett",
+      "en": "Ex: I have Sweat"
+    }
+  },
+  {
+    "id": 947,
+    "swedish": "symtom",
+    "english": "Symptom",
+    "sentence": "Jag ser symtom",
+    "example": {
+      "sv": "Ex: Jag ser symtom",
+      "en": "Ex: I see Symptom"
+    }
+  },
+  {
+    "id": 949,
+    "swedish": "syssla",
+    "english": "Activity",
+    "sentence": "Jag gillar syssla",
+    "example": {
+      "sv": "Ex: Jag gillar syssla",
+      "en": "Ex: I like Activity"
+    }
+  },
+  {
+    "id": 950,
+    "swedish": "system",
+    "english": "System",
+    "sentence": "Jag har system",
+    "example": {
+      "sv": "Ex: Jag har system",
+      "en": "Ex: I have System"
+    }
+  },
+  {
+    "id": 955,
+    "swedish": "säker",
+    "english": "Sure",
+    "sentence": "Jag är säker",
+    "example": {
+      "sv": "Ex: Jag är säker",
+      "en": "Ex: I am sure"
+    }
+  },
+  {
+    "id": 956,
+    "swedish": "säkerhet",
+    "english": "Safety",
+    "sentence": "Jag gillar säkerhet",
+    "example": {
+      "sv": "Ex: Jag gillar säkerhet",
+      "en": "Ex: I like Safety"
+    }
+  },
+  {
+    "id": 957,
+    "swedish": "sälja",
+    "english": "To sell",
+    "sentence": "Jag ska sälja",
+    "example": {
+      "sv": "Ex: Jag ska sälja",
+      "en": "Ex: I will sell"
+    }
+  },
+  {
+    "id": 958,
+    "swedish": "sämre",
+    "english": "Worse",
+    "sentence": "Det är sämre",
+    "example": {
+      "sv": "Ex: Det är sämre",
+      "en": "Ex: It is Worse"
+    }
+  },
+  {
+    "id": 959,
+    "swedish": "sänka",
+    "english": "Lower",
+    "sentence": "Jag vill sänka",
+    "example": {
+      "sv": "Ex: Jag vill sänka",
+      "en": "Ex: I want Lower"
+    }
+  },
+  {
+    "id": 960,
+    "swedish": "särskild",
+    "english": "Special",
+    "sentence": "Det finns särskild",
+    "example": {
+      "sv": "Ex: Det finns särskild",
+      "en": "Ex: There is Special"
+    }
+  },
+  {
+    "id": 961,
+    "swedish": "sätt",
+    "english": "Way",
+    "sentence": "Jag har sätt",
+    "example": {
+      "sv": "Ex: Jag har sätt",
+      "en": "Ex: I have Way"
+    }
+  },
+  {
+    "id": 963,
+    "swedish": "sörja",
+    "english": "Mourn",
+    "sentence": "Jag gillar sörja",
+    "example": {
+      "sv": "Ex: Jag gillar sörja",
+      "en": "Ex: I like Mourn"
+    }
+  },
+  {
+    "id": 965,
+    "swedish": "sötsaker",
+    "english": "Sweets",
+    "sentence": "Jag gillar sötsaker",
+    "example": {
+      "sv": "Ex: Jag gillar sötsaker",
+      "en": "Ex: I like sweets"
+    }
+  },
+  {
+    "id": 969,
+    "swedish": "tallrik",
+    "english": "Plate",
+    "sentence": "Jag har en tallrik",
+    "example": {
+      "sv": "Ex: Jag har en tallrik",
+      "en": "Ex: I have a plate"
+    }
+  },
+  {
+    "id": 972,
+    "swedish": "tandkräm",
+    "english": "Toothpaste",
+    "sentence": "Jag har tandkräm",
+    "example": {
+      "sv": "Ex: Jag har tandkräm",
+      "en": "Ex: I have toothpaste"
+    }
+  },
+  {
+    "id": 976,
+    "swedish": "taxa",
+    "english": "Fare",
+    "sentence": "Jag gillar taxa",
+    "example": {
+      "sv": "Ex: Jag gillar taxa",
+      "en": "Ex: I like Fare"
+    }
+  },
+  {
+    "id": 979,
+    "swedish": "team",
+    "english": "Team",
+    "sentence": "Jag har team",
+    "example": {
+      "sv": "Ex: Jag har team",
+      "en": "Ex: I have Team"
+    }
+  },
+  {
+    "id": 981,
+    "swedish": "telefon",
+    "english": "Phone",
+    "sentence": "Jag gillar telefon",
+    "example": {
+      "sv": "Ex: Jag gillar telefon",
+      "en": "Ex: I like Phone"
+    }
+  },
+  {
+    "id": 982,
+    "swedish": "temperatur",
+    "english": "Temperature",
+    "sentence": "Jag gillar temperatur",
+    "example": {
+      "sv": "Ex: Jag gillar temperatur",
+      "en": "Ex: I like Temperature"
+    }
+  },
+  {
+    "id": 983,
+    "swedish": "tentamen",
+    "english": "Examination",
+    "sentence": "Det finns tentamen",
+    "example": {
+      "sv": "Ex: Det finns tentamen",
+      "en": "Ex: There is Examination"
+    }
+  },
+  {
+    "id": 984,
+    "swedish": "tenta",
+    "english": "Exam",
+    "sentence": "Jag har tenta",
+    "example": {
+      "sv": "Ex: Jag har tenta",
+      "en": "Ex: I have Exam"
+    }
+  },
+  {
+    "id": 985,
+    "swedish": "termin",
+    "english": "Term",
+    "sentence": "Jag har termin",
+    "example": {
+      "sv": "Ex: Jag har termin",
+      "en": "Ex: I have Term"
+    }
+  },
+  {
+    "id": 986,
+    "swedish": "test",
+    "english": "Test",
+    "sentence": "Jag ser test",
+    "example": {
+      "sv": "Ex: Jag ser test",
+      "en": "Ex: I see Test"
+    }
+  },
+  {
+    "id": 987,
+    "swedish": "tid",
+    "english": "Time",
+    "sentence": "Jag har tid",
+    "example": {
+      "sv": "Ex: Jag har tid",
+      "en": "Ex: I have Time"
+    }
+  },
+  {
+    "id": 988,
+    "swedish": "tidig",
+    "english": "Early",
+    "sentence": "Det är tidigt",
+    "example": {
+      "sv": "Ex: Det är tidigt",
+      "en": "Ex: It is early"
+    }
+  },
+  {
+    "id": 989,
+    "swedish": "tidigare",
+    "english": "Earlier",
+    "sentence": "Det är tidigare",
+    "example": {
+      "sv": "Ex: Det är tidigare",
+      "en": "Ex: It is Earlier"
+    }
+  },
+  {
+    "id": 990,
+    "swedish": "tidning",
+    "english": "Newspaper",
+    "sentence": "Jag läser tidning",
+    "example": {
+      "sv": "Ex: Jag läser tidning",
+      "en": "Ex: I read Newspaper"
+    }
+  },
+  {
+    "id": 991,
+    "swedish": "tidpunkt",
+    "english": "Point in time",
+    "sentence": "Jag har tidpunkt",
+    "example": {
+      "sv": "Ex: Jag har tidpunkt",
+      "en": "Ex: I have Point in time"
+    }
+  },
+  {
+    "id": 992,
+    "swedish": "tidsplan",
+    "english": "Timeframe",
+    "sentence": "Jag ser tidsplan",
+    "example": {
+      "sv": "Ex: Jag ser tidsplan",
+      "en": "Ex: I see Timeframe"
+    }
+  },
+  {
+    "id": 993,
+    "swedish": "tidszon",
+    "english": "Timezone",
+    "sentence": "Jag har tidszon",
+    "example": {
+      "sv": "Ex: Jag har tidszon",
+      "en": "Ex: I have Timezone"
+    }
+  },
+  {
+    "id": 994,
+    "swedish": "till",
+    "english": "To",
+    "sentence": "Jag har till",
+    "example": {
+      "sv": "Ex: Jag har till",
+      "en": "Ex: I have To"
+    }
+  },
+  {
+    "id": 995,
+    "swedish": "tillbaka",
+    "english": "Back",
+    "sentence": "Jag har tillbaka",
+    "example": {
+      "sv": "Ex: Jag har tillbaka",
+      "en": "Ex: I have Back"
+    }
+  },
+  {
+    "id": 996,
+    "swedish": "tillbringa",
+    "english": "Spend time",
+    "sentence": "Jag gillar tillbringa",
+    "example": {
+      "sv": "Ex: Jag gillar tillbringa",
+      "en": "Ex: I like Spend time"
+    }
+  },
+  {
+    "id": 997,
+    "swedish": "timme",
+    "english": "Hour",
+    "sentence": "Jag gillar timme",
+    "example": {
+      "sv": "Ex: Jag gillar timme",
+      "en": "Ex: I like Hour"
+    }
+  },
+  {
+    "id": 998,
+    "swedish": "tisdag",
+    "english": "Tuesday",
+    "sentence": "Jag ser tisdag",
+    "example": {
+      "sv": "Ex: Jag ser tisdag",
+      "en": "Ex: I see Tuesday"
+    }
+  },
+  {
+    "id": 999,
+    "swedish": "tjänst",
+    "english": "Service",
+    "sentence": "Jag gillar tjänst",
+    "example": {
+      "sv": "Ex: Jag gillar tjänst",
+      "en": "Ex: I like Service"
+    }
+  },
+  {
+    "id": 1000,
+    "swedish": "tog",
+    "english": "Took",
+    "sentence": "Han tog min bok",
+    "example": {
+      "sv": "Ex: Han tog min bok",
+      "en": "Ex: He took my book"
+    }
+  },
+  {
+    "id": 1001,
+    "swedish": "var",
+    "english": "Where",
+    "sentence": "Var är du?",
+    "example": {
+      "sv": "Ex: Var är du?",
+      "en": "Ex: Where are you?"
+    }
+  },
+  {
+    "id": 1002,
+    "swedish": "vad",
+    "english": "What",
+    "sentence": "Vad gör du?",
+    "example": {
+      "sv": "Ex: Vad gör du?",
+      "en": "Ex: What are you doing?"
+    }
+  },
+  {
+    "id": 1003,
+    "swedish": "när",
+    "english": "When",
+    "sentence": "När kommer du?",
+    "example": {
+      "sv": "Ex: När kommer du?",
+      "en": "Ex: When are you coming?"
+    }
+  },
+  {
+    "id": 1004,
+    "swedish": "vem",
+    "english": "Who",
+    "sentence": "Vem är det?",
+    "example": {
+      "sv": "Ex: Vem är det?",
+      "en": "Ex: Who is it?"
+    }
+  },
+  {
+    "id": 1005,
+    "swedish": "varför",
+    "english": "Why",
+    "sentence": "Varför gör du det?",
+    "example": {
+      "sv": "Ex: Varför gör du det?",
+      "en": "Ex: Why are you doing that?"
+    }
+  },
+  {
+    "id": 1006,
+    "swedish": "vilken",
+    "english": "Which",
+    "sentence": "Vilken bok läser du?",
+    "example": {
+      "sv": "Ex: Vilken bok läser du?",
+      "en": "Ex: Which book are you reading?"
+    }
+  },
+  {
+    "id": 1007,
+    "swedish": "vilket",
+    "english": "Which",
+    "sentence": "Vilket äpple vill du ha?",
+    "example": {
+      "sv": "Ex: Vilket äpple vill du ha?",
+      "en": "Ex: Which apple do you want?"
+    }
+  },
+  {
+    "id": 1008,
+    "swedish": "vilka",
+    "english": "Which",
+    "sentence": "Vilka böcker läser du?",
+    "example": {
+      "sv": "Ex: Vilka böcker läser du?",
+      "en": "Ex: Which books are you reading?"
+    }
+  },
+  {
+    "id": 1009,
+    "swedish": "vart",
+    "english": "Whereto",
+    "sentence": "Vart går du?",
+    "example": {
+      "sv": "Ex: Vart går du?",
+      "en": "Ex: Where are you going?"
+    }
+  },
+  {
+    "id": 1010,
+    "swedish": "varifrån",
+    "english": "Wherefrom",
+    "sentence": "Varifrån kommer du?",
+    "example": {
+      "sv": "Ex: Varifrån kommer du?",
+      "en": "Ex: Where are you from?"
+    }
+  },
+  {
+    "id": 1011,
+    "swedish": "vari",
+    "english": "Wherein",
+    "sentence": "Vari ligger problemet?",
+    "example": {
+      "sv": "Ex: Vari ligger problemet?",
+      "en": "Ex: Wherein lies the problem?"
+    }
+  },
+  {
+    "id": 1012,
+    "swedish": "varav",
+    "english": "Whereof",
+    "sentence": "Varav består det?",
+    "example": {
+      "sv": "Ex: Varav består det?",
+      "en": "Ex: What does it consist of?"
+    }
+  },
+  {
+    "id": 1013,
+    "swedish": "vartill",
+    "english": "Whereto",
+    "sentence": "Vartill används det?",
+    "example": {
+      "sv": "Ex: Vartill används det?",
+      "en": "Ex: What is it used for?"
+    }
+  },
+  {
+    "id": 1014,
+    "swedish": "varvid",
+    "english": "Whereat",
+    "sentence": "Varvid hände det?",
+    "example": {
+      "sv": "Ex: Varvid hände det?",
+      "en": "Ex: Whereby did it happen?"
+    }
+  },
+  {
+    "id": 1015,
+    "swedish": "vad för",
+    "english": "What kind of",
+    "sentence": "Vad för bil har du?",
+    "example": {
+      "sv": "Ex: Vad för bil har du?",
+      "en": "Ex: What kind of car do you have?"
+    }
+  },
+  {
+    "id": 1016,
+    "swedish": "hur många",
+    "english": "How many",
+    "sentence": "Hur många böcker har du?",
+    "example": {
+      "sv": "Ex: Hur många böcker har du?",
+      "en": "Ex: How many books do you have?"
+    }
+  },
+  {
+    "id": 1017,
+    "swedish": "hur mycket",
+    "english": "How much",
+    "sentence": "Hur mycket kostar det?",
+    "example": {
+      "sv": "Ex: Hur mycket kostar det?",
+      "en": "Ex: How much does it cost?"
+    }
+  },
+  {
+    "id": 1018,
+    "swedish": "hur länge",
+    "english": "How long",
+    "sentence": "Hur länge stannar du?",
+    "example": {
+      "sv": "Ex: Hur länge stannar du?",
+      "en": "Ex: How long are you staying?"
+    }
+  },
+  {
+    "id": 1019,
+    "swedish": "hur ofta",
+    "english": "How often",
+    "sentence": "Hur ofta tränar du?",
+    "example": {
+      "sv": "Ex: Hur ofta tränar du?",
+      "en": "Ex: How often do you exercise?"
+    }
+  },
+  {
+    "id": 1020,
+    "swedish": "hur långt",
+    "english": "How far",
+    "sentence": "Hur långt är det?",
+    "example": {
+      "sv": "Ex: Hur långt är det?",
+      "en": "Ex: How far is it?"
+    }
+  },
+  {
+    "id": 1021,
+    "swedish": "hur dags",
+    "english": "What time",
+    "sentence": "Hur dags kommer du?",
+    "example": {
+      "sv": "Ex: Hur dags kommer du?",
+      "en": "Ex: What time are you coming?"
+    }
+  },
+  {
+    "id": 1022,
+    "swedish": "hur lång",
+    "english": "How long (length)",
+    "sentence": "Hur lång är du?",
+    "example": {
+      "sv": "Ex: Hur lång är du?",
+      "en": "Ex: How tall are you?"
+    }
+  },
+  {
+    "id": 1023,
+    "swedish": "hur gammal",
+    "english": "How old",
+    "sentence": "Hur gammal är du?",
+    "example": {
+      "sv": "Ex: Hur gammal är du?",
+      "en": "Ex: How old are you?"
+    }
+  },
+  {
+    "id": 1024,
+    "swedish": "hur bra",
+    "english": "How good",
+    "sentence": "Hur bra är det?",
+    "example": {
+      "sv": "Ex: Hur bra är det?",
+      "en": "Ex: How good is it?"
+    }
+  },
+  {
+    "id": 1025,
+    "swedish": "vem som",
+    "english": "Whoever",
+    "sentence": "Vem som helst kan komma.",
+    "example": {
+      "sv": "Ex: Vem som helst kan komma.",
+      "en": "Ex: Anyone can come."
+    }
+  },
+  {
+    "id": 1026,
+    "swedish": "vad som",
+    "english": "Whatever",
+    "sentence": "Vad som helst fungerar.",
+    "example": {
+      "sv": "Ex: Vad som helst fungerar.",
+      "en": "Ex: Anything works."
+    }
+  },
+  {
+    "id": 1027,
+    "swedish": "när som",
+    "english": "Whenever",
+    "sentence": "När som helst kan det hända.",
+    "example": {
+      "sv": "Ex: När som helst kan det hända.",
+      "en": "Ex: It can happen anytime."
+    }
+  },
+  {
+    "id": 1028,
+    "swedish": "var som",
+    "english": "Wherever",
+    "sentence": "Var som helst är bra.",
+    "example": {
+      "sv": "Ex: Var som helst är bra.",
+      "en": "Ex: Anywhere is fine."
+    }
+  },
+  {
+    "id": 1029,
+    "swedish": "hur som",
+    "english": "However",
+    "sentence": "Hur som helst gör det.",
+    "example": {
+      "sv": "Ex: Hur som helst gör det.",
+      "en": "Ex: Do it however."
+    }
+  }
+]
