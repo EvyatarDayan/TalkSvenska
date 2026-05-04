@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selectedTab = 2
+    @State private var selectedTab = 3
     @State private var currentSentence: Sentence?
     @State private var currentTopic: String = "Random"
     @State private var showingScheduler = false

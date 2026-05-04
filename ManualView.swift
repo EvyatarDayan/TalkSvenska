@@ -1,17 +1,13 @@
 import SwiftUI
 import Speech
 
-enum FilterOption: String, CaseIterable {
-    case all = "All"
-    case recent = "Recent"
-}
-
 struct ManualView: View {
     @StateObject private var manualManager = ManualManager.shared
     @State private var showingAddModal = false
     @State private var selectedSentence: Sentence?
+    /// When set, the sentence sheet uses this list for prev/next (e.g. 10 random picks). Otherwise the full manual list.
+    @State private var modalNavigationSentences: [Sentence]? = nil
     @State private var searchText = ""
-    @State private var selectedFilter: FilterOption = .all
     @FocusState private var isSearchFocused: Bool
     @Environment(\.colorScheme) var colorScheme
     @State private var showBlurHint = false
@@ -19,30 +15,16 @@ struct ManualView: View {
     // Store hint dismissal state persistently
     @AppStorage("hasShownManualBlurHint") private var hasShownManualBlurHint = false
     
+    /// Newest items first (storage appends oldest → newest); optional search.
     var filteredSentences: [Sentence] {
-        var sentences: [Sentence] = manualManager.manualSentences
-        
-        // Apply filter
-        switch selectedFilter {
-        case .all:
-            // Keep all sentences
-            break
-        case .recent:
-            // Last 30 items added (most recent first)
-            // Since new sentences are appended to the array, the last items are the most recent
-            // Take the last 30 items and reverse so most recent is first
-            let totalCount = manualManager.manualSentences.count
-            let startIndex = max(0, totalCount - 30)
-            sentences = Array(manualManager.manualSentences[startIndex..<totalCount])
-            sentences = sentences.reversed() // Most recent first
-        }
+        var sentences = Array(manualManager.manualSentences.reversed())
         
         // Apply search text filter
         if !searchText.isEmpty {
             let lowercasedSearch = searchText.lowercased()
             sentences = sentences.filter { sentence in
-                sentence.swedish.lowercased().contains(lowercasedSearch) ||
-                sentence.english.lowercased().contains(lowercasedSearch)
+                ManualSentenceRichText.plainText(from: sentence.swedish).lowercased().contains(lowercasedSearch) ||
+                ManualSentenceRichText.plainText(from: sentence.english).lowercased().contains(lowercasedSearch)
             }
         }
         
@@ -94,27 +76,30 @@ struct ManualView: View {
             .padding(.horizontal, 20)
             .padding(.bottom, 12)
             
-            // Filter segmented control and count
-            HStack {
-                Picker("Filter", selection: $selectedFilter) {
-                    ForEach(FilterOption.allCases, id: \.self) { option in
-                        Text(option.rawValue).tag(option)
-                    }
-                }
-                .pickerStyle(SegmentedPickerStyle())
-                .frame(maxWidth: .infinity)
-                
-                // Sentence count
-                Text("\(filteredSentences.count) Items")
-                    .font(.caption)
-                    .foregroundColor(.secondary)
-            }
-            .padding(.horizontal, 20)
-            .padding(.bottom, 2)
-            .padding(.top, 12)
+            Text("\(filteredSentences.count) Items")
+                .font(.caption)
+                .foregroundColor(.secondary)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.horizontal, 20)
+                .padding(.bottom, 2)
+                .padding(.top, 12)
             
-            // + button positioned absolutely
+            // Random (10) on the left, add on the right — same row, full width
             HStack {
+                Button(action: {
+                    let pool = filteredSentences
+                    guard !pool.isEmpty else { return }
+                    let count = min(10, pool.count)
+                    let picked = Array(pool.shuffled().prefix(count))
+                    modalNavigationSentences = picked
+                    selectedSentence = picked[0]
+                }) {
+                    Image(systemName: "shuffle")
+                        .font(.title2)
+                        .foregroundColor(.blue)
+                }
+                .disabled(filteredSentences.isEmpty)
+                .accessibilityLabel("Open 10 random items")
                 Spacer()
                 Button(action: {
                     showingAddModal = true
@@ -124,6 +109,7 @@ struct ManualView: View {
                         .foregroundColor(.blue)
 //                        .padding(.top, -60)
                 }
+                .accessibilityLabel("Add sentence")
             }
             .padding(.horizontal, 30)
             .offset(y: -170)
@@ -175,15 +161,17 @@ struct ManualView: View {
                 GeometryReader { geometry in
                     List {
                         ForEach(Array(filteredSentences.enumerated()), id: \.element.id) { index, sentence in
+                            let addOrderNumber = (manualManager.manualSentences.firstIndex(where: { $0.id == sentence.id }) ?? 0) + 1
                             ManualSentenceCard(
                                 sentence: sentence,
-                                isFirstItem: index == 0,
+                                addOrderNumber: addOrderNumber,
                                 showBlurHint: index == 0 && showBlurHint,
                                 onHintDismiss: {
                                     showBlurHint = false
                                     hasShownManualBlurHint = true
                                 }
                             ) {
+                                modalNavigationSentences = nil
                                 selectedSentence = sentence
                             }
                             .listRowInsets(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
@@ -246,8 +234,11 @@ struct ManualView: View {
         .sheet(item: $selectedSentence) { sentence in
             ManualSentenceModalView(
                 sentence: sentence,
-                manualSentences: manualManager.manualSentences,
-                onDismiss: { selectedSentence = nil }
+                manualSentences: modalNavigationSentences ?? manualManager.manualSentences,
+                onDismiss: {
+                    selectedSentence = nil
+                    modalNavigationSentences = nil
+                }
             )
         }
         .overlay(
@@ -264,7 +255,8 @@ struct ManualView: View {
 struct ManualSentenceCard: View {
     @Environment(\.colorScheme) var colorScheme
     let sentence: Sentence
-    let isFirstItem: Bool
+    /// 1-based index in add order (oldest stored item is 1).
+    let addOrderNumber: Int
     let showBlurHint: Bool
     let onHintDismiss: () -> Void
     let onTap: () -> Void
@@ -276,18 +268,33 @@ struct ManualSentenceCard: View {
             HStack(alignment: .top, spacing: 12) {
                 // Sentence content
                 VStack(alignment: .leading, spacing: 8) {
-                    Text(sentence.swedish)
-                        .font(.title3)
-                        .fontWeight(.medium)
-                        .foregroundColor(.primary)
-                        .lineLimit(1)
-                        .truncationMode(.tail)
-                    
-                    Text(sentence.english)
-                        .font(.body)
-                        .foregroundColor(.secondary)
-                        .lineLimit(1)
-                        .truncationMode(.tail)
+                    Group {
+                        if ManualSentenceRichText.isRichStorage(sentence.swedish) {
+                            Text(ManualSentenceRichText.swiftUIAttributedString(from: sentence.swedish))
+                                .font(.title3)
+                                .fontWeight(.medium)
+                        } else {
+                            Text(sentence.swedish)
+                                .font(.title3)
+                                .fontWeight(.medium)
+                                .foregroundColor(.primary)
+                        }
+                    }
+                    .lineLimit(1)
+                    .truncationMode(.tail)
+
+                    Group {
+                        if ManualSentenceRichText.isRichStorage(sentence.english) {
+                            Text(ManualSentenceRichText.swiftUIAttributedString(from: sentence.english))
+                                .font(.body)
+                        } else {
+                            Text(sentence.english)
+                                .font(.body)
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                    .lineLimit(1)
+                    .truncationMode(.tail)
                         .blur(radius: isEnglishRevealed ? 0 : 8)
                         .onTapGesture {
                             withAnimation(.easeInOut(duration: 0.3)) {
@@ -300,15 +307,23 @@ struct ManualSentenceCard: View {
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 
-                // Manual icon on the right (similar to favorites "F" icon but with "M")
-                ZStack {
-                    RoundedRectangle(cornerRadius: 6)
-                        .fill(Color.blue.opacity(0.1))
-                        .frame(width: 32, height: 32)
-                    
-                    Text("M")
-                        .font(.system(size: 18, weight: .bold, design: .rounded))
-                        .foregroundColor(.blue)
+                // Add-order number above manual "M" badge
+                VStack(spacing: 2) {
+                    Text("\(addOrderNumber)")
+                        .font(.system(size: 10, weight: .semibold, design: .rounded))
+                        .foregroundColor(.secondary)
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.7)
+
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 6)
+                            .fill(Color.blue.opacity(0.1))
+                            .frame(width: 32, height: 32)
+
+                        Text("M")
+                            .font(.system(size: 18, weight: .bold, design: .rounded))
+                            .foregroundColor(.blue)
+                    }
                 }
                 .frame(maxHeight: .infinity, alignment: .center)
             }
@@ -370,8 +385,12 @@ struct AddManualSentenceModal: View {
     @State private var recordingDots = ""
     @State private var isActuallyRecordingSwedish = false
     @State private var isActuallyRecordingEnglish = false
-    @FocusState private var isSwedishFieldFocused: Bool
-    @FocusState private var isEnglishFieldFocused: Bool
+    @State private var swedishHasTextSelection = false
+    @State private var englishHasTextSelection = false
+    @State private var swedishMarkRedNonce = 0
+    @State private var englishMarkRedNonce = 0
+    @State private var isSwedishFieldFocused = false
+    @State private var isEnglishFieldFocused = false
     
     var body: some View {
         NavigationView {
@@ -387,8 +406,19 @@ struct AddManualSentenceModal: View {
                         VStack(alignment: .leading, spacing: 15) {
                             ZStack(alignment: .trailing) {
                                 HStack(spacing: 12) {
+                                    Button(action: { swedishMarkRedNonce += 1 }) {
+                                        Text("B")
+                                            .font(.headline)
+                                            .fontWeight(.bold)
+                                            .foregroundColor(.red)
+                                            .frame(width: 40, height: 40)
+                                    }
+                                    .buttonStyle(.plain)
+                                    .disabled(!swedishHasTextSelection || isRecordingSwedish || isRecordingEnglish)
+                                    .opacity((!swedishHasTextSelection || isRecordingSwedish || isRecordingEnglish) ? 0.35 : 1)
+
                                     Spacer()
-                                    
+
                                     HStack(spacing: 8) {
                                         Spacer()
                                         
@@ -464,16 +494,30 @@ struct AddManualSentenceModal: View {
                             }
                             
                             HStack(spacing: 8) {
-                                TextField("Skriv en mening på svenska\nEx: Jag arbetar hemma idag.", text: $swedishText, axis: .vertical)
-                                    .lineLimit(4...8)
-                                    .font(.title3)
-                                    .padding(.horizontal, 16)
-                                    .padding(.vertical, 19)
-                                    .focused($isSwedishFieldFocused)
-                                    .autocorrectionDisabled()
-                                    .textInputAutocapitalization(.never)
-                                
-                                if !swedishText.isEmpty {
+                                ZStack(alignment: .topLeading) {
+                                    if ManualSentenceRichText.plainText(from: swedishText).isEmpty {
+                                        Text("Skriv en mening på svenska\nEx: Jag arbetar hemma idag.")
+                                            .font(.title3)
+                                            .foregroundColor(Color(uiColor: .placeholderText))
+                                            .padding(.horizontal, 16)
+                                            .padding(.vertical, 19)
+                                            .allowsHitTesting(false)
+                                    }
+                                    ManualRichTextField(
+                                        textStorage: $swedishText,
+                                        hasTextSelection: $swedishHasTextSelection,
+                                        markRedNonce: swedishMarkRedNonce,
+                                        isEditable: !isRecordingSwedish && !isRecordingEnglish,
+                                        onFocusChange: { focused in
+                                            isSwedishFieldFocused = focused
+                                        }
+                                    )
+                                    .id("manualRichSwedishField")
+                                    .frame(minHeight: 100)
+                                    .padding(.horizontal, 8)
+                                }
+
+                                if !ManualSentenceRichText.plainText(from: swedishText).isEmpty {
                                     Button(action: {
                                         swedishText = ""
                                     }) {
@@ -517,8 +561,19 @@ struct AddManualSentenceModal: View {
                         // English field with buttons
                         VStack(alignment: .leading, spacing: 15) {
                             HStack(spacing: 12) {
+                                Button(action: { englishMarkRedNonce += 1 }) {
+                                    Text("B")
+                                        .font(.headline)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(.red)
+                                        .frame(width: 40, height: 40)
+                                }
+                                .buttonStyle(.plain)
+                                .disabled(!englishHasTextSelection || isRecordingSwedish || isRecordingEnglish)
+                                .opacity((!englishHasTextSelection || isRecordingSwedish || isRecordingEnglish) ? 0.35 : 1)
+
                                 Spacer()
-                                
+
                                 HStack(spacing: 8) {
                                     Spacer()
                                     
@@ -565,16 +620,30 @@ struct AddManualSentenceModal: View {
                             }
                             
                             HStack(spacing: 8) {
-                                TextField("Write the English meaning\nEx: I work from home today.", text: $englishText, axis: .vertical)
-                                    .lineLimit(4...8)
-                                    .font(.title3)
-                                    .padding(.horizontal, 16)
-                                    .padding(.vertical, 16)
-                                    .focused($isEnglishFieldFocused)
-                                    .autocorrectionDisabled()
-                                    .textInputAutocapitalization(.never)
-                                
-                                if !englishText.isEmpty {
+                                ZStack(alignment: .topLeading) {
+                                    if ManualSentenceRichText.plainText(from: englishText).isEmpty {
+                                        Text("Write the English meaning\nEx: I work from home today.")
+                                            .font(.title3)
+                                            .foregroundColor(Color(uiColor: .placeholderText))
+                                            .padding(.horizontal, 16)
+                                            .padding(.vertical, 16)
+                                            .allowsHitTesting(false)
+                                    }
+                                    ManualRichTextField(
+                                        textStorage: $englishText,
+                                        hasTextSelection: $englishHasTextSelection,
+                                        markRedNonce: englishMarkRedNonce,
+                                        isEditable: !isRecordingSwedish && !isRecordingEnglish,
+                                        onFocusChange: { focused in
+                                            isEnglishFieldFocused = focused
+                                        }
+                                    )
+                                    .id("manualRichEnglishField")
+                                    .frame(minHeight: 100)
+                                    .padding(.horizontal, 8)
+                                }
+
+                                if !ManualSentenceRichText.plainText(from: englishText).isEmpty {
                                     Button(action: {
                                         englishText = ""
                                     }) {
@@ -608,11 +677,14 @@ struct AddManualSentenceModal: View {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button(action: {
                         speechRecognizer.stopRecording()
-                        if !swedishText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty &&
-                           !englishText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                        let sTrim = ManualSentenceRichText.plainText(from: swedishText).trimmingCharacters(in: .whitespacesAndNewlines)
+                        let eTrim = ManualSentenceRichText.plainText(from: englishText).trimmingCharacters(in: .whitespacesAndNewlines)
+                        if !sTrim.isEmpty && !eTrim.isEmpty {
+                            let swedishSaved = ManualSentenceRichText.isRichStorage(swedishText) ? swedishText : sTrim
+                            let englishSaved = ManualSentenceRichText.isRichStorage(englishText) ? englishText : eTrim
                             let newSentence = Sentence(
-                                swedish: swedishText.trimmingCharacters(in: .whitespacesAndNewlines),
-                                english: englishText.trimmingCharacters(in: .whitespacesAndNewlines)
+                                swedish: swedishSaved,
+                                english: englishSaved
                             )
                             manualManager.addManualSentence(newSentence)
                             dismiss()
@@ -623,8 +695,10 @@ struct AddManualSentenceModal: View {
                             .fontWeight(.semibold)
                             .foregroundColor(.green)
                     }
-                    .disabled(swedishText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ||
-                             englishText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+                    .disabled(
+                        ManualSentenceRichText.plainText(from: swedishText).trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ||
+                        ManualSentenceRichText.plainText(from: englishText).trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+                    )
                 }
                 
                 ToolbarItem(placement: .principal) {
@@ -751,8 +825,12 @@ struct EditManualSentenceModal: View {
     @State private var recordingDots = ""
     @State private var isActuallyRecordingSwedish = false
     @State private var isActuallyRecordingEnglish = false
-    @FocusState private var isSwedishFieldFocused: Bool
-    @FocusState private var isEnglishFieldFocused: Bool
+    @State private var swedishHasTextSelection = false
+    @State private var englishHasTextSelection = false
+    @State private var swedishMarkRedNonce = 0
+    @State private var englishMarkRedNonce = 0
+    @State private var isSwedishFieldFocused = false
+    @State private var isEnglishFieldFocused = false
     
     init(sentence: Sentence, onUpdate: @escaping (Sentence) -> Void) {
         self.sentence = sentence
@@ -775,8 +853,19 @@ struct EditManualSentenceModal: View {
                         VStack(alignment: .leading, spacing: 15) {
                             ZStack(alignment: .trailing) {
                                 HStack(spacing: 12) {
+                                    Button(action: { swedishMarkRedNonce += 1 }) {
+                                        Text("B")
+                                            .font(.headline)
+                                            .fontWeight(.bold)
+                                            .foregroundColor(.red)
+                                            .frame(width: 40, height: 40)
+                                    }
+                                    .buttonStyle(.plain)
+                                    .disabled(!swedishHasTextSelection || isRecordingSwedish || isRecordingEnglish)
+                                    .opacity((!swedishHasTextSelection || isRecordingSwedish || isRecordingEnglish) ? 0.35 : 1)
+
                                     Spacer()
-                                    
+
                                     HStack(spacing: 8) {
                                         Spacer()
                                         
@@ -852,16 +941,30 @@ struct EditManualSentenceModal: View {
                             }
                             
                             HStack(spacing: 8) {
-                                TextField("Skriv en mening på svenska\nEx: Jag arbetar hemma idag.", text: $swedishText, axis: .vertical)
-                                    .lineLimit(4...8)
-                                    .font(.title3)
-                                    .padding(.horizontal, 16)
-                                    .padding(.vertical, 19)
-                                    .focused($isSwedishFieldFocused)
-                                    .autocorrectionDisabled()
-                                    .textInputAutocapitalization(.never)
-                                
-                                if !swedishText.isEmpty {
+                                ZStack(alignment: .topLeading) {
+                                    if ManualSentenceRichText.plainText(from: swedishText).isEmpty {
+                                        Text("Skriv en mening på svenska\nEx: Jag arbetar hemma idag.")
+                                            .font(.title3)
+                                            .foregroundColor(Color(uiColor: .placeholderText))
+                                            .padding(.horizontal, 16)
+                                            .padding(.vertical, 19)
+                                            .allowsHitTesting(false)
+                                    }
+                                    ManualRichTextField(
+                                        textStorage: $swedishText,
+                                        hasTextSelection: $swedishHasTextSelection,
+                                        markRedNonce: swedishMarkRedNonce,
+                                        isEditable: !isRecordingSwedish && !isRecordingEnglish,
+                                        onFocusChange: { focused in
+                                            isSwedishFieldFocused = focused
+                                        }
+                                    )
+                                    .id("manualRichSwedishField")
+                                    .frame(minHeight: 100)
+                                    .padding(.horizontal, 8)
+                                }
+
+                                if !ManualSentenceRichText.plainText(from: swedishText).isEmpty {
                                     Button(action: {
                                         swedishText = ""
                                     }) {
@@ -905,8 +1008,19 @@ struct EditManualSentenceModal: View {
                         // English field with buttons
                         VStack(alignment: .leading, spacing: 15) {
                             HStack(spacing: 12) {
+                                Button(action: { englishMarkRedNonce += 1 }) {
+                                    Text("B")
+                                        .font(.headline)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(.red)
+                                        .frame(width: 40, height: 40)
+                                }
+                                .buttonStyle(.plain)
+                                .disabled(!englishHasTextSelection || isRecordingSwedish || isRecordingEnglish)
+                                .opacity((!englishHasTextSelection || isRecordingSwedish || isRecordingEnglish) ? 0.35 : 1)
+
                                 Spacer()
-                                
+
                                 HStack(spacing: 8) {
                                     Spacer()
                                     
@@ -953,16 +1067,30 @@ struct EditManualSentenceModal: View {
                             }
                             
                             HStack(spacing: 8) {
-                                TextField("Write the English meaning\nEx: I work from home today.", text: $englishText, axis: .vertical)
-                                    .lineLimit(4...8)
-                                    .font(.title3)
-                                    .padding(.horizontal, 16)
-                                    .padding(.vertical, 16)
-                                    .focused($isEnglishFieldFocused)
-                                    .autocorrectionDisabled()
-                                    .textInputAutocapitalization(.never)
-                                
-                                if !englishText.isEmpty {
+                                ZStack(alignment: .topLeading) {
+                                    if ManualSentenceRichText.plainText(from: englishText).isEmpty {
+                                        Text("Write the English meaning\nEx: I work from home today.")
+                                            .font(.title3)
+                                            .foregroundColor(Color(uiColor: .placeholderText))
+                                            .padding(.horizontal, 16)
+                                            .padding(.vertical, 16)
+                                            .allowsHitTesting(false)
+                                    }
+                                    ManualRichTextField(
+                                        textStorage: $englishText,
+                                        hasTextSelection: $englishHasTextSelection,
+                                        markRedNonce: englishMarkRedNonce,
+                                        isEditable: !isRecordingSwedish && !isRecordingEnglish,
+                                        onFocusChange: { focused in
+                                            isEnglishFieldFocused = focused
+                                        }
+                                    )
+                                    .id("manualRichEnglishField")
+                                    .frame(minHeight: 100)
+                                    .padding(.horizontal, 8)
+                                }
+
+                                if !ManualSentenceRichText.plainText(from: englishText).isEmpty {
                                     Button(action: {
                                         englishText = ""
                                     }) {
@@ -996,12 +1124,15 @@ struct EditManualSentenceModal: View {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button(action: {
                         speechRecognizer.stopRecording()
-                        if !swedishText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty &&
-                           !englishText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                        let sTrim = ManualSentenceRichText.plainText(from: swedishText).trimmingCharacters(in: .whitespacesAndNewlines)
+                        let eTrim = ManualSentenceRichText.plainText(from: englishText).trimmingCharacters(in: .whitespacesAndNewlines)
+                        if !sTrim.isEmpty && !eTrim.isEmpty {
+                            let swedishSaved = ManualSentenceRichText.isRichStorage(swedishText) ? swedishText : sTrim
+                            let englishSaved = ManualSentenceRichText.isRichStorage(englishText) ? englishText : eTrim
                             let updatedSentence = Sentence(
                                 id: sentence.id,
-                                swedish: swedishText.trimmingCharacters(in: .whitespacesAndNewlines),
-                                english: englishText.trimmingCharacters(in: .whitespacesAndNewlines)
+                                swedish: swedishSaved,
+                                english: englishSaved
                             )
                             onUpdate(updatedSentence)
                             dismiss()
@@ -1012,8 +1143,10 @@ struct EditManualSentenceModal: View {
                             .fontWeight(.semibold)
                             .foregroundColor(.green)
                     }
-                    .disabled(swedishText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ||
-                             englishText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+                    .disabled(
+                        ManualSentenceRichText.plainText(from: swedishText).trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ||
+                        ManualSentenceRichText.plainText(from: englishText).trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+                    )
                 }
                 
                 ToolbarItem(placement: .principal) {
@@ -1267,9 +1400,18 @@ struct ManualSentenceModalView: View {
                             .animation(.easeInOut(duration: 0.3), value: isRefreshing)
                         
                         // Swedish sentence
-                        Text(currentSentence.swedish)
-                            .font(.title)
-                            .fontWeight(.medium)
+                        Group {
+                            if ManualSentenceRichText.isRichStorage(currentSentence.swedish) {
+                                Text(ManualSentenceRichText.swiftUIAttributedString(from: currentSentence.swedish))
+                                    .font(.title)
+                                    .fontWeight(.medium)
+                            } else {
+                                Text(currentSentence.swedish)
+                                    .font(.title)
+                                    .fontWeight(.medium)
+                                    .foregroundColor(.primary)
+                            }
+                        }
                             .multilineTextAlignment(.center)
                             .padding(.horizontal, 20)
                             .opacity(isRefreshing ? 0.3 : 1.0)
@@ -1455,10 +1597,18 @@ struct ManualSentenceModalView: View {
                                 .opacity(isRefreshing ? 0.5 : 1.0)
                                 .animation(.easeInOut(duration: 0.3), value: isRefreshing)
                             
-                            Text(currentSentence.english)
-                                .font(.title)
-                                .fontWeight(.medium)
-                                .foregroundColor(.green)
+                            Group {
+                                if ManualSentenceRichText.isRichStorage(currentSentence.english) {
+                                    Text(ManualSentenceRichText.swiftUIAttributedString(from: currentSentence.english))
+                                        .font(.title)
+                                        .fontWeight(.medium)
+                                } else {
+                                    Text(currentSentence.english)
+                                        .font(.title)
+                                        .fontWeight(.medium)
+                                        .foregroundColor(.green)
+                                }
+                            }
                                 .multilineTextAlignment(.center)
                                 .padding(.horizontal, 20)
                                 .scaleEffect(isRefreshing ? 0.85 : 1.0)
@@ -1527,10 +1677,10 @@ struct ManualSentenceModalView: View {
             }
         }
         .onAppear {
-            audioManager.generateAudio(for: currentSentence.swedish)
+            audioManager.generateAudio(for: ManualSentenceRichText.plainText(from: currentSentence.swedish))
         }
         .onChange(of: currentSentence) {
-            audioManager.generateAudio(for: currentSentence.swedish)
+            audioManager.generateAudio(for: ManualSentenceRichText.plainText(from: currentSentence.swedish))
         }
         .onDisappear {
             audioManager.cleanupAudio()
