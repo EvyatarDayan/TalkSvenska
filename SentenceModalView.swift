@@ -467,6 +467,12 @@ class FavoriteManager: ObservableObject {
         print("🗑️ Cleared all favorites")
     }
     
+    /// Replaces favorites order and persists (used after validating an import file).
+    func replaceFavorites(with sentences: [Sentence]) {
+        favorites = sentences
+        saveFavorites()
+    }
+    
     // Export favorites as JSON string for backup
     func exportFavorites() -> String? {
         do {
@@ -478,23 +484,25 @@ class FavoriteManager: ObservableObject {
         }
     }
     
-    // Import favorites from JSON string
-    func importFavorites(from jsonString: String) -> Bool {
-        guard let data = jsonString.data(using: .utf8) else {
-            print("❌ Failed to convert JSON string to data")
-            return false
-        }
-        
+    /// Import from UTF-8 JSON (same format as export). Preserves order and sentence fields.
+    func importFavorites(from data: Data) -> Bool {
         do {
             let decoded = try JSONDecoder().decode([Sentence].self, from: data)
-            favorites = decoded
-            saveFavorites()
+            replaceFavorites(with: decoded)
             print("✅ Successfully imported \(decoded.count) favorites")
             return true
         } catch {
             print("❌ Failed to import favorites: \(error)")
             return false
         }
+    }
+    
+    func importFavorites(from jsonString: String) -> Bool {
+        guard let data = jsonString.data(using: .utf8) else {
+            print("❌ Failed to convert JSON string to data")
+            return false
+        }
+        return importFavorites(from: data)
     }
 }
 

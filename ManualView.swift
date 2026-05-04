@@ -403,20 +403,9 @@ struct AddManualSentenceModal: View {
                             .foregroundColor(.secondary)
                         
                         // Swedish field with buttons
-                        VStack(alignment: .leading, spacing: 15) {
+                        VStack(alignment: .leading, spacing: 6) {
                             ZStack(alignment: .trailing) {
                                 HStack(spacing: 12) {
-                                    Button(action: { swedishMarkRedNonce += 1 }) {
-                                        Text("B")
-                                            .font(.headline)
-                                            .fontWeight(.bold)
-                                            .foregroundColor(.red)
-                                            .frame(width: 40, height: 40)
-                                    }
-                                    .buttonStyle(.plain)
-                                    .disabled(!swedishHasTextSelection || isRecordingSwedish || isRecordingEnglish)
-                                    .opacity((!swedishHasTextSelection || isRecordingSwedish || isRecordingEnglish) ? 0.35 : 1)
-
                                     Spacer()
 
                                     HStack(spacing: 8) {
@@ -493,6 +482,7 @@ struct AddManualSentenceModal: View {
                                 }
                             }
                             
+                            VStack(alignment: .leading, spacing: 6) {
                             HStack(spacing: 8) {
                                 ZStack(alignment: .topLeading) {
                                     if ManualSentenceRichText.plainText(from: swedishText).isEmpty {
@@ -513,7 +503,7 @@ struct AddManualSentenceModal: View {
                                         }
                                     )
                                     .id("manualRichSwedishField")
-                                    .frame(minHeight: 100)
+                                    .frame(minHeight: 140)
                                     .padding(.horizontal, 8)
                                 }
 
@@ -539,6 +529,24 @@ struct AddManualSentenceModal: View {
                                     .stroke(isSwedishFieldFocused ? Color.blue : Color(.systemGray4), lineWidth: isSwedishFieldFocused ? 2 : 1.5)
                             )
                             .animation(.easeInOut(duration: 0.2), value: isSwedishFieldFocused)
+
+                            Button(action: { swedishMarkRedNonce += 1 }) {
+                                ZStack {
+                                    Circle()
+                                        .fill(Color.red.opacity(0.12))
+                                    Circle()
+                                        .stroke(Color.red, lineWidth: 2)
+                                    Text("B")
+                                        .font(.headline)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(.red)
+                                }
+                                .frame(width: 40, height: 40)
+                            }
+                            .buttonStyle(.plain)
+                            .disabled(!swedishHasTextSelection || isRecordingSwedish || isRecordingEnglish)
+                            .opacity((!swedishHasTextSelection || isRecordingSwedish || isRecordingEnglish) ? 0.35 : 1)
+                            }
                         }
                         .padding(.horizontal, 20)
                     }
@@ -559,19 +567,8 @@ struct AddManualSentenceModal: View {
                             .foregroundColor(.secondary)
                         
                         // English field with buttons
-                        VStack(alignment: .leading, spacing: 15) {
+                        VStack(alignment: .leading, spacing: 6) {
                             HStack(spacing: 12) {
-                                Button(action: { englishMarkRedNonce += 1 }) {
-                                    Text("B")
-                                        .font(.headline)
-                                        .fontWeight(.bold)
-                                        .foregroundColor(.red)
-                                        .frame(width: 40, height: 40)
-                                }
-                                .buttonStyle(.plain)
-                                .disabled(!englishHasTextSelection || isRecordingSwedish || isRecordingEnglish)
-                                .opacity((!englishHasTextSelection || isRecordingSwedish || isRecordingEnglish) ? 0.35 : 1)
-
                                 Spacer()
 
                                 HStack(spacing: 8) {
@@ -619,6 +616,7 @@ struct AddManualSentenceModal: View {
                                 }
                             }
                             
+                            VStack(alignment: .leading, spacing: 6) {
                             HStack(spacing: 8) {
                                 ZStack(alignment: .topLeading) {
                                     if ManualSentenceRichText.plainText(from: englishText).isEmpty {
@@ -639,7 +637,7 @@ struct AddManualSentenceModal: View {
                                         }
                                     )
                                     .id("manualRichEnglishField")
-                                    .frame(minHeight: 100)
+                                    .frame(minHeight: 140)
                                     .padding(.horizontal, 8)
                                 }
 
@@ -665,6 +663,24 @@ struct AddManualSentenceModal: View {
                                     .stroke(isEnglishFieldFocused ? Color.blue : Color(.systemGray4), lineWidth: isEnglishFieldFocused ? 2 : 1.5)
                             )
                             .animation(.easeInOut(duration: 0.2), value: isEnglishFieldFocused)
+
+                            Button(action: { englishMarkRedNonce += 1 }) {
+                                ZStack {
+                                    Circle()
+                                        .fill(Color.red.opacity(0.12))
+                                    Circle()
+                                        .stroke(Color.red, lineWidth: 2)
+                                    Text("B")
+                                        .font(.headline)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(.red)
+                                }
+                                .frame(width: 40, height: 40)
+                            }
+                            .buttonStyle(.plain)
+                            .disabled(!englishHasTextSelection || isRecordingSwedish || isRecordingEnglish)
+                            .opacity((!englishHasTextSelection || isRecordingSwedish || isRecordingEnglish) ? 0.35 : 1)
+                            }
                         }
                         .padding(.horizontal, 20)
                     }
@@ -850,20 +866,9 @@ struct EditManualSentenceModal: View {
                             .foregroundColor(.secondary)
                         
                         // Swedish field with buttons
-                        VStack(alignment: .leading, spacing: 15) {
+                        VStack(alignment: .leading, spacing: 6) {
                             ZStack(alignment: .trailing) {
                                 HStack(spacing: 12) {
-                                    Button(action: { swedishMarkRedNonce += 1 }) {
-                                        Text("B")
-                                            .font(.headline)
-                                            .fontWeight(.bold)
-                                            .foregroundColor(.red)
-                                            .frame(width: 40, height: 40)
-                                    }
-                                    .buttonStyle(.plain)
-                                    .disabled(!swedishHasTextSelection || isRecordingSwedish || isRecordingEnglish)
-                                    .opacity((!swedishHasTextSelection || isRecordingSwedish || isRecordingEnglish) ? 0.35 : 1)
-
                                     Spacer()
 
                                     HStack(spacing: 8) {
@@ -940,6 +945,7 @@ struct EditManualSentenceModal: View {
                                 }
                             }
                             
+                            VStack(alignment: .leading, spacing: 6) {
                             HStack(spacing: 8) {
                                 ZStack(alignment: .topLeading) {
                                     if ManualSentenceRichText.plainText(from: swedishText).isEmpty {
@@ -960,7 +966,7 @@ struct EditManualSentenceModal: View {
                                         }
                                     )
                                     .id("manualRichSwedishField")
-                                    .frame(minHeight: 100)
+                                    .frame(minHeight: 140)
                                     .padding(.horizontal, 8)
                                 }
 
@@ -986,6 +992,24 @@ struct EditManualSentenceModal: View {
                                     .stroke(isSwedishFieldFocused ? Color.blue : Color(.systemGray4), lineWidth: isSwedishFieldFocused ? 2 : 1.5)
                             )
                             .animation(.easeInOut(duration: 0.2), value: isSwedishFieldFocused)
+
+                            Button(action: { swedishMarkRedNonce += 1 }) {
+                                ZStack {
+                                    Circle()
+                                        .fill(Color.red.opacity(0.12))
+                                    Circle()
+                                        .stroke(Color.red, lineWidth: 2)
+                                    Text("B")
+                                        .font(.headline)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(.red)
+                                }
+                                .frame(width: 40, height: 40)
+                            }
+                            .buttonStyle(.plain)
+                            .disabled(!swedishHasTextSelection || isRecordingSwedish || isRecordingEnglish)
+                            .opacity((!swedishHasTextSelection || isRecordingSwedish || isRecordingEnglish) ? 0.35 : 1)
+                            }
                         }
                         .padding(.horizontal, 20)
                     }
@@ -1006,19 +1030,8 @@ struct EditManualSentenceModal: View {
                             .foregroundColor(.secondary)
                         
                         // English field with buttons
-                        VStack(alignment: .leading, spacing: 15) {
+                        VStack(alignment: .leading, spacing: 6) {
                             HStack(spacing: 12) {
-                                Button(action: { englishMarkRedNonce += 1 }) {
-                                    Text("B")
-                                        .font(.headline)
-                                        .fontWeight(.bold)
-                                        .foregroundColor(.red)
-                                        .frame(width: 40, height: 40)
-                                }
-                                .buttonStyle(.plain)
-                                .disabled(!englishHasTextSelection || isRecordingSwedish || isRecordingEnglish)
-                                .opacity((!englishHasTextSelection || isRecordingSwedish || isRecordingEnglish) ? 0.35 : 1)
-
                                 Spacer()
 
                                 HStack(spacing: 8) {
@@ -1066,6 +1079,7 @@ struct EditManualSentenceModal: View {
                                 }
                             }
                             
+                            VStack(alignment: .leading, spacing: 6) {
                             HStack(spacing: 8) {
                                 ZStack(alignment: .topLeading) {
                                     if ManualSentenceRichText.plainText(from: englishText).isEmpty {
@@ -1086,7 +1100,7 @@ struct EditManualSentenceModal: View {
                                         }
                                     )
                                     .id("manualRichEnglishField")
-                                    .frame(minHeight: 100)
+                                    .frame(minHeight: 140)
                                     .padding(.horizontal, 8)
                                 }
 
@@ -1112,6 +1126,24 @@ struct EditManualSentenceModal: View {
                                     .stroke(isEnglishFieldFocused ? Color.blue : Color(.systemGray4), lineWidth: isEnglishFieldFocused ? 2 : 1.5)
                             )
                             .animation(.easeInOut(duration: 0.2), value: isEnglishFieldFocused)
+
+                            Button(action: { englishMarkRedNonce += 1 }) {
+                                ZStack {
+                                    Circle()
+                                        .fill(Color.red.opacity(0.12))
+                                    Circle()
+                                        .stroke(Color.red, lineWidth: 2)
+                                    Text("B")
+                                        .font(.headline)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(.red)
+                                }
+                                .frame(width: 40, height: 40)
+                            }
+                            .buttonStyle(.plain)
+                            .disabled(!englishHasTextSelection || isRecordingSwedish || isRecordingEnglish)
+                            .opacity((!englishHasTextSelection || isRecordingSwedish || isRecordingEnglish) ? 0.35 : 1)
+                            }
                         }
                         .padding(.horizontal, 20)
                     }
@@ -1326,6 +1358,12 @@ class ManualManager: ObservableObject {
         print("🗑️ Cleared all manual sentences")
     }
     
+    /// Replaces the stored list order and persists (used after validating an import file).
+    func replaceManualSentences(with sentences: [Sentence]) {
+        manualSentences = sentences
+        saveManualSentences()
+    }
+    
     // Export manual sentences as JSON string for backup
     func exportManualSentences() -> String? {
         do {
@@ -1337,23 +1375,25 @@ class ManualManager: ObservableObject {
         }
     }
     
-    // Import manual sentences from JSON string
-    func importManualSentences(from jsonString: String) -> Bool {
-        guard let data = jsonString.data(using: .utf8) else {
-            print("❌ Failed to convert JSON string to data")
-            return false
-        }
-        
+    /// Import manual sentences from UTF-8 JSON (same format as export). Preserves order, ids, and rich-text strings.
+    func importManualSentences(from data: Data) -> Bool {
         do {
             let decoded = try JSONDecoder().decode([Sentence].self, from: data)
-            manualSentences = decoded
-            saveManualSentences()
+            replaceManualSentences(with: decoded)
             print("✅ Successfully imported \(decoded.count) manual sentences")
             return true
         } catch {
             print("❌ Failed to import manual sentences: \(error)")
             return false
         }
+    }
+    
+    func importManualSentences(from jsonString: String) -> Bool {
+        guard let data = jsonString.data(using: .utf8) else {
+            print("❌ Failed to convert JSON string to data")
+            return false
+        }
+        return importManualSentences(from: data)
     }
 }
 

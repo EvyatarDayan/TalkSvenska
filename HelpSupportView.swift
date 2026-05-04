@@ -128,7 +128,7 @@ struct HelpSupportView: View {
                                 Text("Email: abashelariprod@gmail.com")
                                     .font(.subheadline)
                                 
-                                Text("Website: https://abashelariprod.wordpress.com")
+                                Text("Website: https://abashelari.com")
                                     .font(.subheadline)
                                 
                                 Divider()

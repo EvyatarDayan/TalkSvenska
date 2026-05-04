@@ -1,4 +1,10 @@
 import SwiftUI
+import UniformTypeIdentifiers
+
+private enum SettingsFileImportDestination {
+    case manual
+    case favorites
+}
 
 struct SettingsView: View {
     @AppStorage("isDarkMode") private var isDarkMode = false
@@ -13,7 +19,18 @@ struct SettingsView: View {
     @State private var showingLearningTips = false
     @State private var showingTermsPrivacy = false
     @State private var showingExportManualSheet = false
+    @State private var fileImportDestination: SettingsFileImportDestination?
+    @State private var isFileImporterPresented = false
+    @State private var showingManualImportReplaceConfirmation = false
+    @State private var pendingManualImportSentences: [Sentence]?
+    /// Snapshot of list size when replace confirmation is shown (message text).
+    @State private var pendingManualReplacePreviousListCount: Int = 0
+    @State private var manualImportOutcomeMessage: String?
     @State private var showingExportFavoritesSheet = false
+    @State private var showingFavoritesImportReplaceConfirmation = false
+    @State private var pendingFavoriteImportSentences: [Sentence]?
+    @State private var pendingFavoritesReplacePreviousListCount: Int = 0
+    @State private var favoritesImportOutcomeMessage: String?
     @State private var exportData: [Any] = []
     @State private var isExporting = false
     @State private var exportFileName = ""
@@ -215,6 +232,84 @@ struct SettingsView: View {
                 ShareSheet(activityItems: exportData)
             }
         }
+        .fileImporter(
+            isPresented: $isFileImporterPresented,
+            allowedContentTypes: [.json],
+            allowsMultipleSelection: false
+        ) { result in
+            let destination = fileImportDestination
+            fileImportDestination = nil
+            switch destination {
+            case .manual:
+                handleManualImportPickerResult(result)
+            case .favorites:
+                handleFavoritesImportPickerResult(result)
+            case .none:
+                break
+            }
+        }
+        .alert("Replace manual list?", isPresented: $showingManualImportReplaceConfirmation) {
+            Button("Cancel", role: .cancel) {
+                pendingManualImportSentences = nil
+                pendingManualReplacePreviousListCount = 0
+            }
+            Button("Replace", role: .destructive) {
+                if let sentences = pendingManualImportSentences {
+                    let count = sentences.count
+                    manualManager.replaceManualSentences(with: sentences)
+                    pendingManualImportSentences = nil
+                    pendingManualReplacePreviousListCount = 0
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) {
+                        manualImportOutcomeMessage = "Imported \(count) sentence\(count == 1 ? "" : "s")."
+                    }
+                }
+            }
+        } message: {
+            if let imported = pendingManualImportSentences {
+                Text("Your current list (\(pendingManualReplacePreviousListCount) items) will be replaced with \(imported.count) items from the file. Order and formatting from the backup are preserved.")
+            }
+        }
+        .alert("Manual import", isPresented: Binding(
+            get: { manualImportOutcomeMessage != nil },
+            set: { if !$0 { manualImportOutcomeMessage = nil } }
+        )) {
+            Button("OK", role: .cancel) {
+                manualImportOutcomeMessage = nil
+            }
+        } message: {
+            Text(manualImportOutcomeMessage ?? "")
+        }
+        .alert("Replace favorites?", isPresented: $showingFavoritesImportReplaceConfirmation) {
+            Button("Cancel", role: .cancel) {
+                pendingFavoriteImportSentences = nil
+                pendingFavoritesReplacePreviousListCount = 0
+            }
+            Button("Replace", role: .destructive) {
+                if let sentences = pendingFavoriteImportSentences {
+                    let count = sentences.count
+                    favoriteManager.replaceFavorites(with: sentences)
+                    pendingFavoriteImportSentences = nil
+                    pendingFavoritesReplacePreviousListCount = 0
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) {
+                        favoritesImportOutcomeMessage = "Imported \(count) favorite\(count == 1 ? "" : "s")."
+                    }
+                }
+            }
+        } message: {
+            if let imported = pendingFavoriteImportSentences {
+                Text("Your current favorites (\(pendingFavoritesReplacePreviousListCount) items) will be replaced with \(imported.count) items from the file. Order from the backup is preserved.")
+            }
+        }
+        .alert("Favorites import", isPresented: Binding(
+            get: { favoritesImportOutcomeMessage != nil },
+            set: { if !$0 { favoritesImportOutcomeMessage = nil } }
+        )) {
+            Button("OK", role: .cancel) {
+                favoritesImportOutcomeMessage = nil
+            }
+        } message: {
+            Text(favoritesImportOutcomeMessage ?? "")
+        }
         .sheet(isPresented: $showingExportFavoritesSheet) {
             if !exportData.isEmpty {
                 ShareSheet(activityItems: exportData)
@@ -312,47 +407,69 @@ struct SettingsView: View {
             
             // Grouped Export Items
             VStack(spacing: 0) {
-                // Export Manual
-                Button(action: {
-                    exportManualSentences()
-                }) {
+                // Manual backup: export or import JSON (same format; order & rich text preserved)
+                Menu {
+                    Button {
+                        exportManualSentences()
+                    } label: {
+                        Label("Export to file", systemImage: "square.and.arrow.up")
+                    }
+                    .disabled(manualManager.manualSentences.isEmpty)
+                    
+                    Button {
+                        presentSettingsFileImporter(.manual)
+                    } label: {
+                        Label("Import from file", systemImage: "square.and.arrow.down")
+                    }
+                } label: {
                     SettingOptionCard(
-                        icon: "square.and.arrow.up.fill",
+                        icon: "arrow.up.arrow.down.circle.fill",
                         iconColor: .blue,
-                        title: "Export Manual",
-                        description: "Export your manual sentences",
+                        title: "Export/Import Manual",
+                        description: "Export or import a backup file",
                         showToggle: false,
                         isOn: .constant(false),
-                        showChevron: false,
+                        showChevron: true,
                         isGrouped: true,
                         isFirstInGroup: true,
                         isLastInGroup: false
                     )
                 }
-                .disabled(manualManager.manualSentences.isEmpty)
+                .buttonStyle(.plain)
                 
                 Divider()
                     .padding(.leading, 60)
                     .background(colorScheme == .dark ? Color(.systemGray5) : Color(.systemGray4))
                 
-                // Export Favorites
-                Button(action: {
-                    exportFavorites()
-                }) {
+                // Favorites backup: export or import JSON
+                Menu {
+                    Button {
+                        exportFavorites()
+                    } label: {
+                        Label("Export to file", systemImage: "square.and.arrow.up")
+                    }
+                    .disabled(favoriteManager.favorites.isEmpty)
+                    
+                    Button {
+                        presentSettingsFileImporter(.favorites)
+                    } label: {
+                        Label("Import from file", systemImage: "square.and.arrow.down")
+                    }
+                } label: {
                     SettingOptionCard(
-                        icon: "square.and.arrow.up.fill",
+                        icon: "arrow.up.arrow.down.circle.fill",
                         iconColor: .blue,
-                        title: "Export Favorites",
-                        description: "Export your favorite sentences",
+                        title: "Export/Import Favorites",
+                        description: "Export or import a favorites backup file",
                         showToggle: false,
                         isOn: .constant(false),
-                        showChevron: false,
+                        showChevron: true,
                         isGrouped: true,
                         isFirstInGroup: false,
                         isLastInGroup: true
                     )
                 }
-                .disabled(favoriteManager.favorites.isEmpty)
+                .buttonStyle(.plain)
             }
             .background(
                 colorScheme == .dark ? Color(.systemGray6) : Color(.systemBackground)
@@ -443,6 +560,76 @@ struct SettingsView: View {
             .cornerRadius(12)
             .shadow(color: Color.black.opacity(0.1), radius: 2, x: 0, y: 1)
             .padding(.horizontal, 20)
+        }
+    }
+    
+    // MARK: - Manual import / export
+    
+    /// One shared `fileImporter` — duplicate `.fileImporter` modifiers on the same view often leave only the last one active. Presentation is deferred so the `Menu` can dismiss before the system document UI appears.
+    private func presentSettingsFileImporter(_ destination: SettingsFileImportDestination) {
+        fileImportDestination = destination
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+            isFileImporterPresented = true
+        }
+    }
+    
+    private func handleManualImportPickerResult(_ result: Result<[URL], Error>) {
+        switch result {
+        case .failure(let error):
+            manualImportOutcomeMessage = "Could not open file: \(error.localizedDescription)"
+        case .success(let urls):
+            guard let url = urls.first else {
+                manualImportOutcomeMessage = "No file was selected."
+                return
+            }
+            let gotAccess = url.startAccessingSecurityScopedResource()
+            defer {
+                if gotAccess { url.stopAccessingSecurityScopedResource() }
+            }
+            do {
+                let data = try Data(contentsOf: url)
+                let decoded = try JSONDecoder().decode([Sentence].self, from: data)
+                if manualManager.manualSentences.isEmpty {
+                    manualManager.replaceManualSentences(with: decoded)
+                    manualImportOutcomeMessage = "Imported \(decoded.count) sentence\(decoded.count == 1 ? "" : "s")."
+                } else {
+                    pendingManualReplacePreviousListCount = manualManager.manualSentences.count
+                    pendingManualImportSentences = decoded
+                    showingManualImportReplaceConfirmation = true
+                }
+            } catch {
+                manualImportOutcomeMessage = "This file is not a valid TalkSvenska manual backup (JSON)."
+            }
+        }
+    }
+    
+    private func handleFavoritesImportPickerResult(_ result: Result<[URL], Error>) {
+        switch result {
+        case .failure(let error):
+            favoritesImportOutcomeMessage = "Could not open file: \(error.localizedDescription)"
+        case .success(let urls):
+            guard let url = urls.first else {
+                favoritesImportOutcomeMessage = "No file was selected."
+                return
+            }
+            let gotAccess = url.startAccessingSecurityScopedResource()
+            defer {
+                if gotAccess { url.stopAccessingSecurityScopedResource() }
+            }
+            do {
+                let data = try Data(contentsOf: url)
+                let decoded = try JSONDecoder().decode([Sentence].self, from: data)
+                if favoriteManager.favorites.isEmpty {
+                    favoriteManager.replaceFavorites(with: decoded)
+                    favoritesImportOutcomeMessage = "Imported \(decoded.count) favorite\(decoded.count == 1 ? "" : "s")."
+                } else {
+                    pendingFavoritesReplacePreviousListCount = favoriteManager.favorites.count
+                    pendingFavoriteImportSentences = decoded
+                    showingFavoritesImportReplaceConfirmation = true
+                }
+            } catch {
+                favoritesImportOutcomeMessage = "This file is not a valid TalkSvenska favorites backup (JSON)."
+            }
         }
     }
     

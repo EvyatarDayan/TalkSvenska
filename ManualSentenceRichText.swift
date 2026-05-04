@@ -353,34 +353,20 @@ struct ManualRichTextField: UIViewRepresentable {
             self.parent = parent
         }
 
-        /// Prefer the system Cut/Copy/Paste menu **below** the selection (arrow points up at the text) so the **B**
-        /// row above the field stays reachable. Installed once per `UITextView` only from `makeUIView` so we do not
-        /// tear down interactions on every SwiftUI update (that was clearing selection, especially on English).
+        /// Keep native `UITextView` edit-menu behavior (Cut/Copy/Paste/Select/Select All/Paste).
+        /// We do not override interactions here to avoid suppressing the default menu presentation.
         func installEditMenuPreferringBelowSelection(on textView: UITextView) {
-            if editMenuHostView === textView, customEditMenuInteraction != nil {
-                return
-            }
-            if let old = customEditMenuInteraction {
-                old.view?.removeInteraction(old)
-                customEditMenuInteraction = nil
-            }
-            for interaction in textView.interactions where interaction is UIEditMenuInteraction {
-                textView.removeInteraction(interaction)
-            }
-            let edit = UIEditMenuInteraction(delegate: self)
-            textView.addInteraction(edit)
-            customEditMenuInteraction = edit
             editMenuHostView = textView
+            customEditMenuInteraction = nil
         }
 
         func editMenuInteraction(_ interaction: UIEditMenuInteraction, menuFor configuration: UIEditMenuConfiguration, suggestedActions: [UIMenuElement]) -> UIMenu? {
             nil
         }
 
-        func editMenuInteraction(_ interaction: UIEditMenuInteraction, willPresentMenuFor configuration: UIEditMenuConfiguration, animator: any UIEditMenuInteractionAnimating) {
-            configuration.preferredArrowDirection = .up
-        }
+        func editMenuInteraction(_ interaction: UIEditMenuInteraction, willPresentMenuFor configuration: UIEditMenuConfiguration, animator: any UIEditMenuInteractionAnimating) {}
 
+        /// Use default anchoring from the system `UITextView`.
         func editMenuInteraction(_ interaction: UIEditMenuInteraction, targetRectFor configuration: UIEditMenuConfiguration) -> CGRect {
             .null
         }
